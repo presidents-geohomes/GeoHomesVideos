@@ -116,5 +116,57 @@
   },
   "pendientes": [
     "Foto exterior del sedán rojo sin emblema."
+  ],
+  "oferta_cierre": "Estimados sin costo · Hacemos tu casa inteligente",
+  "control_calidad": {
+    "1_guion": [
+      "¿Cada plano ocurre por causa del anterior? ¿Falta algún paso para entender la historia?",
+      "¿Toda orden aparece antes de su efecto?",
+      "¿Alguien o algo cambia de lugar sin verse cómo, según el plano de la casa?",
+      "¿Misma hora del día y misma luz en todos los planos?",
+      "¿La historia se entiende sin mostrar acciones arriesgadas? Si una acción arriesgada no es imprescindible, se sugiere y no se muestra.",
+      "¿La narradora cabe en el tiempo? (Samanta ≈ 12 caracteres por segundo; la última frase termina antes del final del cierre)."
+    ],
+    "2_fotos_de_partida": [
+      "Ampliar cada foto y revisar: ¿hacia dónde mira cada vehículo y persona? ¿Tiene sentido con lo que va a pasar? (llegar = el frente del vehículo apunta a la casa/garaje).",
+      "Sin logos, emblemas ni letras raras (ampliar parrillas, capós y puertas de vehículos).",
+      "Objetos y aparatos en su lugar según la biblia (altavoz en el centro de la isla, cama de Floyd junto a la entrada...).",
+      "Sin personas de más; personajes con su ropa de la biblia; personas lejos o de espaldas.",
+      "Coherencia con la historia: quién ya está en casa (p. ej. el sedán de Mariana dentro del garaje si ella llegó antes).",
+      "La que falle se regenera (máximo 2 veces); si sigue fallando, se cambia el plano por uno más simple."
+    ],
+    "3_acciones": {
+      "seguras": [
+        "luces que se encienden o cambian",
+        "aro de luz del altavoz",
+        "persianas",
+        "personas y mascotas moviéndose",
+        "movimientos lentos de cámara",
+        "vehículo avanzando en línea recta"
+      ],
+      "arriesgadas": [
+        "puerta de garaje subiendo",
+        "vehículos maniobrando o entrando a un garaje",
+        "objetos que aparecen o desaparecen",
+        "cambios grandes entre foto inicial y final"
+      ],
+      "regla": "Evitar las arriesgadas o sugerirlas sin mostrarlas. Si se usa foto final, debe salir de editar la MISMA foto inicial cambiando solo lo mínimo."
+    },
+    "4_video_terminado": [
+      "Detector automático de fundidos/saltos en cada plano (montar_episodio.py); si falla, el plano se regenera 1 vez.",
+      "Transcripción automática de la narración y comparación con el guion (qa.json).",
+      "Revisión visual a 4 fotogramas por segundo de cada acción clave antes de entregar.",
+      "Pedir al usuario que confirme el audio (no se puede escuchar desde aquí)."
+    ],
+    "5_publicacion": "Hasta nuevo aviso, los episodios automáticos se programan en Metricool pendientes de aprobación (autoPublish false)."
+  },
+  "errores_aprendidos": [
+    "ES01: la escena contaba cómo se sentía la gente, no la casa trabajando → la casa es la protagonista.",
+    "ES02: orden ilógico (aviso antes de que llegara la camioneta) → checklist de guion.",
+    "ES02: interiores que no coincidían con la fachada → set fijo de la casa editado desde la fachada aprobada.",
+    "Fotos con logos de Ford/Tesla aunque se pidió que no → revisar ampliando y editar para quitarlos.",
+    "ES03 v1: la pickup llegaba con los faros hacia la calle (al revés) → revisar la dirección de vehículos y personas.",
+    "ES03 v1: el garaje no subía, se 'fundía' con la foto final (inicio y final eran ediciones distintas) → evitar acciones arriesgadas; foto final solo editando la misma foto inicial; detector de fundidos.",
+    "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica."
   ]
 }

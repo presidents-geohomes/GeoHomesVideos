@@ -132,7 +132,7 @@ def normalizar(origen, destino, segundos):
 
 
 # ---------- 2. cierre ----------
-def tarjeta_cierre(frase, lugar, destino_png):
+def tarjeta_cierre(frase, lugar, destino_png, oferta=None):
     img = Image.new("RGB", (W, H), CREMA)
     d = ImageDraw.Draw(img)
     logo = Image.open("assets/logo_navy.png").convert("RGBA")
@@ -150,6 +150,19 @@ def tarjeta_cierre(frase, lugar, destino_png):
     f2 = fuente("regular", 38)
     tw = d.textlength(lugar, font=f2)
     d.text(((W - tw) / 2, y), lugar, font=f2, fill=(90, 104, 128))
+    if oferta:
+        y += 100
+        f3 = fuente("bold", 32)
+        lineas = [l.strip() for l in oferta.split("·")] if "·" in oferta else textwrap.wrap(oferta, 26)
+        ancho = max(d.textlength(l, font=f3) for l in lineas)
+        pad_x, pad_y, alto_l = 40, 20, 46
+        d.rounded_rectangle(((W - ancho) / 2 - pad_x, y - pad_y,
+                             (W + ancho) / 2 + pad_x, y + alto_l * len(lineas) + pad_y - 6),
+                            radius=34, outline=NAVY, width=3)
+        for l in lineas:
+            tw = d.textlength(l, font=f3)
+            d.text(((W - tw) / 2, y), l, font=f3, fill=NAVY)
+            y += alto_l
     img.save(destino_png)
 
 
@@ -280,7 +293,7 @@ def montar(ep):
     cierre = ep.get("cierre", {})
     seg_cierre = float(cierre.get("segundos", 3))
     tarjeta_cierre(cierre.get("frase", ""), cierre.get("lugar", "Geo Homes · Naples, FL"),
-                   f"{TMP}/cierre.png")
+                   f"{TMP}/cierre.png", cierre.get("oferta"))
     sh("ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", f"{TMP}/cierre.png",
        "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
        "-vf", f"fps={FPS},format=yuv420p,zoompan=z='1+0.0006*on':d=1:s={W}x{H}:fps={FPS}",
@@ -367,6 +380,13 @@ def montar(ep):
        "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
        "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart", final)
     base = os.path.splitext(ep["archivo"])[0]
+    try:
+        import qa_video
+        planos = [(f"plano {k + 1}", inicios[k], clips[k][1]) for k in range(len(clips))]
+        qa = qa_video.informe(ep, final, narr, planos, os.path.join(ep["carpeta"], "qa"))
+        print(f"  Control de calidad: narración parecida al guion = {qa['parecido_narracion']}")
+    except Exception as e:
+        print(f"  (control de calidad no disponible: {e})")
     sh("cp", narr, os.path.join(ep["carpeta"], base + "_narracion.mp3"))
     sh("cp", musica, os.path.join(ep["carpeta"], base + "_musica.mp3"))
     return final, total
