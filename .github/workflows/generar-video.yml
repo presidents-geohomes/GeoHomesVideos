@@ -1,0 +1,80 @@
+name: Generar video con Veo
+
+# Se ejecuta cuando se sube una escena nueva a escenas/pendientes/,
+# o a mano desde la pestaña Actions (botón "Run workflow").
+on:
+  push:
+    branches: [main]
+    paths: ["escenas/pendientes/**"]
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "Descripción de la escena (déjalo vacío para procesar solo las pendientes)"
+        required: false
+        default: ""
+      carpeta:
+        description: "Carpeta de destino, p. ej. 2026-09/2026-09-29_005_tema (vacío = pruebas)"
+        required: false
+        default: ""
+      archivo:
+        description: "Nombre del video, p. ej. 005_ES.mp4"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generar-video
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Crear escena desde el formulario (si se escribió un prompt)
+        if: github.event_name == 'workflow_dispatch' && inputs.prompt != ''
+        env:
+          PROMPT: ${{ inputs.prompt }}
+          CARPETA: ${{ inputs.carpeta }}
+          ARCHIVO: ${{ inputs.archivo }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, time
+          sello = time.strftime("%Y%m%d_%H%M%S")
+          escena = {
+              "carpeta": os.environ["CARPETA"] or "pruebas",
+              "archivo": os.environ["ARCHIVO"] or f"veo_{sello}.mp4",
+              "prompt": os.environ["PROMPT"],
+          }
+          os.makedirs("escenas/pendientes", exist_ok=True)
+          json.dump(escena, open(f"escenas/pendientes/manual_{sello}.json", "w"), ensure_ascii=False, indent=2)
+          EOF
+
+      - name: Generar videos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 sistema/generar_veo.py
+
+      - name: Guardar videos en el repositorio
+        if: always()
+        run: |
+          git config user.name "geohomes-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A escenas 2026-* pruebas 2>/dev/null || git add -A
+          if git diff --cached --quiet; then
+            echo "Nada que guardar."
+            exit 0
+          fi
+          git commit -m "Video generado con Veo"
+          for intento in 1 2 3; do
+            git pull --rebase -q origin main && git push -q origin main && exit 0
+            sleep 5
+          done
+          exit 1
