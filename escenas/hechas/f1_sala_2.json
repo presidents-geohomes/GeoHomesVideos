@@ -1,0 +1,18 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_1/candidatos",
+  "archivo": "sala_2.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/set/cocina.png",
+    "familias/familia_1/set/ext_dia.png"
+  ],
+  "prompt": "Same house and same interior style as the reference kitchen: warm white shaker cabinets, light quartz, terracotta-toned diagonal tile floor, warm stucco walls, soft arches, recessed lights. The living room of this house, seen from the kitchen arch: a gray fabric sofa facing a wall-mounted TV, a woven rug, a round dog bed in the corner near the hallway that leads to the front entry, large sliding glass doors with motorized white roller shades (half open) leading to the covered lanai and the screened pool, a white smart light switch panel on the wall beside the arch, and a small pet camera on a shelf pointing at the dog bed. Golden hour light. No people. Photorealistic, vertical 9:16, no text, no logos, no brand emblems.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "7e4cef40-8040-4697-ab5b-bc1181f547b8",
+  "resultado": [
+    "familias/familia_1/candidatos/sala_2_1.png"
+  ],
+  "generado": "2026-09-27T19:47:22Z"
+}

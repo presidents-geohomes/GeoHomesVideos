@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_1/candidatos",
+  "archivo": "daniel_cuerpo_2.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/personajes/daniel.png"
+  ],
+  "prompt": "The same man as in the reference photo (same face, hair, beard and skin tone), full body, standing relaxed, wearing an olive-green henley t-shirt, blue jeans and brown work boots, plain warm light-gray studio background, character reference sheet style, front view. Photorealistic, vertical 9:16, no text, no logos, no brand emblems.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "fa31065e-6278-45f5-b747-e70315735d43",
+  "resultado": [
+    "familias/familia_1/candidatos/daniel_cuerpo_2_1.png"
+  ],
+  "generado": "2026-09-27T19:40:00Z"
+}
