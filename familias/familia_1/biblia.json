@@ -162,7 +162,7 @@
       "Revisión visual a 4 fotogramas por segundo de cada acción clave antes de entregar.",
       "Pedir al usuario que confirme el audio (no se puede escuchar desde aquí)."
     ],
-    "5_publicacion": "Hasta nuevo aviso, los episodios automáticos se programan en Metricool pendientes de aprobación (autoPublish false)."
+    "5_publicacion": "Hasta nuevo aviso, los episodios de las series se programan en Metricool como BORRADOR (draft true, autoPublish true, con portada): el usuario lo revisa en Metricool y, si lo aprueba, lo activa y se publica solo con su portada."
   },
   "errores_aprendidos": [
     "ES01: la escena contaba cómo se sentía la gente, no la casa trabajando → la casa es la protagonista.",
