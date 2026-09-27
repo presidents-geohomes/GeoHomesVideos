@@ -100,5 +100,9 @@
     "segundos": 3.5,
     "musica": "media"
   },
-  "subtitulos": true
+  "subtitulos": true,
+  "estado": "hecho",
+  "video": "series/espanol/ES03_llega-daniel/ES03.mp4",
+  "duracion": 29.5,
+  "fecha": "2026-09-27T20:27:18Z"
 }
