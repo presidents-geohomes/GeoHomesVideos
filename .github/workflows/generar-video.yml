@@ -1,4 +1,4 @@
-name: Generar video con Veo
+name: Generar video con Higgsfield
 
 # Se ejecuta cuando se sube una escena nueva a escenas/pendientes/,
 # o a mano desde la pestaña Actions (botón "Run workflow").
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       prompt:
-        description: "Descripción de la escena (déjalo vacío para procesar solo las pendientes)"
+        description: "Descripción de la escena (vacío = procesar solo las pendientes)"
         required: false
         default: ""
       carpeta:
@@ -20,6 +20,10 @@ on:
         description: "Nombre del video, p. ej. 005_ES.mp4"
         required: false
         default: ""
+      duracion:
+        description: "Duración en segundos"
+        required: false
+        default: "10"
 
 permissions:
   contents: write
@@ -44,14 +48,16 @@ jobs:
           PROMPT: ${{ inputs.prompt }}
           CARPETA: ${{ inputs.carpeta }}
           ARCHIVO: ${{ inputs.archivo }}
+          DURACION: ${{ inputs.duracion }}
         run: |
           python3 - <<'EOF'
           import json, os, time
           sello = time.strftime("%Y%m%d_%H%M%S")
           escena = {
               "carpeta": os.environ["CARPETA"] or "pruebas",
-              "archivo": os.environ["ARCHIVO"] or f"veo_{sello}.mp4",
+              "archivo": os.environ["ARCHIVO"] or f"hf_{sello}.mp4",
               "prompt": os.environ["PROMPT"],
+              "duracion": int(os.environ["DURACION"] or 10),
           }
           os.makedirs("escenas/pendientes", exist_ok=True)
           json.dump(escena, open(f"escenas/pendientes/manual_{sello}.json", "w"), ensure_ascii=False, indent=2)
@@ -59,20 +65,21 @@ jobs:
 
       - name: Generar videos
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 sistema/generar_veo.py
+          HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
+          HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
+        run: python3 sistema/generar_higgsfield.py
 
       - name: Guardar videos en el repositorio
         if: always()
         run: |
           git config user.name "geohomes-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A escenas 2026-* pruebas 2>/dev/null || git add -A
+          git add -A
           if git diff --cached --quiet; then
             echo "Nada que guardar."
             exit 0
           fi
-          git commit -m "Video generado con Veo"
+          git commit -m "Video generado con Higgsfield"
           for intento in 1 2 3; do
             git pull --rebase -q origin main && git push -q origin main && exit 0
             sleep 5

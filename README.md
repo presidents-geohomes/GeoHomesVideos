@@ -2,7 +2,7 @@
 
 Videos cortos para Instagram y TikTok, organizados por mes y por video.
 
-## Videos automáticos con Veo (Gemini)
+## Videos automáticos con Higgsfield
 
 1. Se sube una escena a `escenas/pendientes/NOMBRE.json`:
    ```json
@@ -12,11 +12,12 @@ Videos cortos para Instagram y TikTok, organizados por mes y por video.
      "prompt": "Descripción de la escena, diálogos entre comillas, estilo, cámara..."
    }
    ```
-   Opcionales: `modelo`, `duracion` (4, 6 u 8), `resolucion` (720p o 1080p), `prompt_negativo`.
-2. GitHub Actions (`.github/workflows/generar-video.yml`) pide el video a Veo en vertical 9:16,
+   Opcionales: `modelo` (ruta del modelo en Higgsfield; por defecto `kling-video/v3.0/std/text-to-video`),
+   `duracion` (segundos, por defecto 10) y `parametros` (campos extra propios del modelo).
+2. GitHub Actions (`.github/workflows/generar-video.yml`) pide el video a Higgsfield en vertical 9:16,
    lo deja en 1080x1920 y lo guarda en la carpeta indicada.
 3. La escena pasa a `escenas/hechas/` (o a `escenas/errores/` con el motivo).
 
-También se puede lanzar a mano: pestaña **Actions → Generar video con Veo → Run workflow**.
+También se puede lanzar a mano: pestaña **Actions → Generar video con Higgsfield → Run workflow**.
 
-Requisito: secreto `GEMINI_API_KEY` en Settings → Secrets and variables → Actions.
+Requisito: secretos `HF_API_KEY_ID` y `HF_API_KEY_SECRET` en Settings → Secrets and variables → Actions.

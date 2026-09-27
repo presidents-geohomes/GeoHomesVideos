@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+"""Genera videos verticales con la API de Higgsfield a partir de escenas JSON.
+
+Cada archivo en escenas/pendientes/*.json describe un video:
+{
+  "carpeta": "2026-09/2026-09-29_005_tema",   # donde se guarda el video
+  "archivo": "005_ES.mp4",                   # nombre del video
+  "prompt": "Descripción de la escena...",   # lo que el modelo debe crear
+  "modelo": "kling-video/v3.0/std/text-to-video",  # opcional (ruta del modelo en Higgsfield)
+  "duracion": 10,                            # opcional, en segundos
+  "parametros": {"sound": "on"}              # opcional: campos extra propios del modelo
+}
+
+Al terminar, la escena pasa a escenas/hechas/ (o a escenas/errores/ con el motivo).
+Necesita HF_API_KEY_ID y HF_API_KEY_SECRET (secretos de GitHub) y ffmpeg.
+"""
+import glob
+import json
+import os
+import shutil
+import subprocess
+import sys
+import time
+import urllib.error
+import urllib.request
+
+BASE = "https://api.higgsfield.ai"
+MODELO_POR_DEFECTO = "kling-video/v3.0/std/text-to-video"
+KEY_ID = os.environ.get("HF_API_KEY_ID", "").strip()
+KEY_SECRET = os.environ.get("HF_API_KEY_SECRET", "").strip()
+ESPERA_MAX = 20 * 60  # segundos
+FINALES = {"completed", "failed", "nsfw", "canceled", "cancelled"}
+
+
+def llamar(url, datos=None):
+    req = urllib.request.Request(url, method="POST" if datos is not None else "GET")
+    req.add_header("Authorization", f"Key {KEY_ID}:{KEY_SECRET}")
+    req.add_header("Accept", "application/json")
+    if datos is not None:
+        req.add_header("Content-Type", "application/json")
+        req.data = json.dumps(datos).encode()
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return json.loads(r.read() or b"{}")
+    except urllib.error.HTTPError as e:
+        cuerpo = e.read().decode(errors="replace")[:800]
+        raise RuntimeError(f"HTTP {e.code}: {cuerpo}") from None
+
+
+def pedir_video(escena):
+    modelo = escena.get("modelo") or MODELO_POR_DEFECTO
+    cuerpo = {
+        "prompt": escena["prompt"],
+        "aspect_ratio": "9:16",
+        "duration": int(escena.get("duracion", 10)),
+    }
+    if "kling" in modelo:
+        cuerpo["sound"] = "on"
+    cuerpo.update(escena.get("parametros") or {})
+    resp = llamar(f"{BASE}/{modelo.strip('/')}", cuerpo)
+    rid = resp.get("request_id") or resp.get("id")
+    if not rid:
+        raise RuntimeError(f"Higgsfield no devolvió request_id: {resp}")
+    url_estado = resp.get("status_url") or f"{BASE}/requests/{rid}/status"
+    print(f"  Modelo {modelo}: solicitud {rid}")
+    return modelo, rid, url_estado
+
+
+def buscar_url_video(dato):
+    """Encuentra la URL del video en la respuesta, venga como venga."""
+    if isinstance(dato, dict):
+        v = dato.get("video")
+        if isinstance(v, dict) and v.get("url"):
+            return v["url"]
+        for clave in ("videos", "outputs", "output", "result", "results", "jobs"):
+            if clave in dato:
+                u = buscar_url_video(dato[clave])
+                if u:
+                    return u
+        for valor in dato.values():
+            u = buscar_url_video(valor)
+            if u:
+                return u
+    elif isinstance(dato, list):
+        for x in dato:
+            u = buscar_url_video(x)
+            if u:
+                return u
+    elif isinstance(dato, str) and dato.startswith("http") and ".mp4" in dato.lower():
+        return dato
+    return None
+
+
+def esperar(url_estado):
+    inicio, pausa = time.time(), 2
+    while time.time() - inicio < ESPERA_MAX:
+        estado = llamar(url_estado)
+        st = str(estado.get("status", "")).lower()
+        if st in FINALES:
+            if st != "completed":
+                motivo = {"nsfw": "rechazado por el filtro de contenido (no se cobra)",
+                          "failed": "la generación falló (no se cobra)"}.get(st, st)
+                raise RuntimeError(f"Higgsfield: {motivo}. Detalle: {json.dumps(estado)[:500]}")
+            url = buscar_url_video(estado)
+            if not url:
+                raise RuntimeError(f"Completado pero sin URL de video: {json.dumps(estado)[:800]}")
+            return url
+        time.sleep(pausa)
+        pausa = min(pausa + 2, 10)
+    raise RuntimeError("Higgsfield tardó más de 20 minutos")
+
+
+def descargar(url, destino):
+    req = urllib.request.Request(url, headers={"User-Agent": "geohomes-bot"})
+    with urllib.request.urlopen(req, timeout=300) as r, open(destino, "wb") as f:
+        shutil.copyfileobj(r, f)
+
+
+def a_vertical_1080(origen, destino):
+    """Deja el video exactamente en 1080x1920, 30 fps, listo para TikTok/Reels."""
+    vf = ("scale=1080:1920:force_original_aspect_ratio=increase,"
+          "crop=1080:1920,format=yuv420p")
+    tiene_audio = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries",
+         "stream=index", "-of", "csv=p=0", origen],
+        capture_output=True, text=True).stdout.strip() != ""
+    audio = ["-c:a", "aac", "-b:a", "192k"] if tiene_audio else ["-an"]
+    subprocess.run([
+        "ffmpeg", "-v", "error", "-y", "-i", origen, "-vf", vf, "-r", "30",
+        "-c:v", "libx264", "-preset", "slow", "-crf", "18", *audio,
+        "-movflags", "+faststart", destino,
+    ], check=True)
+
+
+def procesar(ruta):
+    nombre = os.path.basename(ruta)
+    print(f"Escena {nombre}")
+    escena = json.load(open(ruta, encoding="utf-8"))
+    try:
+        for campo in ("carpeta", "archivo", "prompt"):
+            if not escena.get(campo):
+                raise RuntimeError(f"Falta el campo '{campo}' en la escena")
+        modelo, rid, url_estado = pedir_video(escena)
+        url = esperar(url_estado)
+        os.makedirs(escena["carpeta"], exist_ok=True)
+        crudo = f"/tmp/{nombre}.hf.mp4"
+        descargar(url, crudo)
+        final = os.path.join(escena["carpeta"], escena["archivo"])
+        a_vertical_1080(crudo, final)
+        escena.update({"estado": "hecho", "modelo_usado": modelo, "request_id": rid,
+                       "video": final,
+                       "generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+        destino_dir = "escenas/hechas"
+        print(f"  Listo: {final}")
+        ok = True
+    except Exception as e:  # se registra y se sigue con la siguiente escena
+        escena.update({"estado": "error", "error": str(e),
+                       "fecha_error": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
+        destino_dir = "escenas/errores"
+        print(f"  ERROR: {e}")
+        ok = False
+    os.makedirs(destino_dir, exist_ok=True)
+    with open(os.path.join(destino_dir, nombre), "w", encoding="utf-8") as f:
+        json.dump(escena, f, ensure_ascii=False, indent=2)
+    os.remove(ruta)
+    return ok
+
+
+def main():
+    if not (KEY_ID and KEY_SECRET):
+        sys.exit("Faltan los secretos HF_API_KEY_ID y HF_API_KEY_SECRET en GitHub "
+                 "(Settings → Secrets and variables → Actions).")
+    pendientes = sorted(glob.glob("escenas/pendientes/*.json"))
+    if not pendientes:
+        print("No hay escenas pendientes.")
+        return
+    resultados = [procesar(p) for p in pendientes]
+    print(f"{sum(resultados)} de {len(resultados)} videos generados.")
+
+
+if __name__ == "__main__":
+    main()
