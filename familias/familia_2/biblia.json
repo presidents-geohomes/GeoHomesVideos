@@ -10,10 +10,11 @@
     "sábado"
   ],
   "narrador": {
-    "nombre": "PENDIENTE de elegir entre familias/familia_2/voces/voz_1..4.mp3",
-    "voice_id": null,
+    "nombre": "Jon - Warm & Grounded Storyteller (ElevenLabs)",
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "modelo": "eleven_multilingual_v2",
-    "uso": "Narra TODO el episodio en 3-5 frases cortas en inglés repartidas por los planos: la tranquilidad, la seguridad y el tiempo que la casa inteligente le devuelve a una madre que trabaja. Termina sobre el cierre con: 'Geo Homes. Home that keeps up.'"
+    "uso": "Narra TODO el episodio en 3-5 frases cortas en inglés repartidas por los planos: la tranquilidad, la seguridad y el tiempo que la casa inteligente le devuelve a una madre que trabaja. Termina sobre el cierre con: 'Geo Homes. Home that keeps up.'",
+    "muestra": "familias/familia_2/voces/voz_1.mp3"
   },
   "musica": "Pista instrumental original con ElevenLabs Music: cálida, acústica, piano suave y guitarra, ~90 BPM, tierna y esperanzadora, sin voces. Puede sonar desde el altavoz de la cocina.",
   "tono": "Tranquilidad, seguridad y pequeños gestos de cariño. Una madre que trabaja turnos, una hija independiente y un papá que trabaja fuera por temporadas.",
