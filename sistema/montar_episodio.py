@@ -254,9 +254,9 @@ def montar(ep):
     # 1) pedir todas las escenas a la vez y la narración mientras tanto
     estados = [generar_escena(i + 1, e) for i, e in enumerate(escenas)]
     narr = f"{TMP}/narracion.mp3"
-    voces.hablar(ep["narracion"]["voice_id"], ep["narracion"]["texto"], ep.get("idioma", "es"), narr)
+    partes = narracion_por_partes(ep, escenas, narr)
     dur_voz = duracion(narr)
-    print(f"  Narración: {dur_voz:.1f} s")
+    print(f"  Narración: {dur_voz:.1f} s en {len(partes)} parte(s)")
     musica = f"{TMP}/musica.mp3"
     dur_prevista = sum(float(e.get("duracion", 5)) for e in escenas) + float(
         ep.get("cierre", {}).get("segundos", 3)) - XF * len(escenas) + 1.5
@@ -311,10 +311,7 @@ def montar(ep):
         inicios.append(t)
         t += d - XF
     fin_escenas = total - seg_cierre
-    n_esc = ep["narracion"].get("escena_inicio")
-    inicio_voz = (inicios[n_esc - 1] + 0.3) if n_esc else float(ep.get("inicio_narracion", 0.4))
-    if inicio_voz + dur_voz > total - 0.2:
-        print(f"  AVISO: la narración ({dur_voz:.1f}s) es larga para el video ({total:.1f}s)")
+    inicio_voz = 0.0  # la pista de narración ya viene colocada en su tiempo
 
     overlays, filtros, prev = [], [], "0:v"
     base_in = 3  # 0 video, 1 narración, 2 música
@@ -335,7 +332,9 @@ def montar(ep):
             poner(png, a, b, f"t{k}")
 
     if ep.get("subtitulos", True):
-        subs = tiempos_subtitulos(frases_subtitulos(ep["narracion"]["texto"]), inicio_voz, dur_voz)
+        subs = []
+        for (texto_p, t0, dur_p) in partes:
+            subs += tiempos_subtitulos(frases_subtitulos(texto_p), t0, dur_p)
         for j, (texto, a, b) in enumerate(subs):
             if a >= fin_escenas - 0.3:  # la tarjeta final ya muestra la frase
                 continue
@@ -371,6 +370,46 @@ def montar(ep):
     sh("cp", narr, os.path.join(ep["carpeta"], base + "_narracion.mp3"))
     sh("cp", musica, os.path.join(ep["carpeta"], base + "_musica.mp3"))
     return final, total
+
+
+def inicios_previstos(escenas, cierre_seg):
+    t, out = 0.0, []
+    for e in escenas:
+        out.append(t)
+        t += float(e.get("duracion", 5)) - XF
+    out.append(t)  # inicio del cierre
+    return out
+
+
+def narracion_por_partes(ep, escenas, destino):
+    """Genera cada frase de la narradora y la coloca al inicio de su plano.
+    ep["narracion"]["partes"] = [{"escena": 1, "texto": "...", "desde": 0.4}, ...]
+    'escena' = número de plano, o "cierre". Devuelve [(texto, inicio, duración)]."""
+    nar = ep["narracion"]
+    partes = nar.get("partes") or [{"escena": nar.get("escena_inicio", 1), "texto": nar["texto"],
+                                     "desde": 0.3 if nar.get("escena_inicio") else 0.4}]
+    ini = inicios_previstos(escenas, float(ep.get("cierre", {}).get("segundos", 3)))
+    colocadas, entradas, filtros = [], [], []
+    fin_anterior = 0.0
+    for k, p in enumerate(partes):
+        mp3 = f"{TMP}/narr_{k}.mp3"
+        voces.hablar(nar["voice_id"], p["texto"], ep.get("idioma", "es"), mp3)
+        d = duracion(mp3)
+        idx = len(escenas) if p["escena"] == "cierre" else int(p["escena"]) - 1
+        t0 = max(ini[idx] + float(p.get("desde", 0.3)), fin_anterior + 0.25)
+        fin_anterior = t0 + d
+        colocadas.append((p["texto"], t0, d))
+        entradas += ["-i", mp3]
+        ms = int(t0 * 1000)
+        filtros.append(f"[{k}:a]aresample=44100,adelay={ms}|{ms}[n{k}]")
+    mezcla = "".join(f"[n{k}]" for k in range(len(partes)))
+    filtros.append(f"{mezcla}amix=inputs={len(partes)}:normalize=0:dropout_transition=0[out]")
+    sh("ffmpeg", "-v", "error", "-y", *entradas, "-filter_complex", ";".join(filtros),
+       "-map", "[out]", "-ac", "2", "-ar", "44100", destino)
+    total = ini[-1] + float(ep.get("cierre", {}).get("segundos", 3))
+    if fin_anterior > total - 0.2:
+        print(f"  AVISO: la narración termina en {fin_anterior:.1f}s y el video dura {total:.1f}s")
+    return colocadas
 
 
 def envolvente(puntos, rampa=0.6):

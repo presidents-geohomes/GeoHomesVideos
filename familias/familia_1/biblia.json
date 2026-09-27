@@ -12,7 +12,7 @@
     "nombre": "Samanta - Warm, Tender, Expressive (ElevenLabs)",
     "voice_id": "qBvury71WUJfVeT1STkG",
     "modelo": "eleven_multilingual_v2",
-    "uso": "Solo una o dos frases, al final del episodio."
+    "uso": "Narra TODO el episodio en 3-5 frases cortas repartidas por los planos: cuenta la comodidad de vivir en una casa inteligente, el problema que resuelve la tecnología o lo bien que se vive. Los textos en pantalla son las 'conversaciones' con la casa; la narradora es la voz de la marca. Termina sobre el cierre con: 'Geo Homes. Tu casa, a tu ritmo.'"
   },
   "musica": "Pista instrumental original con ElevenLabs Music: cálida, moderna, guitarra acústica suave, piano ligero, ~95 BPM, sin voces. Puede sonar desde el altavoz de la cocina y el altavoz la baja o la sube.",
   "reglas_guion": [
@@ -23,11 +23,11 @@
     "La casa es la protagonista: personas lejos, de espaldas o desenfocadas; nunca primer plano de caras.",
     "Celular: se ve usar, nunca se ve la pantalla ni ninguna app.",
     "Sin marcas ni logos: altavoz genérico; vehículos sin emblemas; nunca nombrar marcas en textos.",
-    "Sin diálogos: órdenes y avisos como textos en pantalla ('aviso' arriba, 'orden' en el centro).",
     "Casa regular convertida en smart: nada futurista.",
     "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
     "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set'). Nunca moverlos entre tomas.",
-    "Para que una acción de la casa se vea sí o sí (garaje, persianas, luces), usar foto inicial + foto final del set."
+    "Para que una acción de la casa se vea sí o sí (garaje, persianas, luces), usar foto inicial + foto final del set.",
+    "Sin diálogos de los personajes: órdenes y avisos como textos en pantalla ('aviso' arriba, 'orden' en el centro). La narradora acompaña todo el episodio y cierra con la marca."
   ],
   "personajes": {
     "daniel": {
