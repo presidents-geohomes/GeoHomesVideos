@@ -4,15 +4,15 @@
   "archivo": "floyd_a.jpg",
   "formato": "3:4",
   "cantidad": 4,
-  "prompt": "Floyd, an adult male American Pit Bull Terrier mix with a short glossy solid dark chocolate-brown coat, a large bright white blaze covering the chest and throat, a thin narrow white stripe running up the center of the forehead between the eyes, a little white on the muzzle and chin, white toes on all four paws, soft rose-shaped ears folded back, gentle warm amber-brown eyes with a sweet slightly shy expression, broad head, muscular but lean athletic body, wearing a simple navy-blue collar. Sitting upright on a light tile floor of a bright family living room, looking slightly to the side with a calm loving expression, full body, eye-level. Photorealistic lifestyle commercial photography, natural soft window light, 85mm lens, shallow depth of field, warm inviting color grade, no text, no logos.",
+  "prompt": "Floyd, a handsome adult male American Pit Bull Terrier mix, about 65 pounds, lean athletic muscular build, short sleek glossy coat in very dark chocolate-black, a broad clean white bib on the chest, a thin narrow white stripe running from the forehead down between the eyes to the muzzle, grey-white hair on the chin, white toes on all four paws, soft medium rose ears folded back (natural, uncropped), large warm brown expressive eyes, gentle sweet slightly shy expression, wearing a simple black collar. Sitting upright on light wood floor in a bright, tidy family living room, looking slightly off camera with soulful eyes. Photorealistic lifestyle commercial photography, natural skin and fur texture, soft natural window light, shot on 85mm lens, shallow depth of field, warm and inviting color grade, no text, no logos.",
   "estado": "hecho",
   "modelo_usado": "higgsfield-ai/soul/v2/standard",
-  "request_id": "f5506934-ece4-49d6-8008-076bb3b596cd",
+  "request_id": "5388236a-d104-4b66-bec3-dda5635be675",
   "resultado": [
     "personajes/candidatos/floyd_a_1.png",
     "personajes/candidatos/floyd_a_2.png",
     "personajes/candidatos/floyd_a_3.png",
     "personajes/candidatos/floyd_a_4.png"
   ],
-  "generado": "2026-09-27T17:04:07Z"
+  "generado": "2026-09-27T17:09:44Z"
 }
