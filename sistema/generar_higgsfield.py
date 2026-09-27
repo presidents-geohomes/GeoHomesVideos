@@ -8,8 +8,12 @@ Cada archivo en escenas/pendientes/*.json describe un video:
   "prompt": "Descripción de la escena...",   # lo que el modelo debe crear
   "modelo": "kling-video/v3.0/std/text-to-video",  # opcional (ruta del modelo en Higgsfield)
   "duracion": 10,                            # opcional, en segundos
-  "parametros": {"sound": "on"}              # opcional: campos extra propios del modelo
+  "parametros": {"sound": "on"},             # opcional: campos extra propios del modelo
+  "imagen_inicial": "https://.../foto.jpg"   # opcional: anima esta foto (misma persona)
 }
+
+Para imágenes (fotos de personajes, casas...): "tipo": "imagen", y opcionales
+"formato" (3:4, 9:16, 1:1...) y "cantidad" (1 o 4). Se guardan como archivo_1.jpg, archivo_2.jpg...
 
 Al terminar, la escena pasa a escenas/hechas/ (o a escenas/errores/ con el motivo).
 Necesita el secreto HF_API_KEY en GitHub y ffmpeg.
@@ -26,6 +30,8 @@ import urllib.request
 
 BASE = "https://api.higgsfield.ai"
 MODELO_POR_DEFECTO = "kling-video/v3.0/std/text-to-video"
+MODELO_IMAGEN = "higgsfield-ai/soul/v2/standard"
+MODELO_IMAGEN_A_VIDEO = "kling-video/v3.0/std/image-to-video"
 # Una sola clave (HF_API_KEY, tal como la copia el botón "Copy API key"),
 # o bien el par antiguo HF_API_KEY_ID + HF_API_KEY_SECRET.
 _ID = os.environ.get("HF_API_KEY_ID", "").strip()
@@ -55,15 +61,32 @@ def llamar(url, datos=None):
         raise RuntimeError(f"HTTP {e.code}: {cuerpo}") from None
 
 
+def es_imagen(escena):
+    return escena.get("tipo") == "imagen"
+
+
 def pedir_video(escena):
-    modelo = escena.get("modelo") or MODELO_POR_DEFECTO
-    cuerpo = {
-        "prompt": escena["prompt"],
-        "aspect_ratio": "9:16",
-        "duration": int(escena.get("duracion", 10)),
-    }
-    if "kling" in modelo:
-        cuerpo["sound"] = "on"
+    if es_imagen(escena):
+        modelo = escena.get("modelo") or MODELO_IMAGEN
+        cuerpo = {
+            "prompt": escena["prompt"],
+            "aspect_ratio": escena.get("formato", "3:4"),
+            "resolution": "1080p",
+            "batch_size": int(escena.get("cantidad", 4)),
+            "enhance_prompt": False,
+        }
+    else:
+        modelo = escena.get("modelo") or (
+            MODELO_IMAGEN_A_VIDEO if escena.get("imagen_inicial") else MODELO_POR_DEFECTO)
+        cuerpo = {
+            "prompt": escena["prompt"],
+            "aspect_ratio": "9:16",
+            "duration": int(escena.get("duracion", 10)),
+        }
+        if "kling" in modelo:
+            cuerpo["sound"] = "on"
+        if escena.get("imagen_inicial"):
+            cuerpo["image_url"] = escena["imagen_inicial"]
     cuerpo.update(escena.get("parametros") or {})
     resp = llamar(f"{BASE}/{modelo.strip('/')}", cuerpo)
     rid = resp.get("request_id") or resp.get("id")
@@ -109,13 +132,26 @@ def esperar(url_estado):
                 motivo = {"nsfw": "rechazado por el filtro de contenido (no se cobra)",
                           "failed": "la generación falló (no se cobra)"}.get(st, st)
                 raise RuntimeError(f"Higgsfield: {motivo}. Detalle: {json.dumps(estado)[:500]}")
-            url = buscar_url_video(estado)
-            if not url:
-                raise RuntimeError(f"Completado pero sin URL de video: {json.dumps(estado)[:800]}")
-            return url
+            return estado
         time.sleep(pausa)
         pausa = min(pausa + 2, 10)
     raise RuntimeError("Higgsfield tardó más de 20 minutos")
+
+
+def urls_imagenes(estado):
+    urls = []
+    def recorrer(d):
+        if isinstance(d, dict):
+            for k, v in d.items():
+                if k in ("url", "image_url") and isinstance(v, str) and v.startswith("http"):
+                    urls.append(v)
+                else:
+                    recorrer(v)
+        elif isinstance(d, list):
+            for x in d:
+                recorrer(x)
+    recorrer(estado.get("images") or estado)
+    return list(dict.fromkeys(urls))
 
 
 def descargar(url, destino):
@@ -149,14 +185,32 @@ def procesar(ruta):
             if not escena.get(campo):
                 raise RuntimeError(f"Falta el campo '{campo}' en la escena")
         modelo, rid, url_estado = pedir_video(escena)
-        url = esperar(url_estado)
+        estado = esperar(url_estado)
         os.makedirs(escena["carpeta"], exist_ok=True)
-        crudo = f"/tmp/{nombre}.hf.mp4"
-        descargar(url, crudo)
-        final = os.path.join(escena["carpeta"], escena["archivo"])
-        a_vertical_1080(crudo, final)
+        if es_imagen(escena):
+            urls = urls_imagenes(estado)
+            if not urls:
+                raise RuntimeError(f"Completado pero sin imágenes: {json.dumps(estado)[:800]}")
+            base = os.path.splitext(escena["archivo"])[0]
+            finales = []
+            for i, u in enumerate(urls, 1):
+                ext = os.path.splitext(u.split("?")[0])[1].lower() or ".jpg"
+                if ext not in (".jpg", ".jpeg", ".png", ".webp"):
+                    ext = ".jpg"
+                destino = os.path.join(escena["carpeta"], f"{base}_{i}{ext}")
+                descargar(u, destino)
+                finales.append(destino)
+            final = finales
+        else:
+            url = buscar_url_video(estado)
+            if not url:
+                raise RuntimeError(f"Completado pero sin URL de video: {json.dumps(estado)[:800]}")
+            crudo = f"/tmp/{nombre}.hf.mp4"
+            descargar(url, crudo)
+            final = os.path.join(escena["carpeta"], escena["archivo"])
+            a_vertical_1080(crudo, final)
         escena.update({"estado": "hecho", "modelo_usado": modelo, "request_id": rid,
-                       "video": final,
+                       "resultado": final,
                        "generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
         destino_dir = "escenas/hechas"
         print(f"  Listo: {final}")
