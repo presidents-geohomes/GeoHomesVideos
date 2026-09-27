@@ -232,7 +232,14 @@ def main():
     if not CLAVE:
         sys.exit("Falta el secreto HF_API_KEY en GitHub "
                  "(Settings → Secrets and variables → Actions).")
-    pendientes = sorted(glob.glob("escenas/pendientes/*.json"))
+    pendientes = []
+    for p in sorted(glob.glob("escenas/pendientes/*.json")):
+        try:
+            if json.load(open(p, encoding="utf-8")).get("tipo") in ("muestras_voz", "narracion"):
+                continue  # las procesa sistema/voces.py
+        except Exception:
+            pass
+        pendientes.append(p)
     if not pendientes:
         print("No hay escenas pendientes.")
         return

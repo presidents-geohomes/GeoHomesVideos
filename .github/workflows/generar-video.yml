@@ -63,6 +63,11 @@ jobs:
           json.dump(escena, open(f"escenas/pendientes/manual_{sello}.json", "w"), ensure_ascii=False, indent=2)
           EOF
 
+      - name: Generar voces (ElevenLabs)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 sistema/voces.py
+
       - name: Generar videos
         env:
           HF_API_KEY: ${{ secrets.HF_API_KEY }}
