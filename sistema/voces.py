@@ -35,7 +35,7 @@ def pedir(ruta, datos=None, binario=False):
         req.add_header("Content-Type", "application/json")
         req.data = json.dumps(datos).encode()
     try:
-        with urllib.request.urlopen(req, timeout=120) as r:
+        with urllib.request.urlopen(req, timeout=300) as r:
             cuerpo = r.read()
             return cuerpo if binario else json.loads(cuerpo or b"{}")
     except urllib.error.HTTPError as e:
@@ -51,6 +51,18 @@ def hablar(voice_id, texto, idioma, destino):
                            "use_speaker_boost": True},
     }, binario=True)
     os.makedirs(os.path.dirname(destino), exist_ok=True)
+    with open(destino, "wb") as f:
+        f.write(audio)
+
+
+def componer_musica(prompt, ms, destino):
+    """Pista instrumental original con ElevenLabs Music (uso comercial en planes de pago)."""
+    audio = pedir("/v1/music?output_format=mp3_44100_128", {
+        "prompt": prompt,
+        "music_length_ms": max(3000, min(int(ms), 600000)),
+        "force_instrumental": True,
+    }, binario=True)
+    os.makedirs(os.path.dirname(destino) or ".", exist_ok=True)
     with open(destino, "wb") as f:
         f.write(audio)
 

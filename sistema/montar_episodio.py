@@ -44,7 +44,8 @@ NAVY = (27, 48, 80)
 CREMA = (246, 242, 235)
 TMP = "/tmp/episodio"
 NEGATIVO = ("people talking, dialogue, lip movement, speaking to camera, text, captions, "
-            "subtitles, watermark, logo, distorted face, extra fingers, morphing")
+            "subtitles, watermark, logo, brand badge, distorted face, extra fingers, morphing, "
+            "background music")
 
 
 # ---------- tipografía ----------
@@ -188,6 +189,46 @@ def png_subtitulo(texto, destino):
     img.save(destino)
 
 
+def png_texto(texto, estilo, destino):
+    """Textos de la historia. 'aviso': tarjeta tipo notificación arriba.
+    'orden': frase entre comillas, como una orden de voz, en el centro."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    if estilo == "orden":
+        f = fuente("bold", 58)
+        lineas = textwrap.wrap(f"“{texto}”", 22)
+        alto = len(lineas) * 74
+        ancho = max(d.textlength(l, font=f) for l in lineas)
+        y0 = int(H * 0.56)
+        pad = 34
+        d.rounded_rectangle(((W - ancho) / 2 - pad - 40, y0 - pad, (W + ancho) / 2 + pad, y0 + alto + pad - 14),
+                            radius=40, fill=(255, 255, 255, 235))
+        # ondas de voz (icono simple)
+        cx, cy = (W - ancho) / 2 - 18, y0 + alto / 2 - 8
+        for r, a in ((10, 255), (20, 170), (30, 90)):
+            d.arc((cx - r, cy - r, cx + r, cy + r), -60, 60, fill=NAVY + (a,), width=5)
+        y = y0
+        for l in lineas:
+            tw = d.textlength(l, font=f)
+            d.text(((W - tw) / 2 + 12, y), l, font=f, fill=NAVY + (255,))
+            y += 74
+    else:
+        f = fuente("bold", 44)
+        lineas = textwrap.wrap(texto, 30)
+        alto = len(lineas) * 58
+        x0, y0, x1 = 70, 230, W - 70
+        d.rounded_rectangle((x0, y0, x1, y0 + alto + 70), radius=36, fill=(255, 255, 255, 238))
+        # icono: círculo azul marino con un punto (indicador de aviso)
+        cx, cy = x0 + 70, y0 + 35 + alto / 2
+        d.ellipse((cx - 30, cy - 30, cx + 30, cy + 30), fill=NAVY + (255,))
+        d.ellipse((cx - 10, cy - 10, cx + 10, cy + 10), fill=(246, 194, 92, 255))
+        y = y0 + 35
+        for l in lineas:
+            d.text((x0 + 125, y), l, font=f, fill=NAVY + (255,))
+            y += 58
+    img.save(destino)
+
+
 def tiempos_subtitulos(frases, inicio, dur_voz):
     total = sum(len(f) for f in frases)
     t, out = inicio, []
@@ -210,6 +251,11 @@ def montar(ep):
     voces.hablar(ep["narracion"]["voice_id"], ep["narracion"]["texto"], ep.get("idioma", "es"), narr)
     dur_voz = duracion(narr)
     print(f"  Narración: {dur_voz:.1f} s")
+    musica = f"{TMP}/musica.mp3"
+    dur_prevista = sum(float(e.get("duracion", 5)) for e in escenas) + float(
+        ep.get("cierre", {}).get("segundos", 3)) - XF * len(escenas) + 1.5
+    voces.componer_musica(ep["musica"]["prompt"], int(dur_prevista * 1000), musica)
+    print(f"  Música: {duracion(musica):.1f} s")
 
     clips = []
     for i, (url_estado, esc) in enumerate(zip(estados, escenas), 1):
@@ -252,40 +298,85 @@ def montar(ep):
        "-map", f"[{ultimo_v}]", "-map", f"[{ultimo_a}]", "-c:v", "libx264", "-preset", "fast",
        "-crf", "17", "-c:a", "aac", unido)
 
-    # 4) subtítulos + mezcla de audio (ambiente bajo, narración encima)
-    inicio_voz = float(ep.get("inicio_narracion", 0.4))
+    # 4) textos en pantalla, subtítulos y mezcla de audio
+    inicios = []
+    t = 0.0
+    for _, d in clips:
+        inicios.append(t)
+        t += d - XF
     fin_escenas = total - seg_cierre
+    n_esc = ep["narracion"].get("escena_inicio")
+    inicio_voz = (inicios[n_esc - 1] + 0.3) if n_esc else float(ep.get("inicio_narracion", 0.4))
     if inicio_voz + dur_voz > total - 0.2:
         print(f"  AVISO: la narración ({dur_voz:.1f}s) es larga para el video ({total:.1f}s)")
+
     overlays, filtros, prev = [], [], "0:v"
+    base_in = 3  # 0 video, 1 narración, 2 música
+
+    def poner(png, a, b, etiqueta):
+        nonlocal prev
+        overlays.extend(["-i", png])
+        n_in = base_in + len(overlays) // 2 - 1
+        filtros.append(f"[{prev}][{n_in}:v]overlay=0:0:enable='between(t,{a:.2f},{b:.2f})'[{etiqueta}]")
+        prev = etiqueta
+
+    for k, esc in enumerate(escenas):
+        if esc.get("texto"):
+            png = f"{TMP}/texto_{k}.png"
+            png_texto(esc["texto"], esc.get("estilo_texto", "aviso"), png)
+            a = inicios[k] + float(esc.get("texto_desde", 0.6))
+            b = inicios[k] + clips[k][1] - XF - 0.1
+            poner(png, a, b, f"t{k}")
+
     if ep.get("subtitulos", True):
         subs = tiempos_subtitulos(frases_subtitulos(ep["narracion"]["texto"]), inicio_voz, dur_voz)
         for j, (texto, a, b) in enumerate(subs):
-            # la tarjeta final ya muestra la frase de cierre: ahí no van subtítulos
-            if a >= fin_escenas - 0.3:
+            if a >= fin_escenas - 0.3:  # la tarjeta final ya muestra la frase
                 continue
-            b = min(b, fin_escenas)
             png = f"{TMP}/sub_{j}.png"
             png_subtitulo(texto, png)
-            overlays += ["-i", png]
-            n_in = len(overlays) // 2 + 1
-            filtros.append(f"[{prev}][{n_in}:v]overlay=0:0:enable='between(t,{a:.2f},{b:.2f})'[s{j}]")
-            prev = f"s{j}"
-    vol = float(ep.get("volumen_ambiente", 0.22))
+            poner(png, a, min(b, fin_escenas), f"s{j}")
+
+    # música: volumen por escena ("alta", "media", "baja", "silencio") con rampas suaves
+    niveles = {"alta": 0.55, "media": 0.35, "baja": 0.08, "silencio": 0.0}
+    mus_cfg = ep.get("musica", {})
+    puntos = []
+    for k, esc in enumerate(escenas):
+        v = niveles.get(esc.get("musica", "media"), 0.35)
+        puntos.append((inicios[k] + float(esc.get("musica_desde", 0.0)), v))
+    puntos.append((inicios[-1], niveles.get(cierre.get("musica", "media"), 0.35)))
+    puntos.append((total - 1.2, puntos[-1][1]))
+    puntos.append((total, 0.0))
+    expr = envolvente(puntos, rampa=0.6)
+    vol_amb = float(ep.get("volumen_ambiente", 0.6))
     ms = int(inicio_voz * 1000)
-    filtros.append(f"[0:a]volume={vol}[amb]")
+    filtros.append(f"[0:a]volume={vol_amb}[amb]")
     filtros.append(f"[1:a]adelay={ms}|{ms},volume=1.0[voz]")
-    filtros.append("[amb][voz]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+    filtros.append(f"[2:a]atrim=0:{total:.2f},volume='{expr}':eval=frame[mus]")
+    filtros.append("[amb][voz][mus]amix=inputs=3:duration=first:dropout_transition=0:normalize=0,"
                    "loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
     final = os.path.join(ep["carpeta"], ep["archivo"])
     os.makedirs(ep["carpeta"], exist_ok=True)
-    sh("ffmpeg", "-v", "error", "-y", "-i", unido, "-i", narr, *overlays,
+    sh("ffmpeg", "-v", "error", "-y", "-i", unido, "-i", narr, "-i", musica, *overlays,
        "-filter_complex", ";".join(filtros), "-map", f"[{prev}]", "-map", "[aout]",
        "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
        "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart", final)
-    # guardar también la narración sola
-    sh("cp", narr, os.path.join(ep["carpeta"], os.path.splitext(ep["archivo"])[0] + "_narracion.mp3"))
+    base = os.path.splitext(ep["archivo"])[0]
+    sh("cp", narr, os.path.join(ep["carpeta"], base + "_narracion.mp3"))
+    sh("cp", musica, os.path.join(ep["carpeta"], base + "_musica.mp3"))
     return final, total
+
+
+def envolvente(puntos, rampa=0.6):
+    """Expresión de volumen: escalones con rampas lineales de `rampa` segundos."""
+    expr = f"{puntos[-1][1]}"
+    for k in range(len(puntos) - 1, 0, -1):
+        t_k, v_k = puntos[k]
+        _, v_prev = puntos[k - 1]
+        r0 = max(t_k - rampa, puntos[k - 1][0])
+        tramo = f"if(lt(t,{t_k:.2f}),{v_prev}+({v_k}-{v_prev})*(t-{r0:.2f})/{max(t_k - r0, 0.01):.2f},{expr})"
+        expr = f"if(lt(t,{r0:.2f}),{v_prev},{tramo})"
+    return expr
 
 
 def main():
