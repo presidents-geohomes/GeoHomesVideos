@@ -10,7 +10,10 @@
   "espanol": {
     "serie": "Casa que te entiende",
     "cierre": "Tu casa, a tu ritmo.",
-    "publicacion": ["martes", "viernes"],
+    "publicacion": [
+      "martes",
+      "viernes"
+    ],
     "narrador": "Voz masculina o femenina cálida, español latino neutro, pausada, cercana (se fija en la primera prueba).",
     "casa": {
       "foto": "personajes/elegidos/casa_espanol.png",
@@ -27,16 +30,20 @@
         "descripcion": "Mariana, mujer hispana de 35 años, pelo largo ondulado castaño oscuro, ojos marrones, maquillaje natural, aretes pequeños dorados, blusa color crema.",
         "trabajo": "Higienista dental en una clínica de Naples; horario de consulta, llega a casa al atardecer."
       },
-      "canela": {
-        "foto": "personajes/elegidos/canela.png",
-        "descripcion": "Canela, pitbull (American Pit Bull Terrier) hembra, pelaje canela/leonado brillante, mancha blanca en el pecho, orejas medianas, expresión alegre y dulce."
+      "floyd": {
+        "foto": "personajes/elegidos/floyd.png",
+        "descripcion": "Floyd, pitbull (American Pit Bull Terrier) macho, pelaje canela/leonado brillante (red-nose), gran mancha blanca en el pecho, orejas medianas semierguidas, ojos ámbar, expresión alegre con la boca abierta y la lengua fuera, musculoso y bien cuidado.",
+        "trabajo": "El perro de la casa: recibe a Daniel en la puerta, duerme en el sofá, sigue a Mariana por la cocina."
       }
     }
   },
   "ingles": {
     "serie": "Home, Simplified",
     "cierre": "Home that keeps up.",
-    "publicacion": ["miércoles", "sábado"],
+    "publicacion": [
+      "miércoles",
+      "sábado"
+    ],
     "narrador": "Warm American English voice, calm and reassuring (fixed after the first test).",
     "casa": {
       "foto": "personajes/elegidos/casa_ingles.png",
