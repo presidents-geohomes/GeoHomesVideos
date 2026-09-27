@@ -1,0 +1,76 @@
+{
+  "id": "es_002_alguien_en_la_entrada",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES02_alguien-en-la-entrada",
+  "archivo": "ES02.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, modern, feel-good instrumental for a premium smart-home lifestyle commercial: soft acoustic guitar, light piano, gentle claps and subtle warm bass, relaxed mid-tempo around 95 BPM, optimistic and cozy golden-hour mood, clean mix, no vocals."
+  },
+  "volumen_ambiente": 0.6,
+  "escenas": [
+    {
+      "imagen": "planos/ES02/p1_exterior_llegada_4.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "Golden hour. The dark gray pickup truck rolls slowly forward and stops on the paver driveway in front of the closed garage, headlights on. The small security camera under the eave blinks its tiny status light. Palm fronds sway. Engine hum, then the engine idles."
+    },
+    {
+      "imagen": "planos/ES02/p2_cocina_altavoz_4.png",
+      "duracion": 4,
+      "musica": "baja",
+      "musica_desde": 0.5,
+      "texto": "Movimiento en la entrada",
+      "estilo_texto": "aviso",
+      "prompt": "The light ring on top of the smart speaker in the foreground pulses softly as a gentle chime plays; soft music from the speaker fades down. In the blurred background the woman keeps cooking at the stove with her back to camera. Camera slowly pushes in on the speaker."
+    },
+    {
+      "imagen": "planos/ES02/p3_floyd_sala_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "prompt": "The pit bull dog lifts his head, perks his ears toward the front door and barks twice, alert but friendly, then stands up. Clear dog barking sounds."
+    },
+    {
+      "imagen": "planos/ES02/p4_mariana_celular_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Cámara de la entrada: es Daniel",
+      "estilo_texto": "aviso",
+      "prompt": "In the background the woman at the kitchen island picks up her phone and looks at it, then smiles; the phone screen stays facing away from the camera. The smart speaker in the foreground glows softly. Very slow camera drift. Quiet kitchen ambience."
+    },
+    {
+      "imagen": "planos/ES02/p5_mariana_altavoz_4.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Abre el garaje",
+      "estilo_texto": "orden",
+      "texto_desde": 0.3,
+      "prompt": "Over-the-shoulder: the woman turns her head slightly toward the smart speaker; its light ring lights up brighter and gives a short confirmation tone. She does not speak on camera. Subtle movement only."
+    },
+    {
+      "imagen": "planos/ES02/p6_exterior_garaje_2.png",
+      "duracion": 5,
+      "musica": "baja",
+      "prompt": "Golden hour. The white two-car garage door rises smoothly and automatically, the two wall lanterns by the arched front door switch on with a warm glow, and the dark gray pickup truck slowly drives forward into the open garage. Sound of the garage door motor."
+    },
+    {
+      "imagen": "planos/ES02/p7_garaje_floyd_2.png",
+      "duracion": 4,
+      "musica": "alta",
+      "musica_desde": 0.2,
+      "prompt": "The happy pit bull runs through the doorway into the garage toward the truck, barking joyfully and wagging his tail; in the background the man steps out of the truck and crouches to greet the dog. Joyful dog barks."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "escena_inicio": 7,
+    "texto": "Tú sigues con lo tuyo. Tu casa se encarga del resto."
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true
+}
