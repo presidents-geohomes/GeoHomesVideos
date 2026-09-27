@@ -8,7 +8,10 @@ Lee episodios/pendientes/*.json:
   "archivo": "ES01.mp4",
   "idioma": "es",
   "escenas": [
-     {"imagen": "personajes/elegidos/casa_espanol.png", "duracion": 4,
+     {"imagen": "familias/familia_1/set/ext_atardecer.png", "duracion": 4,
+      "imagen_final": "familias/familia_1/set/ext_garaje_abierto.png",   # opcional
+      "texto": "Abre el garaje", "estilo_texto": "orden",                # opcional
+      "musica": "baja",                                                  # alta/media/baja/silencio
       "prompt": "Qué pasa en la escena (sin diálogos)..."},
      ...
   ],
@@ -100,6 +103,9 @@ def generar_escena(i, esc):
         "sound": "on",
         "negative_prompt": NEGATIVO,
     }
+    if esc.get("imagen_final"):
+        # la acción de la casa (garaje, persianas...) termina sí o sí en esta foto
+        cuerpo["last_image_url"] = url_publica(esc["imagen_final"])
     modelo = esc.get("modelo", hf.MODELO_IMAGEN_A_VIDEO)
     print(f"  Escena {i}: pidiendo a {modelo}")
     resp = hf.llamar(f"{hf.BASE}/{modelo}", cuerpo)
