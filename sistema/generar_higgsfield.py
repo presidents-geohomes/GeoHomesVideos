@@ -34,6 +34,8 @@ CLAVE = os.environ.get("HF_API_KEY", "").strip() or (f"{_ID}:{_SECRET}" if _ID a
 if CLAVE.lower().startswith("key "):
     CLAVE = CLAVE[4:].strip()
 ESPERA_MAX = 20 * 60  # segundos
+# Cloudflare bloquea el agente por defecto de Python ("Python-urllib").
+UA = "GeoHomesVideos/1.0 (+https://github.com/presidents-geohomes/GeoHomesVideos)"
 FINALES = {"completed", "failed", "nsfw", "canceled", "cancelled"}
 
 
@@ -41,6 +43,7 @@ def llamar(url, datos=None):
     req = urllib.request.Request(url, method="POST" if datos is not None else "GET")
     req.add_header("Authorization", f"Key {CLAVE}")
     req.add_header("Accept", "application/json")
+    req.add_header("User-Agent", UA)
     if datos is not None:
         req.add_header("Content-Type", "application/json")
         req.data = json.dumps(datos).encode()
@@ -116,7 +119,7 @@ def esperar(url_estado):
 
 
 def descargar(url, destino):
-    req = urllib.request.Request(url, headers={"User-Agent": "geohomes-bot"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=300) as r, open(destino, "wb") as f:
         shutil.copyfileobj(r, f)
 
