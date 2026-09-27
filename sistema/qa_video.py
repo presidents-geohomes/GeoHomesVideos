@@ -42,8 +42,8 @@ def transcribir(audio, idioma="es"):
 
 
 def parecido(a, b):
-    limpiar = lambda s: re.sub(r"[^\wáéíóúñü ]", "", s.lower())
-    return round(difflib.SequenceMatcher(None, limpiar(a), limpiar(b)).ratio(), 3)
+    palabras = lambda s: re.sub(r"[^\wáéíóúñü ]", " ", s.lower()).split()
+    return round(difflib.SequenceMatcher(None, palabras(a), palabras(b), autojunk=False).ratio(), 3)
 
 
 def informe(ep, video, narracion_mp3, planos, carpeta):
