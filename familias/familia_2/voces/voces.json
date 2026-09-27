@@ -1,0 +1,38 @@
+[
+  {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "nombre": "Jon - Warm & Grounded Storyteller",
+    "acento": "american",
+    "descripcion": "A warm, trustworthy American voice with a mature and grounded tone. Ideal for narration and commercials. It carries an intelligent and calm presence, making it ",
+    "public_owner_id": "b45c1524a1f360319535f16b301e5b6f37edf26fd1d59861eda66206ff25cdc9",
+    "origen": "biblioteca",
+    "muestra": "familias/familia_2/voces/voz_1.mp3"
+  },
+  {
+    "voice_id": "G17SuINrv2H9FC6nvetn",
+    "nombre": "Christopher - Gentle and Trustworthy",
+    "acento": "british",
+    "descripcion": "British male narrator, English, well-spoken, gentle and trustworthy voice. Great for audiobooks, podcasts and voiceovers.",
+    "public_owner_id": "f13913702490da75fc7c40d5df4c32442d935af25a575fccb96c63096f992025",
+    "origen": "biblioteca",
+    "muestra": "familias/familia_2/voces/voz_2.mp3"
+  },
+  {
+    "voice_id": "ZthjuvLPty3kTMaNKVKb",
+    "nombre": "Peter",
+    "acento": "american",
+    "descripcion": "Confident, reliable, credible narrator. A resolute voice that you can trust.",
+    "public_owner_id": "37242178387aa74ac807790c7307e81312f0791cf06777a4791b86d941a77525",
+    "origen": "biblioteca",
+    "muestra": "familias/familia_2/voces/voz_3.mp3"
+  },
+  {
+    "voice_id": "NOpBlnGInO9m6vDvFkFC",
+    "nombre": "Spuds Oxley - Grandpa ",
+    "acento": "american",
+    "descripcion": "A friendly Southern grandpa who knows how to enthrall his audience with tall tales and fun adventures! A warm, friendly, stylized baritone voice that is great f",
+    "public_owner_id": "ae23ca715ed6b339e4ad22f2d45dd40b36a6449e031b4f8970bfe29524bd1bbc",
+    "origen": "biblioteca",
+    "muestra": "familias/familia_2/voces/voz_4.mp3"
+  }
+]
