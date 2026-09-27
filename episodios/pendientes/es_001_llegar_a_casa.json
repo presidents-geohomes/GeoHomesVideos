@@ -1,0 +1,31 @@
+{
+  "id": "es_001_llegar_a_casa",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES01_llegar-a-casa",
+  "archivo": "ES01.mp4",
+  "idioma": "es",
+  "escenas": [
+    {
+      "imagen": "personajes/elegidos/casa_espanol.png",
+      "duracion": 5,
+      "prompt": "Golden hour in front of this Naples, Florida home. A dark gray pickup truck pulls slowly into the paver driveway, the white two-car garage door opens smoothly by itself, and the two wall lanterns beside the arched wooden front door switch on with a warm glow. Palm fronds sway gently in the breeze."
+    },
+    {
+      "imagen": "personajes/elegidos/daniel.png",
+      "duracion": 4,
+      "prompt": "Daniel has just come home after a long workday. He takes a slow breath, his shoulders relax and he smiles softly as the warm ceiling lights and table lamps of the living room gently turn on around him. He stays silent, calm and content."
+    },
+    {
+      "imagen": "personajes/elegidos/floyd.png",
+      "duracion": 4,
+      "prompt": "Floyd, the pit bull, gets up happily, wagging his tail, and trots toward the camera as if greeting his owner arriving at the door, in a warm softly lit living room in the evening."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "texto": "Llegas cansado, con el día encima. Pero tu casa ya lo sabe: abre el garaje, enciende la luz… y Floyd te recibe. Tu casa, a tu ritmo."
+  },
+  "cierre": {"frase": "Tu casa, a tu ritmo.", "lugar": "Geo Homes · Naples, FL", "segundos": 3.5},
+  "subtitulos": true,
+  "volumen_ambiente": 0.22
+}

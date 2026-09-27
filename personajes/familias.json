@@ -14,7 +14,12 @@
       "martes",
       "viernes"
     ],
-    "narrador": "Voz masculina o femenina cálida, español latino neutro, pausada, cercana (se fija en la primera prueba).",
+    "narrador": {
+      "nombre": "Samanta - Warm, Tender, Expressive",
+      "voice_id": "qBvury71WUJfVeT1STkG",
+      "acento": "latin american",
+      "modelo": "eleven_multilingual_v2"
+    },
     "casa": {
       "foto": "personajes/elegidos/casa_espanol.png",
       "descripcion": "Casa de una planta en Naples, FL: estuco color arena, techo de teja terracota, entrada en arco con puerta de madera oscura y dos faroles, garaje doble con puerta blanca a la izquierda, entrada de adoquín, palmeras y plantas tropicales rojas y verdes, césped cuidado."

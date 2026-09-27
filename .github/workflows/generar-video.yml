@@ -5,7 +5,7 @@ name: Generar video con Higgsfield
 on:
   push:
     branches: [main]
-    paths: ["escenas/pendientes/**"]
+    paths: ["escenas/pendientes/**", "episodios/pendientes/**"]
   workflow_dispatch:
     inputs:
       prompt:
@@ -39,8 +39,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Instalar ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Instalar ffmpeg y Pillow
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          python3 -m pip install -q pillow
 
       - name: Crear escena desde el formulario (si se escribió un prompt)
         if: github.event_name == 'workflow_dispatch' && inputs.prompt != ''
@@ -74,6 +76,12 @@ jobs:
           HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
           HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
         run: python3 sistema/generar_higgsfield.py
+
+      - name: Montar episodios
+        env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 sistema/montar_episodio.py
 
       - name: Guardar videos en el repositorio
         if: always()
