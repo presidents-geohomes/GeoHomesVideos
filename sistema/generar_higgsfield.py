@@ -12,7 +12,7 @@ Cada archivo en escenas/pendientes/*.json describe un video:
 }
 
 Al terminar, la escena pasa a escenas/hechas/ (o a escenas/errores/ con el motivo).
-Necesita HF_API_KEY_ID y HF_API_KEY_SECRET (secretos de GitHub) y ffmpeg.
+Necesita el secreto HF_API_KEY en GitHub y ffmpeg.
 """
 import glob
 import json
@@ -26,15 +26,20 @@ import urllib.request
 
 BASE = "https://api.higgsfield.ai"
 MODELO_POR_DEFECTO = "kling-video/v3.0/std/text-to-video"
-KEY_ID = os.environ.get("HF_API_KEY_ID", "").strip()
-KEY_SECRET = os.environ.get("HF_API_KEY_SECRET", "").strip()
+# Una sola clave (HF_API_KEY, tal como la copia el botón "Copy API key"),
+# o bien el par antiguo HF_API_KEY_ID + HF_API_KEY_SECRET.
+_ID = os.environ.get("HF_API_KEY_ID", "").strip()
+_SECRET = os.environ.get("HF_API_KEY_SECRET", "").strip()
+CLAVE = os.environ.get("HF_API_KEY", "").strip() or (f"{_ID}:{_SECRET}" if _ID and _SECRET else "")
+if CLAVE.lower().startswith("key "):
+    CLAVE = CLAVE[4:].strip()
 ESPERA_MAX = 20 * 60  # segundos
 FINALES = {"completed", "failed", "nsfw", "canceled", "cancelled"}
 
 
 def llamar(url, datos=None):
     req = urllib.request.Request(url, method="POST" if datos is not None else "GET")
-    req.add_header("Authorization", f"Key {KEY_ID}:{KEY_SECRET}")
+    req.add_header("Authorization", f"Key {CLAVE}")
     req.add_header("Accept", "application/json")
     if datos is not None:
         req.add_header("Content-Type", "application/json")
@@ -167,8 +172,8 @@ def procesar(ruta):
 
 
 def main():
-    if not (KEY_ID and KEY_SECRET):
-        sys.exit("Faltan los secretos HF_API_KEY_ID y HF_API_KEY_SECRET en GitHub "
+    if not CLAVE:
+        sys.exit("Falta el secreto HF_API_KEY en GitHub "
                  "(Settings → Secrets and variables → Actions).")
     pendientes = sorted(glob.glob("escenas/pendientes/*.json"))
     if not pendientes:

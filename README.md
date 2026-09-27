@@ -20,4 +20,4 @@ Videos cortos para Instagram y TikTok, organizados por mes y por video.
 
 También se puede lanzar a mano: pestaña **Actions → Generar video con Higgsfield → Run workflow**.
 
-Requisito: secretos `HF_API_KEY_ID` y `HF_API_KEY_SECRET` en Settings → Secrets and variables → Actions.
+Requisito: secreto `HF_API_KEY` (la clave completa de Higgsfield) en Settings → Secrets and variables → Actions.

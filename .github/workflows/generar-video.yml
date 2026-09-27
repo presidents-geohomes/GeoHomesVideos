@@ -65,6 +65,7 @@ jobs:
 
       - name: Generar videos
         env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
           HF_API_KEY_ID: ${{ secrets.HF_API_KEY_ID }}
           HF_API_KEY_SECRET: ${{ secrets.HF_API_KEY_SECRET }}
         run: python3 sistema/generar_higgsfield.py
