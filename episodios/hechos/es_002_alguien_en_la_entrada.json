@@ -72,5 +72,9 @@
     "segundos": 3.5,
     "musica": "media"
   },
-  "subtitulos": true
+  "subtitulos": true,
+  "estado": "hecho",
+  "video": "series/espanol/ES02_alguien-en-la-entrada/ES02.mp4",
+  "duracion": 27.0,
+  "fecha": "2026-09-27T18:50:33Z"
 }
