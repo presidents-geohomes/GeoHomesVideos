@@ -1,0 +1,18 @@
+{
+  "tipo": "imagen",
+  "carpeta": "personajes/candidatos",
+  "archivo": "casa_espanol.jpg",
+  "formato": "9:16",
+  "cantidad": 4,
+  "prompt": "Exterior of a regular single-story family home in Naples, Southwest Florida: beige stucco walls, terracotta barrel-tile roof, attached two-car garage with a white garage door, paver driveway, two palm trees, tidy tropical landscaping with green lawn, front entry with a dark wood door, late-afternoon golden-hour light, blue sky with soft clouds, eye-level from the street, real estate lifestyle photography, no people, no text.",
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "b76c4f4a-8f1c-404a-a861-399c9321e3d9",
+  "resultado": [
+    "personajes/candidatos/casa_espanol_1.png",
+    "personajes/candidatos/casa_espanol_2.png",
+    "personajes/candidatos/casa_espanol_3.png",
+    "personajes/candidatos/casa_espanol_4.png"
+  ],
+  "generado": "2026-09-27T16:43:25Z"
+}
