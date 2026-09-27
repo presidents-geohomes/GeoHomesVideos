@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+"""Portada (miniatura) de cada episodio: 1080x1920, lista para Reels y TikTok.
+
+Usa una foto LIMPIA del episodio (la foto de partida del plano más llamativo, sin subtítulos),
+un título corto (el gancho) y la marca. El texto va dentro de la zona segura 4:5 (el centro
+que Instagram muestra en la cuadrícula del perfil: y de 285 a 1635).
+
+Uso: python3 sistema/portada.py <imagen> "<título>" "<serie · episodio>" <salida.jpg>
+"""
+import os
+import sys
+import textwrap
+import urllib.request
+
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
+
+W, H = 1080, 1920
+NAVY = (27, 48, 80)
+
+
+def _fuente(peso, tam):
+    rutas = {"bold": ["/tmp/fonts/Poppins-SemiBold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+             "regular": ["/tmp/fonts/Poppins-Regular.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"]}[peso]
+    for r in rutas:
+        if os.path.exists(r):
+            return ImageFont.truetype(r, tam)
+    return ImageFont.load_default()
+
+
+def _bajar_fuentes():
+    os.makedirs("/tmp/fonts", exist_ok=True)
+    for f in ("Poppins-SemiBold.ttf", "Poppins-Regular.ttf"):
+        d = f"/tmp/fonts/{f}"
+        if not os.path.exists(d):
+            try:
+                urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/poppins/" + f, d)
+            except Exception:
+                pass
+
+
+def crear_portada(imagen, titulo, etiqueta, destino, logo="assets/logo_white.png"):
+    _bajar_fuentes()
+    im = Image.open(imagen).convert("RGB")
+    esc = max(W / im.width, H / im.height)
+    im = im.resize((int(im.width * esc), int(im.height * esc)), Image.LANCZOS)
+    x0, y0 = (im.width - W) // 2, (im.height - H) // 2
+    im = im.crop((x0, y0, x0 + W, y0 + H))
+
+    # degradado oscuro arriba para que el título se lea
+    sombra = Image.new("L", (W, H), 0)
+    ds = ImageDraw.Draw(sombra)
+    for y in range(0, 1000):
+        ds.line([(0, y), (W, y)], fill=int(190 * (1 - y / 1000) ** 1.6))
+    negro = Image.new("RGB", (W, H), (10, 16, 28))
+    im = Image.composite(negro, im, sombra.filter(ImageFilter.GaussianBlur(4)))
+    d = ImageDraw.Draw(im)
+
+    # etiqueta de la serie (píldora pequeña)
+    f_et = _fuente("bold", 34)
+    tw = d.textlength(etiqueta, font=f_et)
+    y = 330
+    d.rounded_rectangle(((W - tw) / 2 - 28, y - 14, (W + tw) / 2 + 28, y + 50), radius=32, fill=(255, 255, 255))
+    d.text(((W - tw) / 2, y - 2), etiqueta, font=f_et, fill=NAVY)
+
+    # título (gancho)
+    f_t = _fuente("bold", 88)
+    y = 440
+    for linea in textwrap.wrap(titulo, 13)[:3]:
+        tw = d.textlength(linea, font=f_t)
+        d.text(((W - tw) / 2 + 3, y + 4), linea, font=f_t, fill=(0, 0, 0))
+        d.text(((W - tw) / 2, y), linea, font=f_t, fill=(255, 255, 255))
+        y += 104
+
+    # logo pequeño abajo, dentro de la zona segura
+    if os.path.exists(logo):
+        lg = Image.open(logo).convert("RGBA")
+        lw = 170
+        lg = lg.resize((lw, int(lg.height * lw / lg.width)), Image.LANCZOS)
+        base = Image.new("RGBA", (lw + 60, lg.height + 50), (0, 0, 0, 0))
+        ImageDraw.Draw(base).rounded_rectangle((0, 0, base.width, base.height), radius=30, fill=(10, 16, 28, 150))
+        base.paste(lg, (30, 25), lg)
+        im.paste(base, ((W - base.width) // 2, 1620 - base.height), base)
+    os.makedirs(os.path.dirname(destino) or ".", exist_ok=True)
+    im.save(destino, quality=92)
+    return destino
+
+
+if __name__ == "__main__":
+    crear_portada(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])

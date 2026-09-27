@@ -388,6 +388,16 @@ def montar(ep):
        "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
        "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-movflags", "+faststart", final)
     base = os.path.splitext(ep["archivo"])[0]
+    if ep.get("portada"):
+        try:
+            import portada
+            po = ep["portada"]
+            img = po.get("imagen") or escenas[int(po.get("escena", len(escenas))) - 1]["imagen"]
+            portada.crear_portada(img, po["titulo"], po.get("etiqueta", ep.get("serie", "")),
+                                  os.path.join(ep["carpeta"], base + "_portada.jpg"))
+            print("  Portada lista")
+        except Exception as e:
+            print(f"  (no se pudo crear la portada: {e})")
     try:
         import qa_video
         planos = [(f"plano {k + 1}", inicios[k], clips[k][1]) for k in range(len(clips))]
