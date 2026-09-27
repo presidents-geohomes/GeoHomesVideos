@@ -25,7 +25,15 @@
     "voice_id": "qBvury71WUJfVeT1STkG",
     "texto": "Llegas cansado, con el día encima. Pero tu casa ya lo sabe: abre el garaje, enciende la luz… y Floyd te recibe. Tu casa, a tu ritmo."
   },
-  "cierre": {"frase": "Tu casa, a tu ritmo.", "lugar": "Geo Homes · Naples, FL", "segundos": 3.5},
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "segundos": 3.5
+  },
   "subtitulos": true,
-  "volumen_ambiente": 0.22
+  "volumen_ambiente": 0.22,
+  "estado": "hecho",
+  "video": "series/espanol/ES01_llegar-a-casa/ES01.mp4",
+  "duracion": 15.0,
+  "fecha": "2026-09-27T17:53:28Z"
 }
