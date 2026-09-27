@@ -32,6 +32,8 @@ BASE = "https://api.higgsfield.ai"
 MODELO_POR_DEFECTO = "kling-video/v3.0/std/text-to-video"
 MODELO_IMAGEN = "higgsfield-ai/soul/v2/standard"
 MODELO_IMAGEN_A_VIDEO = "kling-video/v3.0/std/image-to-video"
+MODELO_EDICION = "xai/grok-imagine-image-2.0"
+REPO_RAW = "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/"
 # Una sola clave (HF_API_KEY, tal como la copia el botón "Copy API key"),
 # o bien el par antiguo HF_API_KEY_ID + HF_API_KEY_SECRET.
 _ID = os.environ.get("HF_API_KEY_ID", "").strip()
@@ -66,7 +68,18 @@ def es_imagen(escena):
 
 
 def pedir_video(escena):
-    if es_imagen(escena):
+    if es_imagen(escena) and escena.get("referencias"):
+        # Edición / continuidad: Grok Imagine conserva los detalles de las fotos de referencia
+        modelo = escena.get("modelo") or MODELO_EDICION
+        refs = [r if r.startswith("http") else REPO_RAW + r for r in escena["referencias"]]
+        cuerpo = {
+            "prompt": escena["prompt"],
+            "image_urls": refs,
+            "aspect_ratio": escena.get("formato", "9:16"),
+            "resolution": escena.get("resolucion", "2k"),
+            "quality": "medium",
+        }
+    elif es_imagen(escena):
         modelo = escena.get("modelo") or MODELO_IMAGEN
         cuerpo = {
             "prompt": escena["prompt"],
