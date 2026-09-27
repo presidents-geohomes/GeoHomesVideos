@@ -1,0 +1,104 @@
+{
+  "id": "es_003_llega_daniel",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES03_llega-daniel",
+  "archivo": "ES03.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, modern, feel-good instrumental for a premium smart-home lifestyle commercial: soft acoustic guitar, light piano, gentle claps and subtle warm bass, relaxed mid-tempo around 95 BPM, optimistic and cozy golden-hour mood, clean mix, no vocals, gentle ending."
+  },
+  "volumen_ambiente": 0.6,
+  "escenas": [
+    {
+      "imagen": "planos/ES03/k1_llegada_2_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "Golden hour. The black pickup truck drives slowly forward along the paver driveway toward the closed garage and comes to a stop, headlights on. Palm fronds sway gently. Engine sound."
+    },
+    {
+      "imagen": "planos/ES03/k2_cocina_aviso_1_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "musica_desde": 0.4,
+      "texto": "Movimiento en la entrada",
+      "estilo_texto": "aviso",
+      "prompt": "The light ring on top of the smart speaker in the center of the island pulses softly with a gentle chime while the woman keeps cooking at the stove in the soft-focus background. Slow push-in toward the speaker. Nothing else moves in the kitchen."
+    },
+    {
+      "imagen": "planos/ES03/k3_floyd_cama_1_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "prompt": "The pit bull on his dog bed lifts his head, perks his ears toward the arched front door and barks twice, friendly and alert. Clear dog barks."
+    },
+    {
+      "imagen": "planos/ES03/k4_mariana_celular_1_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Cámara del garaje: es Daniel",
+      "estilo_texto": "aviso",
+      "prompt": "The woman at the far side of the island looks at her phone and smiles; the phone screen always faces away from the camera. Very slow camera drift. Quiet kitchen ambience."
+    },
+    {
+      "imagen": "planos/ES03/k5_mariana_orden_1_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Abre el garaje",
+      "estilo_texto": "orden",
+      "texto_desde": 0.3,
+      "prompt": "Seen from behind, the woman turns her head slightly toward the smart speaker; its light ring brightens and gives a short confirmation tone. Subtle movement only."
+    },
+    {
+      "imagen": "planos/ES03/k6a_pickup_cerrado_2_1.png",
+      "imagen_final": "planos/ES03/k6b_fix_2_1.png",
+      "duracion": 5,
+      "musica": "baja",
+      "prompt": "Golden hour, static camera. The white two-car garage door rises smoothly and automatically, revealing the lit garage with the red sedan parked inside. The black pickup waits on the driveway with headlights on. Sound of the garage door motor."
+    },
+    {
+      "imagen": "planos/ES03/k7_floyd_lavanderia_1_1.png",
+      "duracion": 3,
+      "musica": "media",
+      "prompt": "The excited pit bull runs across the laundry room and out through the half-open door toward the garage, tail wagging, barking happily."
+    },
+    {
+      "imagen": "planos/ES03/k8_garaje_daniel_2_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "In the garage, the man crouches and the happy pit bull jumps into his arms, tail wagging fast; the pickup's headlights glow and the golden-hour light pours in from the open garage door. Joyful dog barks."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "El día fue largo. Pero hay cosas que ya no tienes que hacer tú."
+      },
+      {
+        "escena": 3,
+        "texto": "Tu casa ve quién llega, te avisa, y te deja decidir desde donde estés."
+      },
+      {
+        "escena": 6,
+        "texto": "Sin llaves, sin controles, sin salir de la cocina."
+      },
+      {
+        "escena": 7,
+        "texto": "Porque vivir bien es llegar a casa… y que todo te esté esperando."
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true
+}
