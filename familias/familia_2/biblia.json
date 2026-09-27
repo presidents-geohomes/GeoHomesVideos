@@ -5,7 +5,10 @@
   "cierre": "Home that keeps up.",
   "lugar": "Geo Homes · Naples, FL",
   "oferta_cierre": "Free estimates · We make your home smart",
-  "publicacion": ["miércoles", "sábado"],
+  "publicacion": [
+    "miércoles",
+    "sábado"
+  ],
   "narrador": {
     "nombre": "PENDIENTE de elegir entre familias/familia_2/voces/voz_1..4.mp3",
     "voice_id": null,
@@ -14,7 +17,6 @@
   },
   "musica": "Pista instrumental original con ElevenLabs Music: cálida, acústica, piano suave y guitarra, ~90 BPM, tierna y esperanzadora, sin voces. Puede sonar desde el altavoz de la cocina.",
   "tono": "Tranquilidad, seguridad y pequeños gestos de cariño. Una madre que trabaja turnos, una hija independiente y un papá que trabaja fuera por temporadas.",
-
   "reglas_guion": [
     "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado. Toda orden aparece ANTES de su efecto.",
     "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
@@ -28,7 +30,6 @@
     "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
     "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set')."
   ],
-
   "personajes": {
     "emma": {
       "foto": "familias/familia_2/personajes/emma.png",
@@ -58,7 +59,6 @@
       "cosas": "Comedero automático y fuente de agua en la cocina, junto a la puerta de la lavandería. Le encanta el asiento de la ventana de la sala y el sofá gris. Cámara para mascotas en la sala."
     }
   },
-
   "vehiculos": {
     "suv_emma": {
       "foto": "familias/familia_2/vehiculos/suv_emma.png",
@@ -66,7 +66,6 @@
       "lugar": "Lado IZQUIERDO del garaje. El lado derecho tiene la bici de Lily y el banco de trabajo del papá."
     }
   },
-
   "casa": {
     "plano": "familias/familia_2/plano.png",
     "resumen": "Casa regular de una planta en Naples convertida en smart. 3 cuartos (Lily, principal, oficina/huéspedes), 2 baños, garaje doble, cocina abierta a la sala, lavandería entre garaje y cocina, porche delantero, porche trasero con malla y patio cercado con huerto y columpio. SIN piscina.",
@@ -83,7 +82,6 @@
       "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
     }
   },
-
   "aparatos": {
     "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
     "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
@@ -97,7 +95,6 @@
     "garaje": "Puerta de garaje automática.",
     "riego": "Riego automático del patio y del huerto."
   },
-
   "set": {
     "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
     "ext_dia": "familias/familia_2/set/ext_dia.png",
@@ -106,9 +103,16 @@
     "ext_noche": "familias/familia_2/set/ext_noche.png",
     "ext_porche": "familias/familia_2/set/ext_porche.png",
     "cocina": "familias/familia_2/set/cocina.png",
-    "patio_trasero": "familias/familia_2/set/patio_trasero.png"
+    "patio_trasero": "familias/familia_2/set/patio_trasero.png",
+    "sala": "familias/familia_2/set/sala.png",
+    "sala_hacia_entrada": "familias/familia_2/set/sala_hacia_entrada.png",
+    "cocina_puerta_lavanderia": "familias/familia_2/set/cocina_puerta_lavanderia.png",
+    "lavanderia": "familias/familia_2/set/lavanderia.png",
+    "garaje_interior": "familias/familia_2/set/garaje_interior.png",
+    "cuarto_lily": "familias/familia_2/set/cuarto_lily.png",
+    "pasillo": "familias/familia_2/set/pasillo.png",
+    "cuarto_principal": "familias/familia_2/set/cuarto_principal.png"
   },
-
   "control_calidad": "Igual que la familia 1: ver familias/familia_1/biblia.json → control_calidad (guion, fotos de partida, acciones seguras/arriesgadas, video terminado, publicación).",
   "errores_aprendidos": "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias."
 }

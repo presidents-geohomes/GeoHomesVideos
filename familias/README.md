@@ -18,3 +18,4 @@ Reglas para no cambiar nada entre episodios:
 | Familia | Idioma | Serie | Carpeta |
 |---|---|---|---|
 | Familia 1 · Daniel, Mariana y Floyd | Español | Casa que te entiende | `familias/familia_1/` |
+| Familia 2 · Emma, Lily y Biscuit | Inglés | Home, Simplified | `familias/familia_2/` |
