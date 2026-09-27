@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_2/candidatos",
+  "archivo": "vehiculo_suv_2.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_dia.png"
+  ],
+  "prompt": "Keep this exact same house: white stucco walls, gray flat-tile roof, the curved arch line above the wide white garage door on the left, white chimney, covered front porch with square columns, black metal bench, gray window shutters, potted palms, green lawn and concrete driveway. Same camera angle, late-afternoon golden hour light. Parked on the concrete driveway in front of the closed garage: a pearl-white compact SUV shaped like a Toyota RAV4, with NO badges, NO emblems, NO logos and NO lettering anywhere, seen from the front three-quarter angle. No people. Photorealistic, vertical 9:16, no text, no logos, no brand emblems or badges."
+}
