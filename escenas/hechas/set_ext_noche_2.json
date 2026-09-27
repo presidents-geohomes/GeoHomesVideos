@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "casa/set_espanol/candidatos",
+  "archivo": "ext_noche_2.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "personajes/elegidos/casa_espanol.png"
+  ],
+  "prompt": "Keep this exact same house: identical architecture, sand-colored stucco, terracotta barrel-tile roof, arched entry with the dark wood door and two black lanterns, white two-car garage door, paver driveway, palm trees and red tropical plants. Same camera angle and framing. Change the time to night: deep blue sky, warm landscape uplights on the palms, both wall lanterns on, warm light glowing from the windows, the garage door closed. Photorealistic, vertical 9:16, no people, no text, no logos.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "20c14317-267a-4906-aceb-5bc64a8947d0",
+  "resultado": [
+    "casa/set_espanol/candidatos/ext_noche_2_1.png"
+  ],
+  "generado": "2026-09-27T19:04:55Z"
+}
