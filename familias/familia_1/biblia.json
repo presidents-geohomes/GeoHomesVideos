@@ -4,7 +4,10 @@
   "serie": "Casa que te entiende",
   "cierre": "Tu casa, a tu ritmo.",
   "lugar": "Geo Homes · Naples, FL",
-  "publicacion": ["martes", "viernes"],
+  "publicacion": [
+    "martes",
+    "viernes"
+  ],
   "narradora": {
     "nombre": "Samanta - Warm, Tender, Expressive (ElevenLabs)",
     "voice_id": "qBvury71WUJfVeT1STkG",
@@ -12,7 +15,6 @@
     "uso": "Solo una o dos frases, al final del episodio."
   },
   "musica": "Pista instrumental original con ElevenLabs Music: cálida, moderna, guitarra acústica suave, piano ligero, ~95 BPM, sin voces. Puede sonar desde el altavoz de la cocina y el altavoz la baja o la sube.",
-
   "reglas_guion": [
     "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado.",
     "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
@@ -27,7 +29,6 @@
     "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set'). Nunca moverlos entre tomas.",
     "Para que una acción de la casa se vea sí o sí (garaje, persianas, luces), usar foto inicial + foto final del set."
   ],
-
   "personajes": {
     "daniel": {
       "foto": "familias/familia_1/personajes/daniel.png",
@@ -45,7 +46,8 @@
       "ropa": "En casa: tonos crema y blanco (blusa de lino). Al volver del trabajo: uniforme clínico azul claro.",
       "trabajo": "Higienista dental.",
       "rutina": "Trabaja 8:00 a. m. – 4:00 p. m.; llega a casa antes que Daniel.",
-      "vehiculo": "sedan_mariana"
+      "vehiculo": "sedan_mariana",
+      "ficha_trabajo": "familias/familia_1/personajes/mariana_trabajo.png"
     },
     "floyd": {
       "foto": "familias/familia_1/personajes/floyd.png",
@@ -54,7 +56,6 @@
       "cosas": "Cama en la sala, en la esquina que mira a la entrada. Platos en la cocina, junto a la puerta blanca de la lavandería. Cámara para mascotas en la sala."
     }
   },
-
   "vehiculos": {
     "pickup_daniel": {
       "foto": "familias/familia_1/vehiculos/pickup_daniel.png",
@@ -62,12 +63,11 @@
       "lugar": "Lado IZQUIERDO del garaje (mirando desde la calle)."
     },
     "sedan_mariana": {
-      "foto": "familias/familia_1/vehiculos/sedan_mariana.png",
+      "foto": "PENDIENTE (la foto exterior aún muestra el emblema; usar set/garaje_interior.png)",
       "descripcion": "Sedán eléctrico rojo con la forma de un Tesla Model 3, SIN emblemas ni logos.",
       "lugar": "Lado DERECHO del garaje, conectado al cargador eléctrico de pared."
     }
   },
-
   "casa": {
     "plano": "familias/familia_1/plano.png",
     "resumen": "Casa regular de una planta en Naples, convertida en smart. 3 cuartos, 2 baños, garaje doble, cocina abierta a la sala, lavandería entre garaje y cocina, lanai cubierto y piscina con jaula de malla atrás.",
@@ -83,7 +83,6 @@
       "lanai": "Cubierto, ventiladores de techo, mesa exterior, parrilla; piscina rectangular con luces y jaula de malla."
     }
   },
-
   "aparatos": {
     "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz arriba, sin logo) en el CENTRO de la isla de la cocina. Siempre ahí.",
     "luces": "Todas las luces de la casa se controlan con interruptores inteligentes (smart switches) en su lugar de siempre; las lámparas y luces NO cambian de posición.",
@@ -99,7 +98,6 @@
     "piscina": "Luces de piscina y bomba automatizadas; luces del lanai.",
     "riego": "Riego automático del jardín delantero."
   },
-
   "set": {
     "_nota": "Fotos fijas aprobadas. Cada plano de un episodio parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
     "ext_dia": "familias/familia_1/set/ext_dia.png",
@@ -108,6 +106,15 @@
     "ext_garaje_abierto": "familias/familia_1/set/ext_garaje_abierto.png",
     "ext_garaje_cerca": "familias/familia_1/set/ext_garaje_cerca.png",
     "cocina": "familias/familia_1/set/cocina.png",
-    "lanai_piscina": "familias/familia_1/set/lanai_piscina.png"
-  }
+    "lanai_piscina": "familias/familia_1/set/lanai_piscina.png",
+    "sala": "familias/familia_1/set/sala.png",
+    "sala_hacia_entrada": "familias/familia_1/set/sala_hacia_entrada.png",
+    "cocina_puerta_lavanderia": "familias/familia_1/set/cocina_puerta_lavanderia.png",
+    "lavanderia": "familias/familia_1/set/lavanderia.png",
+    "garaje_interior": "familias/familia_1/set/garaje_interior.png",
+    "cuarto_principal": "familias/familia_1/set/cuarto_principal.png"
+  },
+  "pendientes": [
+    "Foto exterior del sedán rojo sin emblema."
+  ]
 }
