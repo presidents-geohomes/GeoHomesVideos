@@ -1,0 +1,18 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES03",
+  "archivo": "k6b_fix_1.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES03/k6b_pickup_abierto_1_1.png",
+    "familias/familia_1/set/garaje_interior.png"
+  ],
+  "prompt": "Keep the first reference image exactly the same: same house, same framing, same golden-hour light, same black pickup in the same position on the driveway. The ONLY change: inside the open garage, in the RIGHT bay, the red electric sedan from the second reference image is parked nose-in and plugged into the wall charger, partly visible behind/next to the pickup. No badges, no emblems, no logos, no text. Photorealistic, vertical 9:16.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "e083f7e1-8d23-4815-a675-a8839929b57f",
+  "resultado": [
+    "planos/ES03/k6b_fix_1_1.png"
+  ],
+  "generado": "2026-09-27T20:21:53Z"
+}
