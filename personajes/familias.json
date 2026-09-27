@@ -1,0 +1,67 @@
+{
+  "_nota": "Biblia de personajes. Cada episodio usa estas descripciones y las fotos de personajes/elegidos/ para que las caras, la casa y las mascotas no cambien. Los personajes nunca hablan: solo actúan. La historia la cuenta el narrador.",
+  "reglas_marca": [
+    "Se vende comodidad, tranquilidad y tiempo, nunca el aparato.",
+    "Sin precios, porcentajes, garantías, marcas de aparatos ni testimonios.",
+    "Personajes sin diálogo; un narrador con voz fija por idioma.",
+    "Cierre fijo: logo Geo Homes + frase de la serie + 'Naples, FL'.",
+    "Luz cálida y natural, estética de comercial de marca premium."
+  ],
+  "espanol": {
+    "serie": "Casa que te entiende",
+    "cierre": "Tu casa, a tu ritmo.",
+    "publicacion": ["martes", "viernes"],
+    "narrador": "Voz masculina o femenina cálida, español latino neutro, pausada, cercana (se fija en la primera prueba).",
+    "casa": {
+      "foto": "personajes/elegidos/casa_espanol.png",
+      "descripcion": "Casa de una planta en Naples, FL: estuco color arena, techo de teja terracota, entrada en arco con puerta de madera oscura y dos faroles, garaje doble con puerta blanca a la izquierda, entrada de adoquín, palmeras y plantas tropicales rojas y verdes, césped cuidado."
+    },
+    "personajes": {
+      "daniel": {
+        "foto": "personajes/elegidos/daniel.png",
+        "descripcion": "Daniel, hombre hispano de 37 años, pelo castaño oscuro corto, barba corta bien cuidada, piel morena clara, complexión atlética, sonrisa cálida. Suele vestir henley verde oliva o camisetas lisas.",
+        "trabajo": "Dueño de un pequeño negocio de jardinería y paisajismo en Naples; madruga y pasa el día fuera, en camioneta."
+      },
+      "mariana": {
+        "foto": "personajes/elegidos/mariana.png",
+        "descripcion": "Mariana, mujer hispana de 35 años, pelo largo ondulado castaño oscuro, ojos marrones, maquillaje natural, aretes pequeños dorados, blusa color crema.",
+        "trabajo": "Higienista dental en una clínica de Naples; horario de consulta, llega a casa al atardecer."
+      },
+      "canela": {
+        "foto": "personajes/elegidos/canela.png",
+        "descripcion": "Canela, pitbull (American Pit Bull Terrier) hembra, pelaje canela/leonado brillante, mancha blanca en el pecho, orejas medianas, expresión alegre y dulce."
+      }
+    }
+  },
+  "ingles": {
+    "serie": "Home, Simplified",
+    "cierre": "Home that keeps up.",
+    "publicacion": ["miércoles", "sábado"],
+    "narrador": "Warm American English voice, calm and reassuring (fixed after the first test).",
+    "casa": {
+      "foto": "personajes/elegidos/casa_ingles.png",
+      "descripcion": "Single-story home in Naples, FL: white stucco walls, gray shingle roof, attached garage with white door on the left, covered front porch with a dark bench and potted plants, gray window shutters, palm trees, green lawn, concrete driveway."
+    },
+    "personajes": {
+      "emma": {
+        "foto": "personajes/elegidos/emma.png",
+        "descripcion": "Emma, 41-year-old American woman, shoulder-length honey-blonde hair, light freckles, blue-green eyes, kind confident smile, light-blue chambray shirt.",
+        "trabajo": "Hospital nurse in Naples with rotating shifts; sometimes leaves before dawn or comes home at night."
+      },
+      "lily": {
+        "foto": "personajes/elegidos/lily.png",
+        "descripcion": "Lily, Emma's 9-year-old daughter, long light-brown hair in a ponytail, freckles, big bright smile, often in a yellow t-shirt.",
+        "trabajo": "Elementary school student; comes home from school on the bus."
+      },
+      "papa": {
+        "foto": null,
+        "descripcion": "Lily's dad works away from home for seasons (e.g. offshore or on the road). He is never shown on screen; appears only as absence — a video call, a photo on the fridge, a returning moment in the future.",
+        "trabajo": "Works away for seasons."
+      },
+      "biscuit": {
+        "foto": "personajes/elegidos/biscuit.png",
+        "descripcion": "Biscuit, a fluffy long-haired orange tabby cat with green eyes, calm and affectionate, loves the gray sofa."
+      }
+    }
+  }
+}
