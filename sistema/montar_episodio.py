@@ -132,6 +132,14 @@ def normalizar(origen, destino, segundos):
 
 
 # ---------- 2. cierre ----------
+def elegir_oferta(oferta):
+    """La oferta puede ser un texto o una lista de textos (se elige una al azar)."""
+    import random
+    if isinstance(oferta, list):
+        return random.choice(oferta) if oferta else None
+    return oferta
+
+
 def tarjeta_cierre(frase, lugar, destino_png, oferta=None):
     img = Image.new("RGB", (W, H), CREMA)
     d = ImageDraw.Draw(img)
@@ -293,7 +301,7 @@ def montar(ep):
     cierre = ep.get("cierre", {})
     seg_cierre = float(cierre.get("segundos", 3))
     tarjeta_cierre(cierre.get("frase", ""), cierre.get("lugar", "Geo Homes · Naples, FL"),
-                   f"{TMP}/cierre.png", cierre.get("oferta"))
+                   f"{TMP}/cierre.png", elegir_oferta(cierre.get("oferta")))
     sh("ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", f"{TMP}/cierre.png",
        "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
        "-vf", f"fps={FPS},format=yuv420p,zoompan=z='1+0.0006*on':d=1:s={W}x{H}:fps={FPS}",

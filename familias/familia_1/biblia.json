@@ -117,7 +117,11 @@
   "pendientes": [
     "Foto exterior del sedán rojo sin emblema."
   ],
-  "oferta_cierre": "Estimados sin costo · Hacemos tu casa inteligente",
+  "oferta_cierre": [
+    "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+    "Estimado gratis · Tu casa actual, ahora inteligente",
+    "Cotiza sin compromiso · Hacemos tu casa inteligente"
+  ],
   "control_calidad": {
     "1_guion": [
       "¿Cada plano ocurre por causa del anterior? ¿Falta algún paso para entender la historia?",
@@ -168,5 +172,6 @@
     "ES03 v1: la pickup llegaba con los faros hacia la calle (al revés) → revisar la dirección de vehículos y personas.",
     "ES03 v1: el garaje no subía, se 'fundía' con la foto final (inicio y final eran ediciones distintas) → evitar acciones arriesgadas; foto final solo editando la misma foto inicial; detector de fundidos.",
     "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica."
-  ]
+  ],
+  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }

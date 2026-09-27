@@ -4,7 +4,11 @@
   "serie": "Home, Simplified",
   "cierre": "Home that keeps up.",
   "lugar": "Geo Homes · Naples, FL",
-  "oferta_cierre": "Free estimates · We make your home smart",
+  "oferta_cierre": [
+    "Free visit & estimate · We make your home smart",
+    "Free estimate · Your current home, now smart",
+    "No-obligation quote · We make your home smart"
+  ],
   "publicacion": [
     "miércoles",
     "sábado"
@@ -115,5 +119,6 @@
     "cuarto_principal": "familias/familia_2/set/cuarto_principal.png"
   },
   "control_calidad": "Igual que la familia 1: ver familias/familia_1/biblia.json → control_calidad (guion, fotos de partida, acciones seguras/arriesgadas, video terminado, publicación).",
-  "errores_aprendidos": "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias."
+  "errores_aprendidos": "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias.",
+  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }
