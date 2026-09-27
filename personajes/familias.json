@@ -40,6 +40,12 @@
         "descripcion": "Floyd, pitbull (American Pit Bull Terrier) macho, pelaje canela/leonado brillante (red-nose), gran mancha blanca en el pecho, orejas medianas semierguidas, ojos ámbar, expresión alegre con la boca abierta y la lengua fuera, musculoso y bien cuidado.",
         "trabajo": "El perro de la casa: recibe a Daniel en la puerta, duerme en el sofá, sigue a Mariana por la cocina."
       }
+    },
+    "sets": {
+      "interior": "Warm, regular single-story Florida home interior: white shaker kitchen cabinets, light quartz countertops, light oak wood-look floors, warm beige walls, a kitchen island with three wooden stools, pendant lights, open plan to a living room with a gray fabric sofa and woven rug. A small generic smart speaker (matte fabric cylinder with a soft glowing light ring on top, no logo) sits on the counter.",
+      "exterior": "The family's single-story home: sand-colored stucco, terracotta barrel-tile roof, arched entry with dark wood door and two black wall lanterns, white two-car garage door on the left, paver driveway, palm trees, red and green tropical plants, small discreet security camera mounted under the eave near the garage.",
+      "vehiculo": "Daniel's dark gray pickup truck (generic, no logos) used for his landscaping business.",
+      "hora": "Golden hour / early dusk, warm low sun, sky turning orange and soft blue."
     }
   },
   "ingles": {
@@ -75,5 +81,18 @@
         "descripcion": "Biscuit, a fluffy long-haired orange tabby cat with green eyes, calm and affectionate, loves the gray sofa."
       }
     }
-  }
+  },
+  "reglas_guion": [
+    "Orden cronológico real: cada plano ocurre porque ocurrió el anterior (causa → aviso → reacción → orden → acción de la casa → resultado).",
+    "Una sola línea de tiempo: misma hora del día y misma luz en todos los planos del episodio.",
+    "Continuidad de lugares: nadie cambia de habitación entre planos sin verlo moverse.",
+    "Toda orden (por voz o por celular) aparece ANTES de su efecto, nunca en el mismo plano ni después.",
+    "La casa es la protagonista: personas lejos, de espaldas o desenfocadas; nunca primer plano de caras.",
+    "Celular: se ve usar, nunca se ve la pantalla ni ninguna app.",
+    "Sin marcas: altavoz inteligente genérico (cilindro/disco neutro con aro de luz), sin logos.",
+    "Sin diálogos: órdenes y avisos como textos en pantalla; la narradora solo al final.",
+    "Casas regulares convertidas en smart: nada futurista, dispositivos discretos y creíbles.",
+    "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
+    "La música puede ser parte de la historia: el altavoz la baja, la pausa o la sube."
+  ]
 }
