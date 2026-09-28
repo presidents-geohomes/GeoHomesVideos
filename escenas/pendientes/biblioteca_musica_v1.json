@@ -1,0 +1,110 @@
+{
+  "tipo": "musica",
+  "carpeta": "musica/biblioteca",
+  "pistas": [
+    {
+      "id": "es_tropical_alegre",
+      "idioma": "es",
+      "estilo": "Pop latino tropical alegre",
+      "usar_para": "Consejos, beneficios, ideas prácticas, ganchos positivos",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Upbeat modern Latin tropical pop, acoustic guitar strums, marimba melody, congas and shaker, bright and sunny, 104 BPM, feel-good Miami vibe.",
+      "segundos": 22
+    },
+    {
+      "id": "es_reggaeton_suave",
+      "idioma": "es",
+      "estilo": "Reggaetón suave moderno",
+      "usar_para": "Tecnología, control por voz, ganchos con energía, 'mira lo que hace tu casa'",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Smooth modern reggaeton dembow beat, warm synth pads, plucked guitar riff, deep bass, confident and catchy but clean and radio friendly, 94 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "es_bachata_moderna",
+      "idioma": "es",
+      "estilo": "Bachata moderna",
+      "usar_para": "Comodidad, familia, llegar a casa, rutinas de noche",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Modern bachata, romantic requinto guitar melody, bongos and güira, soft bass, warm and cozy, relaxed tempo 128 BPM bachata feel.",
+      "segundos": 22
+    },
+    {
+      "id": "es_salsa_ligera",
+      "idioma": "es",
+      "estilo": "Salsa ligera",
+      "usar_para": "Promociones, celebraciones, datos sorprendentes, antes y después",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Light upbeat salsa, piano montuno, bright brass stabs, timbales and cowbell, joyful and festive, 180 BPM clave feel, polished.",
+      "segundos": 22
+    },
+    {
+      "id": "es_bossa_latina",
+      "idioma": "es",
+      "estilo": "Bossa / chill latino",
+      "usar_para": "Seguridad, tranquilidad, ahorro de energía, casa en calma",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Latin chill bossa nova, nylon string guitar, soft brushed drums, gentle Rhodes, calm and elegant, 90 BPM, reassuring mood.",
+      "segundos": 22
+    },
+    {
+      "id": "es_cumbia_pop",
+      "idioma": "es",
+      "estilo": "Cumbia pop",
+      "usar_para": "Curiosidades, humor ligero, mitos y verdades",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Playful modern cumbia pop, güira scraper, bouncy bass, bright synth lead, cheerful and fun, 96 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "es_tormenta_latina",
+      "idioma": "es",
+      "estilo": "Tensión a calma (percusión latina)",
+      "usar_para": "Huracanes, tormentas, alertas, seguridad cuando estás lejos",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Cinematic Latin percussion, tense pulsing toms and low strings at the start, then resolves into a warm hopeful guitar and piano theme, 100 BPM, reassuring ending.",
+      "segundos": 22
+    },
+    {
+      "id": "en_upbeat_pop",
+      "idioma": "en",
+      "estilo": "Upbeat pop",
+      "usar_para": "Tips, benefits, positive hooks",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Feel-good upbeat pop, handclaps, bright piano chords, punchy kick, whistle-like synth hook, optimistic, 116 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "en_tech_electronic",
+      "idioma": "en",
+      "estilo": "Modern tech electronic",
+      "usar_para": "Technology, voice control, 'watch what your home does'",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Modern sleek electronic tech beat, pulsing arpeggiated synths, crisp drums, futuristic but friendly, 120 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "en_acoustic_warm",
+      "idioma": "en",
+      "estilo": "Warm acoustic",
+      "usar_para": "Comfort, family, coming home, night routines",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Warm acoustic folk-pop, fingerpicked guitar, soft claps, gentle piano, cozy and heartfelt, 100 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "en_chill_lofi",
+      "idioma": "en",
+      "estilo": "Chill lo-fi",
+      "usar_para": "Security, calm, energy savings, a peaceful home",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Chill lo-fi hip hop, mellow Rhodes chords, soft vinyl texture, laid-back boom bap drums, calm and relaxing, 85 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "en_funk_groove",
+      "idioma": "en",
+      "estilo": "Funky groove",
+      "usar_para": "Promos, fun facts, before and after, myths vs facts",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Funky groove, slap bass, wah guitar, tight drums, horn stabs, fun and confident, 108 BPM.",
+      "segundos": 22
+    },
+    {
+      "id": "en_storm_cinematic",
+      "idioma": "en",
+      "estilo": "Tension to calm (cinematic)",
+      "usar_para": "Hurricanes, storms, alerts, security while away",
+      "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Cinematic tension to calm, low pulsing strings and deep drums at the start, then resolves into a hopeful warm piano and strings theme, 100 BPM, reassuring ending.",
+      "segundos": 22
+    }
+  ]
+}

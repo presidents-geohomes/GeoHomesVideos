@@ -5,6 +5,11 @@ Procesa en escenas/pendientes/ los JSON con:
   "tipo": "muestras_voz"  -> busca voces y genera una muestra de cada una.
       {"tipo": "muestras_voz", "idioma": "es", "genero": "female",
        "texto": "Frase de prueba...", "carpeta": "muestras/voces_es", "cuantas": 4}
+  "tipo": "musica"        -> genera pistas instrumentales (biblioteca de música).
+      {"tipo": "musica", "carpeta": "musica/biblioteca",
+       "pistas": [{"id": "es_bachata", "idioma": "es", "estilo": "...", "usar_para": "...",
+                   "prompt": "...", "segundos": 22}]}
+      Añade/actualiza cada pista en <carpeta>/biblioteca.json.
   "tipo": "narracion"     -> genera la narración de un episodio con una voz fija.
       {"tipo": "narracion", "voice_id": "...", "texto": "...",
        "carpeta": "...", "archivo": "narracion.mp3", "idioma": "es"}
@@ -24,7 +29,7 @@ API = "https://api.elevenlabs.io"
 CLAVE = os.environ.get("ELEVENLABS_API_KEY", "").strip()
 UA = "GeoHomesVideos/1.0 (+https://github.com/presidents-geohomes/GeoHomesVideos)"
 MODELO = "eleven_multilingual_v2"
-TIPOS = {"muestras_voz", "narracion"}
+TIPOS = {"muestras_voz", "narracion", "musica"}
 
 
 def pedir(ruta, datos=None, binario=False):
@@ -125,6 +130,33 @@ def muestras(t):
     return hechas
 
 
+def biblioteca_musica(t):
+    carpeta = t.get("carpeta", "musica/biblioteca")
+    indice_ruta = os.path.join(carpeta, "biblioteca.json")
+    indice = json.load(open(indice_ruta, encoding="utf-8")) if os.path.exists(indice_ruta) else {"pistas": []}
+    por_id = {p["id"]: p for p in indice["pistas"]}
+    hechas, fallos = [], []
+    for p in t["pistas"]:
+        destino = os.path.join(carpeta, p["id"] + ".mp3")
+        try:
+            componer_musica(p["prompt"], int(p.get("segundos", 22)) * 1000, destino)
+        except RuntimeError as e:
+            print(f"  {p['id']}: ERROR {e}")
+            fallos.append(f"{p['id']}: {e}")
+            continue
+        entrada = {k: v for k, v in p.items()}
+        entrada["archivo"] = destino
+        por_id[p["id"]] = entrada
+        hechas.append(destino)
+        print(f"  Pista {p['id']} -> {destino}")
+    indice["pistas"] = sorted(por_id.values(), key=lambda x: x["id"])
+    os.makedirs(carpeta, exist_ok=True)
+    json.dump(indice, open(indice_ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    if not hechas:
+        raise RuntimeError("No se generó ninguna pista: " + "; ".join(fallos))
+    return {"hechas": hechas, "fallos": fallos}
+
+
 def procesar(ruta):
     nombre = os.path.basename(ruta)
     t = json.load(open(ruta, encoding="utf-8"))
@@ -132,6 +164,8 @@ def procesar(ruta):
     try:
         if t["tipo"] == "muestras_voz":
             t["resultado"] = muestras(t)
+        elif t["tipo"] == "musica":
+            t["resultado"] = biblioteca_musica(t)
         else:
             destino = os.path.join(t["carpeta"], t.get("archivo", "narracion.mp3"))
             hablar(t["voice_id"], t["texto"], t.get("idioma", "es"), destino)
