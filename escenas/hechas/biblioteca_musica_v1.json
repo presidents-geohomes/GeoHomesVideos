@@ -106,5 +106,25 @@
       "prompt": "Instrumental only, no vocals, no singing. Clean professional mix for a short social media video, strong catchy intro from the first second, steady groove all the way, ends with a clear final hit. Cinematic tension to calm, low pulsing strings and deep drums at the start, then resolves into a hopeful warm piano and strings theme, 100 BPM, reassuring ending.",
       "segundos": 22
     }
-  ]
+  ],
+  "resultado": {
+    "hechas": [
+      "musica/biblioteca/es_tropical_alegre.mp3",
+      "musica/biblioteca/es_reggaeton_suave.mp3",
+      "musica/biblioteca/es_bachata_moderna.mp3",
+      "musica/biblioteca/es_salsa_ligera.mp3",
+      "musica/biblioteca/es_bossa_latina.mp3",
+      "musica/biblioteca/es_cumbia_pop.mp3",
+      "musica/biblioteca/es_tormenta_latina.mp3",
+      "musica/biblioteca/en_upbeat_pop.mp3",
+      "musica/biblioteca/en_tech_electronic.mp3",
+      "musica/biblioteca/en_acoustic_warm.mp3",
+      "musica/biblioteca/en_chill_lofi.mp3",
+      "musica/biblioteca/en_funk_groove.mp3",
+      "musica/biblioteca/en_storm_cinematic.mp3"
+    ],
+    "fallos": []
+  },
+  "estado": "hecho",
+  "fecha": "2026-09-28T21:10:09Z"
 }
