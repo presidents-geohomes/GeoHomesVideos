@@ -1,0 +1,125 @@
+{
+ "_nota": "EN01 v2. Planos: 1=0 2=3.5 3=5.5 4=9.5 5=13 6=15.5 7=18 cierre=22.5. Voz: 0.4-3.1, 5.9-7.9, 10.5-12.9, 18.5-21.5, 23-24.5. Luz verde de la cerradura: 5.03 s.",
+ "efectos": [
+  {
+   "archivo": "sonidos/biblioteca/amb_calle.mp3",
+   "en": 0.0,
+   "db": -38,
+   "dur": 4.0,
+   "salida": 0.5
+  },
+  {
+   "archivo": "sonidos/biblioteca/bus_se_va.mp3",
+   "en": 0.2,
+   "db": -37,
+   "dur": 3.3,
+   "entrada": 0.2,
+   "salida": 0.8
+  },
+  {
+   "archivo": "sonidos/biblioteca/pasos_nina.mp3",
+   "en": 0.3,
+   "db": -40,
+   "dur": 3.4,
+   "entrada": 0.3,
+   "salida": 0.5
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_calle.mp3",
+   "en": 3.5,
+   "db": -42,
+   "desde": 1.0,
+   "dur": 2.2,
+   "entrada": 0.3,
+   "salida": 0.5
+  },
+  {
+   "archivo": "sonidos/biblioteca/cerradura_teclado_1.mp3",
+   "en": 5.03,
+   "db": -29,
+   "alinear": true
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_sala.mp3",
+   "en": 5.5,
+   "db": -42,
+   "dur": 4.2,
+   "entrada": 0.4,
+   "salida": 0.5
+  },
+  {
+   "archivo": "sonidos/biblioteca/gato_ronroneo.mp3",
+   "en": 6.2,
+   "db": -38,
+   "dur": 3.4,
+   "entrada": 0.6,
+   "salida": 0.7
+  },
+  {
+   "archivo": "sonidos/biblioteca/gato_maullido_1.mp3",
+   "en": 8.3,
+   "db": -31,
+   "alinear": true
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_sala.mp3",
+   "en": 9.5,
+   "db": -46,
+   "dur": 3.8,
+   "entrada": 0.4,
+   "salida": 0.5
+  },
+  {
+   "archivo": "sonidos/biblioteca/aviso_celular_1.mp3",
+   "en": 10.0,
+   "db": -29,
+   "alinear": true
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_cocina.mp3",
+   "en": 13.0,
+   "db": -40,
+   "dur": 2.9,
+   "entrada": 0.4,
+   "salida": 0.4
+  },
+  {
+   "archivo": "sonidos/biblioteca/confirma_altavoz_1.mp3",
+   "en": 13.9,
+   "db": -29,
+   "alinear": true
+  },
+  {
+   "archivo": "sonidos/biblioteca/aire_acondicionado.mp3",
+   "en": 15.7,
+   "db": -36,
+   "entrada": 0.6,
+   "salida": 1.2,
+   "alinear": true
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_sala.mp3",
+   "en": 18.0,
+   "db": -42,
+   "dur": 4.5,
+   "entrada": 0.5,
+   "salida": 0.8
+  },
+  {
+   "archivo": "sonidos/biblioteca/gato_ronroneo.mp3",
+   "en": 18.3,
+   "db": -40,
+   "dur": 4.0,
+   "entrada": 0.8,
+   "salida": 0.8
+  },
+  {
+   "archivo": "sonidos/biblioteca/amb_sala.mp3",
+   "en": 15.5,
+   "db": -44,
+   "dur": 3.0,
+   "entrada": 0.4,
+   "salida": 0.5
+  }
+ ]
+}

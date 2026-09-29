@@ -34,9 +34,9 @@
       "idea": "Día de semana, 3:15 p. m. Emma está trabajando en el hospital (no se la ve en el hospital: solo su mano con el celular al final, en un pasillo neutro, o se omite). El autobús escolar se va (sugerido, no mostrado); Lily llega al porche y marca su código en la cerradura → aviso 'Front door unlocked · Lily' → en la cocina el altavoz se ilumina y suena una música suave de bienvenida → Biscuit baja del asiento de la ventana y va hacia la entrada → Lily deja la mochila lila en el gancho → la casa ajusta la temperatura (aviso) → Lily se sienta en la isla con sus tareas y Biscuit a su lado. Narrador (Jon): tranquilidad de una madre que trabaja; cierre 'Geo Homes. Home that keeps up.'",
       "hora_del_dia": "tarde (usar set de día / luz de tarde)",
       "fecha_publicacion": "2026-09-30 10:00",
-      "video": "series/ingles/EN01_lily-gets-home/EN01.mp4",
-      "portada": "series/ingles/EN01_lily-gets-home/EN01_portada.jpg",
-      "sonido": "efectos ElevenLabs (sonidos/EN01/plan_sonido.json)",
+      "video": "series/ingles/EN01_lily-gets-home_v2/EN01.mp4",
+      "portada": "series/ingles/EN01_lily-gets-home_v2/EN01_portada.jpg",
+      "sonido": "efectos ElevenLabs (sonidos/EN01v2/plan_sonido.json)",
       "redes": [
         "tiktok",
         "instagram",
@@ -45,7 +45,8 @@
       ],
       "plannerUrl": [
         "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=654029236844317103"
-      ]
+      ],
+      "nota": "v2 armada con el banco de tomas corregido + Emma en su turno"
     },
     {
       "id": "ES04",
