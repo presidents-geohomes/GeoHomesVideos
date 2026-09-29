@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-pas-noche_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/pasillo.png"
+  ],
+  "prompt": "Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials as the reference photo (white stucco exterior, flat gray tile roof, arched white garage door, front porch with square white columns and a black metal bench, gray shutters, potted palms; interior white walls with shiplap details, white shaker cabinets, navy-blue island with white quartz, brass pendant lights, light oak wood floor, gray sofa, white painted brick fireplace). People are small in frame, far from camera, seen from behind or in soft focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks. Change: Night; the hallway lit only by a dim warm night light.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "278d2941-cb84-4af1-b579-bab3582dee86",
+    "status_url": "https://platform.higgsfield.ai/requests/278d2941-cb84-4af1-b579-bab3582dee86/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/278d2941-cb84-4af1-b579-bab3582dee86/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "278d2941-cb84-4af1-b579-bab3582dee86",
+  "resultado": [
+    "banco/fotos/f2/f2-pas-noche_1_1.jpg"
+  ],
+  "generado": "2026-09-29T04:25:25Z"
+}

@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-lav-biscuit_2.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/lavanderia.png",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials as the reference photo (white stucco exterior, flat gray tile roof, arched white garage door, front porch with square white columns and a black metal bench, gray shutters, potted palms; interior white walls with shiplap details, white shaker cabinets, navy-blue island with white quartz, brass pendant lights, light oak wood floor, gray sofa, white painted brick fireplace). People are small in frame, far from camera, seen from behind or in soft focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks. Change: Biscuit walking calmly across the laundry room floor. Characters must match the references: Emma: American woman, 41, shoulder-length honey-blonde hair, light chambray shirt and jeans at home or navy nurse scrubs for work. Lily: girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts, lilac backpack. Biscuit: fluffy long-haired orange tabby cat with green eyes. Lily's father NEVER appears.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "1e95dc18-d8c7-4f13-8382-c6b67684acac",
+    "status_url": "https://platform.higgsfield.ai/requests/1e95dc18-d8c7-4f13-8382-c6b67684acac/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/1e95dc18-d8c7-4f13-8382-c6b67684acac/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "1e95dc18-d8c7-4f13-8382-c6b67684acac",
+  "resultado": [
+    "banco/fotos/f2/f2-lav-biscuit_2_1.jpg"
+  ],
+  "generado": "2026-09-29T04:25:02Z"
+}
