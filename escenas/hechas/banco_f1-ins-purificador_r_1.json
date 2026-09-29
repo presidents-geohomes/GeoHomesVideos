@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f1",
+  "archivo": "f1-ins-purificador_r_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/cuarto_principal.png"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show a white cylindrical floor-standing air purifier about knee height with a soft light ring on the terracotta tile floor in the corner of the master bedroom, next to the nightstand. The device fills the center of the frame; the background is softly blurred but clearly this same house.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "ce75fbe4-109e-4733-8685-569e8e00c207",
+    "status_url": "https://platform.higgsfield.ai/requests/ce75fbe4-109e-4733-8685-569e8e00c207/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/ce75fbe4-109e-4733-8685-569e8e00c207/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "ce75fbe4-109e-4733-8685-569e8e00c207",
+  "resultado": [
+    "banco/fotos_insertos/f1/f1-ins-purificador_r_1_1.jpg"
+  ],
+  "generado": "2026-09-29T17:06:50Z"
+}
