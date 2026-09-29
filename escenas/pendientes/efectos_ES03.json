@@ -89,8 +89,5 @@
       "influencia": 0.5,
       "variantes": 2
     }
-  ],
-  "estado": "error",
-  "error": "HTTP 401: {\"detail\":{\"type\":\"authentication_error\",\"code\":\"unauthorized\",\"message\":\"The API key you used is missing the permission sound_generation to execute this operation.\",\"status\":\"missing_permissions\",\"request_id\":\"779c2b344ea17f2cf64ecd14dbcc4995\"}}",
-  "fecha": "2026-09-29T01:54:51Z"
+  ]
 }
