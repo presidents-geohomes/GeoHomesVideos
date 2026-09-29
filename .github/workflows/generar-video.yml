@@ -38,6 +38,11 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Traer lo último (evita repetir tareas ya hechas por otra ejecución)
+        run: git pull --rebase origin main || true
 
       - name: Instalar ffmpeg y Pillow
         run: |
