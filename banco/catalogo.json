@@ -122,22 +122,6 @@
    "usos": 0
   },
   {
-   "id": "f1-auto-daniel",
-   "familia": "f1",
-   "tipo": "toma",
-   "titulo": "Daniel y la pickup al atardecer",
-   "descripcion": "La pickup avanza por la calle frente a la casa mientras Daniel camina.",
-   "grupo": "Llegadas, salidas y autos",
-   "personajes": [
-    "pickup",
-    "daniel"
-   ],
-   "archivo": "banco/tomas/f1/f1-auto-daniel.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-auto-daniel.mp4",
-   "segundos": 5.03,
-   "usos": 0
-  },
-  {
    "id": "f1-auto-mariana-llega",
    "familia": "f1",
    "tipo": "toma",
@@ -584,7 +568,9 @@
    "archivo": "banco/tomas/f1/f1-cua-hecha.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-cua-hecha.mp4",
    "segundos": 5.03,
-   "usos": 0
+   "usos": 0,
+   "usar_hasta": 1.4,
+   "nota": "Después de 1,4 s entra una cortina blanca por la derecha: cortar antes."
   },
   {
    "id": "f1-cua-closet",
@@ -641,21 +627,6 @@
    "personajes": [],
    "archivo": "banco/tomas/f1/f1-gar-interior.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-gar-interior.mp4",
-   "segundos": 5.03,
-   "usos": 0
-  },
-  {
-   "id": "f1-gar-herramientas",
-   "familia": "f1",
-   "tipo": "toma",
-   "titulo": "Daniel ordena sus herramientas",
-   "descripcion": "En los estantes del garaje, de espaldas.",
-   "grupo": "Lavandería, garaje y pasillo",
-   "personajes": [
-    "daniel"
-   ],
-   "archivo": "banco/tomas/f1/f1-gar-herramientas.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-gar-herramientas.mp4",
    "segundos": 5.03,
    "usos": 0
   },
@@ -1132,22 +1103,6 @@
    "usos": 0
   },
   {
-   "id": "f2-auto-emma-llega",
-   "familia": "f2",
-   "tipo": "toma",
-   "titulo": "Emma llega de noche",
-   "descripcion": "Después del turno, camina de la SUV al porche, de espaldas.",
-   "grupo": "Llegadas y autos",
-   "personajes": [
-    "emma_trabajo",
-    "suv"
-   ],
-   "archivo": "banco/tomas/f2/f2-auto-emma-llega.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f2/f2-auto-emma-llega.mp4",
-   "segundos": 5.03,
-   "usos": 0
-  },
-  {
    "id": "f2-auto-suv-entrada",
    "familia": "f2",
    "tipo": "toma",
@@ -1565,19 +1520,6 @@
    ],
    "archivo": "banco/tomas/f2/f2-cua-cuento.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f2/f2-cua-cuento.mp4",
-   "segundos": 5.03,
-   "usos": 0
-  },
-  {
-   "id": "f2-cua-hecha",
-   "familia": "f2",
-   "tipo": "toma",
-   "titulo": "Cama hecha del cuarto principal",
-   "descripcion": "Vacío y ordenado, luz de mañana.",
-   "grupo": "Cuartos",
-   "personajes": [],
-   "archivo": "banco/tomas/f2/f2-cua-hecha.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f2/f2-cua-hecha.mp4",
    "segundos": 5.03,
    "usos": 0
   },
@@ -2131,22 +2073,6 @@
    ],
    "archivo": "banco/insertos/f1/f1-ins-termostato.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-termostato.mp4",
-   "segundos": 3.03,
-   "usos": 0
-  },
-  {
-   "id": "f1-ins-persianas",
-   "familia": "f1",
-   "tipo": "inserto",
-   "titulo": "Persianas y cortinas motorizadas",
-   "descripcion": "The shade lowers smoothly halfway.",
-   "palabras_clave": [
-    "persianas",
-    "cortinas",
-    "blinds"
-   ],
-   "archivo": "banco/insertos/f1/f1-ins-persianas.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-persianas.mp4",
    "segundos": 3.03,
    "usos": 0
   },

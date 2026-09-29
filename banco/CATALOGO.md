@@ -1,6 +1,6 @@
 # Banco de tomas Geo Homes
 
-130 tomas y 60 insertos.
+126 tomas y 59 insertos.
 
 ## Familia 1 · Daniel, Mariana y Floyd
 
@@ -15,7 +15,6 @@
 | Vista aérea del vecindario (toma) | Cámara alta que baja lentamente hacia la casa entre palmeras. | `banco/tomas/f1/f1-ext-aerea.mp4` |
 | Calle del vecindario (toma) | Acera con palmeras al atardecer, casas vecinas de estilo parecido. | `banco/tomas/f1/f1-ext-calle.mp4` |
 | Daniel sale al amanecer (toma) | De espaldas, con su termo, camina hacia la pickup. | `banco/tomas/f1/f1-auto-daniel-sale.mp4` |
-| Daniel y la pickup al atardecer (toma) | La pickup avanza por la calle frente a la casa mientras Daniel camina. | `banco/tomas/f1/f1-auto-daniel.mp4` |
 | Mariana llega en uniforme (toma) | De espaldas, camina de la entrada a la puerta con su bolso. | `banco/tomas/f1/f1-auto-mariana-llega.mp4` |
 | Pickup estacionada (toma) | En la entrada al atardecer, luces traseras encendidas. | `banco/tomas/f1/f1-auto-pickup-entrada.mp4` |
 | Se saludan en la entrada (toma) | Daniel y Mariana se abrazan junto a la pickup, de lejos. | `banco/tomas/f1/f1-auto-saludo.mp4` |
@@ -50,7 +49,6 @@
 | Mariana dobla ropa (toma) | En la lavandería, de espaldas. | `banco/tomas/f1/f1-lav-ropa.mp4` |
 | Daniel entra desde el garaje (toma) | Cruza la lavandería hacia la cocina. | `banco/tomas/f1/f1-lav-daniel.mp4` |
 | Garaje con la puerta abierta (toma) | Sol entrando, pickup y sedán. | `banco/tomas/f1/f1-gar-interior.mp4` |
-| Daniel ordena sus herramientas (toma) | En los estantes del garaje, de espaldas. | `banco/tomas/f1/f1-gar-herramientas.mp4` |
 | Pasillo de noche (toma) | Luz tenue y silencio. | `banco/tomas/f1/f1-pas-noche.mp4` |
 | Floyd cruza la lavandería (toma) | Trotando hacia el garaje. | `banco/tomas/f1/f1-lav-floyd.mp4` |
 | Piscina de día (toma) | Agua moviéndose, jaula de malla y palmeras. | `banco/tomas/f1/f1-lan-piscina.mp4` |
@@ -90,7 +88,6 @@
 | Enchufes inteligentes (inserto) | The plug's small light turns on. | `banco/insertos/f1/f1-ins-enchufes.mp4` |
 | Ventiladores de techo inteligentes (inserto) | The fan starts turning slowly and speeds up. | `banco/insertos/f1/f1-ins-ventiladores.mp4` |
 | Termostato inteligente (inserto) | The ring glow shifts from warm orange to cool blue. | `banco/insertos/f1/f1-ins-termostato.mp4` |
-| Persianas y cortinas motorizadas (inserto) | The shade lowers smoothly halfway. | `banco/insertos/f1/f1-ins-persianas.mp4` |
 | Sensores de agua y fugas (inserto) | A few drops touch it and its light blinks. | `banco/insertos/f1/f1-ins-sensor-agua.mp4` |
 | Válvula de cierre de agua automática (inserto) | The valve lever turns a quarter turn to closed, light turns red. | `banco/insertos/f1/f1-ins-valvula.mp4` |
 | Sensor de humedad / deshumidificador (inserto) | It starts running, the status light turns on, air flows gently. | `banco/insertos/f1/f1-ins-humedad.mp4` |
@@ -119,7 +116,6 @@
 | Porche delantero (toma) | Banco negro, palmeras en macetas y luz de tarde. | `banco/tomas/f2/f2-ext-porche.mp4` |
 | Emma sale de madrugada (toma) | En uniforme, con su café, camina hacia la SUV; de espaldas. | `banco/tomas/f2/f2-auto-emma-sale.mp4` |
 | Emma en la SUV estacionada (toma) | De noche, mira el celular con la pantalla oculta. | `banco/tomas/f2/f2-auto-emma-celular.mp4` |
-| Emma llega de noche (toma) | Después del turno, camina de la SUV al porche, de espaldas. | `banco/tomas/f2/f2-auto-emma-llega.mp4` |
 | SUV estacionada (toma) | En la entrada, de noche, luces encendidas. | `banco/tomas/f2/f2-auto-suv-entrada.mp4` |
 | Lily llega del colegio (toma) | De espaldas, camina de la acera al porche con su mochila lila. | `banco/tomas/f2/f2-auto-lily-llega.mp4` |
 | Emma y Lily se abrazan (toma) | En el porche, de lejos. | `banco/tomas/f2/f2-auto-abrazo.mp4` |
@@ -148,7 +144,6 @@
 | Emma duerme de día (toma) | Cortinas cerradas después del turno de noche. | `banco/tomas/f2/f2-cua-emma-dia.mp4` |
 | Emma lee en la cama (toma) | De noche, lámpara encendida, de lejos. | `banco/tomas/f2/f2-cua-emma-lee.mp4` |
 | Cuento antes de dormir (toma) | Emma le lee a Lily sentada en su cama, de lejos. | `banco/tomas/f2/f2-cua-cuento.mp4` |
-| Cama hecha del cuarto principal (toma) | Vacío y ordenado, luz de mañana. | `banco/tomas/f2/f2-cua-hecha.mp4` |
 | Emma se prepara (toma) | De espaldas frente al clóset, con el uniforme en la mano. | `banco/tomas/f2/f2-cua-closet.mp4` |
 | Emma dobla ropa (toma) | En la lavandería, de espaldas. | `banco/tomas/f2/f2-lav-ropa.mp4` |
 | Pasillo de noche (toma) | Luz tenue, silencio. | `banco/tomas/f2/f2-pas-noche.mp4` |
