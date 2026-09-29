@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/insertos/f2",
+  "archivo": "f2-ins-persianas.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-persianas_1_1.jpg",
+  "duracion": 3,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "The shade lowers smoothly halfway. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "df390d91-5764-4ab9-bb6f-66b478334b18",
+    "status_url": "https://platform.higgsfield.ai/requests/df390d91-5764-4ab9-bb6f-66b478334b18/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/df390d91-5764-4ab9-bb6f-66b478334b18/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "df390d91-5764-4ab9-bb6f-66b478334b18",
+  "resultado": "banco/insertos/f2/f2-ins-persianas.mp4",
+  "generado": "2026-09-29T06:05:21Z"
+}

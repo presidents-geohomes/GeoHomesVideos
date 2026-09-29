@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/insertos/f1",
+  "archivo": "f1-ins-comedero.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos_insertos/f1/f1-ins-comedero_1_1.jpg",
+  "duracion": 3,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "The feeder dispenses a small portion of kibble into its tray. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "bc623bd2-240c-4e5f-acdd-a33f99ecdcc3",
+    "status_url": "https://platform.higgsfield.ai/requests/bc623bd2-240c-4e5f-acdd-a33f99ecdcc3/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/bc623bd2-240c-4e5f-acdd-a33f99ecdcc3/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "bc623bd2-240c-4e5f-acdd-a33f99ecdcc3",
+  "resultado": "banco/insertos/f1/f1-ins-comedero.mp4",
+  "generado": "2026-09-29T05:57:19Z"
+}
