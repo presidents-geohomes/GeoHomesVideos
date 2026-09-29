@@ -89,5 +89,31 @@
       "influencia": 0.5,
       "variantes": 2
     }
-  ]
+  ],
+  "resultado": [
+    "sonidos/ES03/amb_calle.mp3",
+    "sonidos/ES03/camioneta_1.mp3",
+    "sonidos/ES03/camioneta_2.mp3",
+    "sonidos/ES03/amb_cocina.mp3",
+    "sonidos/ES03/aviso_altavoz_1.mp3",
+    "sonidos/ES03/aviso_altavoz_2.mp3",
+    "sonidos/ES03/aviso_celular_1.mp3",
+    "sonidos/ES03/aviso_celular_2.mp3",
+    "sonidos/ES03/confirma_altavoz_1.mp3",
+    "sonidos/ES03/confirma_altavoz_2.mp3",
+    "sonidos/ES03/amb_sala.mp3",
+    "sonidos/ES03/perro_levanta.mp3",
+    "sonidos/ES03/ladrido_1.mp3",
+    "sonidos/ES03/ladrido_2.mp3",
+    "sonidos/ES03/ladrido_3.mp3",
+    "sonidos/ES03/garaje_motor_1.mp3",
+    "sonidos/ES03/garaje_motor_2.mp3",
+    "sonidos/ES03/perro_corre_1.mp3",
+    "sonidos/ES03/perro_corre_2.mp3",
+    "sonidos/ES03/amb_garaje.mp3",
+    "sonidos/ES03/perro_feliz_1.mp3",
+    "sonidos/ES03/perro_feliz_2.mp3"
+  ],
+  "estado": "hecho",
+  "fecha": "2026-09-29T02:10:12Z"
 }
