@@ -1,0 +1,90 @@
+{
+  "id": "en_001_lily_gets_home",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN01_lily-gets-home",
+  "archivo": "EN01.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original warm acoustic instrumental for a heartfelt smart-home family story: soft piano and gentle fingerpicked acoustic guitar, light warm bass, around 90 BPM, tender and hopeful late-afternoon mood, clean mix, no vocals, gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "banco/fotos/f2/f2-auto-lily-llega_1_b_1.jpg",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "Static camera behind the girl. The girl with the lilac backpack walks steadily up the concrete path toward the front door of the house, her ponytail swinging; palm fronds sway gently in the warm late-afternoon breeze. She keeps walking away from the camera toward the door."
+    },
+    {
+      "imagen": "banco/fotos_insertos/f2/f2-ins-cerradura_1_1.jpg",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Lily's home · Front door unlocked",
+      "estilo_texto": "aviso",
+      "prompt": "Extreme close-up of the smart lock keypad on the front door. The keypad softly lights up, a small status light glows green and the knob turns slightly as the deadbolt unlocks. Very slow push-in. Nothing else moves."
+    },
+    {
+      "imagen": "banco/fotos/f2/f2-bis-ventana_1_b_1.jpg",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static camera. The fluffy orange tabby cat sitting on the window seat by the window turns its head toward the room with its ears perked, then calmly hops down onto the wooden floor and walks toward the camera across the living room. The room stays still."
+    },
+    {
+      "imagen": "planos/EN01/k4_entrada_1_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "The girl with the lilac backpack stands just inside the open front door, smiling, while the fluffy orange cat rubs its head against her legs; she bends down and gently pets the cat's back. Slow gentle camera push-in. Warm sunlight on the wooden floor."
+    },
+    {
+      "imagen": "banco/fotos_insertos/f2/f2-ins-altavoz_1_1.jpg",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cool it down a little",
+      "estilo_texto": "orden",
+      "texto_desde": 0.4,
+      "prompt": "Close-up of the gray fabric smart speaker on the kitchen island. The light ring on top glows softly and pulses twice, as if answering a voice command. Very slow push-in. Nothing else moves."
+    },
+    {
+      "imagen": "banco/fotos_insertos/f2/f2-ins-termostato_1_1.jpg",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Thermostat set to 72°F",
+      "estilo_texto": "aviso",
+      "prompt": "Close-up of the round smart thermostat on the hallway wall. Its glowing ring slowly shifts from warm white to a soft cool blue. Very slow push-in. Nothing else moves."
+    },
+    {
+      "imagen": "banco/fotos/f2/f2-coc-tareas_1_b_1.jpg",
+      "duracion": 5,
+      "musica": "media",
+      "prompt": "Seen from behind at a distance, the girl sits on a wooden stool at the navy kitchen island writing calmly in her notebook with a pencil, her ponytail moving slightly. Warm late-afternoon light across the floor. Slow gentle camera drift."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {"escena": 1, "texto": "After school. Mom's still at work.", "desde": 0.3},
+      {"escena": 3, "texto": "But the moment Lily's home, she knows.", "desde": 0.5},
+      {"escena": 6, "texto": "Cool air, and homework time.", "desde": 1.0},
+      {"escena": 7, "texto": "And Mom gets peace of mind, even at work.", "desde": 1.2},
+      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.7}
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 4,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN01/k4_entrada_1_1.png",
+    "titulo": "She's home. Mom knows.",
+    "etiqueta": "Home, Simplified · Ep. 1"
+  }
+}
