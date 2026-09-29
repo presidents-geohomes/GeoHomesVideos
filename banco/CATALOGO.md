@@ -159,7 +159,7 @@
 | Biscuit dormido en el sofá (toma) | Hecho una bola, respiración tranquila. | `banco/tomas/f2/f2-bis-sofa.mp4` |
 | Biscuit se estira al sol (toma) | En el piso de madera junto a la ventana. | `banco/tomas/f2/f2-bis-sol.mp4` |
 | Biscuit mira pájaros (toma) | Por la ventana, moviendo la cola. | `banco/tomas/f2/f2-bis-ventana.mp4` |
-| Biscuit come de su comedero inteligente (toma) | El comedero sirve la porción y Biscuit se acerca. | `banco/tomas/f2/f2-bis-come.mp4` |
+| Biscuit junto a su comedero (toma) | Sentado tranquilo al lado de su comedero inteligente, sin comer. | `banco/tomas/f2/f2-bis-come.mp4` |
 | Biscuit en el patio (toma) | Camina por el césped, con su puerta para mascotas visible en el porche. | `banco/tomas/f2/f2-bis-entra.mp4` |
 | Biscuit camina por el pasillo (toma) | Tranquilo, hacia la cámara. | `banco/tomas/f2/f2-bis-pasillo.mp4` |
 | Regreso de vacaciones (toma) | Con maletas hacia el porche, de espaldas. | `banco/tomas/f2/f2-esp-vacaciones.mp4` |

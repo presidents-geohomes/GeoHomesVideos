@@ -1743,8 +1743,8 @@
    "id": "f2-bis-come",
    "familia": "f2",
    "tipo": "toma",
-   "titulo": "Biscuit come de su comedero inteligente",
-   "descripcion": "El comedero sirve la porción y Biscuit se acerca.",
+   "titulo": "Biscuit junto a su comedero",
+   "descripcion": "Sentado tranquilo al lado de su comedero inteligente, sin comer.",
    "grupo": "Biscuit",
    "personajes": [
     "biscuit"
