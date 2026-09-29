@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f1",
+  "archivo": "f1-cua-closet.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f1/f1-cua-closet_2_b_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "She slides hangers and picks a blouse. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "587c8987-73ec-45a9-9c0c-f2d864ef5efd",
+    "status_url": "https://platform.higgsfield.ai/requests/587c8987-73ec-45a9-9c0c-f2d864ef5efd/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/587c8987-73ec-45a9-9c0c-f2d864ef5efd/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "587c8987-73ec-45a9-9c0c-f2d864ef5efd",
+  "resultado": "banco/tomas/f1/f1-cua-closet.mp4",
+  "generado": "2026-09-29T05:10:25Z"
+}
