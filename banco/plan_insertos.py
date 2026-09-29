@@ -16,8 +16,8 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from plan_tomas import F, NEGATIVO  # noqa: E402
 
-REGLA = ("Close-up product detail shot inside THIS same house, matching exactly the reference photo's materials and "
-         "colors ({paleta}). Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is "
+REGLA = ("Close-up product detail shot in THIS same house, matching exactly the colors and materials of the "
+         "reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is "
          "a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. "
          "No people unless stated (only a hand if stated). No text, no watermarks.")
 
@@ -125,7 +125,7 @@ def partes(iid):
 def tarea_fotos(iid):
     fam, ap, base, lugar, desc, _ = partes(iid)
     f = F[fam]
-    prompt = (REGLA.format(paleta=f["paleta"]) + f" Show {desc} {lugar}. The device fills the center of the frame; "
+    prompt = (REGLA + f" Show {desc} {lugar}. The device fills the center of the frame; "
               "the background is softly blurred but clearly this same house.")
     extra = []
     if ap == "comedero":
