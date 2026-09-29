@@ -8,6 +8,8 @@ Lee episodios/pendientes/*.json:
   "archivo": "ES01.mp4",
   "idioma": "es",
   "escenas": [
+     {"clip": "banco/tomas/f1/f1-ext-atardecer.mp4", "clip_desde": 0.5,   # toma del banco (sin Kling)
+      "duracion": 4},
      {"imagen": "familias/familia_1/set/ext_atardecer.png", "duracion": 4,
       "imagen_final": "familias/familia_1/set/ext_garaje_abierto.png",   # opcional
       "texto": "Abre el garaje", "estilo_texto": "orden",                # opcional
@@ -96,6 +98,10 @@ def url_publica(ruta):
 
 # ---------- 1. escenas ----------
 def generar_escena(i, esc):
+    if esc.get("clip"):
+        # Toma ya hecha (banco de tomas): no se pide nada a Higgsfield
+        print(f"  Escena {i}: clip del banco {esc['clip']}")
+        return ("clip", esc["clip"], float(esc.get("clip_desde", 0.0)))
     cuerpo = {
         "image_url": url_publica(esc["imagen"]),
         "prompt": esc["prompt"] + " Cinematic, warm natural light, smooth slow camera movement, "
@@ -302,12 +308,17 @@ def montar(ep):
 
     clips = []
     for i, (url_estado, esc) in enumerate(zip(estados, escenas), 1):
-        estado = hf.esperar(url_estado)
-        url = hf.buscar_url_video(estado)
-        if not url:
-            raise RuntimeError(f"Escena {i} sin video: {json.dumps(estado)[:400]}")
         crudo = f"{TMP}/crudo_{i}.mp4"
-        hf.descargar(url, crudo)
+        if isinstance(url_estado, tuple):
+            _, ruta, desde = url_estado
+            sh("ffmpeg", "-v", "error", "-y", "-ss", f"{desde}", "-i", ruta, "-an", "-c:v", "libx264",
+               "-preset", "fast", "-crf", "16", crudo)
+        else:
+            estado = hf.esperar(url_estado)
+            url = hf.buscar_url_video(estado)
+            if not url:
+                raise RuntimeError(f"Escena {i} sin video: {json.dumps(estado)[:400]}")
+            hf.descargar(url, crudo)
         norm = f"{TMP}/escena_{i}.mp4"
         normalizar(crudo, norm, float(esc.get("duracion", 5)))
         clips.append((norm, float(esc.get("duracion", 5))))
