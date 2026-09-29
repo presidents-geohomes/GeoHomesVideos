@@ -568,23 +568,6 @@
    "archivo": "banco/tomas/f1/f1-cua-hecha.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-cua-hecha.mp4",
    "segundos": 5.03,
-   "usos": 0,
-   "usar_hasta": 1.4,
-   "nota": "Después de 1,4 s entra una cortina blanca por la derecha: cortar antes."
-  },
-  {
-   "id": "f1-cua-closet",
-   "familia": "f1",
-   "tipo": "toma",
-   "titulo": "Mariana se prepara",
-   "descripcion": "De espaldas frente al clóset, eligiendo ropa.",
-   "grupo": "Cuarto principal",
-   "personajes": [
-    "mariana"
-   ],
-   "archivo": "banco/tomas/f1/f1-cua-closet.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f1/f1-cua-closet.mp4",
-   "segundos": 5.03,
    "usos": 0
   },
   {
@@ -1524,21 +1507,6 @@
    "usos": 0
   },
   {
-   "id": "f2-cua-closet",
-   "familia": "f2",
-   "tipo": "toma",
-   "titulo": "Emma se prepara",
-   "descripcion": "De espaldas frente al clóset, con el uniforme en la mano.",
-   "grupo": "Cuartos",
-   "personajes": [
-    "emma_trabajo"
-   ],
-   "archivo": "banco/tomas/f2/f2-cua-closet.mp4",
-   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/tomas/f2/f2-cua-closet.mp4",
-   "segundos": 5.03,
-   "usos": 0
-  },
-  {
    "id": "f2-lav-ropa",
    "familia": "f2",
    "tipo": "toma",
@@ -1934,7 +1902,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Sensores de movimiento",
-   "descripcion": "Its tiny light blinks once as a shadow passes.",
+   "descripcion": "Its tiny light blinks once as a soft shadow passes.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f1/f1-ins-sensor-mov.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-sensor-mov.mp4",
@@ -1994,7 +1962,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Abridor de garaje inteligente",
-   "descripcion": "The status light turns on and the drive chain starts moving.",
+   "descripcion": "A finger presses the button and its small LED turns green.",
    "palabras_clave": [
     "garaje",
     "garage"
@@ -2025,7 +1993,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Interruptores inteligentes",
-   "descripcion": "A finger taps the switch and the room light behind warms up.",
+   "descripcion": "A finger taps the rocker switch and its tiny LED dot turns on.",
    "palabras_clave": [
     "luces",
     "luz",
@@ -2065,7 +2033,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Termostato inteligente",
-   "descripcion": "The ring glow shifts from warm orange to cool blue.",
+   "descripcion": "The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device.",
    "palabras_clave": [
     "termostato",
     "temperatura",
@@ -2097,7 +2065,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Válvula de cierre de agua automática",
-   "descripcion": "The valve lever turns a quarter turn to closed, light turns red.",
+   "descripcion": "The valve actuator's lever turns a quarter turn to closed and its light turns red.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f1/f1-ins-valvula.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-valvula.mp4",
@@ -2133,7 +2101,7 @@
    "familia": "f1",
    "tipo": "inserto",
    "titulo": "Calentador de agua inteligente",
-   "descripcion": "The controller's light turns on.",
+   "descripcion": "The controller's small status light turns on and glows steadily.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f1/f1-ins-calentador.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-calentador.mp4",
@@ -2206,6 +2174,18 @@
    ],
    "archivo": "banco/insertos/f1/f1-ins-comedero.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-comedero.mp4",
+   "segundos": 3.03,
+   "usos": 0
+  },
+  {
+   "id": "f1-ins-puerta-mascota",
+   "familia": "f1",
+   "tipo": "inserto",
+   "titulo": "Puerta inteligente para mascotas",
+   "descripcion": "The pet door's light turns green and the flap swings.",
+   "palabras_clave": [],
+   "archivo": "banco/insertos/f1/f1-ins-puerta-mascota.mp4",
+   "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f1/f1-ins-puerta-mascota.mp4",
    "segundos": 3.03,
    "usos": 0
   },
@@ -2328,7 +2308,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Sensores de movimiento",
-   "descripcion": "Its tiny light blinks once as a shadow passes.",
+   "descripcion": "Its tiny light blinks once as a soft shadow passes.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f2/f2-ins-sensor-mov.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f2/f2-ins-sensor-mov.mp4",
@@ -2388,7 +2368,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Abridor de garaje inteligente",
-   "descripcion": "The status light turns on and the drive chain starts moving.",
+   "descripcion": "A finger presses the button and its small LED turns green.",
    "palabras_clave": [
     "garaje",
     "garage"
@@ -2419,7 +2399,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Interruptores inteligentes",
-   "descripcion": "A finger taps the switch and the room light behind warms up.",
+   "descripcion": "A finger taps the rocker switch and its tiny LED dot turns on.",
    "palabras_clave": [
     "luces",
     "luz",
@@ -2459,7 +2439,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Termostato inteligente",
-   "descripcion": "The ring glow shifts from warm orange to cool blue.",
+   "descripcion": "The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device.",
    "palabras_clave": [
     "termostato",
     "temperatura",
@@ -2475,7 +2455,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Persianas y cortinas motorizadas",
-   "descripcion": "The shade lowers smoothly halfway.",
+   "descripcion": "The shade lowers smoothly halfway down the window.",
    "palabras_clave": [
     "persianas",
     "cortinas",
@@ -2507,7 +2487,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Válvula de cierre de agua automática",
-   "descripcion": "The valve lever turns a quarter turn to closed, light turns red.",
+   "descripcion": "The valve actuator's lever turns a quarter turn to closed and its light turns red.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f2/f2-ins-valvula.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f2/f2-ins-valvula.mp4",
@@ -2543,7 +2523,7 @@
    "familia": "f2",
    "tipo": "inserto",
    "titulo": "Calentador de agua inteligente",
-   "descripcion": "The controller's light turns on.",
+   "descripcion": "The controller's small status light turns on and glows steadily.",
    "palabras_clave": [],
    "archivo": "banco/insertos/f2/f2-ins-calentador.mp4",
    "url": "https://raw.githubusercontent.com/presidents-geohomes/GeoHomesVideos/main/banco/insertos/f2/f2-ins-calentador.mp4",

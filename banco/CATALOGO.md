@@ -1,6 +1,6 @@
 # Banco de tomas Geo Homes
 
-126 tomas y 59 insertos.
+124 tomas y 60 insertos.
 
 ## Familia 1 · Daniel, Mariana y Floyd
 
@@ -45,7 +45,6 @@
 | Mariana lee en la cama (toma) | De noche, lámpara encendida, de lejos. | `banco/tomas/f1/f1-cua-lee.mp4` |
 | Floyd a los pies de la cama (toma) | Acostado en la alfombra del cuarto. | `banco/tomas/f1/f1-cua-floyd-cama.mp4` |
 | Cama hecha de mañana (toma) | Cuarto vacío y ordenado con luz suave. | `banco/tomas/f1/f1-cua-hecha.mp4` |
-| Mariana se prepara (toma) | De espaldas frente al clóset, eligiendo ropa. | `banco/tomas/f1/f1-cua-closet.mp4` |
 | Mariana dobla ropa (toma) | En la lavandería, de espaldas. | `banco/tomas/f1/f1-lav-ropa.mp4` |
 | Daniel entra desde el garaje (toma) | Cruza la lavandería hacia la cocina. | `banco/tomas/f1/f1-lav-daniel.mp4` |
 | Garaje con la puerta abierta (toma) | Sol entrando, pickup y sedán. | `banco/tomas/f1/f1-gar-interior.mp4` |
@@ -77,27 +76,28 @@
 | Cámara del lanai / patio trasero (inserto) | The camera turns slowly toward the pool/garden, status light blinks. | `banco/insertos/f1/f1-ins-cam-lanai.mp4` |
 | Cámara para mascotas (inserto) | The camera head pans slowly, its small light turns on. | `banco/insertos/f1/f1-ins-cam-mascotas.mp4` |
 | Sensores de puertas y ventanas (inserto) | The door opens a little, the sensor's tiny light blinks. | `banco/insertos/f1/f1-ins-sensor-puertas.mp4` |
-| Sensores de movimiento (inserto) | Its tiny light blinks once as a shadow passes. | `banco/insertos/f1/f1-ins-sensor-mov.mp4` |
+| Sensores de movimiento (inserto) | Its tiny light blinks once as a soft shadow passes. | `banco/insertos/f1/f1-ins-sensor-mov.mp4` |
 | Reflector con cámara (inserto) | At dusk the floodlight switches on brightly. | `banco/insertos/f1/f1-ins-reflector-cam.mp4` |
 | Alarma y sirena (inserto) | The status ring changes from white to green. | `banco/insertos/f1/f1-ins-alarma.mp4` |
 | Caja inteligente para paquetes (inserto) | The lid closes and a small lock light turns green. | `banco/insertos/f1/f1-ins-caja-paquetes.mp4` |
 | Portón o reja eléctrica (inserto) | The gate slowly swings open. | `banco/insertos/f1/f1-ins-porton.mp4` |
-| Abridor de garaje inteligente (inserto) | The status light turns on and the drive chain starts moving. | `banco/insertos/f1/f1-ins-garaje.mp4` |
+| Abridor de garaje inteligente (inserto) | A finger presses the button and its small LED turns green. | `banco/insertos/f1/f1-ins-garaje.mp4` |
 | Cargador de auto eléctrico (inserto) | The charger's light bar pulses softly. | `banco/insertos/f1/f1-ins-cargador.mp4` |
-| Interruptores inteligentes (inserto) | A finger taps the switch and the room light behind warms up. | `banco/insertos/f1/f1-ins-interruptores.mp4` |
+| Interruptores inteligentes (inserto) | A finger taps the rocker switch and its tiny LED dot turns on. | `banco/insertos/f1/f1-ins-interruptores.mp4` |
 | Enchufes inteligentes (inserto) | The plug's small light turns on. | `banco/insertos/f1/f1-ins-enchufes.mp4` |
 | Ventiladores de techo inteligentes (inserto) | The fan starts turning slowly and speeds up. | `banco/insertos/f1/f1-ins-ventiladores.mp4` |
-| Termostato inteligente (inserto) | The ring glow shifts from warm orange to cool blue. | `banco/insertos/f1/f1-ins-termostato.mp4` |
+| Termostato inteligente (inserto) | The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device. | `banco/insertos/f1/f1-ins-termostato.mp4` |
 | Sensores de agua y fugas (inserto) | A few drops touch it and its light blinks. | `banco/insertos/f1/f1-ins-sensor-agua.mp4` |
-| Válvula de cierre de agua automática (inserto) | The valve lever turns a quarter turn to closed, light turns red. | `banco/insertos/f1/f1-ins-valvula.mp4` |
+| Válvula de cierre de agua automática (inserto) | The valve actuator's lever turns a quarter turn to closed and its light turns red. | `banco/insertos/f1/f1-ins-valvula.mp4` |
 | Sensor de humedad / deshumidificador (inserto) | It starts running, the status light turns on, air flows gently. | `banco/insertos/f1/f1-ins-humedad.mp4` |
 | Detector de humo y monóxido inteligente (inserto) | Its ring light pulses green once. | `banco/insertos/f1/f1-ins-humo-co.mp4` |
-| Calentador de agua inteligente (inserto) | The controller's light turns on. | `banco/insertos/f1/f1-ins-calentador.mp4` |
+| Calentador de agua inteligente (inserto) | The controller's small status light turns on and glows steadily. | `banco/insertos/f1/f1-ins-calentador.mp4` |
 | Purificador de aire inteligente (inserto) | It turns on, the light ring glows and the top vent moves air. | `banco/insertos/f1/f1-ins-purificador.mp4` |
 | Altavoz inteligente / control por voz (inserto) | The light ring on top glows and pulses gently. | `banco/insertos/f1/f1-ins-altavoz.mp4` |
 | Robot limpiador de piscina (inserto) | The robot glides slowly along the pool floor. | `banco/insertos/f1/f1-ins-robot-piscina.mp4` |
 | Podadora robot (inserto) | The robot mower glides slowly across the grass. | `banco/insertos/f1/f1-ins-podadora.mp4` |
 | Comedero automático y fuente de agua (inserto) | The feeder dispenses a small portion of kibble into its tray. | `banco/insertos/f1/f1-ins-comedero.mp4` |
+| Puerta inteligente para mascotas (inserto) | The pet door's light turns green and the flap swings. | `banco/insertos/f1/f1-ins-puerta-mascota.mp4` |
 | Aspiradora robot (inserto) | The robot vacuum glides slowly across the floor. | `banco/insertos/f1/f1-ins-aspiradora.mp4` |
 | Cafetera programable inteligente (inserto) | Coffee starts dripping into the carafe, a light turns on. | `banco/insertos/f1/f1-ins-cafetera.mp4` |
 
@@ -144,7 +144,6 @@
 | Emma duerme de día (toma) | Cortinas cerradas después del turno de noche. | `banco/tomas/f2/f2-cua-emma-dia.mp4` |
 | Emma lee en la cama (toma) | De noche, lámpara encendida, de lejos. | `banco/tomas/f2/f2-cua-emma-lee.mp4` |
 | Cuento antes de dormir (toma) | Emma le lee a Lily sentada en su cama, de lejos. | `banco/tomas/f2/f2-cua-cuento.mp4` |
-| Emma se prepara (toma) | De espaldas frente al clóset, con el uniforme en la mano. | `banco/tomas/f2/f2-cua-closet.mp4` |
 | Emma dobla ropa (toma) | En la lavandería, de espaldas. | `banco/tomas/f2/f2-lav-ropa.mp4` |
 | Pasillo de noche (toma) | Luz tenue, silencio. | `banco/tomas/f2/f2-pas-noche.mp4` |
 | Garaje con la SUV (toma) | La SUV, la bici de Lily y luz de tarde. | `banco/tomas/f2/f2-gar-interior.mp4` |
@@ -172,23 +171,23 @@
 | Cámara del lanai / patio trasero (inserto) | The camera turns slowly toward the pool/garden, status light blinks. | `banco/insertos/f2/f2-ins-cam-lanai.mp4` |
 | Cámara para mascotas (inserto) | The camera head pans slowly, its small light turns on. | `banco/insertos/f2/f2-ins-cam-mascotas.mp4` |
 | Sensores de puertas y ventanas (inserto) | The door opens a little, the sensor's tiny light blinks. | `banco/insertos/f2/f2-ins-sensor-puertas.mp4` |
-| Sensores de movimiento (inserto) | Its tiny light blinks once as a shadow passes. | `banco/insertos/f2/f2-ins-sensor-mov.mp4` |
+| Sensores de movimiento (inserto) | Its tiny light blinks once as a soft shadow passes. | `banco/insertos/f2/f2-ins-sensor-mov.mp4` |
 | Reflector con cámara (inserto) | At dusk the floodlight switches on brightly. | `banco/insertos/f2/f2-ins-reflector-cam.mp4` |
 | Alarma y sirena (inserto) | The status ring changes from white to green. | `banco/insertos/f2/f2-ins-alarma.mp4` |
 | Caja inteligente para paquetes (inserto) | The lid closes and a small lock light turns green. | `banco/insertos/f2/f2-ins-caja-paquetes.mp4` |
 | Portón o reja eléctrica (inserto) | The gate slowly swings open. | `banco/insertos/f2/f2-ins-porton.mp4` |
-| Abridor de garaje inteligente (inserto) | The status light turns on and the drive chain starts moving. | `banco/insertos/f2/f2-ins-garaje.mp4` |
+| Abridor de garaje inteligente (inserto) | A finger presses the button and its small LED turns green. | `banco/insertos/f2/f2-ins-garaje.mp4` |
 | Cargador de auto eléctrico (inserto) | The charger's light bar pulses softly. | `banco/insertos/f2/f2-ins-cargador.mp4` |
-| Interruptores inteligentes (inserto) | A finger taps the switch and the room light behind warms up. | `banco/insertos/f2/f2-ins-interruptores.mp4` |
+| Interruptores inteligentes (inserto) | A finger taps the rocker switch and its tiny LED dot turns on. | `banco/insertos/f2/f2-ins-interruptores.mp4` |
 | Enchufes inteligentes (inserto) | The plug's small light turns on. | `banco/insertos/f2/f2-ins-enchufes.mp4` |
 | Ventiladores de techo inteligentes (inserto) | The fan starts turning slowly and speeds up. | `banco/insertos/f2/f2-ins-ventiladores.mp4` |
-| Termostato inteligente (inserto) | The ring glow shifts from warm orange to cool blue. | `banco/insertos/f2/f2-ins-termostato.mp4` |
-| Persianas y cortinas motorizadas (inserto) | The shade lowers smoothly halfway. | `banco/insertos/f2/f2-ins-persianas.mp4` |
+| Termostato inteligente (inserto) | The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device. | `banco/insertos/f2/f2-ins-termostato.mp4` |
+| Persianas y cortinas motorizadas (inserto) | The shade lowers smoothly halfway down the window. | `banco/insertos/f2/f2-ins-persianas.mp4` |
 | Sensores de agua y fugas (inserto) | A few drops touch it and its light blinks. | `banco/insertos/f2/f2-ins-sensor-agua.mp4` |
-| Válvula de cierre de agua automática (inserto) | The valve lever turns a quarter turn to closed, light turns red. | `banco/insertos/f2/f2-ins-valvula.mp4` |
+| Válvula de cierre de agua automática (inserto) | The valve actuator's lever turns a quarter turn to closed and its light turns red. | `banco/insertos/f2/f2-ins-valvula.mp4` |
 | Sensor de humedad / deshumidificador (inserto) | It starts running, the status light turns on, air flows gently. | `banco/insertos/f2/f2-ins-humedad.mp4` |
 | Detector de humo y monóxido inteligente (inserto) | Its ring light pulses green once. | `banco/insertos/f2/f2-ins-humo-co.mp4` |
-| Calentador de agua inteligente (inserto) | The controller's light turns on. | `banco/insertos/f2/f2-ins-calentador.mp4` |
+| Calentador de agua inteligente (inserto) | The controller's small status light turns on and glows steadily. | `banco/insertos/f2/f2-ins-calentador.mp4` |
 | Purificador de aire inteligente (inserto) | It turns on, the light ring glows and the top vent moves air. | `banco/insertos/f2/f2-ins-purificador.mp4` |
 | Altavoz inteligente / control por voz (inserto) | The light ring on top glows and pulses gently. | `banco/insertos/f2/f2-ins-altavoz.mp4` |
 | Podadora robot (inserto) | The robot mower glides slowly across the grass. | `banco/insertos/f2/f2-ins-podadora.mp4` |

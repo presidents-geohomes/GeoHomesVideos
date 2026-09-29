@@ -6,5 +6,7 @@
  "f1-ins-persianas": "No parece una persiana (tubo blanco en diagonal).",
  "f2-ent-paquete": "El repartidor se lleva la caja.",
  "f2-pat-domingo": "Personas de más.",
- "f2-bis-come_v1": "El gato comiendo se veía mal; reemplazado por Biscuit sentado junto al comedero."
+ "f2-bis-come_v1": "El gato comiendo se veía mal; reemplazado por Biscuit sentado junto al comedero.",
+ "f1-cua-closet": "No coincide con el cuarto (cliente: quitar)",
+ "f2-cua-closet": "No coincide con el cuarto (cliente: quitar)"
 }
