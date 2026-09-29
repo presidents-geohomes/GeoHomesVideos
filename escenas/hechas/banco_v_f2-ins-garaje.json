@@ -2,20 +2,20 @@
   "carpeta": "banco/insertos/f2",
   "archivo": "f2-ins-garaje.mp4",
   "modelo": "kling-video/v3.0/std/image-to-video",
-  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-garaje_1_1.jpg",
+  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-garaje_r_2_1.jpg",
   "duracion": 3,
   "crf": 21,
   "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
-  "prompt": "The status light turns on and the drive chain starts moving. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "prompt": "A finger presses the button and its small LED turns green. Close-up, static camera or very slow push-in, realistic, one clear action only.",
   "respuesta_hf": {
     "status": "completed",
-    "request_id": "187a5a2d-b999-4138-9949-3646b4f40000",
-    "status_url": "https://platform.higgsfield.ai/requests/187a5a2d-b999-4138-9949-3646b4f40000/status",
-    "cancel_url": "https://platform.higgsfield.ai/requests/187a5a2d-b999-4138-9949-3646b4f40000/cancel"
+    "request_id": "b6f4123d-284a-4b90-97d6-dc43f30c1f72",
+    "status_url": "https://platform.higgsfield.ai/requests/b6f4123d-284a-4b90-97d6-dc43f30c1f72/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/b6f4123d-284a-4b90-97d6-dc43f30c1f72/cancel"
   },
   "estado": "hecho",
   "modelo_usado": "kling-video/v3.0/std/image-to-video",
-  "request_id": "187a5a2d-b999-4138-9949-3646b4f40000",
+  "request_id": "b6f4123d-284a-4b90-97d6-dc43f30c1f72",
   "resultado": "banco/insertos/f2/f2-ins-garaje.mp4",
-  "generado": "2026-09-29T06:04:14Z"
+  "generado": "2026-09-29T17:24:27Z"
 }

@@ -2,20 +2,20 @@
   "carpeta": "banco/tomas/f2",
   "archivo": "f2-ext-calle.mp4",
   "modelo": "kling-video/v3.0/std/image-to-video",
-  "imagen_inicial": "banco/fotos/f2/f2-ext-calle_1_b_1.jpg",
+  "imagen_inicial": "banco/fotos/f2/f2-ext-calle_1_r_1.jpg",
   "duracion": 5,
   "crf": 21,
   "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
-  "prompt": "Slow forward dolly along the sidewalk. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "prompt": "Very slow push-in toward the house, palms sway. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
   "respuesta_hf": {
     "status": "completed",
-    "request_id": "e5e239c4-0a89-4adb-99cb-339064270a3a",
-    "status_url": "https://platform.higgsfield.ai/requests/e5e239c4-0a89-4adb-99cb-339064270a3a/status",
-    "cancel_url": "https://platform.higgsfield.ai/requests/e5e239c4-0a89-4adb-99cb-339064270a3a/cancel"
+    "request_id": "265c3c30-ab8c-4de2-a6f6-2cdaaed7c98c",
+    "status_url": "https://platform.higgsfield.ai/requests/265c3c30-ab8c-4de2-a6f6-2cdaaed7c98c/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/265c3c30-ab8c-4de2-a6f6-2cdaaed7c98c/cancel"
   },
   "estado": "hecho",
   "modelo_usado": "kling-video/v3.0/std/image-to-video",
-  "request_id": "e5e239c4-0a89-4adb-99cb-339064270a3a",
+  "request_id": "265c3c30-ab8c-4de2-a6f6-2cdaaed7c98c",
   "resultado": "banco/tomas/f2/f2-ext-calle.mp4",
-  "generado": "2026-09-29T05:44:01Z"
+  "generado": "2026-09-29T17:23:06Z"
 }

@@ -2,20 +2,20 @@
   "carpeta": "banco/insertos/f1",
   "archivo": "f1-ins-interruptores.mp4",
   "modelo": "kling-video/v3.0/std/image-to-video",
-  "imagen_inicial": "banco/fotos_insertos/f1/f1-ins-interruptores_1_1.jpg",
+  "imagen_inicial": "banco/fotos_insertos/f1/f1-ins-interruptores_r_1_1.jpg",
   "duracion": 3,
   "crf": 21,
   "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
-  "prompt": "A finger taps the switch and the room light behind warms up. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "prompt": "A finger taps the rocker switch and its tiny LED dot turns on. Close-up, static camera or very slow push-in, realistic, one clear action only.",
   "respuesta_hf": {
     "status": "completed",
-    "request_id": "1f3c140c-9629-492f-abe3-5aa88e251701",
-    "status_url": "https://platform.higgsfield.ai/requests/1f3c140c-9629-492f-abe3-5aa88e251701/status",
-    "cancel_url": "https://platform.higgsfield.ai/requests/1f3c140c-9629-492f-abe3-5aa88e251701/cancel"
+    "request_id": "b93c6b87-a25b-4468-b95d-b6e33c7691ac",
+    "status_url": "https://platform.higgsfield.ai/requests/b93c6b87-a25b-4468-b95d-b6e33c7691ac/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/b93c6b87-a25b-4468-b95d-b6e33c7691ac/cancel"
   },
   "estado": "hecho",
   "modelo_usado": "kling-video/v3.0/std/image-to-video",
-  "request_id": "1f3c140c-9629-492f-abe3-5aa88e251701",
+  "request_id": "b93c6b87-a25b-4468-b95d-b6e33c7691ac",
   "resultado": "banco/insertos/f1/f1-ins-interruptores.mp4",
-  "generado": "2026-09-29T05:58:44Z"
+  "generado": "2026-09-29T17:19:33Z"
 }
