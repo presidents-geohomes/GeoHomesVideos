@@ -1,0 +1,12 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos/f1",
+ "archivo": "f1-lav-floyd_1_b.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_1/set/lavanderia.png",
+  "familias/familia_1/personajes/floyd_cuerpo.png"
+ ],
+ "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Floyd trotting across the laundry room floor. The only people/animals/vehicles allowed in the image are: Floyd (red-nose pit bull, tan coat, big white chest patch), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks."
+}

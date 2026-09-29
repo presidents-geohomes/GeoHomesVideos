@@ -1,0 +1,13 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos/f2",
+ "archivo": "f2-sal-pelicula_2_b.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_2/set/sala.png",
+  "familias/familia_2/personajes/emma_cuerpo.png",
+  "familias/familia_2/personajes/lily_cuerpo.png"
+ ],
+ "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Night with lights low; Emma and Lily seen from behind on the gray sofa under a blanket with popcorn, TV glow over the fireplace. The only people/animals/vehicles allowed in the image are: Emma (American woman, 41, shoulder-length honey-blonde hair, light chambray shirt, jeans); Lily (girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks."
+}

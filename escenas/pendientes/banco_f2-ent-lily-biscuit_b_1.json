@@ -1,0 +1,13 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos/f2",
+ "archivo": "f2-ent-lily-biscuit_1_b.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_2/set/sala_hacia_entrada.png",
+  "familias/familia_2/personajes/lily_cuerpo.png",
+  "familias/familia_2/personajes/biscuit_cuerpo.png"
+ ],
+ "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: The front door open with afternoon light; Lily just stepped inside while Biscuit rubs against her legs, seen from down the hall. The only people/animals/vehicles allowed in the image are: Lily (girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts); Biscuit (fluffy long-haired orange tabby cat), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks."
+}
