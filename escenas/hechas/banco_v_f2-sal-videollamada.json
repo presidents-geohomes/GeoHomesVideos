@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f2",
+  "archivo": "f2-sal-videollamada.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f2/f2-sal-videollamada_1_b_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "She waves at the tablet and laughs silently. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "72269e88-1892-44d0-b88b-2268e9ebcd93",
+    "status_url": "https://platform.higgsfield.ai/requests/72269e88-1892-44d0-b88b-2268e9ebcd93/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/72269e88-1892-44d0-b88b-2268e9ebcd93/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "72269e88-1892-44d0-b88b-2268e9ebcd93",
+  "resultado": "banco/tomas/f2/f2-sal-videollamada.mp4",
+  "generado": "2026-09-29T05:49:09Z"
+}

@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f1",
+  "archivo": "f1-ins-altavoz_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/cocina.png"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show the light-gray fabric smart speaker with a light ring on top on the light quartz counter of the kitchen island. The device fills the center of the frame; the background is softly blurred but clearly this same house.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "803b0e5c-1519-46a8-9e8f-fdac4497e46e",
+    "status_url": "https://platform.higgsfield.ai/requests/803b0e5c-1519-46a8-9e8f-fdac4497e46e/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/803b0e5c-1519-46a8-9e8f-fdac4497e46e/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "803b0e5c-1519-46a8-9e8f-fdac4497e46e",
+  "resultado": [
+    "banco/fotos_insertos/f1/f1-ins-altavoz_1_1.jpg"
+  ],
+  "generado": "2026-09-29T05:26:44Z"
+}

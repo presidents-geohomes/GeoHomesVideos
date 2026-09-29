@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f2",
+  "archivo": "f2-coc-cafe.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f2/f2-coc-cafe_1_b_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "She sips coffee and looks out the window. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "ee962bc8-c3e8-450a-945c-3fce1723a04b",
+    "status_url": "https://platform.higgsfield.ai/requests/ee962bc8-c3e8-450a-945c-3fce1723a04b/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/ee962bc8-c3e8-450a-945c-3fce1723a04b/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "ee962bc8-c3e8-450a-945c-3fce1723a04b",
+  "resultado": "banco/tomas/f2/f2-coc-cafe.mp4",
+  "generado": "2026-09-29T05:37:49Z"
+}

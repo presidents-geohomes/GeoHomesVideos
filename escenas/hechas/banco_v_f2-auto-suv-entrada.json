@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f2",
+  "archivo": "f2-auto-suv-entrada.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f2/f2-auto-suv-entrada_1_b_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Static camera; lights glow, palms sway. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "4a338715-0c5c-474e-8f7d-ba5143acf2d5",
+    "status_url": "https://platform.higgsfield.ai/requests/4a338715-0c5c-474e-8f7d-ba5143acf2d5/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/4a338715-0c5c-474e-8f7d-ba5143acf2d5/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "4a338715-0c5c-474e-8f7d-ba5143acf2d5",
+  "resultado": "banco/tomas/f2/f2-auto-suv-entrada.mp4",
+  "generado": "2026-09-29T05:35:43Z"
+}
