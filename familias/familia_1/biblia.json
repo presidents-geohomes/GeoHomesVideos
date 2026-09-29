@@ -53,7 +53,7 @@
       "foto": "familias/familia_1/personajes/floyd.png",
       "ficha": "familias/familia_1/personajes/floyd_cuerpo.png",
       "descripcion": "Floyd, pitbull macho (American Pit Bull Terrier red-nose), pelaje canela/leonado brillante, gran mancha blanca en el pecho, orejas medianas semierguidas, ojos ámbar, alegre, musculoso.",
-      "cosas": "Cama en la sala, en la esquina que mira a la entrada. Platos en la cocina, junto a la puerta blanca de la lavandería. Cámara para mascotas en la sala."
+      "cosas": "Cama en la sala, en la esquina que mira a la entrada. Comedero inteligente y fuente de agua en la cocina, junto a la puerta blanca de la lavandería (NUNCA platos). Cámara para mascotas en la sala. Sale y entra al patio por su puerta inteligente para mascotas, en la puerta corrediza de la sala al lanai."
     }
   },
   "vehiculos": {
@@ -96,7 +96,9 @@
     "garaje": "Puerta de garaje automática.",
     "cargador": "Cargador eléctrico de pared en el garaje, lado derecho.",
     "piscina": "Luces de piscina y bomba automatizadas; luces del lanai.",
-    "riego": "Riego automático del jardín delantero."
+    "riego": "Riego automático del jardín delantero.",
+    "puerta_mascotas": "Puerta inteligente para mascotas en la puerta corrediza de la sala al lanai: solo se abre para Floyd.",
+    "comedero": "Comedero automático inteligente y fuente de agua de Floyd en la cocina, junto a la puerta de la lavandería."
   },
   "set": {
     "_nota": "Fotos fijas aprobadas. Cada plano de un episodio parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
@@ -171,7 +173,8 @@
     "Fotos con logos de Ford/Tesla aunque se pidió que no → revisar ampliando y editar para quitarlos.",
     "ES03 v1: la pickup llegaba con los faros hacia la calle (al revés) → revisar la dirección de vehículos y personas.",
     "ES03 v1: el garaje no subía, se 'fundía' con la foto final (inicio y final eran ediciones distintas) → evitar acciones arriesgadas; foto final solo editando la misma foto inicial; detector de fundidos.",
-    "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica."
+    "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica.",
+    "Las mascotas SIEMPRE comen de su comedero inteligente (nunca platos) y salen al patio por su puerta inteligente para mascotas (pedido del cliente, 2026-09-28)."
   ],
   "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }

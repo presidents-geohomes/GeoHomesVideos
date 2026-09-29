@@ -61,7 +61,7 @@
       "foto": "familias/familia_2/personajes/biscuit.png",
       "ficha": "familias/familia_2/personajes/biscuit_cuerpo.png",
       "descripcion": "Biscuit, gato atigrado naranja de pelo largo y esponjoso, ojos verdes, tranquilo y cariñoso.",
-      "cosas": "Comedero automático y fuente de agua en la cocina, junto a la puerta de la lavandería. Le encanta el asiento de la ventana de la sala y el sofá gris. Cámara para mascotas en la sala."
+      "cosas": "Comedero automático y fuente de agua en la cocina, junto a la puerta de la lavandería. Le encanta el asiento de la ventana de la sala y el sofá gris. Cámara para mascotas en la sala. Sale y entra al patio por su puerta inteligente para mascotas, en la puerta del porche trasero (malla) que da al patio."
     }
   },
   "vehiculos": {
@@ -98,7 +98,8 @@
     "comedero": "Comedero automático y fuente de agua de Biscuit en la cocina, junto a la puerta de la lavandería.",
     "sensor_fugas": "Sensor de fugas de agua en el garaje junto al calentador (y bajo el fregadero).",
     "garaje": "Puerta de garaje automática.",
-    "riego": "Riego automático del patio y del huerto."
+    "riego": "Riego automático del patio y del huerto.",
+    "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit."
   },
   "set": {
     "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
