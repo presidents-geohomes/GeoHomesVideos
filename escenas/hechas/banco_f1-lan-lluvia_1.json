@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-lan-lluvia_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png"
+  ],
+  "prompt": "Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials as the reference photo (sand-colored stucco exterior, terracotta barrel-tile roof, arched dark-wood front door with two black lanterns, white garage door, red tropical plants and palms; interior warm golden-beige stucco walls, soft arches, white shaker cabinets, light quartz counters, diagonal terracotta tile floor, gray sofa). People are small in frame, far from camera, seen from behind or in soft focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks. Change: Heavy rain falling on the pool, seen from inside the screened lanai, gray sky.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "f97ef8b5-3da4-4b0a-badf-491b97308ae5",
+    "status_url": "https://platform.higgsfield.ai/requests/f97ef8b5-3da4-4b0a-badf-491b97308ae5/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/f97ef8b5-3da4-4b0a-badf-491b97308ae5/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "f97ef8b5-3da4-4b0a-badf-491b97308ae5",
+  "resultado": [
+    "banco/fotos/f1/f1-lan-lluvia_1_1.jpg"
+  ],
+  "generado": "2026-09-29T04:06:20Z"
+}

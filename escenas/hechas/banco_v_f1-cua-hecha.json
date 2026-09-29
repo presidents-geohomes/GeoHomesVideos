@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f1",
+  "archivo": "f1-cua-hecha.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "familias/familia_1/set/cuarto_principal.png",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Soft light; the curtains move gently in a breeze. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "538f9bab-9d7a-4bab-8f77-3b162b4efb1f",
+    "status_url": "https://platform.higgsfield.ai/requests/538f9bab-9d7a-4bab-8f77-3b162b4efb1f/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/538f9bab-9d7a-4bab-8f77-3b162b4efb1f/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "538f9bab-9d7a-4bab-8f77-3b162b4efb1f",
+  "resultado": "banco/tomas/f1/f1-cua-hecha.mp4",
+  "generado": "2026-09-29T04:10:23Z"
+}
