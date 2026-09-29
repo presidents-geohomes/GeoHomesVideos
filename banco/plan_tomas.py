@@ -51,11 +51,25 @@ F = {
     },
 }
 
-REGLAS = ("Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials "
-          "as the reference photo ({paleta}). People are small in frame, far from camera, seen from behind or in soft "
-          "focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a "
-          "white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. "
-          "No text, no logos, no brand emblems, no watermarks.")
+REGLAS = ("Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and "
+          "materials exactly as they are in the first reference photo. Only make this change: {cambio} "
+          "{quien}Do NOT add any other person, animal, pet feeder, appliance, device or object that is not "
+          "mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not "
+          "detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical "
+          "9:16. No text, no logos, no brand emblems, no watermarks.")
+
+DESC = {
+    "daniel": "Daniel (first reference person: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots)",
+    "mariana": "Mariana (Hispanic woman, 35, long wavy dark-brown hair, cream linen outfit)",
+    "mariana_trabajo": "Mariana (Hispanic woman, 35, long wavy dark-brown hair, light-blue medical scrubs)",
+    "floyd": "Floyd (red-nose pit bull, tan coat, big white chest patch)",
+    "pickup": "the black full-size pickup truck with no emblems",
+    "emma": "Emma (American woman, 41, shoulder-length honey-blonde hair, light chambray shirt, jeans)",
+    "emma_trabajo": "Emma (American woman, 41, shoulder-length honey-blonde hair, navy nurse scrubs)",
+    "lily": "Lily (girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts)",
+    "biscuit": "Biscuit (fluffy long-haired orange tabby cat)",
+    "suv": "the pearl-white compact SUV with no emblems",
+}
 
 NEGATIVO = ("text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, "
             "extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals")
@@ -124,7 +138,7 @@ T = {
  "f1-floyd-duerme": ("sala_hacia_entrada", ["floyd"], "Closer view: Floyd asleep in his round dog bed.", "Slow calm breathing.", 0),
  "f1-floyd-levanta": ("sala_hacia_entrada", ["floyd"], "Floyd lying in his round dog bed, head raised and ears alert, looking at the front door.", "He lifts his head and perks his ears.", 0),
  "f1-floyd-corre": ("sala", ["floyd"], "Floyd running happily across the living room.", "Floyd runs across the room.", 0),
- "f1-floyd-come": ("cocina_puerta_lavanderia", ["floyd"], "Replace the metal bowls on the mat with a white automatic smart pet feeder and a white water fountain; Floyd eating from the smart feeder.", "Floyd eats from the smart feeder.", 0),
+ "f1-floyd-come": ("cocina_puerta_lavanderia", ["floyd"], "Replace the two metal bowls on the mat with one white automatic smart pet feeder and a small white water fountain, and show Floyd eating from the smart feeder. No people.", "Floyd eats from the smart feeder.", 0),
  "f1-floyd-lanai": ("sala", ["floyd"], "Floyd sitting in front of the glass sliding doors looking out at the pool.", "Floyd watches, ears move, tail sweeps.", 0),
  "f1-floyd-ventana": ("sala", ["floyd"], "Floyd standing with his nose close to the glass sliding door, waiting.", "Floyd looks out and wags slowly.", 0),
  "f1-esp-vacaciones": ("ext_dia", ["daniel", "mariana"], "The couple seen from behind rolling suitcases up the path to the front door.", "They walk toward the door pulling the suitcases.", 0),
@@ -210,15 +224,20 @@ def foto_base(tid):
     return F[fam(tid)]["set"] + b + ".png"
 
 
-def tarea_fotos(tid):
+def tarea_fotos(tid, opciones=2):
     base, refs, cambio, _, _ = T[tid]
     if cambio is None:
         return []
     f = F[fam(tid)]
-    prompt = (REGLAS.format(paleta=f["paleta"]) + " Change: " + cambio +
-              (" Characters must match the references: " + f["gente"] if refs else ""))
+    quien = ""
+    if refs:
+        quien = ("The only people/animals/vehicles allowed in the image are: " +
+                 "; ".join(DESC[r] for r in refs) + ", matching the extra reference images. ")
+    else:
+        quien = "There must be NO people and NO animals in the image. "
+    prompt = REGLAS.format(cambio=cambio, quien=quien)
     out = []
-    for n in (1, 2):
+    for n in range(1, opciones + 1):
         out.append({"tipo": "imagen", "carpeta": f"banco/fotos/{fam(tid)}", "archivo": f"{tid}_{n}.jpg",
                     "formato": "9:16", "jpg": True,
                     "referencias": [foto_base(tid)] + [f["fichas"][r] for r in refs],
@@ -243,8 +262,9 @@ def main():
     elif modo == "fotos":
         n = 0
         for tid in args:
-            for k, t in enumerate(tarea_fotos(tid), 1):
-                json.dump(t, open(f"escenas/pendientes/banco_{tid}_{k}.json", "w"), ensure_ascii=False, indent=1)
+            for k, t in enumerate(tarea_fotos(tid, int(os.environ.get("OPCIONES", "2"))), 1):
+                t["archivo"] = t["archivo"].replace(".jpg", os.environ.get("SUFIJO", "") + ".jpg")
+                json.dump(t, open(f"escenas/pendientes/banco_{tid}{os.environ.get('SUFIJO', '')}_{k}.json", "w"), ensure_ascii=False, indent=1)
                 n += 1
         print(n, "tareas de foto")
     elif modo == "video":

@@ -1,0 +1,11 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos/f1",
+ "archivo": "f1-ext-amanecer_1_t.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_1/set/ext_dia.png"
+ ],
+ "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Change the time to early sunrise: soft pink and orange sky, low warm light, the two black lanterns by the door still glowing. There must be NO people and NO animals in the image. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks."
+}
