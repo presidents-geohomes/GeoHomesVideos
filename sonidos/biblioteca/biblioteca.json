@@ -1,0 +1,159 @@
+{
+  "_como_usar": "Efectos ya pagados. Antes de pedir uno nuevo a ElevenLabs, busca aquí uno que sirva. Todos se nivelan solos con 'db' en el plan de sonido (sistema/sonido_episodio.py).",
+  "efectos": [
+    {
+      "id": "amb_calle",
+      "archivo": "sonidos/biblioteca/amb_calle.mp3",
+      "texto": "Quiet upscale suburban street at golden hour in Florida, gentle warm breeze through palm fronds, distant songbirds, very soft evening crickets. No traffic, no voices, no music.",
+      "segundos": 5,
+      "usar_para": "exterior de la casa, calle o jardín al atardecer (también sirve de relleno exterior)"
+    },
+    {
+      "id": "amb_cocina",
+      "archivo": "sonidos/biblioteca/amb_cocina.mp3",
+      "texto": "Calm home kitchen room tone in the evening, soft gentle sizzle of a pan on the stove, faint quiet utensil clinks far away. No voices, no music.",
+      "segundos": 12,
+      "usar_para": "ambiente de cocina con alguien cocinando (12 s, se puede cortar por tramos)"
+    },
+    {
+      "id": "amb_garaje",
+      "archivo": "sonidos/biblioteca/amb_garaje.mp3",
+      "texto": "Inside a residential garage with the big door open at sunset, outdoor evening ambience coming in, distant birds, light breeze, slight concrete room reverb. No voices, no music.",
+      "segundos": 5,
+      "usar_para": "interior del garaje con la puerta abierta al atardecer"
+    },
+    {
+      "id": "amb_sala",
+      "archivo": "sonidos/biblioteca/amb_sala.mp3",
+      "texto": "Quiet living room room tone in the evening, very soft air conditioning hum, calm and still. No voices, no music.",
+      "segundos": 4,
+      "usar_para": "ambiente tranquilo de interior (sala, pasillo, entrada)"
+    },
+    {
+      "id": "aviso_altavoz_1",
+      "archivo": "sonidos/biblioteca/aviso_altavoz_1.mp3",
+      "texto": "Soft elegant smart speaker notification chime, two gentle rising tones, clean digital, short.",
+      "segundos": 1.2,
+      "usar_para": "notificación del altavoz inteligente cuando aparece un texto 'aviso'"
+    },
+    {
+      "id": "aviso_altavoz_2",
+      "archivo": "sonidos/biblioteca/aviso_altavoz_2.mp3",
+      "texto": "Soft elegant smart speaker notification chime, two gentle rising tones, clean digital, short.",
+      "segundos": 1.2,
+      "usar_para": "notificación del altavoz inteligente cuando aparece un texto 'aviso'"
+    },
+    {
+      "id": "aviso_celular_1",
+      "archivo": "sonidos/biblioteca/aviso_celular_1.mp3",
+      "texto": "Short soft smartphone notification ping, single clean modern tone, subtle.",
+      "segundos": 0.8,
+      "usar_para": "notificación en el celular"
+    },
+    {
+      "id": "aviso_celular_2",
+      "archivo": "sonidos/biblioteca/aviso_celular_2.mp3",
+      "texto": "Short soft smartphone notification ping, single clean modern tone, subtle.",
+      "segundos": 0.8,
+      "usar_para": "notificación en el celular"
+    },
+    {
+      "id": "camioneta_1",
+      "archivo": "sonidos/biblioteca/camioneta_1.mp3",
+      "texto": "A large pickup truck V8 engine idling at low rumble, heard from across the street, then rolling slowly a few meters and settling back to idle. No horn, no music.",
+      "segundos": 4,
+      "usar_para": "vehículo grande llegando/en ralentí visto desde lejos"
+    },
+    {
+      "id": "camioneta_2",
+      "archivo": "sonidos/biblioteca/camioneta_2.mp3",
+      "texto": "A large pickup truck V8 engine idling at low rumble, heard from across the street, then rolling slowly a few meters and settling back to idle. No horn, no music.",
+      "segundos": 4,
+      "usar_para": "vehículo grande llegando/en ralentí visto desde lejos"
+    },
+    {
+      "id": "confirma_altavoz_1",
+      "archivo": "sonidos/biblioteca/confirma_altavoz_1.mp3",
+      "texto": "Smart speaker voice-assistant acknowledgment sound, very short soft bright confirmation blip, clean digital.",
+      "segundos": 0.8,
+      "usar_para": "el altavoz confirma una orden de voz (después del texto 'orden')"
+    },
+    {
+      "id": "confirma_altavoz_2",
+      "archivo": "sonidos/biblioteca/confirma_altavoz_2.mp3",
+      "texto": "Smart speaker voice-assistant acknowledgment sound, very short soft bright confirmation blip, clean digital.",
+      "segundos": 0.8,
+      "usar_para": "el altavoz confirma una orden de voz (después del texto 'orden')"
+    },
+    {
+      "id": "garaje_motor_1",
+      "archivo": "sonidos/biblioteca/garaje_motor_1.mp3",
+      "texto": "Residential garage door opener motor starting and the door rolling up on its track, heard from inside the house through a wall, muffled, steady.",
+      "segundos": 4,
+      "usar_para": "motor del garaje abriéndose, oído desde dentro de la casa"
+    },
+    {
+      "id": "garaje_motor_2",
+      "archivo": "sonidos/biblioteca/garaje_motor_2.mp3",
+      "texto": "Residential garage door opener motor starting and the door rolling up on its track, heard from inside the house through a wall, muffled, steady.",
+      "segundos": 4,
+      "usar_para": "motor del garaje abriéndose, oído desde dentro de la casa"
+    },
+    {
+      "id": "ladrido_1",
+      "archivo": "sonidos/biblioteca/ladrido_1.mp3",
+      "texto": "One single short friendly alert bark from a medium-large dog, indoors, close, clean, nothing else.",
+      "segundos": 0.8,
+      "usar_para": "un ladrido corto y amistoso (alinear con la boca abierta)"
+    },
+    {
+      "id": "ladrido_2",
+      "archivo": "sonidos/biblioteca/ladrido_2.mp3",
+      "texto": "One single short friendly alert bark from a medium-large dog, indoors, close, clean, nothing else.",
+      "segundos": 0.8,
+      "usar_para": "un ladrido corto y amistoso (alinear con la boca abierta)"
+    },
+    {
+      "id": "ladrido_3",
+      "archivo": "sonidos/biblioteca/ladrido_3.mp3",
+      "texto": "One single short friendly alert bark from a medium-large dog, indoors, close, clean, nothing else.",
+      "segundos": 0.8,
+      "usar_para": "un ladrido corto y amistoso (alinear con la boca abierta)"
+    },
+    {
+      "id": "perro_corre_1",
+      "archivo": "sonidos/biblioteca/perro_corre_1.mp3",
+      "texto": "An excited dog running fast across a tile floor, claws clicking and tapping quickly, happy panting, indoors.",
+      "segundos": 3,
+      "usar_para": "perro corriendo por piso de cerámica, uñas y jadeo"
+    },
+    {
+      "id": "perro_corre_2",
+      "archivo": "sonidos/biblioteca/perro_corre_2.mp3",
+      "texto": "An excited dog running fast across a tile floor, claws clicking and tapping quickly, happy panting, indoors.",
+      "segundos": 3,
+      "usar_para": "perro corriendo por piso de cerámica, uñas y jadeo"
+    },
+    {
+      "id": "perro_feliz_1",
+      "archivo": "sonidos/biblioteca/perro_feliz_1.mp3",
+      "texto": "A happy excited dog greeting its owner, playful whining, happy panting and tail thumping, a couple of short joyful yips, close.",
+      "segundos": 4,
+      "usar_para": "perro contento saludando a su dueño (gemidos, jadeo, gañidos)"
+    },
+    {
+      "id": "perro_feliz_2",
+      "archivo": "sonidos/biblioteca/perro_feliz_2.mp3",
+      "texto": "A happy excited dog greeting its owner, playful whining, happy panting and tail thumping, a couple of short joyful yips, close.",
+      "segundos": 4,
+      "usar_para": "perro contento saludando a su dueño (gemidos, jadeo, gañidos)"
+    },
+    {
+      "id": "perro_levanta",
+      "archivo": "sonidos/biblioteca/perro_levanta.mp3",
+      "texto": "A dog shifting and getting up on a soft fabric dog bed indoors, gentle rustle, short.",
+      "segundos": 1,
+      "usar_para": "perro que se mueve o se levanta en su cama"
+    }
+  ]
+}

@@ -18,7 +18,9 @@ Lee episodios/pendientes/*.json:
   "narracion": {"voice_id": "...", "texto": "..."},
   "cierre": {"frase": "Tu casa, a tu ritmo.", "lugar": "Geo Homes · Naples, FL", "segundos": 3},
   "subtitulos": true,
-  "volumen_ambiente": 0.22
+  "volumen_ambiente": 0.22,
+  "sonido": "efectos"      # por defecto: Kling sin sonido; efectos de ElevenLabs después
+                           # con sistema/sonido_episodio.py. "kling" = sonido de Kling (más caro)
 }
 
 Pasos: 1) anima cada foto con Kling (image-to-video, sin diálogos), 2) genera la
@@ -100,7 +102,9 @@ def generar_escena(i, esc):
                   "no one speaks, ambient sound only.",
         "duration": int(esc.get("duracion", 5)),
         "aspect_ratio": "9:16",
-        "sound": "on",
+        # Por defecto Kling SIN sonido (más barato): el ambiente y los efectos se ponen
+        # después con ElevenLabs (sistema/sonido_episodio.py). "sonido": "kling" lo reactiva.
+        "sound": "on" if esc.get("_sonido") == "kling" else "off",
         "negative_prompt": NEGATIVO,
     }
     if esc.get("imagen_final"):
@@ -108,7 +112,14 @@ def generar_escena(i, esc):
         cuerpo["last_image_url"] = url_publica(esc["imagen_final"])
     modelo = esc.get("modelo", hf.MODELO_IMAGEN_A_VIDEO)
     print(f"  Escena {i}: pidiendo a {modelo}")
-    resp = hf.llamar(f"{hf.BASE}/{modelo}", cuerpo)
+    try:
+        resp = hf.llamar(f"{hf.BASE}/{modelo}", cuerpo)
+    except RuntimeError as e:
+        if cuerpo.get("sound") != "off" or "sound" not in str(e).lower():
+            raise
+        print(f"  Escena {i}: el modelo no acepta sound=off, se pide sin ese campo")
+        cuerpo.pop("sound")
+        resp = hf.llamar(f"{hf.BASE}/{modelo}", cuerpo)
     rid = resp.get("request_id")
     url_estado = resp.get("status_url") or f"{hf.BASE}/requests/{rid}/status"
     return url_estado
@@ -273,7 +284,12 @@ def montar(ep):
     escenas = ep["escenas"]
 
     # 1) pedir todas las escenas a la vez y la narración mientras tanto
+    modo_sonido = ep.get("sonido", "efectos")
+    for e in escenas:
+        e["_sonido"] = modo_sonido
     estados = [generar_escena(i + 1, e) for i, e in enumerate(escenas)]
+    for e in escenas:
+        e.pop("_sonido", None)
     narr = f"{TMP}/narracion.mp3"
     partes = narracion_por_partes(ep, escenas, narr)
     dur_voz = duracion(narr)
@@ -374,7 +390,7 @@ def montar(ep):
     puntos.append((total - 1.2, puntos[-1][1]))
     puntos.append((total, 0.0))
     expr = envolvente(puntos, rampa=0.6)
-    vol_amb = float(ep.get("volumen_ambiente", 0.6))
+    vol_amb = float(ep.get("volumen_ambiente", 0.6)) if modo_sonido == "kling" else 0.0
     ms = int(inicio_voz * 1000)
     filtros.append(f"[0:a]volume={vol_amb}[amb]")
     filtros.append(f"[1:a]adelay={ms}|{ms},volume=1.0[voz]")

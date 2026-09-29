@@ -15,6 +15,8 @@ Procesa en escenas/pendientes/ los JSON con:
        "efectos": [{"id": "ladrido_1", "texto": "one friendly dog bark...", "segundos": 1.2,
                     "influencia": 0.5, "variantes": 2}]}
       Guarda <carpeta>/<id>.mp3 (o <id>_1.mp3, <id>_2.mp3... si hay variantes).
+      Con "biblioteca": true se guardan en sonidos/biblioteca/ y se anotan en su catálogo
+      (añade "usar_para" a cada efecto) para reutilizarlos sin volver a pagarlos.
   "tipo": "narracion"     -> genera la narración de un episodio con una voz fija.
       {"tipo": "narracion", "voice_id": "...", "texto": "...",
        "carpeta": "...", "archivo": "narracion.mp3", "idioma": "es"}
@@ -88,16 +90,32 @@ def efecto(texto, segundos, destino, influencia=0.5):
         f.write(audio)
 
 
+BIBLIOTECA_EFECTOS = "sonidos/biblioteca"
+
+
 def efectos(t):
+    """Si t["biblioteca"] es true, los efectos se guardan en sonidos/biblioteca/ y se anotan en
+    biblioteca.json para reutilizarlos en otros episodios (no se vuelven a pagar)."""
+    carpeta = BIBLIOTECA_EFECTOS if t.get("biblioteca") else t["carpeta"]
+    cat_ruta = os.path.join(BIBLIOTECA_EFECTOS, "biblioteca.json")
+    catalogo = json.load(open(cat_ruta, encoding="utf-8")) if os.path.exists(cat_ruta) else {"efectos": []}
     hechos = []
     for e in t["efectos"]:
         n = int(e.get("variantes", 1))
         for k in range(1, n + 1):
             nombre = f"{e['id']}.mp3" if n == 1 else f"{e['id']}_{k}.mp3"
-            destino = os.path.join(t["carpeta"], nombre)
+            destino = os.path.join(carpeta, nombre)
             efecto(e["texto"], e.get("segundos"), destino, e.get("influencia", 0.5))
             print(f"  Efecto {nombre}")
             hechos.append(destino)
+            if t.get("biblioteca"):
+                catalogo["efectos"] = [x for x in catalogo["efectos"] if x["archivo"] != destino]
+                catalogo["efectos"].append({"id": os.path.splitext(nombre)[0], "archivo": destino,
+                                            "texto": e["texto"], "segundos": e.get("segundos"),
+                                            "usar_para": e.get("usar_para", "")})
+    if t.get("biblioteca"):
+        os.makedirs(BIBLIOTECA_EFECTOS, exist_ok=True)
+        json.dump(catalogo, open(cat_ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return hechos
 
 
