@@ -1,0 +1,10 @@
+{
+ "carpeta": "banco/tomas/f2",
+ "archivo": "f2-cua-lily-duerme.mp4",
+ "modelo": "kling-video/v3.0/std/image-to-video",
+ "imagen_inicial": "banco/fotos/f2/f2-cua-lily-duerme_1_b_1.jpg",
+ "duracion": 5,
+ "crf": 21,
+ "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+ "prompt": "Slow calm breathing, string lights glow. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks."
+}
