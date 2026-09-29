@@ -35,7 +35,7 @@ concurrency:
 jobs:
   generar:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 

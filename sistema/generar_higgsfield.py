@@ -97,11 +97,24 @@ def pedir_video(escena):
             "duration": int(escena.get("duracion", 10)),
         }
         if "kling" in modelo:
-            cuerpo["sound"] = "on"
+            # Sin sonido por defecto (más barato); el sonido se pone con ElevenLabs.
+            cuerpo["sound"] = "on" if escena.get("sonido") == "kling" else "off"
+            if escena.get("negativo"):
+                cuerpo["negative_prompt"] = escena["negativo"]
         if escena.get("imagen_inicial"):
-            cuerpo["image_url"] = escena["imagen_inicial"]
+            ii = escena["imagen_inicial"]
+            cuerpo["image_url"] = ii if ii.startswith("http") else REPO_RAW + ii
+        if escena.get("imagen_final"):
+            fi = escena["imagen_final"]
+            cuerpo["last_image_url"] = fi if fi.startswith("http") else REPO_RAW + fi
     cuerpo.update(escena.get("parametros") or {})
-    resp = llamar(f"{BASE}/{modelo.strip('/')}", cuerpo)
+    try:
+        resp = llamar(f"{BASE}/{modelo.strip('/')}", cuerpo)
+    except RuntimeError as e:
+        if cuerpo.get("sound") != "off" or "sound" not in str(e).lower():
+            raise
+        cuerpo.pop("sound")
+        resp = llamar(f"{BASE}/{modelo.strip('/')}", cuerpo)
     rid = resp.get("request_id") or resp.get("id")
     if not rid:
         raise RuntimeError(f"Higgsfield no devolvió request_id: {resp}")
@@ -173,7 +186,7 @@ def descargar(url, destino):
         shutil.copyfileobj(r, f)
 
 
-def a_vertical_1080(origen, destino):
+def a_vertical_1080(origen, destino, crf=18):
     """Deja el video exactamente en 1080x1920, 30 fps, listo para TikTok/Reels."""
     vf = ("scale=1080:1920:force_original_aspect_ratio=increase,"
           "crop=1080:1920,format=yuv420p")
@@ -184,7 +197,7 @@ def a_vertical_1080(origen, destino):
     audio = ["-c:a", "aac", "-b:a", "192k"] if tiene_audio else ["-an"]
     subprocess.run([
         "ffmpeg", "-v", "error", "-y", "-i", origen, "-vf", vf, "-r", "30",
-        "-c:v", "libx264", "-preset", "slow", "-crf", "18", *audio,
+        "-c:v", "libx264", "-preset", "slow", "-crf", str(crf), *audio,
         "-movflags", "+faststart", destino,
     ], check=True)
 
@@ -212,6 +225,13 @@ def procesar(ruta):
                     ext = ".jpg"
                 destino = os.path.join(escena["carpeta"], f"{base}_{i}{ext}")
                 descargar(u, destino)
+                if escena.get("jpg"):  # más liviano para el repositorio
+                    from PIL import Image
+                    jpg = os.path.join(escena["carpeta"], f"{base}_{i}.jpg")
+                    Image.open(destino).convert("RGB").save(jpg, quality=90, optimize=True)
+                    if jpg != destino:
+                        os.remove(destino)
+                    destino = jpg
                 finales.append(destino)
             final = finales
         else:
@@ -221,7 +241,7 @@ def procesar(ruta):
             crudo = f"/tmp/{nombre}.hf.mp4"
             descargar(url, crudo)
             final = os.path.join(escena["carpeta"], escena["archivo"])
-            a_vertical_1080(crudo, final)
+            a_vertical_1080(crudo, final, escena.get("crf", 18))
         escena.update({"estado": "hecho", "modelo_usado": modelo, "request_id": rid,
                        "resultado": final,
                        "generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})
@@ -256,7 +276,11 @@ def main():
     if not pendientes:
         print("No hay escenas pendientes.")
         return
-    resultados = [procesar(p) for p in pendientes]
+    # Varias a la vez (cada una espera su resultado en paralelo)
+    from concurrent.futures import ThreadPoolExecutor
+    hilos = int(os.environ.get("HF_PARALELO", "6"))
+    with ThreadPoolExecutor(max_workers=max(1, hilos)) as ex:
+        resultados = list(ex.map(procesar, pendientes))
     print(f"{sum(resultados)} de {len(resultados)} videos generados.")
 
 
