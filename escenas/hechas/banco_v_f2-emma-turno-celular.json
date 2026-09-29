@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f2",
+  "archivo": "f2-emma-turno-celular.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f2/f2-emma-turno-celular_1_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "She reads a message on her phone and a relieved, warm smile spreads across her face; she lets out a small breath and relaxes her shoulders. The phone screen always faces away from the camera. Very slow gentle push-in. Cinematic, warm natural light, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6dce30ad-29b7-4da5-86d9-b48d28a2f709",
+    "status_url": "https://platform.higgsfield.ai/requests/6dce30ad-29b7-4da5-86d9-b48d28a2f709/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/6dce30ad-29b7-4da5-86d9-b48d28a2f709/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "6dce30ad-29b7-4da5-86d9-b48d28a2f709",
+  "resultado": "banco/tomas/f2/f2-emma-turno-celular.mp4",
+  "generado": "2026-09-29T17:55:35Z"
+}
