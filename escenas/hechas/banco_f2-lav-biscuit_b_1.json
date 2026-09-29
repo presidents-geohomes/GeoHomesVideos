@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-lav-biscuit_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/lavanderia.png",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Biscuit walking calmly across the laundry room floor. The only people/animals/vehicles allowed in the image are: Biscuit (fluffy long-haired orange tabby cat), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "e37e2c02-3d2b-436b-b900-b12fd7ce9282",
+    "status_url": "https://platform.higgsfield.ai/requests/e37e2c02-3d2b-436b-b900-b12fd7ce9282/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/e37e2c02-3d2b-436b-b900-b12fd7ce9282/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "e37e2c02-3d2b-436b-b900-b12fd7ce9282",
+  "resultado": [
+    "banco/fotos/f2/f2-lav-biscuit_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:58:19Z"
+}

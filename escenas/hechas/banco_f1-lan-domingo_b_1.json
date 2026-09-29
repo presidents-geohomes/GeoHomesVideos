@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-lan-domingo_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png",
+    "familias/familia_1/personajes/daniel_cuerpo.png",
+    "familias/familia_1/personajes/mariana_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Sunday morning light; breakfast on the lanai table, the couple far from camera. The only people/animals/vehicles allowed in the image are: Daniel (first reference person: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots); Mariana (Hispanic woman, 35, long wavy dark-brown hair, cream linen outfit), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "31d15505-4b34-41af-9a59-827acf343eae",
+    "status_url": "https://platform.higgsfield.ai/requests/31d15505-4b34-41af-9a59-827acf343eae/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/31d15505-4b34-41af-9a59-827acf343eae/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "31d15505-4b34-41af-9a59-827acf343eae",
+  "resultado": [
+    "banco/fotos/f1/f1-lan-domingo_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:43:45Z"
+}

@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-auto-daniel_2_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/ext_atardecer.png",
+    "familias/familia_1/vehiculos/pickup_daniel.png",
+    "familias/familia_1/personajes/daniel_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: The black full-size pickup (no emblems) driving on a palm-lined neighborhood street at sunset, seen from the side at a distance, the driver only a silhouette. The only people/animals/vehicles allowed in the image are: the black full-size pickup truck with no emblems; Daniel (first reference person: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "dbeb72aa-a42e-42bb-91ae-e668b848b30c",
+    "status_url": "https://platform.higgsfield.ai/requests/dbeb72aa-a42e-42bb-91ae-e668b848b30c/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/dbeb72aa-a42e-42bb-91ae-e668b848b30c/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "dbeb72aa-a42e-42bb-91ae-e668b848b30c",
+  "resultado": [
+    "banco/fotos/f1/f1-auto-daniel_2_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:32:24Z"
+}

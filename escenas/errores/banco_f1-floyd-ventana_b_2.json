@@ -1,0 +1,15 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-floyd-ventana_2_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Floyd standing with his nose close to the glass sliding door, waiting. The only people/animals/vehicles allowed in the image are: Floyd (red-nose pit bull, tan coat, big white chest patch), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"This model is temporarily unavailable. Please try again later or contact support.\", \"request_id\": \"b1ac59ec-de52-4e49-b117-7a8f060c098b\", \"status_url\": \"https://platform.higgsfield.ai/requests/b1ac59ec-de52-4e49-b117-7a8f060c098b/status\", \"cancel_url\": \"https://platform.higgsfield.ai/requests/b1ac59ec-de52-4e49-b117-7a8f060c098b/cancel\"}",
+  "fecha_error": "2026-09-29T04:40:43Z"
+}

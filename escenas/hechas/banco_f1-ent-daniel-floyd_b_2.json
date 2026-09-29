@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-ent-daniel-floyd_2_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala_hacia_entrada.png",
+    "familias/familia_1/personajes/daniel_cuerpo.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: The front door open with golden afternoon light; Daniel just stepped inside and crouches slightly while Floyd jumps happily toward him. The only people/animals/vehicles allowed in the image are: Daniel (first reference person: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots); Floyd (red-nose pit bull, tan coat, big white chest patch), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "250121b7-185f-4c78-8b8d-741f902782dd",
+    "status_url": "https://platform.higgsfield.ai/requests/250121b7-185f-4c78-8b8d-741f902782dd/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/250121b7-185f-4c78-8b8d-741f902782dd/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "250121b7-185f-4c78-8b8d-741f902782dd",
+  "resultado": [
+    "banco/fotos/f1/f1-ent-daniel-floyd_2_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:36:20Z"
+}
