@@ -10,6 +10,11 @@ Procesa en escenas/pendientes/ los JSON con:
        "pistas": [{"id": "es_bachata", "idioma": "es", "estilo": "...", "usar_para": "...",
                    "prompt": "...", "segundos": 22}]}
       Añade/actualiza cada pista en <carpeta>/biblioteca.json.
+  "tipo": "efectos"       -> genera efectos de sonido (ambiente, clics, ladridos...).
+      {"tipo": "efectos", "carpeta": "sonidos/ES03",
+       "efectos": [{"id": "ladrido_1", "texto": "one friendly dog bark...", "segundos": 1.2,
+                    "influencia": 0.5, "variantes": 2}]}
+      Guarda <carpeta>/<id>.mp3 (o <id>_1.mp3, <id>_2.mp3... si hay variantes).
   "tipo": "narracion"     -> genera la narración de un episodio con una voz fija.
       {"tipo": "narracion", "voice_id": "...", "texto": "...",
        "carpeta": "...", "archivo": "narracion.mp3", "idioma": "es"}
@@ -29,7 +34,7 @@ API = "https://api.elevenlabs.io"
 CLAVE = os.environ.get("ELEVENLABS_API_KEY", "").strip()
 UA = "GeoHomesVideos/1.0 (+https://github.com/presidents-geohomes/GeoHomesVideos)"
 MODELO = "eleven_multilingual_v2"
-TIPOS = {"muestras_voz", "narracion", "musica"}
+TIPOS = {"muestras_voz", "narracion", "musica", "efectos"}
 
 
 def pedir(ruta, datos=None, binario=False):
@@ -70,6 +75,30 @@ def componer_musica(prompt, ms, destino):
     os.makedirs(os.path.dirname(destino) or ".", exist_ok=True)
     with open(destino, "wb") as f:
         f.write(audio)
+
+
+def efecto(texto, segundos, destino, influencia=0.5):
+    """Efecto de sonido con ElevenLabs (text-to-sound-effects)."""
+    datos = {"text": texto, "prompt_influence": float(influencia)}
+    if segundos:
+        datos["duration_seconds"] = max(0.5, min(float(segundos), 30.0))
+    audio = pedir("/v1/sound-generation?output_format=mp3_44100_128", datos, binario=True)
+    os.makedirs(os.path.dirname(destino) or ".", exist_ok=True)
+    with open(destino, "wb") as f:
+        f.write(audio)
+
+
+def efectos(t):
+    hechos = []
+    for e in t["efectos"]:
+        n = int(e.get("variantes", 1))
+        for k in range(1, n + 1):
+            nombre = f"{e['id']}.mp3" if n == 1 else f"{e['id']}_{k}.mp3"
+            destino = os.path.join(t["carpeta"], nombre)
+            efecto(e["texto"], e.get("segundos"), destino, e.get("influencia", 0.5))
+            print(f"  Efecto {nombre}")
+            hechos.append(destino)
+    return hechos
 
 
 def candidatas(idioma, genero, cuantas):
@@ -166,6 +195,8 @@ def procesar(ruta):
             t["resultado"] = muestras(t)
         elif t["tipo"] == "musica":
             t["resultado"] = biblioteca_musica(t)
+        elif t["tipo"] == "efectos":
+            t["resultado"] = efectos(t)
         else:
             destino = os.path.join(t["carpeta"], t.get("archivo", "narracion.mp3"))
             hablar(t["voice_id"], t["texto"], t.get("idioma", "es"), destino)

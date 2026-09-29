@@ -248,7 +248,7 @@ def main():
     pendientes = []
     for p in sorted(glob.glob("escenas/pendientes/*.json")):
         try:
-            if json.load(open(p, encoding="utf-8")).get("tipo") in ("muestras_voz", "narracion", "musica"):
+            if json.load(open(p, encoding="utf-8")).get("tipo") in ("muestras_voz", "narracion", "musica", "efectos"):
                 continue  # las procesa sistema/voces.py
         except Exception:
             pass
