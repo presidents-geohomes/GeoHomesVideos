@@ -1,0 +1,20 @@
+{
+  "_nota": "Momentos medidos en el video (movimiento por fotograma + revision visual). escena/t = segundo dentro del plano.",
+  "efectos": [
+    {"archivo": "sonidos/ES03/amb_calle.mp3",        "en": 0.0,  "vol": 0.55, "dur": 4.2, "salida": 0.6},
+    {"archivo": "sonidos/ES03/camioneta_1.mp3",      "en": 0.0,  "vol": 0.45, "dur": 4.0, "entrada": 0.3, "salida": 0.7},
+    {"archivo": "sonidos/ES03/amb_cocina.mp3",       "en": 3.5,  "vol": 0.35, "dur": 4.0, "entrada": 0.5, "salida": 0.5},
+    {"archivo": "sonidos/ES03/aviso_altavoz_1.mp3",  "escena": 2, "t": 0.6,  "vol": 0.55, "alinear": true},
+    {"archivo": "sonidos/ES03/amb_sala.mp3",         "en": 7.0,  "vol": 0.35, "dur": 3.0, "entrada": 0.5, "salida": 0.5},
+    {"archivo": "sonidos/ES03/perro_levanta.mp3",    "en": 8.65, "vol": 0.45, "alinear": true},
+    {"archivo": "sonidos/ES03/ladrido_1.mp3",        "en": 8.85, "vol": 0.75, "alinear": true},
+    {"archivo": "sonidos/ES03/ladrido_2.mp3",        "en": 9.33, "vol": 0.75, "alinear": true},
+    {"archivo": "sonidos/ES03/amb_cocina.mp3",       "en": 9.5,  "vol": 0.3,  "desde": 4.0, "dur": 6.5, "entrada": 0.5, "salida": 0.5},
+    {"archivo": "sonidos/ES03/aviso_celular_1.mp3",  "escena": 4, "t": 0.6,  "vol": 0.5, "alinear": true},
+    {"archivo": "sonidos/ES03/confirma_altavoz_1.mp3", "escena": 5, "t": 0.95, "vol": 0.5, "alinear": true},
+    {"archivo": "sonidos/ES03/garaje_motor_1.mp3",   "en": 14.6, "vol": 0.3,  "dur": 3.8, "entrada": 0.4, "salida": 0.9},
+    {"archivo": "sonidos/ES03/perro_corre_1.mp3",    "en": 15.7, "vol": 0.6,  "dur": 2.8, "entrada": 0.1, "salida": 0.5},
+    {"archivo": "sonidos/ES03/amb_garaje.mp3",       "en": 18.0, "vol": 0.45, "dur": 4.9, "entrada": 0.4, "salida": 0.8},
+    {"archivo": "sonidos/ES03/perro_feliz_1.mp3",    "en": 18.5, "vol": 0.55, "dur": 4.0, "entrada": 0.2, "salida": 0.8}
+  ]
+}
