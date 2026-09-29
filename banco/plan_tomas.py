@@ -205,7 +205,7 @@ T = {
  "f2-bis-sofa": ("sala", ["biscuit"], "Close view: Biscuit asleep curled up on the gray sofa.", "Slow breathing.", 0),
  "f2-bis-sol": ("sala", ["biscuit"], "Biscuit stretching on the wood floor in a patch of sunlight by the window.", "He stretches and relaxes.", 0),
  "f2-bis-ventana": ("sala", ["biscuit"], "Biscuit sitting on the window seat watching birds outside.", "His tail twitches as he watches.", 0),
- "f2-bis-come": ("cocina_puerta_lavanderia", ["biscuit"], "Biscuit eating from the white automatic smart feeder next to the laundry door, water fountain beside it.", "Biscuit eats calmly.", 0),
+ "f2-bis-come": ("cocina_puerta_lavanderia", ["biscuit"], "Biscuit sitting calmly and upright on the floor right next to the white automatic smart feeder (water fountain beside it), body facing the camera, head up, eyes open, relaxed, NOT eating, mouth closed, not touching the food tray.", "Biscuit sits calmly beside the feeder, slowly blinks, his tail curls gently and his ears twitch. He does not eat and does not move his mouth. Static camera.", 0),
  "f2-bis-entra": ("patio_trasero", ["biscuit"], "View from inside the back porch toward the door with a small white smart pet door; Biscuit coming in through the pet door.", "Biscuit steps in through the pet door.", 1),
  "f2-bis-pasillo": ("pasillo", ["biscuit"], "Biscuit walking calmly down the hallway toward camera.", "Biscuit walks toward camera.", 0),
  "f2-esp-vacaciones": ("ext_porche", ["emma", "lily"], "Emma and Lily seen from behind rolling suitcases up to the porch.", "They walk to the door with the suitcases.", 0),
