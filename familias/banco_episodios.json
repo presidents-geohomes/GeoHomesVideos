@@ -10,7 +10,10 @@
     {
       "id": "ES03", "familia": "familia_1", "titulo": "Llega Daniel",
       "estado": "programado", "fecha_publicacion": "2026-09-29 10:00",
-      "video": "series/espanol/ES03_llega-daniel_v2/ES03.mp4"
+      "video": "series/espanol/ES03_llega-daniel_v2/ES03_efectos.mp4",
+      "sonido": "efectos ElevenLabs (sonidos/ES03/plan_sonido.json)",
+      "redes": ["tiktok", "instagram", "facebook", "youtube"],
+      "plannerUrl": ["https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=-6577259787728371351", "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=6356352460556291915"]
     },
     {
       "id": "EN01", "familia": "familia_2", "titulo": "Lily gets home from school",
