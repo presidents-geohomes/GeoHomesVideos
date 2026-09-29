@@ -1,0 +1,10 @@
+{
+ "carpeta": "banco/tomas/f1",
+ "archivo": "f1-cua-hecha.mp4",
+ "modelo": "kling-video/v3.0/std/image-to-video",
+ "imagen_inicial": "familias/familia_1/set/cuarto_principal.png",
+ "duracion": 5,
+ "crf": 21,
+ "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+ "prompt": "Static camera. The room is completely still; only the sunlight slowly shifts on the floor. The curtains do not move at all. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks."
+}
