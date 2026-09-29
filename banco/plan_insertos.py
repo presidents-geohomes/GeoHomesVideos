@@ -132,7 +132,7 @@ def tarea_fotos(iid):
         extra = [f["fichas"]["floyd" if fam == "f1" else "biscuit"]]
     return [{"tipo": "imagen", "carpeta": f"banco/fotos_insertos/{fam}", "archivo": f"{iid}_{n}.jpg",
              "formato": "9:16", "jpg": True,
-             "referencias": [F[fam]["set"] + base + ".png"] + extra, "prompt": prompt} for n in (1, 2)]
+             "referencias": [F[fam]["set"] + base + ".png"] + extra, "prompt": prompt} for n in range(1, int(os.environ.get("OPCIONES", "1")) + 1)]
 
 
 def tarea_video(iid, foto):

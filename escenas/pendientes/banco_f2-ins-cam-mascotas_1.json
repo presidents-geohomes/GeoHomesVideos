@@ -1,0 +1,11 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos_insertos/f2",
+ "archivo": "f2-ins-cam-mascotas_1.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_2/set/sala.png"
+ ],
+ "prompt": "Close-up product detail shot inside THIS same house, matching exactly the reference photo's materials and colors (white stucco exterior, flat gray tile roof, arched white garage door, front porch with square white columns and a black metal bench, gray shutters, potted palms; interior white walls with shiplap details, white shaker cabinets, navy-blue island with white quartz, brass pendant lights, light oak wood floor, gray sofa, white painted brick fireplace). Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show a small round white indoor pet camera on a shelf on the white wall of the living room. The device fills the center of the frame; the background is softly blurred but clearly this same house."
+}
