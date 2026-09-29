@@ -63,11 +63,31 @@
   "narracion": {
     "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "partes": [
-      {"escena": 1, "texto": "After school. Mom's still at work.", "desde": 0.3},
-      {"escena": 3, "texto": "But the moment Lily's home, she knows.", "desde": 0.5},
-      {"escena": 6, "texto": "Cool air, and homework time.", "desde": 1.0},
-      {"escena": 7, "texto": "And Mom gets peace of mind, even at work.", "desde": 1.2},
-      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.7}
+      {
+        "escena": 1,
+        "texto": "After school. Mom's still at work.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "But the moment Lily's home, she knows.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Cool air, and homework time.",
+        "desde": 1.0
+      },
+      {
+        "escena": 7,
+        "texto": "And Mom gets peace of mind, even at work.",
+        "desde": 1.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.7
+      }
     ]
   },
   "cierre": {
@@ -86,5 +106,9 @@
     "imagen": "planos/EN01/k4_entrada_1_1.png",
     "titulo": "She's home. Mom knows.",
     "etiqueta": "Home, Simplified · Ep. 1"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN01_lily-gets-home/EN01.mp4",
+  "duracion": 26.5,
+  "fecha": "2026-09-29T13:04:02Z"
 }
