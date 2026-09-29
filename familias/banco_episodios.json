@@ -8,57 +8,97 @@
   },
   "episodios": [
     {
-      "id": "ES03", "familia": "familia_1", "titulo": "Llega Daniel",
-      "estado": "programado", "fecha_publicacion": "2026-09-29 10:00",
+      "id": "ES03",
+      "familia": "familia_1",
+      "titulo": "Llega Daniel",
+      "estado": "programado",
+      "fecha_publicacion": "2026-09-29 10:00",
       "video": "series/espanol/ES03_llega-daniel_v2/ES03_efectos.mp4",
       "sonido": "efectos ElevenLabs (sonidos/ES03/plan_sonido.json)",
-      "redes": ["tiktok", "instagram", "facebook", "youtube"],
-      "plannerUrl": ["https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=-6577259787728371351", "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=6356352460556291915"]
+      "redes": [
+        "tiktok",
+        "instagram",
+        "facebook",
+        "youtube"
+      ],
+      "plannerUrl": [
+        "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=-6577259787728371351",
+        "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=6356352460556291915"
+      ]
     },
     {
-      "id": "EN01", "familia": "familia_2", "titulo": "Lily gets home from school",
-      "estado": "pendiente",
+      "id": "EN01",
+      "familia": "familia_2",
+      "titulo": "Lily gets home from school",
+      "estado": "programado (borrador)",
       "idea": "Día de semana, 3:15 p. m. Emma está trabajando en el hospital (no se la ve en el hospital: solo su mano con el celular al final, en un pasillo neutro, o se omite). El autobús escolar se va (sugerido, no mostrado); Lily llega al porche y marca su código en la cerradura → aviso 'Front door unlocked · Lily' → en la cocina el altavoz se ilumina y suena una música suave de bienvenida → Biscuit baja del asiento de la ventana y va hacia la entrada → Lily deja la mochila lila en el gancho → la casa ajusta la temperatura (aviso) → Lily se sienta en la isla con sus tareas y Biscuit a su lado. Narrador (Jon): tranquilidad de una madre que trabaja; cierre 'Geo Homes. Home that keeps up.'",
-      "hora_del_dia": "tarde (usar set de día / luz de tarde)"
+      "hora_del_dia": "tarde (usar set de día / luz de tarde)",
+      "fecha_publicacion": "2026-09-30 10:00",
+      "video": "series/ingles/EN01_lily-gets-home/EN01.mp4",
+      "portada": "series/ingles/EN01_lily-gets-home/EN01_portada.jpg",
+      "sonido": "efectos ElevenLabs (sonidos/EN01/plan_sonido.json)",
+      "redes": [
+        "tiktok",
+        "instagram",
+        "facebook",
+        "youtube"
+      ],
+      "plannerUrl": [
+        "https://app.metricool.com/planner/calendar?blogId=7108938&openWithPostUuid=654029236844317103"
+      ]
     },
     {
-      "id": "ES04", "familia": "familia_1", "titulo": "Buenas noches, casa",
+      "id": "ES04",
+      "familia": "familia_1",
+      "titulo": "Buenas noches, casa",
       "estado": "pendiente",
       "idea": "Noche de semana, 10:30 p. m. 1) Fachada de noche con ventanas encendidas. 2) Sala de noche: Daniel y Mariana lejos en el sofá con la luz de la TV, Floyd dormido en su cama. 3) Cocina de noche: Mariana de espaldas junto a la isla, el aro del altavoz se enciende → orden 'Buenas noches' (la música del altavoz se apaga). 4) Sala: las luces se atenúan y las persianas bajan (foto final editada de la MISMA foto inicial) → aviso 'Modo noche activado'. 5) Entrada de noche: la cerradura gira y enciende su lucecita, Floyd se acomoda → aviso 'Puertas cerradas'. 6) Pasillo junto a la cocina (crear y guardar foto nueva del set 'pasillo_termostato' si no existe): el termostato cambia → aviso 'Temperatura para dormir'. 7) Fachada de noche: se apagan las luces del jardín, parpadea la cámara → aviso 'Cámaras activas'. 8) Cuarto principal a oscuras, la pareja acostada al fondo. Cierre. Narradora: 'Hay un momento del día que es solo tuyo. · Una palabra, y tu casa se prepara para dormir contigo. · Luces, puertas, temperatura… todo en su lugar. · Tú solo descansa. · Geo Homes. Tu casa, a tu ritmo.' Música lenta y suave de noche.",
       "hora_del_dia": "noche"
     },
     {
-      "id": "EN02", "familia": "familia_2", "titulo": "Night shift: the house looks after Lily",
+      "id": "EN02",
+      "familia": "familia_2",
+      "titulo": "Night shift: the house looks after Lily",
       "estado": "pendiente",
       "idea": "Emma tiene turno de noche; Lily duerme en casa con una cuidadora/abuela (no se muestra de cerca) o Emma revisa desde el trabajo. La luz del pasillo queda tenue toda la noche, la cerradura confirma 'Doors locked', la cámara del porche vigila, Biscuit duerme a los pies de la cama de Lily. Al amanecer (set de mañana) la luz del cuarto de Lily se enciende suave para despertarla y Emma llega en el SUV. Narrador: dormir tranquila aunque estés lejos.",
       "hora_del_dia": "noche → amanecer (dos momentos: solo si la historia lo pide y cada bloque respeta su luz)"
     },
     {
-      "id": "ES05", "familia": "familia_1", "titulo": "Noche de piscina",
+      "id": "ES05",
+      "familia": "familia_1",
+      "titulo": "Noche de piscina",
       "estado": "pendiente",
       "idea": "Sábado al atardecer: Daniel en la parrilla del lanai, Mariana pide por voz 'Modo piscina': se encienden las luces de la piscina y del lanai, suena música, Floyd se tumba junto al agua. Narradora: el fin de semana empieza cuando tu casa también descansa.",
       "hora_del_dia": "atardecer"
     },
     {
-      "id": "EN03", "familia": "familia_2", "titulo": "Storm season in Naples",
+      "id": "EN03",
+      "familia": "familia_2",
+      "titulo": "Storm season in Naples",
       "estado": "pendiente",
       "idea": "Tormenta de tarde: aviso de lluvia fuerte, las persianas de la sala bajan solas (foto final editada de la misma), el riego se pausa (aviso), el sensor de fugas del garaje avisa y Emma lo revisa a tiempo (se ve el aviso, no una inundación), Lily y Biscuit tranquilos en el sofá. Narrador: tu casa vigila lo que tú no ves.",
       "hora_del_dia": "tarde nublada (editar set a luz de tormenta)"
     },
     {
-      "id": "ES06", "familia": "familia_1", "titulo": "¿Cerré la puerta?",
+      "id": "ES06",
+      "familia": "familia_1",
+      "titulo": "¿Cerré la puerta?",
       "estado": "pendiente",
       "idea": "Mariana ya en la clínica (no mostrar la clínica: su mano con el celular en su carro rojo estacionado, pantalla oculta) duda si cerró; aviso 'Puerta de entrada: abierta' → orden 'Cerrar' → en casa la cerradura gira, Floyd mira desde su cama → aviso 'Puerta cerrada'. Narradora: la tranquilidad de saberlo, estés donde estés.",
       "hora_del_dia": "mañana"
     },
     {
-      "id": "EN04", "familia": "familia_2", "titulo": "Biscuit's dinner time",
+      "id": "EN04",
+      "familia": "familia_2",
+      "titulo": "Biscuit's dinner time",
       "estado": "pendiente",
       "idea": "Emma y Lily atrapadas en el tráfico/actividad de Lily; a la hora de siempre el comedero automático sirve la cena de Biscuit (aviso 'Biscuit's dinner served'), la cámara de mascotas muestra a Biscuit comiendo, la luz de la cocina se enciende tenue. Llegan en el SUV y Biscuit las recibe. Narrador: nadie se queda sin su cena.",
       "hora_del_dia": "atardecer"
     },
     {
-      "id": "ES07", "familia": "familia_1", "titulo": "Floyd solo en casa",
+      "id": "ES07",
+      "familia": "familia_1",
+      "titulo": "Floyd solo en casa",
       "estado": "pendiente",
       "idea": "Día de trabajo: la casa sola con Floyd. La cámara de mascotas muestra a Floyd inquieto, Mariana (en su pausa, celular) enciende la música suave en el altavoz y baja las persianas por el calor; Floyd se tumba tranquilo. Narradora: cuidar a los tuyos también es esto.",
       "hora_del_dia": "mediodía"
