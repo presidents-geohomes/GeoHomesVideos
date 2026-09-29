@@ -242,6 +242,7 @@ def procesar(ruta):
             descargar(url, crudo)
             final = os.path.join(escena["carpeta"], escena["archivo"])
             a_vertical_1080(crudo, final, escena.get("crf", 18))
+        escena["respuesta_hf"] = {k: v for k, v in estado.items() if k not in ("images", "video", "outputs")} if isinstance(estado, dict) else None
         escena.update({"estado": "hecho", "modelo_usado": modelo, "request_id": rid,
                        "resultado": final,
                        "generado": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())})

@@ -70,6 +70,12 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python3 sistema/voces.py
 
+      - name: Saldo antes
+        continue-on-error: true
+        env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
+        run: python3 sistema/saldo.py antes
+
       - name: Generar videos
         env:
           HF_API_KEY: ${{ secrets.HF_API_KEY }}
@@ -82,6 +88,13 @@ jobs:
           HF_API_KEY: ${{ secrets.HF_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python3 sistema/montar_episodio.py
+
+      - name: Saldo despues
+        if: always()
+        continue-on-error: true
+        env:
+          HF_API_KEY: ${{ secrets.HF_API_KEY }}
+        run: python3 sistema/saldo.py despues
 
       - name: Guardar videos en el repositorio
         if: always()
