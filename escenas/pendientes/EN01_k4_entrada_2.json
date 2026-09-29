@@ -1,8 +1,0 @@
-{
-  "tipo": "imagen",
-  "carpeta": "planos/EN01",
-  "archivo": "k4_entrada_2.jpg",
-  "formato": "9:16",
-  "referencias": ["banco/fotos/f2/f2-ent-lily-biscuit_1_b_1.jpg", "familias/familia_2/personajes/lily_cuerpo.png", "familias/familia_2/personajes/biscuit_cuerpo.png"],
-  "prompt": "Keep this exact same image: same entryway, same framing and camera angle, same warm late-afternoon light, same open white front door with its black smart lock, same girl in yellow t-shirt, denim shorts, white sneakers and lilac backpack on her back, same fluffy orange tabby cat rubbing against her legs, same sofa, rug, console table and plant. Change only one thing: remove the lilac backpack hanging on the brass wall hook on the left wall, leaving the empty brass hook on the white shiplap wall (the girl is wearing the only backpack). No text, no logos, no brand emblems, no extra people."
-}
