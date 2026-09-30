@@ -6,7 +6,7 @@ un título corto (el gancho) y la marca. El texto va dentro de la zona segura 4:
 que Instagram muestra en la cuadrícula del perfil: y de 285 a 1635).
 
 Uso: python3 sistema/portada.py <imagen> "<título>" <salida.jpg>
-     (etiqueta opcional: <imagen> "<título>" "<etiqueta>" <salida.jpg>; por defecto sin etiqueta ni logo)
+     (añade --abajo para poner el título abajo si las caras están arriba; etiqueta opcional: <imagen> "<título>" "<etiqueta>" <salida.jpg>; por defecto sin etiqueta ni logo)
 """
 import os
 import sys
@@ -39,7 +39,7 @@ def _bajar_fuentes():
                 pass
 
 
-def crear_portada(imagen, titulo, etiqueta, destino, logo=None):
+def crear_portada(imagen, titulo, etiqueta, destino, logo=None, posicion="arriba"):
     """Por defecto SIN etiqueta de episodio y SIN logo (pedido del cliente): foto cercana y emotiva + gancho."""
     _bajar_fuentes()
     im = Image.open(imagen).convert("RGB")
@@ -48,11 +48,12 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo=None):
     x0, y0 = (im.width - W) // 2, (im.height - H) // 2
     im = im.crop((x0, y0, x0 + W, y0 + H))
 
-    # degradado oscuro arriba para que el título se lea
+    # degradado oscuro (arriba o abajo) para que el título se lea sin tapar las caras
     sombra = Image.new("L", (W, H), 0)
     ds = ImageDraw.Draw(sombra)
     for y in range(0, 1000):
-        ds.line([(0, y), (W, y)], fill=int(190 * (1 - y / 1000) ** 1.6))
+        yy = y if posicion == "arriba" else H - 1 - y
+        ds.line([(0, yy), (W, yy)], fill=int(190 * (1 - y / 1000) ** 1.6))
     negro = Image.new("RGB", (W, H), (10, 16, 28))
     im = Image.composite(negro, im, sombra.filter(ImageFilter.GaussianBlur(4)))
     d = ImageDraw.Draw(im)
@@ -69,8 +70,10 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo=None):
 
     # título (gancho)
     f_t = _fuente("bold", 88)
-    y = 440 if etiqueta else 360
-    for linea in textwrap.wrap(titulo, 13)[:3]:
+    ancho = 13 if len(titulo) <= 13 else max(9, (len(titulo) + 1) // 2 + 1)
+    lineas = textwrap.wrap(titulo, ancho)[:3]  # cortes equilibrados
+    y = (440 if etiqueta else 360) if posicion == "arriba" else 1600 - 104 * len(lineas)
+    for linea in lineas:
         tw = d.textlength(linea, font=f_t)
         d.text(((W - tw) / 2 + 3, y + 4), linea, font=f_t, fill=(0, 0, 0))
         d.text(((W - tw) / 2, y), linea, font=f_t, fill=(255, 255, 255))
@@ -91,4 +94,6 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo=None):
 
 
 if __name__ == "__main__":
-    crear_portada(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 4 else "", sys.argv[-1])
+    args = [a for a in sys.argv[1:] if a not in ("--abajo",)]
+    crear_portada(args[0], args[1], args[2] if len(args) > 3 else "", args[-1],
+                  posicion="abajo" if "--abajo" in sys.argv else "arriba")

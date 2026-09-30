@@ -421,8 +421,8 @@ def montar(ep):
             import portada
             po = ep["portada"]
             img = po.get("imagen") or escenas[int(po.get("escena", len(escenas))) - 1]["imagen"]
-            portada.crear_portada(img, po["titulo"], po.get("etiqueta", ep.get("serie", "")),
-                                  os.path.join(ep["carpeta"], base + "_portada.jpg"))
+            portada.crear_portada(img, po["titulo"], po.get("etiqueta", ""),
+                                  os.path.join(ep["carpeta"], base + "_portada.jpg"), posicion=po.get("posicion", "arriba"))
             print("  Portada lista")
         except Exception as e:
             print(f"  (no se pudo crear la portada: {e})")
