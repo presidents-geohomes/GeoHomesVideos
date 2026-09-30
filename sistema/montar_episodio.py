@@ -245,9 +245,14 @@ def caras_en_clip(video, muestras=6):
     """Cajas (x0, y0, x1, y1) en píxeles del video final (1080x1920) de las caras que
     aparecen en el clip. Usa los detectores que trae OpenCV (frente y perfil)."""
     try:
-        import cv2
-    except ImportError:
+        return _caras(video, muestras)
+    except Exception as e:  # sin OpenCV: los textos quedan abajo (no suelen tapar caras)
+        print(f"  (sin detección de caras: {e})")
         return []
+
+
+def _caras(video, muestras):
+    import cv2
     base = cv2.data.haarcascades
     det = [cv2.CascadeClassifier(base + n) for n in
            ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml")]

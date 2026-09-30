@@ -106,10 +106,5 @@
     "imagen": "portadas/EN01/portada_abrazo_2_1.jpg",
     "titulo": "How does Mom know?",
     "posicion": "abajo"
-  },
-  "estado": "error",
-  "video": "series/ingles/EN01_lily-gets-home_v2/EN01.mp4",
-  "duracion": 26.5,
-  "fecha": "2026-09-30T00:45:03Z",
-  "error": "module 'cv2' has no attribute 'CascadeClassifier'"
+  }
 }
