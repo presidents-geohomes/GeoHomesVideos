@@ -780,5 +780,39 @@
    "/billing/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
    "/v1/users/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}"
   }
+ },
+ {
+  "etiqueta": "antes",
+  "fecha": "2026-09-30T00:46:48Z",
+  "rutas": {
+   "/v1/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/account": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/account": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/credits": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/credits": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/billing/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/billing/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/users/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+  }
+ },
+ {
+  "etiqueta": "despues",
+  "fecha": "2026-09-30T00:49:34Z",
+  "rutas": {
+   "/v1/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/account": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/account": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/credits": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/credits": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/billing/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/billing/balance": "HTTP 405: {\"detail\":\"Method Not Allowed\"}",
+   "/v1/users/me": "HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+  }
  }
 ]
