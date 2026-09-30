@@ -47,7 +47,7 @@ jobs:
       - name: Instalar ffmpeg y Pillow
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-          python3 -m pip install -q pillow faster-whisper
+          python3 -m pip install -q pillow faster-whisper opencv-python-headless
 
       - name: Crear escena desde el formulario (si se escribió un prompt)
         if: github.event_name == 'workflow_dispatch' && inputs.prompt != ''

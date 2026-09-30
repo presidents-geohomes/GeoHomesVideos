@@ -13,6 +13,7 @@ Lee episodios/pendientes/*.json:
      {"imagen": "familias/familia_1/set/ext_atardecer.png", "duracion": 4,
       "imagen_final": "familias/familia_1/set/ext_garaje_abierto.png",   # opcional
       "texto": "Abre el garaje", "estilo_texto": "orden",                # opcional
+      "posicion_texto": "abajo",   # opcional: abajo/arriba/centro; si no, se elige sola sin tapar caras
       "musica": "baja",                                                  # alta/media/baja/silencio
       "prompt": "Qué pasa en la escena (sin diálogos)..."},
      ...
@@ -234,9 +235,60 @@ def png_subtitulo(texto, destino):
     img.save(destino)
 
 
-def png_texto(texto, estilo, destino):
-    """Textos de la historia. 'aviso': tarjeta tipo notificación arriba.
-    'orden': frase entre comillas, como una orden de voz, en el centro."""
+# zonas posibles para los textos de la historia (fracción de la altura), en orden de preferencia.
+# Pedido del cliente: los textos no pueden tapar caras. Por defecto van en la parte baja
+# (encima de los subtítulos, que están al 79 %) y solo suben si ahí hay una cara.
+ZONAS_TEXTO = {"abajo": 0.60, "arriba": 0.10, "centro": 0.40}
+
+
+def caras_en_clip(video, muestras=6):
+    """Cajas (x0, y0, x1, y1) en píxeles del video final (1080x1920) de las caras que
+    aparecen en el clip. Usa los detectores que trae OpenCV (frente y perfil)."""
+    try:
+        import cv2
+    except ImportError:
+        return []
+    base = cv2.data.haarcascades
+    det = [cv2.CascadeClassifier(base + n) for n in
+           ("haarcascade_frontalface_default.xml", "haarcascade_profileface.xml")]
+    cap = cv2.VideoCapture(video)
+    n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) or 1
+    cajas = []
+    for k in range(muestras):
+        cap.set(cv2.CAP_PROP_POS_FRAMES, int(n * (k + 0.5) / muestras))
+        ok, fr = cap.read()
+        if not ok:
+            continue
+        fr = cv2.resize(fr, (W // 2, H // 2))
+        gris = cv2.equalizeHist(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY))
+        for d in det:
+            for espejo in (False, True):
+                g = cv2.flip(gris, 1) if espejo else gris
+                for (x, y, w, h) in d.detectMultiScale(g, 1.1, 6, minSize=(40, 40)):
+                    if espejo:
+                        x = g.shape[1] - x - w
+                    # margen: la cabeza completa (pelo, barbilla) es más grande que la cara
+                    cajas.append((2 * (x - w * 0.3), 2 * (y - h * 0.5), 2 * (x + w * 1.3), 2 * (y + h * 1.4)))
+    cap.release()
+    return cajas
+
+
+def elegir_zona(estilo, cajas, alto_caja, preferida=None):
+    """Primera zona cuyo rectángulo de texto no toca ninguna cara."""
+    orden = ["abajo", "arriba", "centro"]
+    if preferida in ZONAS_TEXTO:
+        return int(H * ZONAS_TEXTO[preferida])
+    for z in orden:
+        y0 = int(H * ZONAS_TEXTO[z])
+        if not any(c[1] < y0 + alto_caja + 40 and c[3] > y0 - 40 for c in cajas):
+            return y0
+    return int(H * ZONAS_TEXTO["abajo"])
+
+
+def png_texto(texto, estilo, destino, cajas=(), posicion=None):
+    """Textos de la historia. 'aviso': tarjeta tipo notificación. 'orden': frase entre
+    comillas, como una orden de voz. La altura se elige para no tapar caras (cajas) o
+    con posicion = "abajo" / "arriba" / "centro"."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     if estilo == "orden":
@@ -244,8 +296,8 @@ def png_texto(texto, estilo, destino):
         lineas = textwrap.wrap(f"“{texto}”", 22)
         alto = len(lineas) * 74
         ancho = max(d.textlength(l, font=f) for l in lineas)
-        y0 = int(H * 0.56)
         pad = 34
+        y0 = elegir_zona(estilo, cajas, alto + 2 * pad, posicion)
         d.rounded_rectangle(((W - ancho) / 2 - pad - 40, y0 - pad, (W + ancho) / 2 + pad, y0 + alto + pad - 14),
                             radius=40, fill=(255, 255, 255, 235))
         # ondas de voz (icono simple)
@@ -261,7 +313,8 @@ def png_texto(texto, estilo, destino):
         f = fuente("bold", 44)
         lineas = textwrap.wrap(texto, 30)
         alto = len(lineas) * 58
-        x0, y0, x1 = 70, 230, W - 70
+        x0, x1 = 70, W - 70
+        y0 = elegir_zona(estilo, cajas, alto + 70, posicion)
         d.rounded_rectangle((x0, y0, x1, y0 + alto + 70), radius=36, fill=(255, 255, 255, 238))
         # icono: círculo azul marino con un punto (indicador de aviso)
         cx, cy = x0 + 70, y0 + 35 + alto / 2
@@ -375,7 +428,12 @@ def montar(ep):
     for k, esc in enumerate(escenas):
         if esc.get("texto"):
             png = f"{TMP}/texto_{k}.png"
-            png_texto(esc["texto"], esc.get("estilo_texto", "aviso"), png)
+            pos = esc.get("posicion_texto")
+            if not pos and "/insertos/" in str(esc.get("clip", "")):
+                pos = "arriba"  # insertos: el aparato está al centro; arriba no lo tapa
+            cajas = [] if pos else caras_en_clip(clips[k][0])
+            png_texto(esc["texto"], esc.get("estilo_texto", "aviso"), png, cajas, pos)
+            print(f"  Texto escena {k + 1}: {len(cajas)} cara(s) detectada(s)")
             a = inicios[k] + float(esc.get("texto_desde", 0.6))
             b = inicios[k] + clips[k][1] - XF - 0.1
             poner(png, a, b, f"t{k}")
