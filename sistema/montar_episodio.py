@@ -220,7 +220,8 @@ def png_subtitulo(texto, destino):
     f = fuente("bold", 50)
     lineas = textwrap.wrap(texto, 26)
     alto = len(lineas) * 66
-    y0 = int(H * 0.70)
+    # abajo (pedido del cliente): no tapa caras; queda por encima de la interfaz de TikTok/Reels
+    y0 = int(H * 0.79) - (len(lineas) - 1) * 66
     ancho = max(d.textlength(l, font=f) for l in lineas)
     pad = 28
     d.rounded_rectangle(((W - ancho) / 2 - pad, y0 - pad, (W + ancho) / 2 + pad, y0 + alto + pad - 10),

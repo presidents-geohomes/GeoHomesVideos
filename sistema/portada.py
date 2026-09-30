@@ -5,7 +5,8 @@ Usa una foto LIMPIA del episodio (la foto de partida del plano más llamativo, s
 un título corto (el gancho) y la marca. El texto va dentro de la zona segura 4:5 (el centro
 que Instagram muestra en la cuadrícula del perfil: y de 285 a 1635).
 
-Uso: python3 sistema/portada.py <imagen> "<título>" "<serie · episodio>" <salida.jpg>
+Uso: python3 sistema/portada.py <imagen> "<título>" <salida.jpg>
+     (etiqueta opcional: <imagen> "<título>" "<etiqueta>" <salida.jpg>; por defecto sin etiqueta ni logo)
 """
 import os
 import sys
@@ -38,7 +39,8 @@ def _bajar_fuentes():
                 pass
 
 
-def crear_portada(imagen, titulo, etiqueta, destino, logo="assets/logo_white.png"):
+def crear_portada(imagen, titulo, etiqueta, destino, logo=None):
+    """Por defecto SIN etiqueta de episodio y SIN logo (pedido del cliente): foto cercana y emotiva + gancho."""
     _bajar_fuentes()
     im = Image.open(imagen).convert("RGB")
     esc = max(W / im.width, H / im.height)
@@ -55,16 +57,19 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo="assets/logo_white.png
     im = Image.composite(negro, im, sombra.filter(ImageFilter.GaussianBlur(4)))
     d = ImageDraw.Draw(im)
 
-    # etiqueta de la serie (píldora pequeña)
+    # etiqueta de la serie (solo si se pide explícitamente)
     f_et = _fuente("bold", 34)
-    tw = d.textlength(etiqueta, font=f_et)
-    y = 330
-    d.rounded_rectangle(((W - tw) / 2 - 28, y - 14, (W + tw) / 2 + 28, y + 50), radius=32, fill=(255, 255, 255))
-    d.text(((W - tw) / 2, y - 2), etiqueta, font=f_et, fill=NAVY)
+    if not etiqueta:
+        f_et = None
+    if f_et:
+        tw = d.textlength(etiqueta, font=f_et)
+        y = 330
+        d.rounded_rectangle(((W - tw) / 2 - 28, y - 14, (W + tw) / 2 + 28, y + 50), radius=32, fill=(255, 255, 255))
+        d.text(((W - tw) / 2, y - 2), etiqueta, font=f_et, fill=NAVY)
 
     # título (gancho)
     f_t = _fuente("bold", 88)
-    y = 440
+    y = 440 if etiqueta else 360
     for linea in textwrap.wrap(titulo, 13)[:3]:
         tw = d.textlength(linea, font=f_t)
         d.text(((W - tw) / 2 + 3, y + 4), linea, font=f_t, fill=(0, 0, 0))
@@ -72,7 +77,7 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo="assets/logo_white.png
         y += 104
 
     # logo pequeño abajo, dentro de la zona segura
-    if os.path.exists(logo):
+    if logo and os.path.exists(logo):
         lg = Image.open(logo).convert("RGBA")
         lw = 170
         lg = lg.resize((lw, int(lg.height * lw / lg.width)), Image.LANCZOS)
@@ -86,4 +91,4 @@ def crear_portada(imagen, titulo, etiqueta, destino, logo="assets/logo_white.png
 
 
 if __name__ == "__main__":
-    crear_portada(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+    crear_portada(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 4 else "", sys.argv[-1])
