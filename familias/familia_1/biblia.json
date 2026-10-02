@@ -27,7 +27,9 @@
   "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
   "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set'). Nunca moverlos entre tomas.",
   "Para que una acción de la casa se vea sí o sí (garaje, persianas, luces), usar foto inicial + foto final del set.",
-  "Sin diálogos de los personajes: órdenes y avisos como textos en pantalla ('aviso' arriba, 'orden' en el centro). La narradora acompaña todo el episodio y cierra con la marca."
+  "Sin diálogos de los personajes: órdenes y avisos como textos en pantalla ('aviso' arriba, 'orden' en el centro). La narradora acompaña todo el episodio y cierra con la marca.",
+  "Letreros en pantalla (avisos y órdenes) SIEMPRE arriba (posicion_texto \"arriba\"), nunca sobre personajes ni mascotas ni el aparato protagonista (pedido del cliente, 2026-10-01). Revisar fotogramas: ningún letrero tapa a nadie.",
+  "Gancho inicial de la narradora: la PRIMERA frase (primeros 3 s) debe enganchar: una pregunta, un problema que el espectador reconozca o un dato sorprendente, concreto y corto (máx. ~8 palabras). Evitar aperturas genéricas o poéticas ('Hay un momento del día que es solo tuyo', 'El día fue largo'). Debe nombrar la molestia o el momento (p. ej. '¿Y si tu casa cerrara todo por ti?', '¿Dejaste la puerta abierta otra vez?'). El primer plano también debe sugerir esa situación. Escribir 3 ganchos posibles y elegir el más fuerte (pedido del cliente, 2026-10-01)."
  ],
  "personajes": {
   "daniel": {
@@ -175,7 +177,8 @@
   "ES03 v1: la pickup llegaba con los faros hacia la calle (al revés) → revisar la dirección de vehículos y personas.",
   "ES03 v1: el garaje no subía, se 'fundía' con la foto final (inicio y final eran ediciones distintas) → evitar acciones arriesgadas; foto final solo editando la misma foto inicial; detector de fundidos.",
   "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica.",
-  "Las mascotas SIEMPRE comen de su comedero inteligente (nunca platos) y salen al patio por su puerta inteligente para mascotas (pedido del cliente, 2026-09-28)."
+  "Las mascotas SIEMPRE comen de su comedero inteligente (nunca platos) y salen al patio por su puerta inteligente para mascotas (pedido del cliente, 2026-09-28).",
+  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion."
  ],
  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }
