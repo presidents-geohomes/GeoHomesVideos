@@ -1,125 +1,130 @@
 {
-  "familia": "Familia 2 · Emma, Lily y Biscuit",
-  "idioma": "en",
-  "serie": "Home, Simplified",
-  "cierre": "Home that keeps up.",
-  "lugar": "Geo Homes · Naples, FL",
-  "oferta_cierre": [
-    "Free visit & estimate · We make your home smart",
-    "Free estimate · Your current home, now smart",
-    "No-obligation quote · We make your home smart"
-  ],
-  "publicacion": [
-    "miércoles",
-    "sábado"
-  ],
-  "narrador": {
-    "nombre": "Jon - Warm & Grounded Storyteller (ElevenLabs)",
-    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
-    "modelo": "eleven_multilingual_v2",
-    "uso": "Narra TODO el episodio en 3-5 frases cortas en inglés repartidas por los planos: la tranquilidad, la seguridad y el tiempo que la casa inteligente le devuelve a una madre que trabaja. Termina sobre el cierre con: 'Geo Homes. Home that keeps up.'",
-    "muestra": "familias/familia_2/voces/voz_1.mp3"
+ "familia": "Familia 2 · Emma, Lily y Biscuit",
+ "idioma": "en",
+ "serie": "Home, Simplified",
+ "cierre": "Home that keeps up.",
+ "lugar": "Geo Homes · Naples, FL",
+ "oferta_cierre": [
+  "Free visit & estimate · We make your home smart",
+  "Free estimate · Your current home, now smart",
+  "No-obligation quote · We make your home smart"
+ ],
+ "publicacion": [
+  "miércoles",
+  "sábado"
+ ],
+ "narrador": {
+  "nombre": "Jon - Warm & Grounded Storyteller (ElevenLabs)",
+  "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+  "modelo": "eleven_multilingual_v2",
+  "uso": "Narra TODO el episodio en 3-5 frases cortas en inglés repartidas por los planos: la tranquilidad, la seguridad y el tiempo que la casa inteligente le devuelve a una madre que trabaja. Termina sobre el cierre con: 'Geo Homes. Home that keeps up.'",
+  "muestra": "familias/familia_2/voces/voz_1.mp3"
+ },
+ "musica": "Pista instrumental original con ElevenLabs Music: cálida, acústica, piano suave y guitarra, ~90 BPM, tierna y esperanzadora, sin voces. Puede sonar desde el altavoz de la cocina.",
+ "tono": "Tranquilidad, seguridad y pequeños gestos de cariño. Una madre que trabaja turnos, una hija independiente y un papá que trabaja fuera por temporadas.",
+ "reglas_guion": [
+  "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado. Toda orden aparece ANTES de su efecto.",
+  "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
+  "Continuidad de lugares según el plano: nadie cambia de habitación sin verlo moverse; al garaje se entra por la lavandería.",
+  "La casa es la protagonista: personas lejos, de espaldas o desenfocadas; nunca primer plano de caras. Lily es una niña: siempre en escenas familiares, cotidianas y apropiadas.",
+  "Celular: se ve usar, nunca se ve la pantalla ni ninguna app.",
+  "Sin marcas ni logos: altavoz genérico; SUV sin emblemas; nunca nombrar marcas.",
+  "Sin diálogos de los personajes: órdenes y avisos como textos en pantalla en inglés ('aviso' arriba, 'orden' en el centro). El narrador acompaña todo el episodio y cierra con la marca.",
+  "El papá nunca aparece en pantalla: solo como ausencia (foto enmarcada, videollamada sin ver la pantalla, su banco de trabajo en el garaje).",
+  "Casa regular convertida en smart: nada futurista.",
+  "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
+  "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set').",
+  "Letreros en pantalla (avisos y órdenes) SIEMPRE arriba (posicion_texto \"arriba\"), nunca sobre personajes ni mascotas ni el aparato protagonista (pedido del cliente, 2026-10-01). Revisar fotogramas: ningún letrero tapa a nadie.",
+  "Gancho inicial de la narradora: la PRIMERA frase (primeros 3 s) debe enganchar: una pregunta, un problema que el espectador reconozca o un dato sorprendente, concreto y corto (máx. ~8 palabras). Evitar aperturas genéricas o poéticas ('Hay un momento del día que es solo tuyo', 'El día fue largo'). Debe nombrar la molestia o el momento (p. ej. '¿Y si tu casa cerrara todo por ti?', '¿Dejaste la puerta abierta otra vez?'). El primer plano también debe sugerir esa situación. Escribir 3 ganchos posibles y elegir el más fuerte (pedido del cliente, 2026-10-01)."
+ ],
+ "personajes": {
+  "emma": {
+   "foto": "familias/familia_2/personajes/emma.png",
+   "ficha": "familias/familia_2/personajes/emma_cuerpo.png",
+   "ficha_trabajo": "familias/familia_2/personajes/emma_trabajo.png",
+   "descripcion": "Emma, mujer estadounidense de 41 años, pelo rubio miel a la altura de los hombros, pecas, ojos azul verdoso, sonrisa amable y segura.",
+   "ropa": "En casa: camisa de chambray azul claro, jeans claros y tenis blancos. Trabajo: uniforme de enfermera azul marino, credencial, zuecos blancos y un vaso de café.",
+   "trabajo": "Enfermera de hospital con turnos rotativos (a veces sale de madrugada o vuelve de noche).",
+   "rutina": "Días de turno: sale 6:15 a. m. o vuelve 8:00 p. m. Días libres: huerto, porche trasero, tareas con Lily.",
+   "vehiculo": "suv_emma"
   },
-  "musica": "Pista instrumental original con ElevenLabs Music: cálida, acústica, piano suave y guitarra, ~90 BPM, tierna y esperanzadora, sin voces. Puede sonar desde el altavoz de la cocina.",
-  "tono": "Tranquilidad, seguridad y pequeños gestos de cariño. Una madre que trabaja turnos, una hija independiente y un papá que trabaja fuera por temporadas.",
-  "reglas_guion": [
-    "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado. Toda orden aparece ANTES de su efecto.",
-    "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
-    "Continuidad de lugares según el plano: nadie cambia de habitación sin verlo moverse; al garaje se entra por la lavandería.",
-    "La casa es la protagonista: personas lejos, de espaldas o desenfocadas; nunca primer plano de caras. Lily es una niña: siempre en escenas familiares, cotidianas y apropiadas.",
-    "Celular: se ve usar, nunca se ve la pantalla ni ninguna app.",
-    "Sin marcas ni logos: altavoz genérico; SUV sin emblemas; nunca nombrar marcas.",
-    "Sin diálogos de los personajes: órdenes y avisos como textos en pantalla en inglés ('aviso' arriba, 'orden' en el centro). El narrador acompaña todo el episodio y cierra con la marca.",
-    "El papá nunca aparece en pantalla: solo como ausencia (foto enmarcada, videollamada sin ver la pantalla, su banco de trabajo en el garaje).",
-    "Casa regular convertida en smart: nada futurista.",
-    "Un solo pequeño momento por episodio, resuelto por la casa. Duración 20-30 s.",
-    "Cada aparato y mueble SIEMPRE en su lugar fijo (ver 'aparatos' y 'set')."
-  ],
-  "personajes": {
-    "emma": {
-      "foto": "familias/familia_2/personajes/emma.png",
-      "ficha": "familias/familia_2/personajes/emma_cuerpo.png",
-      "ficha_trabajo": "familias/familia_2/personajes/emma_trabajo.png",
-      "descripcion": "Emma, mujer estadounidense de 41 años, pelo rubio miel a la altura de los hombros, pecas, ojos azul verdoso, sonrisa amable y segura.",
-      "ropa": "En casa: camisa de chambray azul claro, jeans claros y tenis blancos. Trabajo: uniforme de enfermera azul marino, credencial, zuecos blancos y un vaso de café.",
-      "trabajo": "Enfermera de hospital con turnos rotativos (a veces sale de madrugada o vuelve de noche).",
-      "rutina": "Días de turno: sale 6:15 a. m. o vuelve 8:00 p. m. Días libres: huerto, porche trasero, tareas con Lily.",
-      "vehiculo": "suv_emma"
-    },
-    "lily": {
-      "foto": "familias/familia_2/personajes/lily.png",
-      "ficha": "familias/familia_2/personajes/lily_cuerpo.png",
-      "descripcion": "Lily, 9 años, hija de Emma, pelo castaño claro largo en cola de caballo, pecas, sonrisa grande.",
-      "ropa": "Camiseta amarilla, shorts de mezclilla, tenis blancos y mochila lila.",
-      "rutina": "Llega del colegio en el autobús a las 3:15 p. m.; entra con su código en la cerradura. Tareas en la cocina. Adora a Biscuit.",
-      "notas": "Siempre escenas familiares, cotidianas y apropiadas para una niña."
-    },
-    "papa": {
-      "descripcion": "El papá de Lily trabaja fuera por temporadas. NUNCA aparece en pantalla: solo foto enmarcada en el cuarto de Lily, su banco de trabajo en el garaje o una videollamada (sin ver la pantalla)."
-    },
-    "biscuit": {
-      "foto": "familias/familia_2/personajes/biscuit.png",
-      "ficha": "familias/familia_2/personajes/biscuit_cuerpo.png",
-      "descripcion": "Biscuit, gato atigrado naranja de pelo largo y esponjoso, ojos verdes, tranquilo y cariñoso.",
-      "cosas": "Comedero automático y fuente de agua en la cocina, junto a la puerta de la lavandería. Le encanta el asiento de la ventana de la sala y el sofá gris. Cámara para mascotas en la sala. Sale y entra al patio por su puerta inteligente para mascotas, en la puerta del porche trasero (malla) que da al patio."
-    }
+  "lily": {
+   "foto": "familias/familia_2/personajes/lily.png",
+   "ficha": "familias/familia_2/personajes/lily_cuerpo.png",
+   "descripcion": "Lily, 9 años, hija de Emma, pelo castaño claro largo en cola de caballo, pecas, sonrisa grande.",
+   "ropa": "Camiseta amarilla, shorts de mezclilla, tenis blancos y mochila lila.",
+   "rutina": "Llega del colegio en el autobús a las 3:15 p. m.; entra con su código en la cerradura. Tareas en la cocina. Adora a Biscuit.",
+   "notas": "Siempre escenas familiares, cotidianas y apropiadas para una niña."
   },
-  "vehiculos": {
-    "suv_emma": {
-      "foto": "familias/familia_2/vehiculos/suv_emma.png",
-      "descripcion": "SUV compacto blanco perla con la forma de un Toyota RAV4, SIN emblemas ni logos.",
-      "lugar": "Lado IZQUIERDO del garaje. El lado derecho tiene la bici de Lily y el banco de trabajo del papá."
-    }
+  "papa": {
+   "descripcion": "El papá de Lily trabaja fuera por temporadas. NUNCA aparece en pantalla: solo foto enmarcada en el cuarto de Lily, su banco de trabajo en el garaje o una videollamada (sin ver la pantalla)."
   },
-  "casa": {
-    "plano": "familias/familia_2/plano.png",
-    "resumen": "Casa regular de una planta en Naples convertida en smart. 3 cuartos (Lily, principal, oficina/huéspedes), 2 baños, garaje doble, cocina abierta a la sala, lavandería entre garaje y cocina, porche delantero, porche trasero con malla y patio cercado con huerto y columpio. SIN piscina.",
-    "estilo_exterior": "Estuco blanco, techo de teja plana gris, arco curvo sobre la puerta ancha del garaje a la izquierda, chimenea blanca, porche delantero con columnas cuadradas, banco negro de metal, contraventanas grises, palmeras en macetas, césped y entrada de concreto.",
-    "estilo_interior": "Cottage costero renovado: gabinetes shaker blancos, isla azul marino con cuarzo blanco, lámparas colgantes de latón, piso de madera clara, paredes blancas con detalles de shiplap, chimenea de ladrillo pintado de blanco en la sala.",
-    "habitaciones": {
-      "cocina": "Isla azul marino con 3 taburetes de madera clara y el altavoz en el centro; ventana del fregadero al porche trasero y al patio; puerta blanca a la IZQUIERDA (lavandería → garaje); comedero automático y fuente de Biscuit en esa esquina.",
-      "sala": "Sofá gris, chimenea blanca con TV encima, ventanas con persianas motorizadas, asiento de ventana de Biscuit, cámara para mascotas.",
-      "entrada": "Puerta blanca con cerradura inteligente con teclado; consola con cuenco de llaves; gancho con la mochila lila de Lily.",
-      "lavanderia": "Lavadora y secadora blancas; puerta al garaje con cerradura inteligente.",
-      "garaje": "SUV a la izquierda; bici de Lily, banco de trabajo y estantes a la derecha; sensor de fugas junto al calentador.",
-      "cuarto_lily": "Cama individual con colcha lila, escritorio, foto familiar con papá, luces decorativas, ventana al frente.",
-      "pasillo": "Termostato inteligente en la pared, fotos familiares.",
-      "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
-    }
-  },
-  "aparatos": {
-    "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
-    "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
-    "cerradura": "Cerradura inteligente con teclado en la puerta de entrada (Lily usa su código) y en la puerta lavandería–garaje.",
-    "timbre": "Timbre con cámara en el porche delantero.",
-    "camaras": "Cámara exterior sobre el garaje; cámara en el porche trasero; cámara para mascotas en la sala. Solo se muestran si la toma incluye esa zona.",
-    "termostato": "Termostato inteligente en el pasillo.",
-    "persianas": "Persianas motorizadas en las ventanas de la sala.",
-    "comedero": "Comedero automático y fuente de agua de Biscuit en la cocina, junto a la puerta de la lavandería.",
-    "sensor_fugas": "Sensor de fugas de agua en el garaje junto al calentador (y bajo el fregadero).",
-    "garaje": "Puerta de garaje automática.",
-    "riego": "Riego automático del patio y del huerto.",
-    "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit."
-  },
-  "set": {
-    "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
-    "ext_dia": "familias/familia_2/set/ext_dia.png",
-    "ext_manana": "familias/familia_2/set/ext_manana.png",
-    "ext_atardecer": "familias/familia_2/set/ext_atardecer.png",
-    "ext_noche": "familias/familia_2/set/ext_noche.png",
-    "ext_porche": "familias/familia_2/set/ext_porche.png",
-    "cocina": "familias/familia_2/set/cocina.png",
-    "patio_trasero": "familias/familia_2/set/patio_trasero.png",
-    "sala": "familias/familia_2/set/sala.png",
-    "sala_hacia_entrada": "familias/familia_2/set/sala_hacia_entrada.png",
-    "cocina_puerta_lavanderia": "familias/familia_2/set/cocina_puerta_lavanderia.png",
-    "lavanderia": "familias/familia_2/set/lavanderia.png",
-    "garaje_interior": "familias/familia_2/set/garaje_interior.png",
-    "cuarto_lily": "familias/familia_2/set/cuarto_lily.png",
-    "pasillo": "familias/familia_2/set/pasillo.png",
-    "cuarto_principal": "familias/familia_2/set/cuarto_principal.png"
-  },
-  "control_calidad": "Igual que la familia 1: ver familias/familia_1/biblia.json → control_calidad (guion, fotos de partida, acciones seguras/arriesgadas, video terminado, publicación).",
-  "errores_aprendidos": "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias.",
-  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
+  "biscuit": {
+   "foto": "familias/familia_2/personajes/biscuit.png",
+   "ficha": "familias/familia_2/personajes/biscuit_cuerpo.png",
+   "descripcion": "Biscuit, gato atigrado naranja de pelo largo y esponjoso, ojos verdes, tranquilo y cariñoso.",
+   "cosas": "Comedero automático y fuente de agua en la cocina, junto a la puerta de la lavandería. Le encanta el asiento de la ventana de la sala y el sofá gris. Cámara para mascotas en la sala. Sale y entra al patio por su puerta inteligente para mascotas, en la puerta del porche trasero (malla) que da al patio."
+  }
+ },
+ "vehiculos": {
+  "suv_emma": {
+   "foto": "familias/familia_2/vehiculos/suv_emma.png",
+   "descripcion": "SUV compacto blanco perla con la forma de un Toyota RAV4, SIN emblemas ni logos.",
+   "lugar": "Lado IZQUIERDO del garaje. El lado derecho tiene la bici de Lily y el banco de trabajo del papá."
+  }
+ },
+ "casa": {
+  "plano": "familias/familia_2/plano.png",
+  "resumen": "Casa regular de una planta en Naples convertida en smart. 3 cuartos (Lily, principal, oficina/huéspedes), 2 baños, garaje doble, cocina abierta a la sala, lavandería entre garaje y cocina, porche delantero, porche trasero con malla y patio cercado con huerto y columpio. SIN piscina.",
+  "estilo_exterior": "Estuco blanco, techo de teja plana gris, arco curvo sobre la puerta ancha del garaje a la izquierda, chimenea blanca, porche delantero con columnas cuadradas, banco negro de metal, contraventanas grises, palmeras en macetas, césped y entrada de concreto.",
+  "estilo_interior": "Cottage costero renovado: gabinetes shaker blancos, isla azul marino con cuarzo blanco, lámparas colgantes de latón, piso de madera clara, paredes blancas con detalles de shiplap, chimenea de ladrillo pintado de blanco en la sala.",
+  "habitaciones": {
+   "cocina": "Isla azul marino con 3 taburetes de madera clara y el altavoz en el centro; ventana del fregadero al porche trasero y al patio; puerta blanca a la IZQUIERDA (lavandería → garaje); comedero automático y fuente de Biscuit en esa esquina.",
+   "sala": "Sofá gris, chimenea blanca con TV encima, ventanas con persianas motorizadas, asiento de ventana de Biscuit, cámara para mascotas.",
+   "entrada": "Puerta blanca con cerradura inteligente con teclado; consola con cuenco de llaves; gancho con la mochila lila de Lily.",
+   "lavanderia": "Lavadora y secadora blancas; puerta al garaje con cerradura inteligente.",
+   "garaje": "SUV a la izquierda; bici de Lily, banco de trabajo y estantes a la derecha; sensor de fugas junto al calentador.",
+   "cuarto_lily": "Cama individual con colcha lila, escritorio, foto familiar con papá, luces decorativas, ventana al frente.",
+   "pasillo": "Termostato inteligente en la pared, fotos familiares.",
+   "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
+  }
+ },
+ "aparatos": {
+  "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
+  "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
+  "cerradura": "Cerradura inteligente con teclado en la puerta de entrada (Lily usa su código) y en la puerta lavandería–garaje.",
+  "timbre": "Timbre con cámara en el porche delantero.",
+  "camaras": "Cámara exterior sobre el garaje; cámara en el porche trasero; cámara para mascotas en la sala. Solo se muestran si la toma incluye esa zona.",
+  "termostato": "Termostato inteligente en el pasillo.",
+  "persianas": "Persianas motorizadas en las ventanas de la sala.",
+  "comedero": "Comedero automático y fuente de agua de Biscuit en la cocina, junto a la puerta de la lavandería.",
+  "sensor_fugas": "Sensor de fugas de agua en el garaje junto al calentador (y bajo el fregadero).",
+  "garaje": "Puerta de garaje automática.",
+  "riego": "Riego automático del patio y del huerto.",
+  "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit."
+ },
+ "set": {
+  "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
+  "ext_dia": "familias/familia_2/set/ext_dia.png",
+  "ext_manana": "familias/familia_2/set/ext_manana.png",
+  "ext_atardecer": "familias/familia_2/set/ext_atardecer.png",
+  "ext_noche": "familias/familia_2/set/ext_noche.png",
+  "ext_porche": "familias/familia_2/set/ext_porche.png",
+  "cocina": "familias/familia_2/set/cocina.png",
+  "patio_trasero": "familias/familia_2/set/patio_trasero.png",
+  "sala": "familias/familia_2/set/sala.png",
+  "sala_hacia_entrada": "familias/familia_2/set/sala_hacia_entrada.png",
+  "cocina_puerta_lavanderia": "familias/familia_2/set/cocina_puerta_lavanderia.png",
+  "lavanderia": "familias/familia_2/set/lavanderia.png",
+  "garaje_interior": "familias/familia_2/set/garaje_interior.png",
+  "cuarto_lily": "familias/familia_2/set/cuarto_lily.png",
+  "pasillo": "familias/familia_2/set/pasillo.png",
+  "cuarto_principal": "familias/familia_2/set/cuarto_principal.png"
+ },
+ "control_calidad": "Igual que la familia 1: ver familias/familia_1/biblia.json → control_calidad (guion, fotos de partida, acciones seguras/arriesgadas, video terminado, publicación).",
+ "errores_aprendidos": [
+  "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias.",
+  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion."
+ ],
+ "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }

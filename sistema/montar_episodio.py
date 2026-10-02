@@ -433,7 +433,7 @@ def montar(ep):
     for k, esc in enumerate(escenas):
         if esc.get("texto"):
             png = f"{TMP}/texto_{k}.png"
-            pos = esc.get("posicion_texto")
+            pos = esc.get("posicion_texto") or "arriba"  # por defecto arriba: nunca tapar personajes
             if not pos and "/insertos/" in str(esc.get("clip", "")):
                 pos = "arriba"  # insertos: el aparato está al centro; arriba no lo tapa
             cajas = [] if pos else caras_en_clip(clips[k][0])
