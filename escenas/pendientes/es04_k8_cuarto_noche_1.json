@@ -1,0 +1,12 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES04",
+  "archivo": "k8_cuarto_noche_1.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/set/cuarto_principal.png",
+    "familias/familia_1/personajes/daniel_cuerpo.png",
+    "familias/familia_1/personajes/mariana_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same place from the first reference image: same architecture, same furniture and objects in the same positions, same camera angle and framing. Change ONLY the time of day to deep night, about 10:30 pm: every window and sliding glass door shows pitch-dark night outside (only the faint turquoise glow of the pool lights visible), no sunlight or golden light anywhere; the room is lit only by soft warm dimmed recessed lights and lamps. Nearly dark room, only the faint glow of the bedside lamps turned very low. Add the man and the woman from the references lying in bed under the white sheets, far from the camera, small in the frame, seen from behind or in shadow, faces not visible, resting peacefully. Photorealistic, vertical 9:16, no text, no logos, no brand emblems."
+}
