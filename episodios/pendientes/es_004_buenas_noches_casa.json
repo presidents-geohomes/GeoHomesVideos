@@ -29,7 +29,8 @@
       "texto": "Buenas noches",
       "estilo_texto": "orden",
       "texto_desde": 0.4,
-      "prompt": "Seen from behind, the woman at the island turns her head slightly toward the smart speaker; the light ring on top brightens softly and gives a short confirmation. Subtle movement only, very slow push-in."
+      "prompt": "Seen from behind, the woman at the island turns her head slightly toward the smart speaker; the light ring on top brightens softly and gives a short confirmation. Subtle movement only, very slow push-in.",
+      "posicion_texto": "arriba"
     },
     {
       "imagen": "planos/ES04/k2_sala_noche_1_1.png",
@@ -38,7 +39,8 @@
       "musica": "baja",
       "texto": "Modo noche activado",
       "estilo_texto": "aviso",
-      "prompt": "The recessed lights and lamp slowly dim and the motorized blinds on the sliding glass door lower smoothly. The couple stays still on the sofa; the dog sleeps. Static camera."
+      "prompt": "The recessed lights and lamp slowly dim and the motorized blinds on the sliding glass door lower smoothly. The couple stays still on the sofa; the dog sleeps. Static camera.",
+      "posicion_texto": "arriba"
     },
     {
       "imagen": "planos/ES04/k5_entrada_noche_1_1.png",
@@ -46,7 +48,8 @@
       "musica": "baja",
       "texto": "Puertas cerradas",
       "estilo_texto": "aviso",
-      "prompt": "The small light on the smart lock of the closed front door glows softly and pulses once as the lock confirms. The pit bull on his bed lifts his head briefly, then settles down and rests. Static camera."
+      "prompt": "The small light on the smart lock of the closed front door glows softly and pulses once as the lock confirms. The pit bull on his bed lifts his head briefly, then settles down and rests. Static camera.",
+      "posicion_texto": "arriba"
     },
     {
       "imagen": "familias/familia_1/set/pasillo_termostato.png",
@@ -54,7 +57,8 @@
       "musica": "baja",
       "texto": "Temperatura para dormir",
       "estilo_texto": "aviso",
-      "prompt": "The round smart thermostat on the hallway wall softly lights up and its display changes slightly. Slow gentle push-in toward the thermostat. Nothing else moves."
+      "prompt": "The round smart thermostat on the hallway wall softly lights up and its display changes slightly. Slow gentle push-in toward the thermostat. Nothing else moves.",
+      "posicion_texto": "arriba"
     },
     {
       "imagen": "familias/familia_1/set/ext_noche.png",
@@ -62,7 +66,8 @@
       "musica": "baja",
       "texto": "Cámaras activas",
       "estilo_texto": "aviso",
-      "prompt": "Night, static camera. The garden uplights switch off one by one and the front of the house becomes darker; a tiny light on the camera under the eave blinks once. Nothing else moves."
+      "prompt": "Night, static camera. The garden uplights switch off one by one and the front of the house becomes darker; a tiny light on the camera under the eave blinks once. Nothing else moves.",
+      "posicion_texto": "arriba"
     },
     {
       "imagen": "planos/ES04/k8_cuarto_noche_1_1.png",
@@ -114,9 +119,5 @@
     "imagen": "planos/ES04/k2_sala_noche_1_1.png",
     "titulo": "Buenas noches, casa",
     "etiqueta": "Casa que te entiende · Ep. 4"
-  },
-  "estado": "hecho",
-  "video": "series/espanol/ES04_buenas-noches-casa/ES04.mp4",
-  "duracion": 28.0,
-  "fecha": "2026-10-02T00:35:44Z"
+  }
 }
