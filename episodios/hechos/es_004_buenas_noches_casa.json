@@ -114,5 +114,9 @@
     "imagen": "planos/ES04/k2_sala_noche_1_1.png",
     "titulo": "Buenas noches, casa",
     "etiqueta": "Casa que te entiende · Ep. 4"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES04_buenas-noches-casa/ES04.mp4",
+  "duracion": 28.0,
+  "fecha": "2026-10-02T00:35:44Z"
 }
