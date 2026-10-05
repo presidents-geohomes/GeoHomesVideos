@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES05",
+  "archivo": "p4_persianas_abajo.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/ES05/p4_floyd_cama_1.png"
+  ],
+  "prompt": "Keep this exact same image from the reference: same room, same camera angle and framing, same stormy gray light, same woman on the sofa seen from behind, same dog lying on his round dog bed, every object in the same position. Do not add a ceiling or sky. Change ONLY one thing: the motorized roller shade of the sliding glass door is now fully DOWN, a plain light beige fabric shade covering the whole glass of the sliding door from top to floor, so the lanai and pool are no longer visible. The room gets a bit dimmer. Photorealistic, vertical 9:16, no text, no logos, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "0b0b8aa6-72c8-45b8-9127-19e6a1b7ca3e",
+    "status_url": "https://platform.higgsfield.ai/requests/0b0b8aa6-72c8-45b8-9127-19e6a1b7ca3e/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/0b0b8aa6-72c8-45b8-9127-19e6a1b7ca3e/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "0b0b8aa6-72c8-45b8-9127-19e6a1b7ca3e",
+  "resultado": [
+    "planos/ES05/p4_persianas_abajo_1.png"
+  ],
+  "generado": "2026-10-05T15:30:04Z"
+}
