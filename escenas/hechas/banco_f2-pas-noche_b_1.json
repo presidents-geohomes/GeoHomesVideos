@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-pas-noche_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/pasillo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Night; the hallway lit only by a dim warm night light. There must be NO people and NO animals in the image. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "862fcfc0-6bf2-4718-a348-fc60f20f4ba6",
+    "status_url": "https://platform.higgsfield.ai/requests/862fcfc0-6bf2-4718-a348-fc60f20f4ba6/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/862fcfc0-6bf2-4718-a348-fc60f20f4ba6/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "862fcfc0-6bf2-4718-a348-fc60f20f4ba6",
+  "resultado": [
+    "banco/fotos/f2/f2-pas-noche_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:58:51Z"
+}

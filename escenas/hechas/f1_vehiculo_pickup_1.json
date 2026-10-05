@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_1/candidatos",
+  "archivo": "vehiculo_pickup_1.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/set/ext_atardecer.png"
+  ],
+  "prompt": "Keep this exact same house, same angle and golden-hour light. Parked on the paver driveway in front of the closed garage on the LEFT side: a black 2020 full-size crew-cab pickup truck shaped like a Ford F-150 but with NO badges, NO emblems and NO logos anywhere, black wheels. Headlights off. No people. Photorealistic, vertical 9:16, no text, no logos, no brand emblems.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "3ab8df54-054d-4d93-829b-e03e46175dd7",
+  "resultado": [
+    "familias/familia_1/candidatos/vehiculo_pickup_1_1.png"
+  ],
+  "generado": "2026-09-27T19:49:04Z"
+}

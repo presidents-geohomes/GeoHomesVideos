@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/insertos/f2",
+  "archivo": "f2-ins-timbre.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-timbre_1_1.jpg",
+  "duracion": 3,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "The light ring around the button glows softly blue. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "fb5263d6-7fc2-42b6-9029-60e3aad42272",
+    "status_url": "https://platform.higgsfield.ai/requests/fb5263d6-7fc2-42b6-9029-60e3aad42272/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/fb5263d6-7fc2-42b6-9029-60e3aad42272/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "fb5263d6-7fc2-42b6-9029-60e3aad42272",
+  "resultado": "banco/insertos/f2/f2-ins-timbre.mp4",
+  "generado": "2026-09-29T06:07:00Z"
+}

@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-coc-cena_2.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/cocina.png",
+    "familias/familia_2/personajes/emma_cuerpo.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials as the reference photo (white stucco exterior, flat gray tile roof, arched white garage door, front porch with square white columns and a black metal bench, gray shutters, potted palms; interior white walls with shiplap details, white shaker cabinets, navy-blue island with white quartz, brass pendant lights, light oak wood floor, gray sofa, white painted brick fireplace). People are small in frame, far from camera, seen from behind or in soft focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks. Change: Evening with pendant lights on; Emma and Lily eating dinner at the island, from a distance. Characters must match the references: Emma: American woman, 41, shoulder-length honey-blonde hair, light chambray shirt and jeans at home or navy nurse scrubs for work. Lily: girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts, lilac backpack. Biscuit: fluffy long-haired orange tabby cat with green eyes. Lily's father NEVER appears.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "bcbce61a-fbce-4430-ba2b-0451a81f0a18",
+    "status_url": "https://platform.higgsfield.ai/requests/bcbce61a-fbce-4430-ba2b-0451a81f0a18/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/bcbce61a-fbce-4430-ba2b-0451a81f0a18/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "bcbce61a-fbce-4430-ba2b-0451a81f0a18",
+  "resultado": [
+    "banco/fotos/f2/f2-coc-cena_2_1.jpg"
+  ],
+  "generado": "2026-09-29T04:20:33Z"
+}

@@ -1,0 +1,18 @@
+{
+  "tipo": "imagen",
+  "carpeta": "personajes/candidatos",
+  "archivo": "floyd_a.jpg",
+  "formato": "3:4",
+  "cantidad": 4,
+  "prompt": "Floyd, a handsome adult male American Pit Bull Terrier mix, about 65 pounds, lean athletic muscular build, short sleek glossy coat in very dark chocolate-black, a broad clean white bib on the chest, a thin narrow white stripe running from the forehead down between the eyes to the muzzle, grey-white hair on the chin, white toes on all four paws, soft medium rose ears folded back (natural, uncropped), large warm brown expressive eyes, gentle sweet slightly shy expression, wearing a simple black collar. Sitting upright on light wood floor in a bright, tidy family living room, looking slightly off camera with soulful eyes. Photorealistic lifestyle commercial photography, natural skin and fur texture, soft natural window light, shot on 85mm lens, shallow depth of field, warm and inviting color grade, no text, no logos.",
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "5388236a-d104-4b66-bec3-dda5635be675",
+  "resultado": [
+    "personajes/candidatos/floyd_a_1.png",
+    "personajes/candidatos/floyd_a_2.png",
+    "personajes/candidatos/floyd_a_3.png",
+    "personajes/candidatos/floyd_a_4.png"
+  ],
+  "generado": "2026-09-27T17:09:44Z"
+}

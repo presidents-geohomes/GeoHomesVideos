@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "casa/set_espanol/candidatos",
+  "archivo": "ext_atardecer_1.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "personajes/elegidos/casa_espanol.png"
+  ],
+  "prompt": "Keep this exact same house: identical architecture, sand-colored stucco, terracotta barrel-tile roof, arched entry with the dark wood door and two black lanterns, white two-car garage door, paver driveway, palm trees and red tropical plants. Same camera angle and framing. Change the time to golden hour at early dusk: warm low sun, orange and soft blue sky, the two wall lanterns glowing warmly, soft warm light inside the windows. Photorealistic, vertical 9:16, no people, no text, no logos.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "64e311c6-52f6-45a5-b426-0242716fe790",
+  "resultado": [
+    "casa/set_espanol/candidatos/ext_atardecer_1_1.png"
+  ],
+  "generado": "2026-09-27T19:00:55Z"
+}

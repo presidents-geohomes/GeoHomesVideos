@@ -1,0 +1,22 @@
+{
+  "hojas_por_plano": [
+    "series/ingles/EN01_lily-gets-home/qa/plano_01.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_02.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_03.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_04.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_05.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_06.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_07.jpg",
+    "series/ingles/EN01_lily-gets-home/qa/plano_08.jpg"
+  ],
+  "narracion_esperada": "After school. Mom's still at work. But the moment Lily's home, she knows. Cool air, and homework time. And Mom gets peace of mind, even at work. Geo Homes. Home that keeps up.",
+  "narracion_transcrita": "After school, mom's still at work. But the moment Lily's home, she knows. Cool air and homework time. And mom gets peace of mind, even at work. Geo Homes, home that keeps up.",
+  "parecido_narracion": 1.0,
+  "revision_visual_pendiente": [
+    "¿Cada acción clave ocurre de verdad (movimiento, no fundido)?",
+    "¿Vehículos y personas miran en la dirección correcta?",
+    "¿Sin logos ni letras raras?",
+    "¿Aparatos y muebles en su lugar?",
+    "¿Continuidad con el plano anterior?"
+  ]
+}

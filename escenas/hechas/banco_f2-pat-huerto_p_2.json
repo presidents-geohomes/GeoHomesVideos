@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-pat-huerto_2_p.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/patio_sin_camino.png",
+    "familias/familia_2/personajes/emma_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Emma seen from behind watering the raised vegetable garden beds with a watering can. The only people/animals/vehicles allowed in the image are: Emma (American woman, 41, shoulder-length honey-blonde hair, light chambray shirt, jeans), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "76c9fd9b-4679-43ac-a631-2327bcb23adb",
+    "status_url": "https://platform.higgsfield.ai/requests/76c9fd9b-4679-43ac-a631-2327bcb23adb/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/76c9fd9b-4679-43ac-a631-2327bcb23adb/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "76c9fd9b-4679-43ac-a631-2327bcb23adb",
+  "resultado": [
+    "banco/fotos/f2/f2-pat-huerto_2_p_1.jpg"
+  ],
+  "generado": "2026-09-29T17:17:09Z"
+}

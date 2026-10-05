@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f1",
+  "archivo": "f1-ins-cam-mascotas_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala.png"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show a small round white indoor pet camera on a shelf on the warm golden-beige stucco wall of the living room. The device fills the center of the frame; the background is softly blurred but clearly this same house.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "9ade0f83-26a4-4cd9-b776-c606cd238cf3",
+    "status_url": "https://platform.higgsfield.ai/requests/9ade0f83-26a4-4cd9-b776-c606cd238cf3/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/9ade0f83-26a4-4cd9-b776-c606cd238cf3/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "9ade0f83-26a4-4cd9-b776-c606cd238cf3",
+  "resultado": [
+    "banco/fotos_insertos/f1/f1-ins-cam-mascotas_1_1.jpg"
+  ],
+  "generado": "2026-09-29T05:27:08Z"
+}

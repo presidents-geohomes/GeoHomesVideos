@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f2",
+  "archivo": "f2-pat-lluvia.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f2/f2-pat-lluvia_1_p_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Rain falls steadily, drops bounce. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "83031b69-7a5f-4bae-b53f-db49757fe7cf",
+    "status_url": "https://platform.higgsfield.ai/requests/83031b69-7a5f-4bae-b53f-db49757fe7cf/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/83031b69-7a5f-4bae-b53f-db49757fe7cf/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "83031b69-7a5f-4bae-b53f-db49757fe7cf",
+  "resultado": "banco/tomas/f2/f2-pat-lluvia.mp4",
+  "generado": "2026-09-29T17:32:06Z"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "es_004_buenas_noches_casa",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES04_buenas-noches-casa",
+  "archivo": "ES04.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Slow, soft, calm nighttime instrumental for a premium smart-home lifestyle commercial: gentle felt piano, warm ambient pads, very light acoustic guitar, around 70 BPM, peaceful and cozy lullaby mood, clean mix, no vocals, gentle fading ending."
+  },
+  "volumen_ambiente": 0.6,
+  "escenas": [
+    {
+      "imagen": "familias/familia_1/set/ext_noche.png",
+      "duracion": 3,
+      "musica": "media",
+      "prompt": "Night, static camera from across the street. The house sits quiet with warm light in the windows and soft garden uplights; palm fronds sway very gently. Nothing else moves. Calm night ambience."
+    },
+    {
+      "imagen": "planos/ES04/k2_sala_noche_1_1.png",
+      "duracion": 3,
+      "musica": "media",
+      "prompt": "The couple on the sofa, seen from behind, sit relaxed watching the TV; the blue TV glow flickers softly. The dog sleeps curled up on his bed and his flank rises and falls gently. Very slow camera drift. Quiet room."
+    },
+    {
+      "imagen": "planos/ES04/k3_cocina_noche_1_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Buenas noches",
+      "estilo_texto": "orden",
+      "texto_desde": 0.4,
+      "prompt": "Seen from behind, the woman at the island turns her head slightly toward the smart speaker; the light ring on top brightens softly and gives a short confirmation. Subtle movement only, very slow push-in.",
+      "posicion_texto": "arriba"
+    },
+    {
+      "imagen": "planos/ES04/k2_sala_noche_1_1.png",
+      "imagen_final": "planos/ES04/k4b_sala_final_1_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Modo noche activado",
+      "estilo_texto": "aviso",
+      "prompt": "The recessed lights and lamp slowly dim and the motorized blinds on the sliding glass door lower smoothly. The couple stays still on the sofa; the dog sleeps. Static camera.",
+      "posicion_texto": "arriba"
+    },
+    {
+      "imagen": "planos/ES04/k5_entrada_noche_1_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Puertas cerradas",
+      "estilo_texto": "aviso",
+      "prompt": "The small light on the smart lock of the closed front door glows softly and pulses once as the lock confirms. The pit bull on his bed lifts his head briefly, then settles down and rests. Static camera.",
+      "posicion_texto": "arriba"
+    },
+    {
+      "imagen": "familias/familia_1/set/pasillo_termostato.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Temperatura para dormir",
+      "estilo_texto": "aviso",
+      "prompt": "The round smart thermostat on the hallway wall softly lights up and its display changes slightly. Slow gentle push-in toward the thermostat. Nothing else moves.",
+      "posicion_texto": "arriba"
+    },
+    {
+      "imagen": "familias/familia_1/set/ext_noche.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cámaras activas",
+      "estilo_texto": "aviso",
+      "prompt": "Night, static camera. The garden uplights switch off one by one and the front of the house becomes darker; a tiny light on the camera under the eave blinks once. Nothing else moves.",
+      "posicion_texto": "arriba"
+    },
+    {
+      "imagen": "planos/ES04/k8_cuarto_noche_1_1.png",
+      "duracion": 5,
+      "musica": "baja",
+      "prompt": "In the nearly dark bedroom the couple lies still and peaceful in bed, the sheets rise and fall slightly with their breathing. Extremely slow camera push-in. Quiet night ambience."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Hay un momento del día que es solo tuyo."
+      },
+      {
+        "escena": 3,
+        "texto": "Una palabra, y tu casa se prepara para dormir contigo."
+      },
+      {
+        "escena": 5,
+        "texto": "Luces, puertas, temperatura… todo en su lugar."
+      },
+      {
+        "escena": 8,
+        "texto": "Tú solo descansa.",
+        "desde": 1.0
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 4,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES04/k2_sala_noche_1_1.png",
+    "titulo": "Buenas noches, casa",
+    "etiqueta": "Casa que te entiende · Ep. 4"
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES04_buenas-noches-casa/ES04.mp4",
+  "duracion": 28.0,
+  "fecha": "2026-10-02T00:49:55Z"
+}

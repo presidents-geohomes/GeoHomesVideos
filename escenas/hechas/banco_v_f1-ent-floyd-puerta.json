@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f1",
+  "archivo": "f1-ent-floyd-puerta.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f1/f1-ent-floyd-puerta_1_b_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Floyd wags his tail and tilts his head, waiting. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "0746012a-9a7f-4414-8c8c-45575289fd3c",
+    "status_url": "https://platform.higgsfield.ai/requests/0746012a-9a7f-4414-8c8c-45575289fd3c/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/0746012a-9a7f-4414-8c8c-45575289fd3c/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "0746012a-9a7f-4414-8c8c-45575289fd3c",
+  "resultado": "banco/tomas/f1/f1-ent-floyd-puerta.mp4",
+  "generado": "2026-09-29T05:12:16Z"
+}

@@ -1,0 +1,18 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES02",
+  "archivo": "p5_mariana_altavoz.jpg",
+  "formato": "9:16",
+  "cantidad": 4,
+  "prompt": "Warm, regular single-story Florida home interior: white shaker kitchen cabinets, light quartz countertops, light oak wood-look floors, warm beige walls, a kitchen island with three wooden stools, pendant lights, open plan to a living room with a gray fabric sofa and woven rug. A small generic smart speaker (matte fabric cylinder with a soft glowing light ring on top, no logo) sits on the counter. Golden hour / early dusk, warm low sun, sky turning orange and soft blue.. Over-the-shoulder shot from behind Mariana (Hispanic woman, 35, long wavy dark brown hair, cream linen blouse), her back and shoulder soft and out of focus in the foreground left, as she turns toward the generic smart speaker on the counter, which is sharp in focus with its light ring glowing. Photorealistic cinematic still from a premium home lifestyle commercial, vertical 9:16 composition, soft warm natural light, shallow depth of field, no text, no logos, no brand names.",
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "5de69fd1-a28f-4d4c-9f82-d88e5b250cbc",
+  "resultado": [
+    "planos/ES02/p5_mariana_altavoz_1.png",
+    "planos/ES02/p5_mariana_altavoz_2.png",
+    "planos/ES02/p5_mariana_altavoz_3.png",
+    "planos/ES02/p5_mariana_altavoz_4.png"
+  ],
+  "generado": "2026-09-27T18:24:37Z"
+}

@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-ent-llaves_2.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala_hacia_entrada.png",
+    "familias/familia_1/personajes/mariana_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same place: same framing style, architecture, furniture, fixtures, wall colors and materials as the reference photo (sand-colored stucco exterior, terracotta barrel-tile roof, arched dark-wood front door with two black lanterns, white garage door, red tropical plants and palms; interior warm golden-beige stucco walls, soft arches, white shaker cabinets, light quartz counters, diagonal terracotta tile floor, gray sofa). People are small in frame, far from camera, seen from behind or in soft focus, faces not detailed. Phone and tablet screens always face away from camera. Pets eat only from a white automatic smart feeder, never from bowls. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks. Change: Mariana in cream linen seen from behind near the entrance, setting her handbag on a small wooden console table against the wall. Characters must match the references: Daniel: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots. Mariana: Hispanic woman, 35, long wavy dark-brown hair, cream linen clothes at home or light-blue medical scrubs from work. Floyd: red-nose pit bull, tan coat with big white chest patch.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "8c66bba0-dcae-4009-855f-e60222f59a7d",
+    "status_url": "https://platform.higgsfield.ai/requests/8c66bba0-dcae-4009-855f-e60222f59a7d/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/8c66bba0-dcae-4009-855f-e60222f59a7d/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "8c66bba0-dcae-4009-855f-e60222f59a7d",
+  "resultado": [
+    "banco/fotos/f1/f1-ent-llaves_2_1.jpg"
+  ],
+  "generado": "2026-09-29T04:02:22Z"
+}

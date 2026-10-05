@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-ext-aerea_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/ext_dia.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: High aerial drone view looking down at this same house among similar neighboring houses in a Naples, Florida neighborhood: same sand stucco walls and terracotta roof, palms, green lawns, curving street. There must be NO people and NO animals in the image. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "72398f81-84a4-47e7-873e-91d090be1c5e",
+    "status_url": "https://platform.higgsfield.ai/requests/72398f81-84a4-47e7-873e-91d090be1c5e/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/72398f81-84a4-47e7-873e-91d090be1c5e/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "72398f81-84a4-47e7-873e-91d090be1c5e",
+  "resultado": [
+    "banco/fotos/f1/f1-ext-aerea_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:39:49Z"
+}

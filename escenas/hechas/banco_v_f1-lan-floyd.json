@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f1",
+  "archivo": "f1-lan-floyd.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos/f1/f1-lan-floyd_1_r_1.jpg",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Floyd rests, ears twitch, water shimmers. Static camera. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "429a303d-f6f9-4e6e-8ec7-b38c1b328e47",
+    "status_url": "https://platform.higgsfield.ai/requests/429a303d-f6f9-4e6e-8ec7-b38c1b328e47/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/429a303d-f6f9-4e6e-8ec7-b38c1b328e47/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "429a303d-f6f9-4e6e-8ec7-b38c1b328e47",
+  "resultado": "banco/tomas/f1/f1-lan-floyd.mp4",
+  "generado": "2026-09-29T17:21:05Z"
+}

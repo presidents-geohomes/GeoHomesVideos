@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_1/candidatos",
+  "archivo": "floyd_cuerpo_2.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/personajes/floyd.png"
+  ],
+  "prompt": "The same male pit bull dog as in the reference photo (same face, same cinnamon-fawn coat and white chest), full body side profile standing, plain warm light-gray studio background, character reference sheet style. Photorealistic, vertical 9:16, no text, no logos, no brand emblems.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "03d6d9b9-c326-4fd4-aec6-bf3c824f3b3a",
+  "resultado": [
+    "familias/familia_1/candidatos/floyd_cuerpo_2_1.png"
+  ],
+  "generado": "2026-09-27T19:42:05Z"
+}

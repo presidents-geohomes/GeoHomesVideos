@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-sal-floyd-cama_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala_hacia_entrada.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Floyd asleep curled up in his round dog bed in the corner that faces the front door. The only people/animals/vehicles allowed in the image are: Floyd (red-nose pit bull, tan coat, big white chest patch), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "14cfd6d0-4ae8-446b-8895-1684d5175181",
+    "status_url": "https://platform.higgsfield.ai/requests/14cfd6d0-4ae8-446b-8895-1684d5175181/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/14cfd6d0-4ae8-446b-8895-1684d5175181/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "14cfd6d0-4ae8-446b-8895-1684d5175181",
+  "resultado": [
+    "banco/fotos/f1/f1-sal-floyd-cama_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:46:37Z"
+}

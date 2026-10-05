@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/insertos/f1",
+  "archivo": "f1-ins-reflector-cam.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos_insertos/f1/f1-ins-reflector-cam_1_1.jpg",
+  "duracion": 3,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "At dusk the floodlight switches on brightly. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "302c9c11-a47e-42f2-a8f2-7b5f617bcda5",
+    "status_url": "https://platform.higgsfield.ai/requests/302c9c11-a47e-42f2-a8f2-7b5f617bcda5/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/302c9c11-a47e-42f2-a8f2-7b5f617bcda5/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "302c9c11-a47e-42f2-a8f2-7b5f617bcda5",
+  "resultado": "banco/insertos/f1/f1-ins-reflector-cam.mp4",
+  "generado": "2026-09-29T05:59:58Z"
+}

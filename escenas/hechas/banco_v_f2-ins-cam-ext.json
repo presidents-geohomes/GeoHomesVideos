@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/insertos/f2",
+  "archivo": "f2-ins-cam-ext.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-cam-ext_1_1.jpg",
+  "duracion": 3,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "The camera lens rotates slightly and a small status light blinks. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "b8a9d6a8-babb-48ce-aa3d-5d0788de5432",
+    "status_url": "https://platform.higgsfield.ai/requests/b8a9d6a8-babb-48ce-aa3d-5d0788de5432/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/b8a9d6a8-babb-48ce-aa3d-5d0788de5432/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "b8a9d6a8-babb-48ce-aa3d-5d0788de5432",
+  "resultado": "banco/insertos/f2/f2-ins-cam-ext.mp4",
+  "generado": "2026-09-29T06:02:46Z"
+}

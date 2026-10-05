@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-lan-floyd_1_r.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Daytime; Floyd lying on the pool deck in the sun far from camera, small in the frame, realistic dog size compared with the lounge chairs and the pool. The only people/animals/vehicles allowed in the image are: Floyd (red-nose pit bull, tan coat, big white chest patch; REALISTIC medium dog size: his back reaches only an adult's knee, he is much smaller than a sofa or a lounge chair), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "63caab8a-17e7-4d1c-b6ba-7a7d88c8480b",
+    "status_url": "https://platform.higgsfield.ai/requests/63caab8a-17e7-4d1c-b6ba-7a7d88c8480b/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/63caab8a-17e7-4d1c-b6ba-7a7d88c8480b/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "63caab8a-17e7-4d1c-b6ba-7a7d88c8480b",
+  "resultado": [
+    "banco/fotos/f1/f1-lan-floyd_1_r_1.jpg"
+  ],
+  "generado": "2026-09-29T17:07:23Z"
+}

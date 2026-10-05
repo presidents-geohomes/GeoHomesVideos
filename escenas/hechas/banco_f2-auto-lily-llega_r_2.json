@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-auto-lily-llega_2_r.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/ext_dia.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Wide shot of the whole front of the house exactly as in the photo; Lily with her lilac backpack, small in the frame, seen from behind walking up the concrete front walk toward the porch. The only people/animals/vehicles allowed in the image are: Lily (girl, 9, long light-brown ponytail, yellow t-shirt, denim shorts), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "34001d68-7cc7-4074-a796-4afc6ef59213",
+    "status_url": "https://platform.higgsfield.ai/requests/34001d68-7cc7-4074-a796-4afc6ef59213/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/34001d68-7cc7-4074-a796-4afc6ef59213/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "34001d68-7cc7-4074-a796-4afc6ef59213",
+  "resultado": [
+    "banco/fotos/f2/f2-auto-lily-llega_2_r_1.jpg"
+  ],
+  "generado": "2026-09-29T17:07:57Z"
+}

@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f1",
+  "archivo": "f1-gar-herramientas_1_b.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/garaje_interior.png",
+    "familias/familia_1/personajes/daniel_cuerpo.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, architecture, furniture, fixtures, wall colors and materials exactly as they are in the first reference photo. Only make this change: Daniel seen from behind organizing garden tools on the wall shelves. The only people/animals/vehicles allowed in the image are: Daniel (first reference person: Hispanic man, 37, short dark hair, short beard, olive henley, jeans, work boots), matching the extra reference images. Do NOT add any other person, animal, pet feeder, appliance, device or object that is not mentioned. People appear small in the frame, at a distance, seen from behind or from the side, faces not detailed; any phone or tablet screen faces away from the camera. Photorealistic, natural light, vertical 9:16. No text, no logos, no brand emblems, no watermarks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6dd3ebe0-5bf0-46b6-b1e7-763e3aea0790",
+    "status_url": "https://platform.higgsfield.ai/requests/6dd3ebe0-5bf0-46b6-b1e7-763e3aea0790/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/6dd3ebe0-5bf0-46b6-b1e7-763e3aea0790/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "6dd3ebe0-5bf0-46b6-b1e7-763e3aea0790",
+  "resultado": [
+    "banco/fotos/f1/f1-gar-herramientas_1_b_1.jpg"
+  ],
+  "generado": "2026-09-29T04:42:21Z"
+}

@@ -1,0 +1,11 @@
+{
+  "carpeta": "pruebas",
+  "archivo": "prueba_higgsfield_001.mp4",
+  "prompt": "Vertical cinematic video. Evening in a modern single-story Florida home in Naples with palm trees visible through large windows. A smiling woman in her 40s walks into the living room holding groceries and says in Spanish: \"Enciende las luces de la sala.\" The warm ceiling lights and lamps smoothly turn on, the blinds lower automatically, and a friendly voice answers in Spanish: \"Listo, luces encendidas.\" She smiles and sets the bags down. Warm, bright, professional real-estate commercial look, soft golden light, slow dolly-in camera.",
+  "duracion": 10,
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/text-to-video",
+  "request_id": "b4bae650-afc4-42ab-8779-af8553967928",
+  "video": "pruebas/prueba_higgsfield_001.mp4",
+  "generado": "2026-09-27T16:18:29Z"
+}

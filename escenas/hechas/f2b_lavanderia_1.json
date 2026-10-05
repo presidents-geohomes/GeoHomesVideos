@@ -1,0 +1,17 @@
+{
+  "tipo": "imagen",
+  "carpeta": "familias/familia_2/candidatos",
+  "archivo": "lavanderia_1.jpg",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/cocina.png"
+  ],
+  "prompt": "Same house and same interior style as the reference kitchen: white shaker cabinets, navy accents, light-oak wood-look floor, white walls with soft shiplap accents, brass details, recessed lights. The small laundry room between the kitchen and the garage: white washer and dryer with a wood counter above, open shelves, and a white door to the garage with a sleek smart lock (keypad). Late-afternoon light. No people. Photorealistic, vertical 9:16, no text, no logos, no brand emblems or badges.",
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "56f5a537-9897-4e83-a688-52ade4028b69",
+  "resultado": [
+    "familias/familia_2/candidatos/lavanderia_1_1.png"
+  ],
+  "generado": "2026-09-27T21:23:10Z"
+}

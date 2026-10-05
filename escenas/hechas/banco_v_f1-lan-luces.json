@@ -1,0 +1,21 @@
+{
+  "carpeta": "banco/tomas/f1",
+  "archivo": "f1-lan-luces.mp4",
+  "modelo": "kling-video/v3.0/std/image-to-video",
+  "imagen_inicial": "familias/familia_1/set/lanai_piscina.png",
+  "duracion": 5,
+  "crf": 21,
+  "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
+  "prompt": "Pool water shimmers under the lights; palms sway. Cinematic, warm natural light, smooth slow movement, realistic, no one speaks.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "210689c2-ca8a-4666-a91e-e4868840b292",
+    "status_url": "https://platform.higgsfield.ai/requests/210689c2-ca8a-4666-a91e-e4868840b292/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/210689c2-ca8a-4666-a91e-e4868840b292/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "kling-video/v3.0/std/image-to-video",
+  "request_id": "210689c2-ca8a-4666-a91e-e4868840b292",
+  "resultado": "banco/tomas/f1/f1-lan-luces.mp4",
+  "generado": "2026-09-29T04:10:54Z"
+}

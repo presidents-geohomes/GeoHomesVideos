@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos/f2",
+  "archivo": "f2-emma-turno-celular_2.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/personajes/emma_trabajo.png"
+  ],
+  "prompt": "Emma (the woman in the reference: American woman, 41, shoulder-length honey-blonde hair, navy nurse scrubs, a plain badge with no readable text) standing in a calm, softly blurred neutral corridor with warm afternoon window light, seen from the side at a medium distance, looking down at her phone held so the screen faces away from the camera, a relieved warm smile. Only her in the image. No hospital signs, no logos, no readable text anywhere, no other people. Photorealistic, shallow depth of field, vertical 9:16.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "b77cb735-8bfa-48a5-953d-c74c3b5562c8",
+    "status_url": "https://platform.higgsfield.ai/requests/b77cb735-8bfa-48a5-953d-c74c3b5562c8/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/b77cb735-8bfa-48a5-953d-c74c3b5562c8/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "b77cb735-8bfa-48a5-953d-c74c3b5562c8",
+  "resultado": [
+    "banco/fotos/f2/f2-emma-turno-celular_2_1.jpg"
+  ],
+  "generado": "2026-09-29T17:50:00Z"
+}
