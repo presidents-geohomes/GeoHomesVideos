@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES05",
+  "archivo": "p6_sala_calida.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/ES05/p4_persianas_abajo_1.png"
+  ],
+  "prompt": "Keep this exact same image from the reference: same room, same camera angle and framing, same beige roller shade fully down over the sliding door, same woman on the sofa seen from behind, same dog on his round dog bed, every object in the same position. Do not add a ceiling or sky. Change ONLY the lighting: the indoor lights are now ON, soft warm dimmed light (warm white, about 2700K) glowing on the walls and floor, a cozy calm atmosphere, while the shade still glows faintly gray from the stormy daylight outside. Photorealistic, vertical 9:16, no text, no logos, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "d11da183-667e-4c4c-aa7e-e6496c21fb43",
+    "status_url": "https://platform.higgsfield.ai/requests/d11da183-667e-4c4c-aa7e-e6496c21fb43/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/d11da183-667e-4c4c-aa7e-e6496c21fb43/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "d11da183-667e-4c4c-aa7e-e6496c21fb43",
+  "resultado": [
+    "planos/ES05/p6_sala_calida_1.png"
+  ],
+  "generado": "2026-10-05T15:33:25Z"
+}
