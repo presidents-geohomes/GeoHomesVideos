@@ -1,6 +1,6 @@
 # Geo Homes LLC — Estrategia de contenido para videos cortos
 
-> Copia de seguridad de `claude/estrategia.md` del project "Geo Homes - Content Automation" (copiada 2026-10-05). Si el project no está disponible, la tarea diaria usa esta copia.
+> Copia de seguridad de `claude/estrategia.md` del project "Geo Homes - Content Automation" (actualizada 2026-10-05 con 011 y 012). Copiar esta versión al project para que coincidan. Si el project no está disponible, la tarea diaria usa esta copia.
 
 Leer este documento completo antes de crear cualquier video, guion o caption. Al terminar un video: guardar los guiones en guiones/ del project, subir la carpeta del video al repo y actualizar el Registro de videos (al final).
 
@@ -136,7 +136,9 @@ Encabezado "VIDEO NNN - Tema", línea "Pilar: … · Teléfono: Sí/No", y por c
 
 - sistema/generar_video.py genera el video vertical 1080×1920 a 30 fps: `python3 generar_video.py guion.json salida.mp4`.
 - Estilo: fondo azul marino con red de nodos animada, texto Poppins que aparece palabra por palabra, acento celeste, barra de progreso arriba, logo como marca de agua (menos en el cierre) y tarjeta blanca con logo y botón en la escena cta.
-- El logo está guardado en sistema/logo_base64.txt; hay que decodificarlo a logo.png junto al script antes de generar. Alternativa equivalente: pegar assets/logo_navy.png del repo sobre fondo blanco y guardarlo como logo.png (así se hicieron el 005, el 008, el 009, el 010 y el 011).
+- El logo está guardado en sistema/logo_base64.txt; hay que decodificarlo a logo.png junto al script antes de generar. Alternativa equivalente: pegar assets/logo_navy.png del repo sobre fondo blanco y guardarlo como logo.png (así se hicieron el 005 y del 008 al 012). Copia del generador y logo.png ya en sistema/ del repo.
+- Fuente Poppins: si no está instalada y las CDN están bloqueadas, sale del paquete npm @expo-google-fonts/poppins (npm pack) → copiar Poppins_700Bold.ttf y Poppins_500Medium.ttf a /usr/share/fonts/truetype/google-fonts/ como Poppins-Bold.ttf y Poppins-Medium.ttf.
+- Ojo con los asteriscos: si una palabra resaltada va antes de un signo, el signo va dentro ("*casa?*", no "*casa*?"), o se ve el asterisco.
 - Después: música (musica_video.py) y portadas.
 
 ## Videos especiales con IA
@@ -149,7 +151,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 - Aparece al azar en más o menos 1 de cada 3 videos, nunca en todos. Se decide al azar una vez por día y aplica igual a las dos versiones (español e inglés).
 - Cuando aparece: en la escena "cta" poner "phone": "(239) 204-6336", el botón "Envíanos un texto" / "Text us today" y duración 4.0 s. En el caption, añadir "📲 Envíanos un texto al (239) 204-6336" / "📲 Text us at (239) 204-6336".
 - Nunca decir "llámanos" ni "call us".
-- Revisar el registro: evitar que salga muchos días seguidos (006 y 007 salieron con teléfono; 008, 009, 010 y 011 sin teléfono).
+- Revisar el registro: evitar que salga muchos días seguidos (006 y 007 salieron con teléfono; 008, 009, 010, 011 y 012 sin teléfono).
 
 ## Pilares (rotar en este orden)
 
@@ -159,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria → solución).
 
 ## Banco de temas
 
@@ -179,7 +181,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo
 - Tus papás mayores, más seguros e independientes
 - Airbnb: códigos de puerta para cada huésped
-- Despierta con luz natural: persianas automáticas
+- Despierta con luz natural: persianas automáticas (usado: 012)
 - Luces que se prenden solas al anochecer
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios)
@@ -208,9 +210,10 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 | 008 | ¿Dejaste el garaje abierto otra vez? | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | 2026-10-01 | Sí |
 | 009 | ¿Quién está tocando tu timbre? | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-03, se publica 2026-10-05 | Sí |
 | 010 | ¿Una fuga de agua y tú fuera? (sensor de agua) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho 2026-10-04, se publica 2026-10-06 | Sí |
-| 011 | ¿Necesitas una casa nueva para que sea inteligente? (mito) | Texto ES/EN | Mito o pregunta frecuente | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05; sin subir ni programar (push rechazado) | Sí (guiones/011_casa_nueva.json y _en) |
+| 011 | ¿Necesitas una casa nueva para que sea inteligente? (mito) | Texto ES/EN | Mito o pregunta frecuente | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05 (regenerado desde guion reescrito), se publica 2026-10-07 | Sí (contenido/guiones/011_casa_nueva.json y _en) |
+| 012 | ¿Y si tus persianas te despertaran? (persianas automáticas) | Texto ES/EN | Escenas y estilo de vida | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05, se publica 2026-10-08 | Sí (contenido/guiones/012_persianas_despertar.json y _en) |
 
-Siguiente número: 012.
+Siguiente número: 013.
 
 ## Series de familias (episodios con historia)
 
@@ -224,6 +227,7 @@ Siguiente número: 012.
 
 - Guardar en el project el guion JSON de 007 si se quiere poder regenerar (el video y los captions ya están en el repo). El de 005 ya está guardado.
 - 009 y 010: resueltos el 2026-10-04 por la noche. Se regeneraron desde sus guiones, se subieron al repo (2026-10/2026-10-03_009_timbre-camara/ y 2026-10/2026-10-04_010_sensor-agua/) y se programaron en Metricool con publicación automática: 009 el lunes 2026-10-05 y 010 el martes 2026-10-06 (EN 12:00, ES 18:00).
-- 011 (2026-10-05): generado, con música y portadas, pero sin subir al repo ni programar porque el push volvió a fallar (403 del proxy: el repo no está en los repositorios autorizados de la tarea). Los archivos se enviaron en la conversación de esa ejecución; se pueden regenerar desde guiones/011_casa_nueva*.json. Carpeta prevista: 2026-10/2026-10-05_011_casa-nueva/. Como 009 y 010 ocupan el 05 y el 06, lo lógico es publicar 011 el miércoles 2026-10-07.
-- La tarea programada "Video diario Geo Homes" no puede hacer push al repo (falló el 03, el 04 y el 05). Solución: añadir presidents-geohomes/GeoHomesVideos a los repositorios de esa tarea en su configuración. El repo cambió de nombre (antes geohomesvideos), así que si la tarea tenía el nombre viejo hay que volver a añadirlo.
+- 011: resuelto el 2026-10-05. Como el guion original no estaba en el repo, se reescribió (contenido/guiones/011_casa_nueva*.json), se regeneró, se subió a 2026-10/2026-10-05_011_casa-nueva/ y se programó para el miércoles 2026-10-07 (EN 12:00, ES 18:00). Si el project tiene otros guiones 011, los del repo son los publicados.
+- 012 (2026-10-05): subido a 2026-10/2026-10-05_012_persianas-despertar/ y programado el jueves 2026-10-08 (EN 12:00, ES 18:00). El siguiente día libre en Metricool es el viernes 2026-10-09.
+- La tarea programada "Video diario Geo Homes" no podía hacer push al repo (falló el 03, el 04 y el 05). El 2026-10-05 una sesión de Claude Code sí pudo hacer push a main. Solución: añadir presidents-geohomes/GeoHomesVideos a los repositorios de esa tarea en su configuración. El repo cambió de nombre (antes geohomesvideos), así que si la tarea tenía el nombre viejo hay que volver a añadirlo.
 - Subir a musica/biblioteca/ los MP3 que faltan (ver sección Música).
