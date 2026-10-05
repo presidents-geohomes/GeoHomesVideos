@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES05",
+  "archivo": "p5_fachada_tormenta.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "familias/familia_1/set/ext_dia.png"
+  ],
+  "prompt": "Keep this exact same place from the first reference image: same architecture, same furniture and objects in the same positions, same camera angle and framing. Change ONLY the light and weather to a summer afternoon in Florida, about 4:30 pm, just before a thunderstorm: a heavy dark gray storm sky with towering dark clouds, flat diffuse cool-gray daylight, no sunshine, no golden light, no sunset colors anywhere. The garage door is closed, the front lawn and the paver driveway are starting to get wet with the first raindrops, palm trees bend in the wind, no sprinklers running, no people, no vehicles outside. Photorealistic, vertical 9:16, no text, no logos, no brand emblems, no extra people."
+}
