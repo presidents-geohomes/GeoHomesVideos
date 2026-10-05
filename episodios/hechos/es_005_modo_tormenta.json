@@ -1,0 +1,108 @@
+{
+  "id": "es_005_modo_tormenta",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES05_modo-tormenta",
+  "archivo": "ES05.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Calm, warm instrumental for a premium smart-home lifestyle commercial on a stormy afternoon: soft acoustic guitar, light felt piano, gentle ambient pads, around 90 BPM, cozy and reassuring mood with a slight sense of anticipation at the start, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/ES05/p1_lanai_tormenta_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Stormy Florida afternoon. Static camera. Heavy dark clouds roll slowly across the sky, palm trees beyond the screen enclosure sway in the wind, the pool water ripples. The pit bull trots happily along the pool deck. Distant thunder, wind."
+    },
+    {
+      "imagen": "planos/ES05/p2_sala_final_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Alerta: tormenta en 10 min",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Dim living room in gray storm light. The woman on the sofa, seen from behind, looks down at the phone in her lap (screen never visible) and then lifts her head toward the sliding door. Outside, palm trees sway in the wind. Very slow camera drift. Soft notification chime."
+    },
+    {
+      "imagen": "planos/ES05/p1_lanai_tormenta_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "prompt": "The first raindrops start falling on the pool, making small rings on the water. The pit bull turns and trots quickly toward the house and the sliding doors of the lanai. Wind gets stronger, palm trees sway. Static camera."
+    },
+    {
+      "imagen": "planos/ES05/p4_floyd_cama_1.png",
+      "imagen_final": "planos/ES05/p4_persianas_abajo_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Floyd adentro · Bajando persianas",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "prompt": "Static camera. The dog rests on his bed near the entrance, the woman stays on the sofa seen from behind. The motorized beige roller shade over the sliding glass door slowly lowers by itself from top to floor until it covers the whole glass. Soft quiet motor hum."
+    },
+    {
+      "imagen": "planos/ES05/p5_fachada_tormenta_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Riego en pausa · Garaje cerrado",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "prompt": "Static camera from the street. Storm clouds over the house, rain starts falling harder, palm trees bend in the wind, the wet driveway shines. The garage door stays closed. Nothing else moves. Rain and wind."
+    },
+    {
+      "imagen": "planos/ES05/p6_sala_calida_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "Cozy living room with warm soft lights, the roller shade down glowing faintly gray. The woman on the sofa, seen from behind, leans back and relaxes; the dog on his bed lays his head down calmly. Very slow gentle push-in. Heavy rain muffled outside, a soft distant thunder."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Tu casa sabe que viene una tormenta?"
+      },
+      {
+        "escena": 2,
+        "texto": "Esta sí, y se prepara sola.",
+        "desde": 0.8
+      },
+      {
+        "escena": 4,
+        "texto": "Espera a que Floyd entre, baja las persianas y pausa el riego."
+      },
+      {
+        "escena": 6,
+        "texto": "Afuera llueve fuerte. Adentro, nadie tuvo que levantarse."
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 4,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES05/p4_persianas_abajo_1.png",
+    "titulo": "Modo tormenta",
+    "etiqueta": "Casa que te entiende · Ep. 5"
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES05_modo-tormenta/ES05.mp4",
+  "duracion": 22.0,
+  "fecha": "2026-10-05T15:40:02Z"
+}
