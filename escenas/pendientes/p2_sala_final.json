@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES05",
+  "archivo": "p2_sala_final.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/ES05/p2_sala_tormenta_recorte.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png",
+    "familias/familia_1/personajes/mariana_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same image from the first reference: same room, same camera angle and framing, same stormy gray light, same sofa, rug, dog bed, door, sliding glass door with the small pet door at its bottom, every object in the same position. Do not add a ceiling or sky. The woman on the sofa (third reference, cream linen blouse) stays exactly where she is, seen from behind, but she now holds the phone low in her lap with its screen facing away from the camera: the phone screen is NOT visible at all. No dog in the room; the dog bed is empty. Photorealistic, vertical 9:16, no text, no logos, no extra people."
+}
