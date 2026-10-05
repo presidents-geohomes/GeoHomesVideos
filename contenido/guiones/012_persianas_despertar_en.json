@@ -1,0 +1,42 @@
+{
+  "titulo": "Wake up to natural light: smart blinds",
+  "idioma": "en",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What if your blinds *woke you up?*",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Naples, FL",
+      "text": "Wake up to *natural light* every morning.",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "Your morning, *automated:*",
+      "items": [
+        "Blinds open on schedule",
+        "Soft lights come on",
+        "Thermostat already set",
+        "All from your phone"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Your current home. *No new build.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "Make your mornings *easier.*",
+      "sub": "Smart Homes · Naples, FL",
+      "button": "Message us today",
+      "dur": 3.8
+    }
+  ],
+  "caption": "What if your blinds woke you up? ☀️ Motorized blinds open on their own at the time you choose, letting the natural light in. Add soft lighting and a thermostat that's already set for your day — all from your phone or with your voice. We set it up in your current Naples home, no new build needed. Message us today. 🐺🏠\n\n#Naples #NaplesFL #SmartHome #SWFL #GeoHomes #SmartBlinds #MorningRoutine #SmartHomeTech #NaplesFlorida",
+  "tiktok_title": "What if your blinds woke you up? Natural light every morning ☀️"
+}

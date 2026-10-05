@@ -1,0 +1,42 @@
+{
+  "titulo": "Despierta con luz natural: persianas automáticas",
+  "idioma": "es",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "¿Y si tus persianas te *despertaran?*",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Naples, FL",
+      "text": "Despierta con *luz natural* cada mañana.",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "Tu mañana, *automática:*",
+      "items": [
+        "Persianas suben solas",
+        "Luces suaves al despertar",
+        "Termostato ya ajustado",
+        "Todo desde tu celular"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Tu casa actual. *Sin construcción nueva.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "Haz tus mañanas *más fáciles.*",
+      "sub": "Smart Homes · Naples, FL",
+      "button": "Escríbenos hoy",
+      "dur": 3.8
+    }
+  ],
+  "caption": "¿Y si tus persianas te despertaran? ☀️ Con persianas motorizadas, se abren solas a la hora que elijas y entra la luz natural. Puedes sumar luces suaves y el termostato listo para empezar el día, todo desde tu celular o con tu voz. Lo instalamos en tu casa actual en Naples, sin construcción nueva. Escríbenos hoy. 🐺🏠\n\n#Naples #NaplesFL #SmartHome #SWFL #GeoHomes #CasaInteligente #Domotica #PersianasAutomaticas #SmartBlinds #NaplesFlorida",
+  "tiktok_title": "¿Y si tus persianas te despertaran? Luz natural cada mañana ☀️"
+}

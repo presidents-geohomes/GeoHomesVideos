@@ -1,0 +1,42 @@
+{
+  "titulo": "¿Necesitas una casa nueva para que sea inteligente?",
+  "idioma": "es",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "¿Necesitas una *casa nueva* para que sea inteligente?",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Mito vs. realidad",
+      "text": "*Falso.* Tu casa actual también puede serlo.",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "Lo instalamos en *tu casa:*",
+      "items": [
+        "Interruptores inteligentes",
+        "Cerraduras inteligentes",
+        "Timbre con cámara",
+        "Termostato inteligente"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Tu casa actual. *Sin construcción nueva.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "¿Empezamos con *tu casa?*",
+      "sub": "Smart Homes · Naples, FL",
+      "button": "Escríbenos hoy",
+      "dur": 3.8
+    }
+  ],
+  "caption": "¿Necesitas una casa nueva para que sea inteligente? 🤔 ¡Es un mito! Instalamos interruptores, cerraduras, timbre con cámara y termostato inteligentes en la casa que ya tienes, y lo controlas todo desde tu celular o con tu voz. Lo hacemos en tu casa actual en Naples, sin construcción nueva. Escríbenos hoy. 🐺🏠\n\n#Naples #NaplesFL #SmartHome #SWFL #GeoHomes #CasaInteligente #Domotica #MitoOVerdad #NaplesFlorida",
+  "tiktok_title": "¿Necesitas una casa nueva para que sea inteligente? Mito 🏠🤔"
+}

@@ -1,0 +1,42 @@
+{
+  "titulo": "Need a new home to go smart?",
+  "idioma": "en",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Need a *new home* to go smart?",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Myth vs. fact",
+      "text": "*Nope.* Your current home can be smart too.",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "We add it to *your home:*",
+      "items": [
+        "Smart switches",
+        "Smart door locks",
+        "Video doorbell",
+        "Smart thermostat"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Your current home. *No new build.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "Ready to *upgrade* your home?",
+      "sub": "Smart Homes · Naples, FL",
+      "button": "Message us today",
+      "dur": 3.8
+    }
+  ],
+  "caption": "Need a brand-new home to go smart? 🤔 That's a myth! We add smart switches, door locks, a video doorbell and a smart thermostat to the home you already have — and you control it all from your phone or with your voice. We set it up in your current Naples home, no new build needed. Message us today. 🐺🏠\n\n#Naples #NaplesFL #SmartHome #SWFL #GeoHomes #MythVsFact #SmartHomeTech #HomeAutomation #NaplesFlorida",
+  "tiktok_title": "Need a new home to go smart? Here's the truth 🏠🤔"
+}
