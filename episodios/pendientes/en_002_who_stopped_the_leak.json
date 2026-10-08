@@ -1,0 +1,91 @@
+{
+  "id": "en_002_who_stopped_the_leak",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN02_who-stopped-the-leak",
+  "archivo": "EN02.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Warm acoustic instrumental for a cozy family smart-home story with a small moment of tension: starts with soft, slightly suspenseful plucked guitar and gentle piano, then resolves into warm, hopeful, comforting piano and fingerpicked guitar, light brushed percussion, around 90 BPM, afternoon mood, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN02/p1_garaje_fuga_v2_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static camera in an empty quiet garage on a sunny afternoon. Water slowly drips from the base of the white water heater in the back corner and the shallow puddle of clear water on the gray concrete floor slowly spreads a little wider, its wet surface shimmering. Nothing else moves, nobody is in the garage. Very subtle slow push-in."
+    },
+    {
+      "imagen": "planos/EN02/p2_sensor_v2_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "prompt": "Static low close-up. The thin film of clear water creeps slowly across the concrete and reaches the small round white leak sensor next to the water heater; the sensor's tiny indicator light starts blinking red. Nothing else moves. Shallow depth of field."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-emma-turno-celular.mp4",
+      "clip_desde": 0.0,
+      "duracion": 2.5,
+      "musica": "baja",
+      "texto": "Water leak · Garage",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3
+    },
+    {
+      "clip": "banco/tomas/f2/f2-emma-turno-celular.mp4",
+      "clip_desde": 2.5,
+      "duracion": 2.5,
+      "musica": "baja",
+      "texto": "Shut off the water",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-valvula.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Main water · OFF",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.2
+    },
+    {
+      "clip": "banco/tomas/f2/f2-coc-tareas.mp4",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Leak contained",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {"escena": 1, "texto": "A leak. Mom's at work. Who stops it?", "desde": 0.2},
+      {"escena": 3, "texto": "The house tells her first.", "desde": 0.3},
+      {"escena": 4, "texto": "Two taps, and the main water shuts off.", "desde": 0.3},
+      {"escena": 6, "texto": "Lily never even noticed.", "desde": 1.2},
+      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.5}
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 4,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN02/p1_garaje_fuga_v2_1.png",
+    "titulo": "Who stopped the leak?",
+    "etiqueta": "Home, Simplified · Ep. 2"
+  }
+}
