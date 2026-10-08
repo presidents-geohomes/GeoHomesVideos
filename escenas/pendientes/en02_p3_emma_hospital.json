@@ -1,9 +1,0 @@
-{
-  "tipo": "imagen",
-  "carpeta": "planos/EN02",
-  "archivo": "p3_emma_hospital.jpg",
-  "formato": "9:16",
-  "cantidad": 2,
-  "referencias": ["planos/EN02/ref_hospital.png", "familias/familia_2/personajes/emma_trabajo.png"],
-  "prompt": "Same bright hospital corridor as the first reference, same warm afternoon light through the windows, same cream walls and glossy floor. The woman from the second reference (Emma: honey-blond shoulder-length hair in a low ponytail, navy blue nurse scrubs, ID badge on a lanyard, white clogs) stands in the MIDDLE DISTANCE of the corridor, full body visible and small in the frame, her head at about the vertical middle of the image, so the whole upper third of the image is empty ceiling and corridor. She is turned three-quarters away from the camera, looking down at a phone held in both hands; the phone screen faces her and is NOT visible. Calm, focused expression. Nobody else in the corridor. Photorealistic, vertical 9:16, no text, no signs with words, no logos."
-}
