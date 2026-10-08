@@ -1,0 +1,9 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN02",
+  "archivo": "p1_garaje_fuga.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": ["familias/familia_2/set/garaje_interior.png"],
+  "prompt": "Keep this exact same garage from the reference: same camera angle and framing, same walls, same ceiling lights, same white water heater in the back corner, same shelves with bins, same workbench with tools, same small blue bike, same afternoon light. Change ONLY two things: 1) the white SUV is GONE, the left parking space is empty clean gray floor (the owner is away at work); 2) a thin shallow puddle of clear water is spreading on the gray floor from the base of the white water heater toward the camera, a little wet shine on the concrete. Nobody in the garage. Do not add a sky. Photorealistic, vertical 9:16, no text, no logos, no people, no animals."
+}

@@ -101,7 +101,8 @@
   "sensor_fugas": "Sensor de fugas de agua en el garaje junto al calentador (y bajo el fregadero).",
   "garaje": "Puerta de garaje automática.",
   "riego": "Riego automático del patio y del huerto.",
-  "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit."
+  "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit.",
+  "valvula": "Válvula de cierre de agua automática en la tubería principal, en el garaje junto al calentador (añadida en EN02, 2026-10-08)."
  },
  "set": {
   "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
