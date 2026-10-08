@@ -107,5 +107,9 @@
     "imagen": "planos/EN02/p1_garaje_fuga_v2_1.png",
     "titulo": "Who stopped the leak?",
     "etiqueta": "Home, Simplified · Ep. 2"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN02_who-stopped-the-leak_v2/EN02.mp4",
+  "duracion": 22.0,
+  "fecha": "2026-10-08T12:53:40Z"
 }
