@@ -1,0 +1,10 @@
+{
+  "_nota": "EN02 Who stopped the leak (v2). Planos: 1=0.0 2=3.5 3=6.0 4=8.5 5=11.0 6=13.5 cierre=18.0. Todo reutilizado de sonidos/biblioteca.",
+  "efectos": [
+    {"archivo": "sonidos/biblioteca/amb_garaje.mp3", "en": 0.0, "db": -36, "dur": 6.3, "entrada": 0.2, "salida": 0.6},
+    {"archivo": "sonidos/biblioteca/aviso_celular_1.mp3", "escena": 3, "t": 0.3, "db": -26, "alinear": true},
+    {"archivo": "sonidos/biblioteca/confirma_altavoz_1.mp3", "escena": 5, "t": 1.2, "db": -30, "alinear": true},
+    {"archivo": "sonidos/biblioteca/amb_cocina.mp3", "en": 13.5, "db": -38, "dur": 4.8, "entrada": 0.4, "salida": 0.6},
+    {"archivo": "sonidos/biblioteca/lapiz_tareas.mp3", "en": 14.0, "db": -36, "dur": 4.0, "entrada": 0.2, "salida": 0.5}
+  ]
+}
