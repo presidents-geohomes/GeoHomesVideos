@@ -71,12 +71,36 @@
   "narracion": {
     "voice_id": "qBvury71WUJfVeT1STkG",
     "partes": [
-      {"escena": 1, "texto": "¿Quién le da de comer a Floyd si no hay nadie?", "desde": 0.2},
-      {"escena": 2, "texto": "A las cinco en punto, la casa se acuerda.", "desde": 0.6},
-      {"escena": 4, "texto": "Le sirve su porción exacta, sin falta.", "desde": 0.3},
-      {"escena": 6, "texto": "¿Y quién mira? Mariana, desde el trabajo.", "desde": 0.2},
-      {"escena": 7, "texto": "Ella lo programó una vez.", "desde": 0.9},
-      {"escena": "cierre", "texto": "Geo Homes. Tu casa, a tu ritmo.", "desde": 0.4}
+      {
+        "escena": 1,
+        "texto": "¿Quién le da de comer a Floyd si no hay nadie?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "A las cinco en punto, la casa se acuerda.",
+        "desde": 0.6
+      },
+      {
+        "escena": 4,
+        "texto": "Le sirve su porción exacta, sin falta.",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "¿Y quién mira? Mariana, desde el trabajo.",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "Ella lo programó una vez.",
+        "desde": 0.9
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
     ]
   },
   "cierre": {
@@ -95,5 +119,9 @@
     "imagen": "planos/ES06/p3_floyd_entra_1.png",
     "titulo": "¿Quién alimenta a Floyd?",
     "etiqueta": "Casa que te entiende · Ep. 6"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES06_quien-alimenta-a-floyd/ES06.mp4",
+  "duracion": 26.0,
+  "fecha": "2026-10-08T13:14:47Z"
 }
