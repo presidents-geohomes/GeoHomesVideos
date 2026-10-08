@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN02",
+  "archivo": "p2_sensor_v2.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN02/p2_sensor_1.png"
+  ],
+  "prompt": "Keep this same scene from the reference: same small round white leak sensor on the gray concrete floor next to the base of the white water heater, same shelves with gray bins softly blurred behind, same light, same low close-up camera. Change ONLY this: remove every sticker, label and printed text from the water heater, it is plain smooth white metal; and make the puddle of clear water a bit bigger and glossy, touching the edge of the sensor. Photorealistic, vertical 9:16, no text, no letters, no labels, no logos, no people, no animals.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "1917f9d8-e64e-4e39-9293-f2b635fd9bd1",
+    "status_url": "https://api.higgsfield.ai/requests/1917f9d8-e64e-4e39-9293-f2b635fd9bd1/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/1917f9d8-e64e-4e39-9293-f2b635fd9bd1/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "1917f9d8-e64e-4e39-9293-f2b635fd9bd1",
+  "resultado": [
+    "planos/EN02/p2_sensor_v2_1.png"
+  ],
+  "generado": "2026-10-08T12:38:14Z"
+}

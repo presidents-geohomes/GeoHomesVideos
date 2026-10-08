@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN02",
+  "archivo": "p1_garaje_fuga_v2.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN02/p1_garaje_fuga_1.png"
+  ],
+  "prompt": "Keep this exact same image from the reference: same empty garage, same camera angle and framing, same lights, same white water heater, same shelves, same workbench, same blue bike, same light, every object in the same place. Change ONLY one thing: add a clearly visible puddle of clear water on the gray concrete floor at the base of the white water heater, about one meter wide, spreading toward the middle of the garage, with a glossy wet reflection so it is obvious that the water heater is leaking. Nobody in the garage. Do not add a sky. Photorealistic, vertical 9:16, no text, no logos, no people, no animals.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "09f20eed-5d08-46a6-bfa1-34a3f25c2970",
+    "status_url": "https://api.higgsfield.ai/requests/09f20eed-5d08-46a6-bfa1-34a3f25c2970/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/09f20eed-5d08-46a6-bfa1-34a3f25c2970/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "09f20eed-5d08-46a6-bfa1-34a3f25c2970",
+  "resultado": [
+    "planos/EN02/p1_garaje_fuga_v2_1.png"
+  ],
+  "generado": "2026-10-08T12:38:14Z"
+}
