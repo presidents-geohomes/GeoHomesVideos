@@ -1,0 +1,123 @@
+{
+  "id": "es_006_quien_alimenta_a_floyd_v2",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES06_quien-alimenta-a-floyd_v2",
+  "archivo": "ES06.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, playful and curious instrumental for a premium smart-home lifestyle commercial on a golden afternoon: soft acoustic guitar, light pizzicato and felt piano, gentle ambient pads, around 95 BPM, a light sense of mystery at the start that turns cozy and happy, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-ext-atardecer.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Golden afternoon, the house is quiet, garage closed, nobody home. Slow push-in. Light breeze and birds."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-levanta.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "5:00 p. m. · Hora de cenar de Floyd",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The dog on his bed lifts his head, ears alert. A soft chime from the smart speaker in the kitchen."
+    },
+    {
+      "imagen": "planos/ES06/p3b_floyd_va_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static camera, golden late-afternoon kitchen. The pit bull takes two slow steps to the left toward the white smart feeder, lowers his head and sniffs the empty tray, then looks at it and waits, wagging his tail. The feeder, the doors, the island and the stools stay exactly still and unchanged. Only the dog moves. Soft paw steps on tile."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-comedero.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Sirviendo su porción",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The smart feeder dispenses a small portion of kibble into its tray, next to the water fountain. Kibble falling sound."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-come.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "The dog eats from his smart feeder next to the white laundry door. Crunching, happy tail."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cam-mascotas.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Mariana se conectó desde el trabajo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The pet camera in the living room turns on and pans slowly; the dog bed is empty. Soft beep."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-coc-floyd.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Cena servida · 5:01 p. m.",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The dog sits by the kitchen island, satisfied, looking up. Quiet happy kitchen."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Quién le da de comer a Floyd si no hay nadie?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "A las cinco en punto, la casa se acuerda.",
+        "desde": 0.6
+      },
+      {
+        "escena": 4,
+        "texto": "Le sirve su porción exacta, sin falta.",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "¿Y quién mira? Mariana, desde el trabajo.",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "Ella lo programó una vez.",
+        "desde": 0.9
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "banco/fotos/f1/f1-floyd-come_1_t_1.jpg",
+    "titulo": "¿Quién alimenta a Floyd?",
+    "etiqueta": "Casa que te entiende · Ep. 6"
+  }
+}
