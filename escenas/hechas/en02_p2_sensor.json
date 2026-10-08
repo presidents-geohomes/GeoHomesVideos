@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN02",
+  "archivo": "p2_sensor.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "familias/familia_2/set/garaje_interior.png",
+    "planos/EN02/ref_sensor.png"
+  ],
+  "prompt": "Low close-up shot in the same garage as the first reference: on the gray concrete floor right next to the base of the same white water heater sits the small round white water leak sensor from the second reference (plain white puck, no logo, a tiny indicator light). A thin shallow puddle of clear water is creeping along the floor and is just touching the edge of the sensor. Background softly out of focus: the white water heater, the metal shelves with gray bins. Same soft afternoon garage light. Photorealistic, vertical 9:16, no text, no logos, no brand names, no people, no animals.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "448b3f09-da6f-415e-9a10-1fd244ba58da",
+    "status_url": "https://api.higgsfield.ai/requests/448b3f09-da6f-415e-9a10-1fd244ba58da/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/448b3f09-da6f-415e-9a10-1fd244ba58da/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "448b3f09-da6f-415e-9a10-1fd244ba58da",
+  "resultado": [
+    "planos/EN02/p2_sensor_1.png"
+  ],
+  "generado": "2026-10-08T12:34:09Z"
+}
