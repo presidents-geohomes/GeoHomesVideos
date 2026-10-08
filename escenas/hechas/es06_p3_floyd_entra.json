@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES06",
+  "archivo": "p3_floyd_entra.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "familias/familia_1/set/cocina.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same kitchen from the first reference: same camera position and framing, same island with the round gray speaker in the center, same three wooden stools, same white door on the left, same window to the pool, same arch on the right, same warm golden late-afternoon light, same ceiling with recessed lights. Add ONLY the dog from the second reference (red-nose pit bull, shiny tan coat, big white chest patch, amber eyes): he has just come in through the arch on the right side and is trotting happily on the terracotta floor toward the left of the room, body seen in profile walking right-to-left, in the lower right part of the image, in front of the island, not touching any wall or glass. Nothing else changes. Photorealistic, vertical 9:16, no people, no text, no letters, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "b7af55c0-fac5-4c73-9db5-c0775242a68b",
+    "status_url": "https://api.higgsfield.ai/requests/b7af55c0-fac5-4c73-9db5-c0775242a68b/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/b7af55c0-fac5-4c73-9db5-c0775242a68b/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "b7af55c0-fac5-4c73-9db5-c0775242a68b",
+  "resultado": [
+    "planos/ES06/p3_floyd_entra_1.png"
+  ],
+  "generado": "2026-10-08T13:08:44Z"
+}
