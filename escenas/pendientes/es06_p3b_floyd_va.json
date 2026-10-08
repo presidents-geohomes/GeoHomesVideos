@@ -1,0 +1,12 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES06",
+  "archivo": "p3b_floyd_va.jpg",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "banco/fotos/f1/f1-floyd-come_1_t_1.jpg",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Keep this exact same kitchen scene from the first reference: same camera position and framing, same white door on the left, same open laundry room, same white smart feeder and white water fountain on the mat by the door, same island and wooden stools, same warm golden late-afternoon light. Change ONLY the dog (same dog as the second reference: red-nose pit bull, shiny tan coat, big white chest patch): he is no longer eating; he is standing on the terracotta floor in the center-right of the image, about two meters away from the feeder, body in side profile facing LEFT toward the feeder, head up, tail up, mid-step as if walking to it. The feeder tray is empty. The dog is fully visible, does not overlap the stools or the island. Nothing else changes. Photorealistic, vertical 9:16, no people, no text, no letters, no logos."
+}
