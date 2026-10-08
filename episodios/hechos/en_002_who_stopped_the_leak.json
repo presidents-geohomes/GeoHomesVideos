@@ -64,11 +64,31 @@
   "narracion": {
     "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "partes": [
-      {"escena": 1, "texto": "A leak. Mom's at work. Who stops it?", "desde": 0.2},
-      {"escena": 3, "texto": "The house tells her first.", "desde": 0.3},
-      {"escena": 4, "texto": "Two taps, and the main water shuts off.", "desde": 0.3},
-      {"escena": 6, "texto": "Lily never even noticed.", "desde": 1.2},
-      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.5}
+      {
+        "escena": 1,
+        "texto": "A leak. Mom's at work. Who stops it?",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "The house tells her first.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "Two taps, and the main water shuts off.",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "Lily never even noticed.",
+        "desde": 1.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.5
+      }
     ]
   },
   "cierre": {
@@ -87,5 +107,9 @@
     "imagen": "planos/EN02/p1_garaje_fuga_v2_1.png",
     "titulo": "Who stopped the leak?",
     "etiqueta": "Home, Simplified · Ep. 2"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN02_who-stopped-the-leak/EN02.mp4",
+  "duracion": 21.0,
+  "fecha": "2026-10-08T12:44:21Z"
 }
