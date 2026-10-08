@@ -119,5 +119,9 @@
     "imagen": "banco/fotos/f1/f1-floyd-come_1_t_1.jpg",
     "titulo": "¿Quién alimenta a Floyd?",
     "etiqueta": "Casa que te entiende · Ep. 6"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES06_quien-alimenta-a-floyd_v2/ES06.mp4",
+  "duracion": 26.0,
+  "fecha": "2026-10-08T13:26:04Z"
 }
