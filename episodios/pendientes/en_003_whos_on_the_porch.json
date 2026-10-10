@@ -1,0 +1,125 @@
+{
+  "id": "en_003_whos_on_the_porch",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN03_whos-on-the-porch",
+  "archivo": "EN03.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original instrumental for a cozy family smart-home story at night with a tiny funny mystery: starts with quiet, sneaky pizzicato strings and soft low piano notes, light suspense, then turns playful and a little comedic when the mystery is revealed, and resolves into warm, tender, hopeful piano and fingerpicked guitar, around 90 BPM, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN03/p1_porche_oscuro_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static camera with a very slow, subtle push-in toward the dark front porch at 2 a.m. In the deep shadow behind the black bench, the two small glowing eyes blink once and the dark silhouette shifts slightly. Palm fronds sway gently in a light night breeze. Porch lights stay OFF, windows stay dark. Nobody around. Nothing else moves."
+    },
+    {
+      "imagen": "planos/EN03/p2_timbre_noche_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Motion · Front porch · 2:04 AM",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static close-up at night. The blue light ring around the video doorbell's camera pulses brighter twice, as if it just detected motion. Nothing else moves. Static camera, no zoom."
+    },
+    {
+      "imagen": "planos/EN03/p3_emma_hospital_noche_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "prompt": "Static camera. Quiet hospital corridor during the night shift, dim calm lights. The nurse in navy scrubs, seen three-quarters from behind, holds her phone; it buzzes, she stops and looks down at it, slightly curious. The phone screen is never visible. Nobody else around."
+    },
+    {
+      "imagen": "planos/EN03/p3_emma_hospital_noche_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Porch lights on",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Quiet hospital corridor during the night shift, dim calm lights. The nurse in navy scrubs, seen three-quarters from behind, taps her phone screen twice with her thumb, then tilts her head, waiting. The phone screen is never visible. Nobody else around."
+    },
+    {
+      "imagen": "planos/EN03/p1_porche_oscuro_1.png",
+      "imagen_final": "planos/EN03/p5_porche_luz_v1_1.png",
+      "duracion": 3,
+      "musica": "media",
+      "musica_desde": 1.0,
+      "texto": "Porch lights · ON",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Static camera on the dark front porch at night. Suddenly the porch wall lantern and the porch ceiling light switch ON, flooding the porch with warm light and revealing that the shadow behind the black bench is a raccoon, which freezes in surprise, peeking over the bench. The sky stays dark night."
+    },
+    {
+      "imagen": "planos/EN03/p5_porche_luz_v1_1.png",
+      "duracion": 3,
+      "musica": "media",
+      "prompt": "Static camera on the lit front porch at night. The startled raccoon behind the black bench drops down off the bench rail and scurries quickly to the right along the porch, behind the bench, and disappears into the dark bushes at the right edge of the frame. Porch lights stay on, the porch is now empty. Funny, natural animal movement."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-cua-lily-duerme.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "All clear · Doors locked",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Two a.m. Something's on the porch.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Mom's on night shift. Lily's asleep.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "One tap, and the porch lights up.",
+        "desde": 0.6
+      },
+      {
+        "escena": 6,
+        "texto": "Meet the intruder.",
+        "desde": 0.4
+      },
+      {
+        "escena": 7,
+        "texto": "And Lily never woke up.",
+        "desde": 0.6
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN03/p5_porche_luz_v1_1.png",
+    "titulo": "Who's on the porch at 2 a.m.?",
+    "etiqueta": "Home, Simplified · Ep. 3"
+  }
+}
