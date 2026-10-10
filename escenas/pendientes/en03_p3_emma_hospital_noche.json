@@ -1,0 +1,12 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN02/p3_emma_hospital_1.png",
+    "familias/familia_2/personajes/emma_trabajo.png"
+  ],
+  "archivo": "p3_emma_hospital_noche.jpg",
+  "prompt": "Keep this exact same hospital corridor and the same nurse from the first reference: same camera angle and framing, same woman with honey-blonde ponytail in navy blue scrubs and white clogs, seen three-quarters from behind, holding her phone in front of her (the phone screen is NOT visible). Change ONLY the time: it is now 2 a.m. night shift. The corridor windows are dark black night, the ceiling lights are dimmed to a calm night-shift glow, soft warm-white light, quiet and empty. Nobody else in the corridor. Photorealistic, vertical 9:16, no text, no logos."
+}
