@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/EN03/p1_porche_oscuro_1.png"
+  ],
+  "archivo": "p5_porche_luz_v1.jpg",
+  "prompt": "Keep this exact same night image from the reference: same camera angle and framing, same house, same white front door with the black keypad smart lock, same square column, same black metal bench, same potted palms, same window with gray shutters, same lawn and path, same dark navy night sky with stars. Change ONLY two things: 1) the two porch wall lanterns and the porch ceiling light are now switched ON, casting warm bright light over the porch, the front door and the bench (the sky stays dark night, the windows stay dark); 2) the dark animal silhouette in the exact same spot behind the black bench is now clearly revealed as a real wild RACCOON (gray fur, black mask around the eyes, ringed striped tail), frozen in surprise, peeking over the bench toward the camera, a little startled and funny. Only one raccoon. Photorealistic, vertical 9:16, no text, no logos, no people, no cat."
+}
