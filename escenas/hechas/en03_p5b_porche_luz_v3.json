@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/EN03/p5b_porche_luz_v2_1.png"
+  ],
+  "archivo": "p5b_porche_luz_v3.jpg",
+  "prompt": "Keep this exact same image from the reference: same camera angle and framing, same lit porch, same house, door, lantern, column, bench, potted palms, walkway, lawn and night sky, same lighting. Change ONLY the raccoon's SIZE: the raccoon is far too big; make it about HALF its current size, in the same spot on the walkway just right of the large potted palm, same pose (standing on all four legs, body facing right, head turned to camera), so it has real-world proportions: the top of its head is lower than the rim of the potted palm's pot, and its body is much shorter than the doormat is wide. Fill the freed space with the same walkway, gravel and lawn. Photorealistic, vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "e5a6ffb1-1b2b-4f8b-810a-52cd68875953",
+    "status_url": "https://api.higgsfield.ai/requests/e5a6ffb1-1b2b-4f8b-810a-52cd68875953/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/e5a6ffb1-1b2b-4f8b-810a-52cd68875953/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "e5a6ffb1-1b2b-4f8b-810a-52cd68875953",
+  "resultado": [
+    "planos/EN03/p5b_porche_luz_v3_1.png"
+  ],
+  "generado": "2026-10-10T14:01:29Z"
+}
