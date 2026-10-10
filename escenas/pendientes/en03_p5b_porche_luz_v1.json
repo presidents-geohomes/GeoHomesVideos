@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/EN03/p1b_porche_oscuro_v2_1.png"
+  ],
+  "archivo": "p5b_porche_luz_v1.jpg",
+  "prompt": "Keep this exact same night image from the reference: same camera angle and framing, same house, same white front door with the black keypad smart lock, same square column, same black metal bench (empty), same potted palms, same window with gray shutters, same lawn and concrete walkway, same dark navy night sky. Change ONLY two things: 1) the porch wall lantern beside the door and the porch ceiling light are now switched ON, casting warm light over the porch, the door, the steps and the walkway (sky stays dark, windows stay dark); 2) the dark crouching animal on the walkway next to the large potted palm is now clearly revealed as a real wild adult RACCOON (gray-brown fur, black mask around the eyes, ringed striped bushy tail), in the exact same spot and at the exact same REALISTIC small size: standing on all four legs, body facing RIGHT in profile, head turned toward the camera, frozen in surprise. Correct real-world proportions: its back is lower than the top of the potted palm's pot and its whole body is shorter than the doormat is wide. Only one raccoon. Nothing behind the bench or in the window. Photorealistic wildlife photo, vertical 9:16, no text, no logos, no people, no cat."
+}
