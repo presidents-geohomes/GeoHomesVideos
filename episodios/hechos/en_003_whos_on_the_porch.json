@@ -121,5 +121,9 @@
     "imagen": "planos/EN03/p5_porche_luz_v1_1.png",
     "titulo": "Who's on the porch at 2 a.m.?",
     "etiqueta": "Home, Simplified · Ep. 3"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN03_whos-on-the-porch/EN03.mp4",
+  "duracion": 23.0,
+  "fecha": "2026-10-10T13:45:29Z"
 }
