@@ -151,7 +151,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 - Aparece al azar en más o menos 1 de cada 3 videos, nunca en todos. Se decide al azar una vez por día y aplica igual a las dos versiones (español e inglés).
 - Cuando aparece: en la escena "cta" poner "phone": "(239) 204-6336", el botón "Envíanos un texto" / "Text us today" y duración 4.0 s. En el caption, añadir "📲 Envíanos un texto al (239) 204-6336" / "📲 Text us at (239) 204-6336".
 - Nunca decir "llámanos" ni "call us".
-- Revisar el registro: evitar que salga muchos días seguidos (006 y 007 salieron con teléfono; 008, 009, 010, 011 y 012 sin teléfono).
+- Revisar el registro: evitar que salga muchos días seguidos (006 y 007 salieron con teléfono; 008 a 012 sin teléfono; 013 con teléfono).
 
 ## Pilares (rotar en este orden)
 
@@ -161,13 +161,13 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria → solución).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
 - ¿Dejaste el garaje abierto otra vez? (usado: 008)
 - Tu casa no tiene que ser nueva para ser inteligente (usado: 011)
-- Abre la puerta sin buscar las llaves
+- Abre la puerta sin buscar las llaves (usado: 013)
 - Mira quién toca el timbre desde cualquier lugar (usado: 009)
 - Snowbirds: vigila tu casa de Naples desde el norte
 - Un sensor de agua te avisa antes de que sea tarde (usado: 010)
@@ -212,8 +212,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria → solución).
 | 010 | ¿Una fuga de agua y tú fuera? (sensor de agua) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho 2026-10-04, se publica 2026-10-06 | Sí |
 | 011 | ¿Necesitas una casa nueva para que sea inteligente? (mito) | Texto ES/EN | Mito o pregunta frecuente | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05 (regenerado desde guion reescrito), se publica 2026-10-07 | Sí (contenido/guiones/011_casa_nueva.json y _en) |
 | 012 | ¿Y si tus persianas te despertaran? (persianas automáticas) | Texto ES/EN | Escenas y estilo de vida | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05, se publica 2026-10-08 | Sí (contenido/guiones/012_persianas_despertar.json y _en) |
+| 013 | Abre la puerta sin buscar las llaves (cerradura inteligente) | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-10 (EN 12:00+, ES 18:00) | Sí (contenido/guiones/013_llaves_puerta.json y _en) |
 
-Siguiente número: 013.
+Siguiente número: 014.
 
 ## Series de familias (episodios con historia)
 

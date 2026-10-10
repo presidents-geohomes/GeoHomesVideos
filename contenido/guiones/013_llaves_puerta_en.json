@@ -1,0 +1,13 @@
+{
+  "titulo": "Open the door without hunting for keys",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Digging for your *keys* again?", "dur": 2.8},
+    {"type": "text", "kicker": "Smart door locks", "text": "Walk in *without keys.*", "dur": 2.8},
+    {"type": "list", "title": "Your door, *simplified:*", "items": ["Open with your code", "Open from your phone", "Lock with one tap", "See who comes and goes"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Forget the *keys.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "Digging for your keys again? 🔑 A smart lock opens with your code or from your phone. We install it in your home anywhere in Southwest Florida. 📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLock #HomeSecurity",
+  "tiktok_title": "Digging for your keys again? Walk in without them 🔑"
+}

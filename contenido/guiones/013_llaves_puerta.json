@@ -1,0 +1,13 @@
+{
+  "titulo": "Abre la puerta sin buscar las llaves",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Otra vez buscando las *llaves?*", "dur": 2.8},
+    {"type": "text", "kicker": "Cerraduras inteligentes", "text": "Entra a tu casa *sin llaves.*", "dur": 2.8},
+    {"type": "list", "title": "Tu puerta, *más fácil:*", "items": ["Abre con tu código", "Abre desde el celular", "Cierra con un toque", "Ve quién entra y sale"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Olvida las *llaves.*", "sub": "Suroeste de Florida", "button": "Envíanos un texto", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "¿Otra vez buscando las llaves? 🔑 Con una cerradura inteligente abres con tu código o desde el celular. Lo instalamos en tu casa en el suroeste de Florida. 📲 Envíanos un texto al (239) 204-6336 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CerraduraInteligente",
+  "tiktok_title": "¿Otra vez buscando las llaves? Abre sin ellas 🔑"
+}
