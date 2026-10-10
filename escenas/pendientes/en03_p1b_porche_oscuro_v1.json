@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/EN03/p1_porche_oscuro_1.png"
+  ],
+  "archivo": "p1b_porche_oscuro_v1.jpg",
+  "prompt": "Keep this exact same night image from the reference: same camera angle and framing, same house, same white front door with the black keypad smart lock, same square column, same black metal bench, same potted palms, same window with gray shutters, same lawn and concrete path, same dark navy night sky, porch lights OFF, all windows dark. Change ONLY two things: 1) REMOVE the dark animal silhouette and its glowing eyes behind the bench and in the window completely: the bench and the window are empty and dark, nothing there; 2) on the concrete walkway at the bottom left, just in front of the large dark potted palm near the porch step, add a SMALL low dark animal shape at ground level, mostly hidden in shadow, with two tiny reflective eyes catching the moonlight. Realistic small size: the shape is only about as tall as one porch step (much smaller than the potted palm's pot), you cannot tell what animal it is. Photorealistic, vertical 9:16, no text, no logos, no people."
+}
