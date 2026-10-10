@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "banco/fotos_insertos/f2/f2-ins-timbre_1_1.jpg"
+  ],
+  "archivo": "p2_timbre_noche.jpg",
+  "prompt": "Keep this exact same close-up from the reference: same black video doorbell with its round camera and button, same white door frame, same black keypad smart lock and handle, same wall lantern, same gray shutter, same framing. Change ONLY the time: it is now 2 a.m., deep night. The wall lantern is OFF, the scene is dark with faint cool moonlight; the doorbell's round light ring glows soft blue, the only light source. No text on the doorbell, no logos. Photorealistic, vertical 9:16, no text, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "5f0d51d8-e4e9-4ce7-8d36-22f82bcbb06d",
+    "status_url": "https://api.higgsfield.ai/requests/5f0d51d8-e4e9-4ce7-8d36-22f82bcbb06d/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/5f0d51d8-e4e9-4ce7-8d36-22f82bcbb06d/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "5f0d51d8-e4e9-4ce7-8d36-22f82bcbb06d",
+  "resultado": [
+    "planos/EN03/p2_timbre_noche_1.png"
+  ],
+  "generado": "2026-10-10T13:34:45Z"
+}

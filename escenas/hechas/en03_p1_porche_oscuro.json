@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN03",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "familias/familia_2/set/ext_porche.png"
+  ],
+  "archivo": "p1_porche_oscuro.jpg",
+  "prompt": "Keep this exact same front porch from the reference: same camera angle and framing, same white stucco house, same white front door with the black keypad smart lock, same square columns, same black metal bench, same potted palms, same window with gray shutters, same lawn and concrete path. Change ONLY the time: it is now 2 a.m., deep night, dark navy sky, faint cool moonlight only. The porch wall lanterns are OFF, all windows dark (everyone is asleep). In the deep shadow beside the black bench there is a small dark animal silhouette, barely visible, just two small glowing reflective eyes catching the moonlight; you cannot tell what animal it is. Slightly mysterious mood, but a normal calm suburban home. Photorealistic, vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "809e6776-22ef-4ead-864e-ea4300d90b06",
+    "status_url": "https://api.higgsfield.ai/requests/809e6776-22ef-4ead-864e-ea4300d90b06/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/809e6776-22ef-4ead-864e-ea4300d90b06/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "809e6776-22ef-4ead-864e-ea4300d90b06",
+  "resultado": [
+    "planos/EN03/p1_porche_oscuro_1.png"
+  ],
+  "generado": "2026-10-10T13:34:45Z"
+}
