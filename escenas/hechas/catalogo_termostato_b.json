@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/termostato",
+  "formato": "1:1",
+  "prompt": "A round minimalist smart thermostat with a glowing display showing only a simple icon (no digits) mounted on a light gray wall in a modern living room. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "termostato_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "00670cea-0ff7-4edd-88ce-059beefe6720",
+    "status_url": "https://api.higgsfield.ai/requests/00670cea-0ff7-4edd-88ce-059beefe6720/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/00670cea-0ff7-4edd-88ce-059beefe6720/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "00670cea-0ff7-4edd-88ce-059beefe6720",
+  "resultado": [
+    "catalogo/fotos/termostato/termostato_b_1.png"
+  ],
+  "generado": "2026-10-11T02:56:08Z"
+}

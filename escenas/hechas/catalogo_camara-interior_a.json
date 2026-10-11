@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/camara-interior",
+  "formato": "1:1",
+  "prompt": "A small white indoor smart camera on a living room shelf, a dog resting on the sofa nearby, cozy modern coastal decor. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "camara-interior_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "f3691f76-19f6-4ff3-bef2-b7b774eae572",
+    "status_url": "https://api.higgsfield.ai/requests/f3691f76-19f6-4ff3-bef2-b7b774eae572/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/f3691f76-19f6-4ff3-bef2-b7b774eae572/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "f3691f76-19f6-4ff3-bef2-b7b774eae572",
+  "resultado": [
+    "catalogo/fotos/camara-interior/camara-interior_a_1.png"
+  ],
+  "generado": "2026-10-11T02:53:55Z"
+}

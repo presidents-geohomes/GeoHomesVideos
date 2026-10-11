@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/valvula-agua-sensor-fugas",
+  "formato": "1:1",
+  "prompt": "A smart water shut-off valve motor mounted on the main copper water pipe in a clean garage utility area, and a small round white water leak sensor puck on the tile floor next to a water heater. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "valvula-agua-sensor-fugas_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "c75fbec5-b36f-4973-86f9-e8ade8e0cb00",
+    "status_url": "https://api.higgsfield.ai/requests/c75fbec5-b36f-4973-86f9-e8ade8e0cb00/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/c75fbec5-b36f-4973-86f9-e8ade8e0cb00/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "c75fbec5-b36f-4973-86f9-e8ade8e0cb00",
+  "resultado": [
+    "catalogo/fotos/valvula-agua-sensor-fugas/valvula-agua-sensor-fugas_b_1.png"
+  ],
+  "generado": "2026-10-11T02:57:12Z"
+}

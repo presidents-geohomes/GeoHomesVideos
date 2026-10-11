@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/timbre-video",
+  "formato": "1:1",
+  "prompt": "A slim black smart video doorbell mounted beside a modern front door of a stucco Florida home, potted plants, sunny afternoon. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "timbre-video_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6ddb8b22-f09b-4622-aedf-8520997af597",
+    "status_url": "https://api.higgsfield.ai/requests/6ddb8b22-f09b-4622-aedf-8520997af597/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/6ddb8b22-f09b-4622-aedf-8520997af597/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "6ddb8b22-f09b-4622-aedf-8520997af597",
+  "resultado": [
+    "catalogo/fotos/timbre-video/timbre-video_b_1.png"
+  ],
+  "generado": "2026-10-11T02:56:39Z"
+}

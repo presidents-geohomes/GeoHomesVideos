@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/pantalla-inteligente",
+  "formato": "1:1",
+  "prompt": "A small smart home display tablet on a kitchen counter showing an abstract home dashboard with simple icons and no text, modern kitchen. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "pantalla-inteligente_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "006d642a-d713-424f-87db-08f8d39987d5",
+    "status_url": "https://api.higgsfield.ai/requests/006d642a-d713-424f-87db-08f8d39987d5/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/006d642a-d713-424f-87db-08f8d39987d5/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "006d642a-d713-424f-87db-08f8d39987d5",
+  "resultado": [
+    "catalogo/fotos/pantalla-inteligente/pantalla-inteligente_b_1.png"
+  ],
+  "generado": "2026-10-11T02:55:35Z"
+}

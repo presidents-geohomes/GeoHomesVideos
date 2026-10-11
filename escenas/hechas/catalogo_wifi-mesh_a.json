@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/wifi-mesh",
+  "formato": "1:1",
+  "prompt": "Two small white mesh Wi-Fi router units, one on a living room shelf and one visible on a side table near the lanai sliding doors, bright open home. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "wifi-mesh_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "a0639925-8d5d-4a84-81cf-1b7bab8fbe04",
+    "status_url": "https://api.higgsfield.ai/requests/a0639925-8d5d-4a84-81cf-1b7bab8fbe04/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/a0639925-8d5d-4a84-81cf-1b7bab8fbe04/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "a0639925-8d5d-4a84-81cf-1b7bab8fbe04",
+  "resultado": [
+    "catalogo/fotos/wifi-mesh/wifi-mesh_a_1.png"
+  ],
+  "generado": "2026-10-11T02:57:12Z"
+}

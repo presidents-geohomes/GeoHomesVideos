@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/inodoro-inteligente",
+  "formato": "1:1",
+  "prompt": "A sleek white modern smart toilet with an integrated bidet seat in a luxurious bright bathroom with large-format porcelain tile. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "inodoro-inteligente_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "ba1f54f4-eb1a-468e-a2b6-d3e79b047fe0",
+    "status_url": "https://api.higgsfield.ai/requests/ba1f54f4-eb1a-468e-a2b6-d3e79b047fe0/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/ba1f54f4-eb1a-468e-a2b6-d3e79b047fe0/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "ba1f54f4-eb1a-468e-a2b6-d3e79b047fe0",
+  "resultado": [
+    "catalogo/fotos/inodoro-inteligente/inodoro-inteligente_b_1.png"
+  ],
+  "generado": "2026-10-11T02:55:02Z"
+}

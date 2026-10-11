@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/bocina-inteligente",
+  "formato": "1:1",
+  "prompt": "A small round fabric smart speaker on a wooden side table in a modern living room, plants and natural light. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "bocina-inteligente_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "e9d602d1-515e-4a28-846a-142949a07c93",
+    "status_url": "https://api.higgsfield.ai/requests/e9d602d1-515e-4a28-846a-142949a07c93/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/e9d602d1-515e-4a28-846a-142949a07c93/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "e9d602d1-515e-4a28-846a-142949a07c93",
+  "resultado": [
+    "catalogo/fotos/bocina-inteligente/bocina-inteligente_b_1.png"
+  ],
+  "generado": "2026-10-11T02:53:22Z"
+}

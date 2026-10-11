@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/dimmer-lampara",
+  "formato": "1:1",
+  "prompt": "A table lamp on a nightstand plugged into a small white plug-in smart dimmer module, warm dimmed glow in a calm bedroom. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "dimmer-lampara_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "48dc2a10-5752-446a-804e-06fc9639d8fd",
+    "status_url": "https://api.higgsfield.ai/requests/48dc2a10-5752-446a-804e-06fc9639d8fd/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/48dc2a10-5752-446a-804e-06fc9639d8fd/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "48dc2a10-5752-446a-804e-06fc9639d8fd",
+  "resultado": [
+    "catalogo/fotos/dimmer-lampara/dimmer-lampara_a_1.png"
+  ],
+  "generado": "2026-10-11T02:55:00Z"
+}

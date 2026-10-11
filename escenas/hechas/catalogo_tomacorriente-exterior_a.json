@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/tomacorriente-exterior",
+  "formato": "1:1",
+  "prompt": "A weatherproof smart outdoor outlet plug mounted on a stucco exterior wall of a covered lanai, string lights plugged in glowing at dusk, pool screen enclosure in the background. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "tomacorriente-exterior_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6819f672-e567-4ab6-b242-f624526dfd2a",
+    "status_url": "https://api.higgsfield.ai/requests/6819f672-e567-4ab6-b242-f624526dfd2a/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/6819f672-e567-4ab6-b242-f624526dfd2a/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "6819f672-e567-4ab6-b242-f624526dfd2a",
+  "resultado": [
+    "catalogo/fotos/tomacorriente-exterior/tomacorriente-exterior_a_1.png"
+  ],
+  "generado": "2026-10-11T02:56:39Z"
+}

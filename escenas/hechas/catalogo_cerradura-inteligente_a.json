@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/cerradura-inteligente",
+  "formato": "1:1",
+  "prompt": "A matte black smart keypad deadbolt lock installed on a modern front door, close-up showing the keypad, warm afternoon light. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "cerradura-inteligente_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "8e3f0209-859f-4233-8cbb-eba42bf591fc",
+    "status_url": "https://api.higgsfield.ai/requests/8e3f0209-859f-4233-8cbb-eba42bf591fc/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/8e3f0209-859f-4233-8cbb-eba42bf591fc/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "8e3f0209-859f-4233-8cbb-eba42bf591fc",
+  "resultado": [
+    "catalogo/fotos/cerradura-inteligente/cerradura-inteligente_a_1.png"
+  ],
+  "generado": "2026-10-11T02:53:55Z"
+}

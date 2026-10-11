@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/tomacorriente-inteligente",
+  "formato": "1:1",
+  "prompt": "A compact white smart plug inserted in a kitchen wall outlet with a coffee maker plugged in, marble countertop, morning light. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "tomacorriente-inteligente_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "9751444d-e10d-4ed6-b6c3-d430e6e852eb",
+    "status_url": "https://api.higgsfield.ai/requests/9751444d-e10d-4ed6-b6c3-d430e6e852eb/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/9751444d-e10d-4ed6-b6c3-d430e6e852eb/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "9751444d-e10d-4ed6-b6c3-d430e6e852eb",
+  "resultado": [
+    "catalogo/fotos/tomacorriente-inteligente/tomacorriente-inteligente_a_1.png"
+  ],
+  "generado": "2026-10-11T02:56:40Z"
+}

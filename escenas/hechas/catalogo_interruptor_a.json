@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/interruptor",
+  "formato": "1:1",
+  "prompt": "A white flat smart light switch panel on a light wall at the entrance of a modern living room, warm lights on. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "interruptor_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "1ed3549d-0c57-462c-b356-331d03e5cbea",
+    "status_url": "https://api.higgsfield.ai/requests/1ed3549d-0c57-462c-b356-331d03e5cbea/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/1ed3549d-0c57-462c-b356-331d03e5cbea/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "1ed3549d-0c57-462c-b356-331d03e5cbea",
+  "resultado": [
+    "catalogo/fotos/interruptor/interruptor_a_1.png"
+  ],
+  "generado": "2026-10-11T02:55:33Z"
+}

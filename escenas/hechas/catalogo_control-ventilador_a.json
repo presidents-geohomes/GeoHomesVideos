@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/control-ventilador",
+  "formato": "1:1",
+  "prompt": "A white smart fan control wall switch next to a doorway, a ceiling fan spinning above in a bright bedroom with coastal decor. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "control-ventilador_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "124560ab-7b8e-4ce6-94e7-584170315c09",
+    "status_url": "https://api.higgsfield.ai/requests/124560ab-7b8e-4ce6-94e7-584170315c09/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/124560ab-7b8e-4ce6-94e7-584170315c09/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "124560ab-7b8e-4ce6-94e7-584170315c09",
+  "resultado": [
+    "catalogo/fotos/control-ventilador/control-ventilador_a_1.png"
+  ],
+  "generado": "2026-10-11T02:54:28Z"
+}

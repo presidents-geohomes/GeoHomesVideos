@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/abridor-garaje",
+  "formato": "1:1",
+  "prompt": "A clean two-car garage interior with a white garage door, a compact smart garage door controller module mounted on the ceiling opener, organized shelves. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "abridor-garaje_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "b93cc07b-21a6-4e14-ac23-43b245a6de13",
+    "status_url": "https://api.higgsfield.ai/requests/b93cc07b-21a6-4e14-ac23-43b245a6de13/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/b93cc07b-21a6-4e14-ac23-43b245a6de13/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "b93cc07b-21a6-4e14-ac23-43b245a6de13",
+  "resultado": [
+    "catalogo/fotos/abridor-garaje/abridor-garaje_b_1.png"
+  ],
+  "generado": "2026-10-11T02:53:22Z"
+}

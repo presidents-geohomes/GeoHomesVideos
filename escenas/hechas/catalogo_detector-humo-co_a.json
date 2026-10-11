@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/detector-humo-co",
+  "formato": "1:1",
+  "prompt": "A round white smart smoke and carbon monoxide detector mounted on a white ceiling in a bright kitchen, view looking up. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "detector-humo-co_a.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "94d0d943-87f4-48a1-b2ac-4124bbcdacb6",
+    "status_url": "https://api.higgsfield.ai/requests/94d0d943-87f4-48a1-b2ac-4124bbcdacb6/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/94d0d943-87f4-48a1-b2ac-4124bbcdacb6/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "94d0d943-87f4-48a1-b2ac-4124bbcdacb6",
+  "resultado": [
+    "catalogo/fotos/detector-humo-co/detector-humo-co_a_1.png"
+  ],
+  "generado": "2026-10-11T02:55:00Z"
+}

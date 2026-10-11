@@ -1,0 +1,21 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/bombillo-tira-led",
+  "formato": "1:1",
+  "prompt": "Smart LED light strips glowing soft teal under kitchen cabinets and a color smart bulb in a pendant, modern kitchen at night. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "archivo": "bombillo-tira-led_b.jpg",
+  "cantidad": 1,
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6dc890e1-99df-4f37-8604-fe8e03ec83f4",
+    "status_url": "https://api.higgsfield.ai/requests/6dc890e1-99df-4f37-8604-fe8e03ec83f4/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/6dc890e1-99df-4f37-8604-fe8e03ec83f4/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "6dc890e1-99df-4f37-8604-fe8e03ec83f4",
+  "resultado": [
+    "catalogo/fotos/bombillo-tira-led/bombillo-tira-led_b_1.png"
+  ],
+  "generado": "2026-10-11T02:53:22Z"
+}
