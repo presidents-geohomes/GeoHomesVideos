@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/camara-exterior",
+  "archivo": "camara-exterior_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/camara-exterior/camara-exterior_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter, number and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "a45d7da1-05ef-4859-b91d-bc6a1df4d852",
+    "status_url": "https://api.higgsfield.ai/requests/a45d7da1-05ef-4859-b91d-bc6a1df4d852/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/a45d7da1-05ef-4859-b91d-bc6a1df4d852/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "a45d7da1-05ef-4859-b91d-bc6a1df4d852",
+  "resultado": [
+    "catalogo/fotos/camara-exterior/camara-exterior_a_limpia_1.png"
+  ],
+  "generado": "2026-10-11T03:06:54Z"
+}
