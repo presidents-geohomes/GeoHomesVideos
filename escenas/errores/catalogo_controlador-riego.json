@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/controlador-riego",
+  "archivo": "controlador-riego.jpg",
+  "formato": "1:1",
+  "cantidad": 2,
+  "prompt": "A sleek white smart sprinkler irrigation controller mounted on a garage wall, and outside a green lawn with sprinklers watering at sunrise. Bright modern single-story home in Southwest Florida, natural daylight, clean professional product photography style, photorealistic, sharp focus on the device. The device is a generic unbranded design: absolutely no logos, no brand names, no text, no letters, no labels anywhere in the image. No people.",
+  "estado": "error",
+  "error": "HTTP 400: {\"detail\":\"batch_size: 2 is not one of [1, 4]\"}",
+  "fecha_error": "2026-10-11T02:43:45Z"
+}
