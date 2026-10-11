@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/bocina-inteligente",
+  "archivo": "bocina-inteligente_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/bocina-inteligente/bocina-inteligente_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere."
+}

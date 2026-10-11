@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/tomacorriente-inteligente",
+  "archivo": "tomacorriente-inteligente_b_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/tomacorriente-inteligente/tomacorriente-inteligente_b_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere. Also make sure a small white smart plug is clearly visible plugged into the wall outlet, with the coffee maker cord plugged into it."
+}
