@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -169,7 +169,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - Tu casa no tiene que ser nueva para ser inteligente (usado: 011)
 - Abre la puerta sin buscar las llaves (usado: 013)
 - Mira quién toca el timbre desde cualquier lugar (usado: 009)
-- Snowbirds: vigila tu casa de Naples desde el norte
+- Snowbirds: vigila tu casa de Naples desde el norte (usado: 014)
 - Un sensor de agua te avisa antes de que sea tarde (usado: 010)
 - Persianas que bajan solas cuando pega el sol
 - Llega a casa y ya está fresca
@@ -213,8 +213,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 | 011 | ¿Necesitas una casa nueva para que sea inteligente? (mito) | Texto ES/EN | Mito o pregunta frecuente | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05 (regenerado desde guion reescrito), se publica 2026-10-07 | Sí (contenido/guiones/011_casa_nueva.json y _en) |
 | 012 | ¿Y si tus persianas te despertaran? (persianas automáticas) | Texto ES/EN | Escenas y estilo de vida | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05, se publica 2026-10-08 | Sí (contenido/guiones/012_persianas_despertar.json y _en) |
 | 013 | Abre la puerta sin buscar las llaves (cerradura inteligente) | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-10 (EN 12:00+, ES 18:00) | Sí (contenido/guiones/013_llaves_puerta.json y _en) |
+| 014 | Snowbirds: vigila tu casa desde el norte | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/014_snowbirds_casa.json y _en) |
 
-Siguiente número: 014.
+Siguiente número: 015.
 
 ## Series de familias (episodios con historia)
 
