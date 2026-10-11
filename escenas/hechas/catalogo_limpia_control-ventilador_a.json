@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/control-ventilador",
+  "archivo": "control-ventilador_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/control-ventilador/control-ventilador_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "2f7d673e-8a87-4c7c-9ec2-dfe4d2a571bb",
+    "status_url": "https://api.higgsfield.ai/requests/2f7d673e-8a87-4c7c-9ec2-dfe4d2a571bb/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/2f7d673e-8a87-4c7c-9ec2-dfe4d2a571bb/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "2f7d673e-8a87-4c7c-9ec2-dfe4d2a571bb",
+  "resultado": [
+    "catalogo/fotos/control-ventilador/control-ventilador_a_limpia_1.png"
+  ],
+  "generado": "2026-10-11T03:01:45Z"
+}

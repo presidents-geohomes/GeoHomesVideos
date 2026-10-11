@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/bombillo-tira-led",
+  "archivo": "bombillo-tira-led_c.jpg",
+  "formato": "1:1",
+  "cantidad": 4,
+  "prompt": "Modern white kitchen at night in a Southwest Florida home: thin LED light strips glowing soft warm white under the upper cabinets, lighting a clean quartz countertop with a bowl of lemons; above the island, glass pendant lamps with color-changing smart bulbs glowing soft teal. Professional interior photography, photorealistic. Absolutely no text, no logos, no labels, no screens, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "2c9f5423-108b-4202-a44b-2a01c44843a1",
+    "status_url": "https://api.higgsfield.ai/requests/2c9f5423-108b-4202-a44b-2a01c44843a1/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/2c9f5423-108b-4202-a44b-2a01c44843a1/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "higgsfield-ai/soul/v2/standard",
+  "request_id": "2c9f5423-108b-4202-a44b-2a01c44843a1",
+  "resultado": [
+    "catalogo/fotos/bombillo-tira-led/bombillo-tira-led_c_1.png",
+    "catalogo/fotos/bombillo-tira-led/bombillo-tira-led_c_2.png",
+    "catalogo/fotos/bombillo-tira-led/bombillo-tira-led_c_3.png",
+    "catalogo/fotos/bombillo-tira-led/bombillo-tira-led_c_4.png"
+  ],
+  "generado": "2026-10-11T03:02:00Z"
+}

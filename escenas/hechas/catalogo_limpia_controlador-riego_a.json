@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/controlador-riego",
+  "archivo": "controlador-riego_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/controlador-riego/controlador-riego_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "d6f6d1ce-e885-4d86-bd31-8e93394b7def",
+    "status_url": "https://api.higgsfield.ai/requests/d6f6d1ce-e885-4d86-bd31-8e93394b7def/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/d6f6d1ce-e885-4d86-bd31-8e93394b7def/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "d6f6d1ce-e885-4d86-bd31-8e93394b7def",
+  "resultado": [
+    "catalogo/fotos/controlador-riego/controlador-riego_a_limpia_1.png"
+  ],
+  "generado": "2026-10-11T03:01:55Z"
+}

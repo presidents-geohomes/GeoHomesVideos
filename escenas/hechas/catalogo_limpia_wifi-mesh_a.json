@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/wifi-mesh",
+  "archivo": "wifi-mesh_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/wifi-mesh/wifi-mesh_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: remove every logo, brand name, word, letter and printed mark from the device and from every object in the scene, leaving clean blank surfaces. Keep everything else identical: same composition, camera angle, lighting, colors, room and device shape. No text anywhere.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "40be4881-1eb2-463f-ae95-72c3514317c0",
+    "status_url": "https://api.higgsfield.ai/requests/40be4881-1eb2-463f-ae95-72c3514317c0/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/40be4881-1eb2-463f-ae95-72c3514317c0/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "40be4881-1eb2-463f-ae95-72c3514317c0",
+  "resultado": [
+    "catalogo/fotos/wifi-mesh/wifi-mesh_a_limpia_1.png"
+  ],
+  "generado": "2026-10-11T03:03:07Z"
+}

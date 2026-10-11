@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos/pantalla-inteligente",
+  "archivo": "pantalla-inteligente_a_limpia.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/fotos/pantalla-inteligente/pantalla-inteligente_a_1.png"
+  ],
+  "prompt": "Edit this exact photo: replace everything on the tablet screen with a clean minimal smart home dashboard made only of simple rounded icons (light bulb, lock, thermostat, camera) on a light background, with absolutely no words, letters or numbers. Remove any logo from the tablet. Keep everything else identical: composition, angle, lighting, kitchen.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6dfd85c1-381e-4ad1-bb05-7cd4df1f68ac",
+    "status_url": "https://api.higgsfield.ai/requests/6dfd85c1-381e-4ad1-bb05-7cd4df1f68ac/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/6dfd85c1-381e-4ad1-bb05-7cd4df1f68ac/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "6dfd85c1-381e-4ad1-bb05-7cd4df1f68ac",
+  "resultado": [
+    "catalogo/fotos/pantalla-inteligente/pantalla-inteligente_a_limpia_1.png"
+  ],
+  "generado": "2026-10-11T03:02:30Z"
+}
