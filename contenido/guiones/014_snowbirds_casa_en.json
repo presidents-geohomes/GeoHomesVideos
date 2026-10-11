@@ -1,0 +1,13 @@
+{
+  "titulo": "Watch your Florida home from up north",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Home alone all *summer?*", "dur": 2.8},
+    {"type": "text", "kicker": "Snowbirds", "text": "Check it from *anywhere.*", "dur": 2.8},
+    {"type": "list", "title": "Your home, *remotely:*", "items": ["See cameras live", "Get alerts on your phone", "Check doors and windows", "Control the climate"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Travel with *peace of mind.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Home empty for months while you're up north? ❄️ See your cameras, get alerts and control the climate from your phone. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #Snowbirds #HomeSecurity",
+  "tiktok_title": "Home alone all summer? Check it from anywhere ❄️"
+}

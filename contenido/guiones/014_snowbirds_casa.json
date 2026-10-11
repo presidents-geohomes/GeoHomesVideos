@@ -1,0 +1,13 @@
+{
+  "titulo": "Vigila tu casa del sur desde el norte",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tu casa sola todo el *verano?*", "dur": 2.8},
+    {"type": "text", "kicker": "Snowbirds", "text": "Mírala desde *cualquier lugar.*", "dur": 2.8},
+    {"type": "list", "title": "Tu casa, *a distancia:*", "items": ["Ve las cámaras en vivo", "Recibe avisos al celular", "Revisa puertas y ventanas", "Controla el clima"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Viaja con *tranquilidad.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Tu casa sola meses mientras estás en el norte? ❄️ Mira las cámaras, recibe avisos y controla el clima desde el celular. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #Snowbirds",
+  "tiktok_title": "¿Tu casa sola todo el verano? Mírala desde el norte ❄️"
+}
