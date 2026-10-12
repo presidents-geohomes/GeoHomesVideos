@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES07",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png",
+    "planos/ES07/base_parrilla.png"
+  ],
+  "prompt": "Same backyard as the first photo (same covered lanai, terracotta tile roof, screen pool enclosure, rectangular pool with glowing turquoise underwater lights, same dusk sky with pink clouds and palm trees), but a closer and lower camera at the edge of the pool deck. In the foreground, lying on the pavers right next to the lit pool, is the dog from the second photo: a red-nose American pit bull terrier with a shiny fawn/tan coat, big white patch on the chest, medium semi-erect ears, amber eyes, relaxed and happy, looking at the glowing pool water. Small in the background under the lanai, a man in an olive green t-shirt and jeans stands at the stainless steel grill with light smoke, seen from behind, out of focus. The dog lies on the dry pavers beside the pool, not in the water, not behind any glass or screen. Warm lanai lights on. Vertical 9:16, photorealistic, cinematic, no other people, no other animals, no text, no logos.",
+  "archivo": "p3b_floyd_piscina.png"
+}

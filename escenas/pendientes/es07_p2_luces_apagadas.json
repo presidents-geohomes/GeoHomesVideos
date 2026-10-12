@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES07",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/ES07/base_parrilla.png"
+  ],
+  "prompt": "Edit this exact photo and change ONLY the lights: turn OFF all the artificial lights. The underwater pool lights are off, so the pool water is dark blue-gray reflecting the dusk sky, with no glowing spots. The lanai ceiling recessed lights and the wall lantern are off. The living room behind the glass doors is dimmer. Everything else stays exactly identical: same camera angle and framing, same sunset sky and clouds, same palm trees, same screen enclosure, same roof, same grill with smoke, same man in olive green t-shirt and jeans standing at the grill seen from behind in the same pose and place, same table and chairs, same ceiling fan, same plants and pavers. Do not add or remove anything. No text, no logos, photorealistic.",
+  "archivo": "p2_luces_apagadas.png"
+}
