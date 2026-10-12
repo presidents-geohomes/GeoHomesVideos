@@ -7,5 +7,18 @@
     "planos/ES07/base_parrilla.png"
   ],
   "prompt": "Edit this exact photo and change ONLY the lights: turn OFF all the artificial lights. The underwater pool lights are off, so the pool water is dark blue-gray reflecting the dusk sky, with no glowing spots. The lanai ceiling recessed lights and the wall lantern are off. The living room behind the glass doors is dimmer. Everything else stays exactly identical: same camera angle and framing, same sunset sky and clouds, same palm trees, same screen enclosure, same roof, same grill with smoke, same man in olive green t-shirt and jeans standing at the grill seen from behind in the same pose and place, same table and chairs, same ceiling fan, same plants and pavers. Do not add or remove anything. No text, no logos, photorealistic.",
-  "archivo": "p2b_luces_apagadas.png"
+  "archivo": "p2_luces_apagadas.png",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "0472390e-13fd-4c8d-9eed-8ebfe0e1ef44",
+    "status_url": "https://api.higgsfield.ai/requests/0472390e-13fd-4c8d-9eed-8ebfe0e1ef44/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/0472390e-13fd-4c8d-9eed-8ebfe0e1ef44/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "0472390e-13fd-4c8d-9eed-8ebfe0e1ef44",
+  "resultado": [
+    "planos/ES07/p2_luces_apagadas_1.png"
+  ],
+  "generado": "2026-10-12T14:20:36Z"
 }

@@ -9,5 +9,18 @@
     "planos/ES07/base_parrilla.png"
   ],
   "prompt": "Same backyard as the first photo (same covered lanai, terracotta tile roof, screen pool enclosure, rectangular pool with glowing turquoise underwater lights, same dusk sky with pink clouds and palm trees), but a closer and lower camera at the edge of the pool deck. In the foreground, lying on the pavers right next to the lit pool, is the dog from the second photo: a red-nose American pit bull terrier with a shiny fawn/tan coat, big white patch on the chest, medium semi-erect ears, amber eyes, relaxed and happy, looking at the glowing pool water. Small in the background under the lanai, a man in an olive green t-shirt and jeans stands at the stainless steel grill with light smoke, seen from behind, out of focus. The dog lies on the dry pavers beside the pool, not in the water, not behind any glass or screen. Warm lanai lights on. Vertical 9:16, photorealistic, cinematic, no other people, no other animals, no text, no logos.",
-  "archivo": "p3_floyd_piscina.png"
+  "archivo": "p3b_floyd_piscina.png",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "0a6c600b-222e-4275-aefc-f82a18b5940c",
+    "status_url": "https://api.higgsfield.ai/requests/0a6c600b-222e-4275-aefc-f82a18b5940c/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/0a6c600b-222e-4275-aefc-f82a18b5940c/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "0a6c600b-222e-4275-aefc-f82a18b5940c",
+  "resultado": [
+    "planos/ES07/p3b_floyd_piscina_1.png"
+  ],
+  "generado": "2026-10-12T14:20:46Z"
 }
