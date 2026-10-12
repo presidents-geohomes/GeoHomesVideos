@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -172,7 +172,7 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 - Snowbirds: vigila tu casa de Naples desde el norte (usado: 014)
 - Un sensor de agua te avisa antes de que sea tarde (usado: 010)
 - Persianas que bajan solas cuando pega el sol
-- Llega a casa y ya está fresca
+- Llega a casa y ya está fresca (usado: 015)
 - "Modo película" con una sola frase (usado: 007)
 - Paquetes en la puerta: ve quién los deja (usado: 003)
 - Apaga todo al salir con un botón
@@ -214,8 +214,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 | 012 | ¿Y si tus persianas te despertaran? (persianas automáticas) | Texto ES/EN | Escenas y estilo de vida | No | es_bossa_latina / en_chill_lofi | Hecho 2026-10-05, se publica 2026-10-08 | Sí (contenido/guiones/012_persianas_despertar.json y _en) |
 | 013 | Abre la puerta sin buscar las llaves (cerradura inteligente) | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-10 (EN 12:00+, ES 18:00) | Sí (contenido/guiones/013_llaves_puerta.json y _en) |
 | 014 | Snowbirds: vigila tu casa desde el norte | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/014_snowbirds_casa.json y _en) |
+| 015 | Llega a casa y ya está fresca (termostato y persianas) | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-12 (EN 12:00, ES 18:00) | Sí (contenido/guiones/015_casa_fresca.json y _en) |
 
-Siguiente número: 015.
+Siguiente número: 016.
 
 ## Series de familias (episodios con historia)
 
