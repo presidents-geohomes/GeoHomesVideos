@@ -1,0 +1,10 @@
+{
+ "tipo": "imagen",
+ "carpeta": "catalogo/fotos-reales/bocina-inteligente",
+ "archivo": "bocina-inteligente_real.jpg",
+ "formato": "1:1",
+ "referencias": [
+  "catalogo/referencias/bocina-inteligente.jpg"
+ ],
+ "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the dark gray fabric-covered spherical smart speaker with a softly glowing blue light ring at its base. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: sitting on a light wood kitchen counter next to a bowl of lemons, bright coastal Florida kitchen with white cabinets, morning light. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image."
+}

@@ -1,0 +1,10 @@
+{
+ "tipo": "imagen",
+ "carpeta": "catalogo/fotos-reales/valvula-agua-sensor-fugas",
+ "archivo": "valvula-agua-sensor-fugas_real.jpg",
+ "formato": "1:1",
+ "referencias": [
+  "catalogo/referencias/valvula-agua-sensor-fugas.jpg"
+ ],
+ "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the black motorized smart valve actuator clamped onto a brass ball valve. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: installed on the copper main water line coming out of the wall in a clean garage utility corner next to a water heater, a small round white leak sensor on the floor nearby. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image."
+}
