@@ -1,0 +1,13 @@
+{
+  "titulo": "Get home to a cool house",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Coming home to a *hot house?*", "dur": 2.8},
+    {"type": "text", "kicker": "Florida heat", "text": "Let it be *ready and cool.*", "dur": 2.8},
+    {"type": "list", "title": "Your climate, *your way:*", "items": ["Cool it from your phone", "Set your schedules", "Shades lower with the sun", "Adjust it by voice"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Walk in and *relax.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Walk into a house that feels like an oven? ☀️ Cool it from your phone before you arrive and let the shades lower with the sun. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #FloridaHeat #SmartThermostat",
+  "tiktok_title": "Coming home to a hot house? Make it cool first ☀️"
+}

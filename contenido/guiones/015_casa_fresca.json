@@ -1,0 +1,13 @@
+{
+  "titulo": "Llega a casa y ya está fresca",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Llegas a una casa *caliente?*", "dur": 2.8},
+    {"type": "text", "kicker": "Calor en Florida", "text": "Que te *espere fresca.*", "dur": 2.8},
+    {"type": "list", "title": "Tu clima, *a tu medida:*", "items": ["Enfría desde el celular", "Programa tus horarios", "Baja persianas con el sol", "Ajústalo con tu voz"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Llega y *respira.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Llegas a casa y parece un horno? ☀️ Enfríala desde el celular antes de entrar y deja que las persianas bajen con el sol. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CalorEnFlorida",
+  "tiktok_title": "¿Llegas a una casa caliente? Que te espere fresca ☀️"
+}
