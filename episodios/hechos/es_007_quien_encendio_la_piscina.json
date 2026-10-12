@@ -119,5 +119,9 @@
     "imagen": "planos/ES07/base_parrilla.png",
     "titulo": "¿Quién encendió la piscina?",
     "etiqueta": "Casa que te entiende · Ep. 7"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES07_quien-encendio-la-piscina/ES07.mp4",
+  "duracion": 24.5,
+  "fecha": "2026-10-12T14:40:14Z"
 }
