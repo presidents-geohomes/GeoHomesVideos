@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos-reales/timbre-video",
+  "archivo": "timbre-video_real.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/referencias/timbre-video.jpg"
+  ],
+  "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device shown in the reference image. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background, composition or lighting; place the device in a new real-life scene: installed on the stucco wall beside a front door of a Southwest Florida home, a potted plant and part of the door frame visible, soft afternoon light. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device, shallow depth of field. No text, no logos, no watermarks anywhere in the image.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "1a4baed2-2efc-4d6b-ae2d-245c7d7ed181",
+    "status_url": "https://api.higgsfield.ai/requests/1a4baed2-2efc-4d6b-ae2d-245c7d7ed181/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/1a4baed2-2efc-4d6b-ae2d-245c7d7ed181/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "1a4baed2-2efc-4d6b-ae2d-245c7d7ed181",
+  "resultado": [
+    "catalogo/fotos-reales/timbre-video/timbre-video_real_1.png"
+  ],
+  "generado": "2026-10-12T22:12:49Z"
+}
