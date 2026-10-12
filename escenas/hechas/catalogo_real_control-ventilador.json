@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos-reales/control-ventilador",
+  "archivo": "control-ventilador_real.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/referencias/control-ventilador.jpg"
+  ],
+  "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the smart ceiling fan with five wood-tone blades, a dark matte motor housing and an integrated round LED light. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: installed on the white ceiling of a bright bedroom with a tray ceiling, LED light on, blades still, bed with white linens below, large window with palm trees. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "add2f29c-a0ed-4188-8288-5459512cec62",
+    "status_url": "https://api.higgsfield.ai/requests/add2f29c-a0ed-4188-8288-5459512cec62/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/add2f29c-a0ed-4188-8288-5459512cec62/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "add2f29c-a0ed-4188-8288-5459512cec62",
+  "resultado": [
+    "catalogo/fotos-reales/control-ventilador/control-ventilador_real_1.png"
+  ],
+  "generado": "2026-10-12T22:24:42Z"
+}

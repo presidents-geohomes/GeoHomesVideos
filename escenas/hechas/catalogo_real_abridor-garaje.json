@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos-reales/abridor-garaje",
+  "archivo": "abridor-garaje_real.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/referencias/abridor-garaje.jpg"
+  ],
+  "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the small wall-mounted smart garage door controller unit with its rounded white shell and black front panel, plus its small black door tilt sensor. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: the controller mounted on a painted drywall next to the inside garage door button, the small sensor attached to the top panel of a white sectional garage door, inside a tidy two-car garage of a Southwest Florida home, daylight from a window. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "297669bf-d350-4cb0-bd5a-71e426cceae7",
+    "status_url": "https://api.higgsfield.ai/requests/297669bf-d350-4cb0-bd5a-71e426cceae7/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/297669bf-d350-4cb0-bd5a-71e426cceae7/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "297669bf-d350-4cb0-bd5a-71e426cceae7",
+  "resultado": [
+    "catalogo/fotos-reales/abridor-garaje/abridor-garaje_real_1.png"
+  ],
+  "generado": "2026-10-12T22:24:53Z"
+}

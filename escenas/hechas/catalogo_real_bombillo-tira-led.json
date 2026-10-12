@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos-reales/bombillo-tira-led",
+  "archivo": "bombillo-tira-led_real.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/referencias/bombillo-tira-led.jpg"
+  ],
+  "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the smart LED light strips installed under kitchen cabinets and along the edge of the counter, glowing in color. Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: a modern kitchen at dusk with the LED strips glowing a warm amber and soft violet under the upper cabinets and along the island edge, ambient lights dimmed, view of a pool lanai through the window. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "4f9fa701-3718-4107-b654-30ab50d06ecf",
+    "status_url": "https://api.higgsfield.ai/requests/4f9fa701-3718-4107-b654-30ab50d06ecf/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/4f9fa701-3718-4107-b654-30ab50d06ecf/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "4f9fa701-3718-4107-b654-30ab50d06ecf",
+  "resultado": [
+    "catalogo/fotos-reales/bombillo-tira-led/bombillo-tira-led_real_1.png"
+  ],
+  "generado": "2026-10-12T22:24:43Z"
+}

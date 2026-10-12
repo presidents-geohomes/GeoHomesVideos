@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "catalogo/fotos-reales/sensor-puerta-ventana",
+  "archivo": "sensor-puerta-ventana_real.jpg",
+  "formato": "1:1",
+  "referencias": [
+    "catalogo/referencias/sensor-puerta-ventana.jpg"
+  ],
+  "prompt": "Create a brand-new, photorealistic photo taken with a smartphone of the exact device described here, as it appears in the reference image: the two-piece small white door and window contact sensor (a larger rectangular piece and a small magnet piece). Keep the device identical in structure and design: same shape, proportions, materials, finish, colors, buttons, screen layout, lights and details. Ignore everything else in the reference (text, phones, apps, icons, people, graphics, other products). Remove every logo, brand name and printed word from the device; leave those surfaces clean and blank. Do not copy the reference background or composition; place the device in a new real-life scene: attached to the frame of a sliding glass door that opens to a pool lanai with a screen enclosure, bright daylight. Natural light, realistic shadows and reflections, slight imperfections of a real home, sharp focus on the device. No people. No text, no logos, no watermarks anywhere in the image.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "beff1ec8-ebbc-4060-92b9-6a6377a736ef",
+    "status_url": "https://api.higgsfield.ai/requests/beff1ec8-ebbc-4060-92b9-6a6377a736ef/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/beff1ec8-ebbc-4060-92b9-6a6377a736ef/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "beff1ec8-ebbc-4060-92b9-6a6377a736ef",
+  "resultado": [
+    "catalogo/fotos-reales/sensor-puerta-ventana/sensor-puerta-ventana_real_1.png"
+  ],
+  "generado": "2026-10-12T22:25:49Z"
+}
