@@ -1,0 +1,123 @@
+{
+  "id": "es_007_quien_encendio_la_piscina",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES07_quien-encendio-la-piscina",
+  "archivo": "ES07.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, playful and curious instrumental for a premium smart-home lifestyle commercial at sunset by the pool: soft acoustic guitar, light pizzicato and felt piano, gentle ambient pads, around 95 BPM, a light detective-like sense of mystery at the start that turns cozy and happy, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-ext-atardecer.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "6:55 p. m. · Se pone el sol",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Golden sunset over the house, slow push-in. Birds, light breeze."
+    },
+    {
+      "imagen": "planos/ES07/p2_luces_apagadas_1.png",
+      "imagen_final": "planos/ES07/base_parrilla.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Modo atardecer · Luces de piscina y lanai",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Dusk in the backyard. The man stands still at the grill seen from behind while light smoke rises. Midway, the underwater pool lights switch on by themselves and the water glows turquoise, and the warm lanai ceiling lights and the wall lantern turn on softly. Nothing else changes: same framing, same sky, same furniture. Soft click, grill sizzle."
+    },
+    {
+      "imagen": "planos/ES07/p3b_floyd_piscina_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "Static camera, dusk by the lit pool. The pit bull lying on the dry pavers slowly turns his head toward the glowing turquoise pool water, looks at it curiously and wags his tail gently. He stays lying on the pavers and does not get up. In the background, the man at the grill stays out of focus, smoke rising. The pool water ripples softly. Water lapping, tail thumping on pavers."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-lan-parrilla.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "The man grills on the lanai, seen from behind, both hands busy, smoke rising, pool lights glowing. Grill sizzle."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cam-lanai.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Cámara del lanai: activa",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The lanai camera turns slowly toward the pool, its status light blinks. Soft beep."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-ext-calle.mp4",
+      "duracion": 5,
+      "musica": "alta",
+      "texto": "Cada día, a la hora del atardecer",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Neighborhood street at sunset, the house with its lights on. Calm evening ambience."
+    }
+  ],
+  "narracion": {
+    "voice_id": "qBvury71WUJfVeT1STkG",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Quién encendió la piscina?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Nadie tocó un interruptor.",
+        "desde": 1.0
+      },
+      {
+        "escena": 3,
+        "texto": "¿Floyd? No tiene manos.",
+        "desde": 0.5
+      },
+      {
+        "escena": 4,
+        "texto": "¿Daniel? Tenía las manos ocupadas.",
+        "desde": 0.4
+      },
+      {
+        "escena": 5,
+        "texto": "La cámara lo vio todo…",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "Fue la casa: sabe a qué hora se pone el sol.",
+        "desde": 0.4
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES07/base_parrilla.png",
+    "titulo": "¿Quién encendió la piscina?",
+    "etiqueta": "Casa que te entiende · Ep. 7"
+  }
+}
