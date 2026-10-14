@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN04",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN04/p1_sala_sol_v2_1.png"
+  ],
+  "archivo": "p5_sala_sombra.jpg",
+  "prompt": "Edit this exact photo with minimal changes. Keep EVERYTHING identical: same camera angle and framing, same walls and ceiling, same white brick fireplace (no fire) with the TV above, same window seat, same orange fluffy cat sleeping curled up on the window seat in exactly the same pose, size and place, same sofa, armchair, plant, rug, floor and kitchen island. Change ONLY this: the white roller shades on ALL the living room windows are now pulled fully DOWN, covering the glass, so the harsh sunbeams are gone. The room is now in soft, cool, diffused, even daylight filtered through the white shades; no hot sun patches on the floor or on the cat. Same afternoon. Photorealistic, vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "c370bd26-055c-4f25-bafb-7cc701c23d37",
+    "status_url": "https://api.higgsfield.ai/requests/c370bd26-055c-4f25-bafb-7cc701c23d37/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/c370bd26-055c-4f25-bafb-7cc701c23d37/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "c370bd26-055c-4f25-bafb-7cc701c23d37",
+  "resultado": [
+    "planos/EN04/p5_sala_sombra_1.png"
+  ],
+  "generado": "2026-10-14T13:35:33Z"
+}
