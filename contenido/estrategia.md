@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -184,7 +184,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - Despierta con luz natural: persianas automáticas (usado: 012)
 - Luces que se prenden solas al anochecer
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
-- Mito: "las casas inteligentes son solo para millonarios" (sin dar precios)
+- Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
 - Antes y después: interruptor normal vs. inteligente
 - Modo vacaciones: tu casa parece habitada (parecido a 002)
 - Mascotas solas en casa: míralas y háblales
@@ -215,8 +215,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 | 013 | Abre la puerta sin buscar las llaves (cerradura inteligente) | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-10 (EN 12:00+, ES 18:00) | Sí (contenido/guiones/013_llaves_puerta.json y _en) |
 | 014 | Snowbirds: vigila tu casa desde el norte | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/014_snowbirds_casa.json y _en) |
 | 015 | Llega a casa y ya está fresca (termostato y persianas) | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-12 (EN 12:00, ES 18:00) | Sí (contenido/guiones/015_casa_fresca.json y _en) |
+| 016 | ¿Casa inteligente solo para ricos? (mito, sin precios) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-14 (EN 12:00, ES 18:00) | Sí (contenido/guiones/016_no_millonarios.json y _en) |
 
-Siguiente número: 016.
+Siguiente número: 017.
 
 ## Series de familias (episodios con historia)
 
