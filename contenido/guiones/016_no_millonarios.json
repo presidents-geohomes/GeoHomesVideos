@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Casa inteligente solo para millonarios?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Casa inteligente solo para *ricos?*", "dur": 2.8},
+    {"type": "text", "kicker": "Mito vs. realidad", "text": "Empieza *a tu medida.*", "dur": 2.8},
+    {"type": "list", "title": "Tú decides *el ritmo:*", "items": ["Un dispositivo a la vez", "Solo lo que necesitas", "Crece cuando quieras", "Todo en una app"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Empieza *hoy.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Casa inteligente solo para ricos? Mito 🙅 Empieza con un dispositivo y crece a tu ritmo. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #MitoOVerdad",
+  "tiktok_title": "¿Casa inteligente solo para ricos? Mito 🙅"
+}

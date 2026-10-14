@@ -1,0 +1,13 @@
+{
+  "titulo": "Smart homes only for the rich?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Smart homes are for the *rich?*", "dur": 2.8},
+    {"type": "text", "kicker": "Myth vs. reality", "text": "Start *your way.*", "dur": 2.8},
+    {"type": "list", "title": "You set *the pace:*", "items": ["One device at a time", "Only what you need", "Grow when you want", "Everything in one app"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Start *today.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Smart homes only for the rich? Myth 🙅 Start with one device and grow at your pace. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #MythVsFact #HomeAutomation",
+  "tiktok_title": "Smart homes only for the rich? Myth 🙅"
+}
