@@ -127,5 +127,9 @@
     "imagen": "planos/EN04/p1_sala_sol_v2_1.png",
     "titulo": "Who's watching Biscuit?",
     "etiqueta": "Home, Simplified · Ep. 4"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN04_whos-watching-biscuit_v2/EN04.mp4",
+  "duracion": 24.5,
+  "fecha": "2026-10-14T13:56:07Z"
 }
