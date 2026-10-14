@@ -78,12 +78,36 @@
   "narracion": {
     "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "partes": [
-      {"escena": 1, "texto": "Nobody's home. So who's watching Biscuit?", "desde": 0.2},
-      {"escena": 3, "texto": "The house notices first, and tells Mom.", "desde": 0.2},
-      {"escena": 4, "texto": "One tap, from the hospital.", "desde": 0.5},
-      {"escena": 6, "texto": "Shade, cool air,", "desde": 0.5},
-      {"escena": 7, "texto": "and one happy cat. Mom's watching, with a little help.", "desde": 0.2},
-      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.4}
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who's watching Biscuit?",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "The house notices first, and tells Mom.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "One tap, from the hospital.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Shade, cool air,",
+        "desde": 0.5
+      },
+      {
+        "escena": 7,
+        "texto": "and one happy cat. Mom's watching, with a little help.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
     ]
   },
   "cierre": {
@@ -102,5 +126,9 @@
     "imagen": "planos/EN04/p1_sala_sol_v2_1.png",
     "titulo": "Who's watching Biscuit?",
     "etiqueta": "Home, Simplified · Ep. 4"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN04_whos-watching-biscuit/EN04.mp4",
+  "duracion": 24.5,
+  "fecha": "2026-10-14T13:43:49Z"
 }
