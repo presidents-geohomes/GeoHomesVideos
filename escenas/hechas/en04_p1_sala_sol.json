@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN04",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "banco/fotos/f2/f2-sal-ventana_1_b_1.jpg",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "archivo": "p1_sala_sol.jpg",
+  "prompt": "Keep this exact same living room from the first reference: same camera angle and framing, same gray sofa and armchair, same white brick fireplace with the TV above, same window seat with white cushion under the left window, same fiddle-leaf plant, same rug, same wood floor, same navy kitchen island corner in the foreground, same white roller shades rolled UP at the top of each window. Change ONLY these things: 1) The fireplace is OFF and empty: no fire, no flames, dark clean firebox (it is a hot Florida afternoon). 2) A strong, hot, bright beam of afternoon sunlight pours through the left window directly onto the window seat, where Biscuit, the fluffy long-haired orange tabby cat from the second reference with green eyes, sleeps curled up in a ball, fully bathed in hot sunlight. Same realistic cat size. Hot, very sunny, bright mood. Nobody else in the house. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "eb17bd86-e803-4618-9030-0c1e8aba95bc",
+    "status_url": "https://api.higgsfield.ai/requests/eb17bd86-e803-4618-9030-0c1e8aba95bc/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/eb17bd86-e803-4618-9030-0c1e8aba95bc/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "eb17bd86-e803-4618-9030-0c1e8aba95bc",
+  "resultado": [
+    "planos/EN04/p1_sala_sol_1.png"
+  ],
+  "generado": "2026-10-14T13:27:19Z"
+}
