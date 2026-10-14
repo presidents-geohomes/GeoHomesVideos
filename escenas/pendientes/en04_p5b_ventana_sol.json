@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN04",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN04/p7_biscuit_sombra_1.png"
+  ],
+  "archivo": "p5b_ventana_sol.jpg",
+  "prompt": "Edit this exact photo with minimal changes. Keep EVERYTHING identical: same camera angle and framing, same window, same white window seat with gray cushion, same white brick fireplace edge and mantel on the right, same orange fluffy cat lying on the cushion in exactly the same pose, size and place, same floor. Change ONLY this: the white roller shade is now rolled fully UP into its slim housing at the very top of the window, so the whole glass is uncovered, and a strong, hot, bright beam of afternoon sunlight pours through the window directly onto the cat and the cushion, with warm golden sun patches. Hot sunny afternoon mood. Photorealistic, vertical 9:16, no text, no logos, no people."
+}
