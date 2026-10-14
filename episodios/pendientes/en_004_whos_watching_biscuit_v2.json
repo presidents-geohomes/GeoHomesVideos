@@ -1,0 +1,131 @@
+{
+  "id": "en_004_whos_watching_biscuit_v2",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN04_whos-watching-biscuit_v2",
+  "archivo": "EN04.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original warm instrumental for a cozy family smart-home story on a hot afternoon with a tiny mystery: starts with soft, curious plucked guitar and light ticking percussion, a gentle question-like feel, then resolves into warm, tender, hopeful piano and fingerpicked guitar with a relaxed, cool, breezy feel, around 90 BPM, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN04/p1_sala_sol_v2_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static camera with a very slow, subtle push-in toward the window seat. Empty, quiet living room on a hot sunny afternoon. A strong beam of sunlight pours through the left window onto the fluffy orange cat sleeping curled up on the window seat; the cat's ear twitches once and its fluffy tail flicks slowly. Tiny dust particles float in the sunbeam. The fireplace stays empty with no fire. The roller shades stay rolled up. Nobody in the room. Nothing else moves."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-cam-mascotas.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Living room · 84°F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Biscuit's napping in the sun",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, stands still holding her phone; it buzzes, she looks down at it and tilts her head with a soft, caring smile. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cool down the living room",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, taps her phone screen twice with her thumb, then relaxes her shoulders. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN04/p5b_ventana_sol_1.png",
+      "imagen_final": "planos/EN04/p7_biscuit_sombra_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Blinds · Closing",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera, medium shot of the sunny window seat. The white roller shade slowly and smoothly rolls DOWN from its housing at the top of the window, covering the upper half of the glass; as it comes down, the hot golden sunbeam on the cat and the cushion fades into soft, cool, even daylight. The orange cat keeps lying on the cushion in the same place and pose, calm. Fireplace and wall stay the same. Nobody else."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cooling · 72°F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.8
+    },
+    {
+      "imagen": "planos/EN04/p7_biscuit_sombra_1.png",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Living room · 74°F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.8,
+      "prompt": "Static camera, medium shot of the window seat in soft cool shade. The fluffy orange cat stretches its front paws forward lazily, gives a big slow yawn, then curls back up comfortably and closes its eyes, content. The shade stays down, soft diffused light. Realistic cat movement and size. Nobody else. Nothing else moves."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who's watching Biscuit?",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "The house notices first, and tells Mom.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "One tap, from the hospital.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Shade, cool air,",
+        "desde": 0.5
+      },
+      {
+        "escena": 7,
+        "texto": "and one happy cat. Mom's watching, with a little help.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN04/p1_sala_sol_v2_1.png",
+    "titulo": "Who's watching Biscuit?",
+    "etiqueta": "Home, Simplified · Ep. 4"
+  }
+}
