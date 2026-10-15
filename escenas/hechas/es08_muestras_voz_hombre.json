@@ -1,0 +1,30 @@
+{
+  "tipo": "muestras_voz",
+  "idioma": "es",
+  "genero": "male",
+  "texto": "¿Cómo sabe la casa que Mariana ya viene? Nadie le avisó… y ya está enfriando. Su celular le avisó al salir de la clínica. Geo Homes. Tu casa, a tu ritmo.",
+  "carpeta": "muestras/voces_es_2/hombre",
+  "cuantas": 2,
+  "resultado": [
+    {
+      "voice_id": "dlGxemPxFMTY7iXagmOj",
+      "nombre": "Fernando Martínez - Rapid, Persuasive",
+      "acento": "latin american",
+      "descripcion": "Middle aged casual male voice. Ideal for narrations.",
+      "public_owner_id": "615d2b8bda021af8e423fe2ac2467be802ba8efda45b0afe6d49c32e299ee9c3",
+      "origen": "biblioteca",
+      "muestra": "muestras/voces_es_2/hombre/voz_1.mp3"
+    },
+    {
+      "voice_id": "l1zE9xgNpUTaQCZzpNJa",
+      "nombre": "Alberto Rodríguez - Serious, Narrative",
+      "acento": "latin american",
+      "descripcion": "Adult male voice, serious tone, ideal for narrations.",
+      "public_owner_id": "7bc0a029a3367b325b55ae78d5d1ac6c17c73d4db23797822acb4a2ba5c4a6a0",
+      "origen": "biblioteca",
+      "muestra": "muestras/voces_es_2/hombre/voz_2.mp3"
+    }
+  ],
+  "estado": "hecho",
+  "fecha": "2026-10-15T13:02:30Z"
+}

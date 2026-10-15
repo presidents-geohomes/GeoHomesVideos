@@ -1,0 +1,38 @@
+[
+  {
+    "voice_id": "1BxAZWANeDIxeyHKSJF2",
+    "nombre": "Isabela - Pleasant, Calm and Melodic",
+    "acento": "latin american",
+    "descripcion": "An Argentinian woman (born and raised) in her early 40s with a pleasant, feminine, calm and melodic Latin American Spanish voice (castellano). Trained with 100%",
+    "public_owner_id": "7204d40d045da27be10645d83bfe290f61a9da6888cdd724d04232bcfb410793",
+    "origen": "biblioteca",
+    "muestra": "muestras/voces_es_2/mujer/voz_1.mp3"
+  },
+  {
+    "voice_id": "gxSxrhNNXvdHpOH0EHjV",
+    "nombre": "Gabriela González - Bubbly, Clear, Warm",
+    "acento": "latin american",
+    "descripcion": "Young Latin Female Voice, pleasant, medium high. Ideal for audio books, Podcast, Narration, \n & Advertising.",
+    "public_owner_id": "3eec6ce1f19ff2f4be0db165cb332e3102d088909f2672a66ba7e1c3b49443b9",
+    "origen": "biblioteca",
+    "muestra": "muestras/voces_es_2/mujer/voz_2.mp3"
+  },
+  {
+    "voice_id": "Gyqu9jCJup6lkiLgiu0l",
+    "nombre": "Emilia - Joyful, Friendly, Optimistic",
+    "acento": "latin american",
+    "descripcion": "Soft Voice of a Young, Latina, Mexican woman for narration, stories or audiobooks, feel free to use this voice for your projects.",
+    "public_owner_id": "6f100a83be52e337b019060382b903fc013c15dbccdf4a91994fef0e3b96b78e",
+    "origen": "biblioteca",
+    "muestra": "muestras/voces_es_2/mujer/voz_3.mp3"
+  },
+  {
+    "voice_id": "RgXx32WYOGrd7gFNifSf",
+    "nombre": "Eva Dorado - Warm, Soft and Convincing",
+    "acento": "peninsular",
+    "descripcion": "Middle aged female with a Warm and soft tone. Peninsular Spanish. Great for narration, audiobooks, youth literature.",
+    "public_owner_id": "8be4c94ccd12f5d94d1e5ea17b85defec88a912da3b62c7c21d1688d924c5e2e",
+    "origen": "biblioteca",
+    "muestra": "muestras/voces_es_2/mujer/voz_4.mp3"
+  }
+]
