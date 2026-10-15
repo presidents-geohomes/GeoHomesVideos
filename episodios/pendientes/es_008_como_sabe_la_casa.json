@@ -1,0 +1,121 @@
+{
+  "id": "es_008_como_sabe_la_casa",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES08_como-sabe-la-casa",
+  "archivo": "ES08.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, curious and cozy instrumental for a premium smart-home lifestyle commercial on a hot sunny Florida afternoon: soft acoustic guitar, light felt piano and gentle pizzicato, around 95 BPM, a light playful sense of mystery at the start that turns warm, happy and homey when someone arrives, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-ext-dia.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "4:00 p. m. · 93 °F afuera",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Hot sunny afternoon over the house, palm trees swaying. Nobody home."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-levanta.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Mariana salió del trabajo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The dog on his bed lifts his head and perks his ears toward the front door."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Enfriando la casa a 72 °F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The thermostat ring shifts from warm orange to cool blue."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-ent-floyd-puerta.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "prompt": "The dog waits sitting in front of the closed front door, wagging his tail."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-auto-mariana-llega.mp4",
+      "duracion": 5,
+      "musica": "alta",
+      "texto": "4:20 p. m. · Mariana llega",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The woman in a light blue scrub uniform walks up the front path to the door, seen from behind."
+    },
+    {
+      "imagen": "planos/ES08/p6b_mariana_entra_1.png",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Casa a 72 °F · Bienvenida",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera, far shot of the entrance. The woman in the light blue scrub uniform, crouched just inside the open front door, happily pets the excited pit bull, who wags his tail fast and wiggles his body against her. She slowly stands up and steps inside, the dog trotting beside her. Nothing else changes: same room, same door, same sunlight on the tile floor. No one else appears."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Cómo sabe la casa que Mariana ya viene?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Nadie le avisó…",
+        "desde": 0.7
+      },
+      {
+        "escena": 3,
+        "texto": "y ya está enfriando.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "Floyd también lo sabe.",
+        "desde": 0.6
+      },
+      {
+        "escena": 6,
+        "texto": "Su celular le avisó al salir de la clínica.",
+        "desde": 0.5
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES08/p6b_mariana_entra_1.png",
+    "titulo": "¿Cómo sabe la casa que Mariana ya viene?",
+    "etiqueta": "Casa que te entiende · Ep. 8"
+  }
+}
