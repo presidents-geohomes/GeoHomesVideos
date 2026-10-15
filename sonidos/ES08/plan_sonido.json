@@ -1,0 +1,14 @@
+{
+  "_nota": "ES08 ¿Cómo sabe la casa que Mariana ya viene? Planos: 1=0.0 2=3.5 3=7.0 4=9.5 5=13.0 6=17.5 cierre=22.0. Todo reutilizado de sonidos/biblioteca.",
+  "efectos": [
+    {"archivo": "sonidos/biblioteca/amb_calle.mp3", "en": 0.0, "db": -36, "dur": 3.9, "entrada": 0.2, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/amb_sala.mp3", "en": 3.5, "db": -40, "dur": 3.8, "entrada": 0.4, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/aviso_altavoz_1.mp3", "escena": 2, "t": 0.3, "db": -28, "alinear": true},
+    {"archivo": "sonidos/biblioteca/perro_levanta.mp3", "escena": 2, "t": 0.9, "db": -32},
+    {"archivo": "sonidos/biblioteca/aire_acondicionado.mp3", "escena": 3, "t": 0.2, "db": -32, "dur": 3.2, "entrada": 0.3, "salida": 0.6},
+    {"archivo": "sonidos/biblioteca/amb_sala.mp3", "en": 9.5, "db": -40, "dur": 3.8, "entrada": 0.4, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/amb_calle.mp3", "en": 13.0, "db": -36, "dur": 4.8, "entrada": 0.4, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/perro_feliz_1.mp3", "escena": 6, "t": 0.2, "db": -32, "dur": 4.0, "entrada": 0.2, "salida": 0.6},
+    {"archivo": "sonidos/biblioteca/ladrido_1.mp3", "escena": 6, "t": 1.4, "db": -30, "alinear": true}
+  ]
+}
