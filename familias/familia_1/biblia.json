@@ -9,10 +9,11 @@
   "viernes"
  ],
  "narradora": {
-  "nombre": "Samanta - Warm, Tender, Expressive (ElevenLabs)",
-  "voice_id": "qBvury71WUJfVeT1STkG",
+  "nombre": "Fernando Martínez - Rapid, Persuasive (ElevenLabs) · narrador fijo desde ES08 (2026-10-15)",
+  "voice_id": "dlGxemPxFMTY7iXagmOj",
   "modelo": "eleven_multilingual_v2",
-  "uso": "Narra TODO el episodio en 3-5 frases cortas repartidas por los planos: cuenta la comodidad de vivir en una casa inteligente, el problema que resuelve la tecnología o lo bien que se vive. Los textos en pantalla son las 'conversaciones' con la casa; la narradora es la voz de la marca. Termina sobre el cierre con: 'Geo Homes. Tu casa, a tu ritmo.'"
+  "uso": "Narra TODO el episodio en 3-5 frases cortas repartidas por los planos: cuenta la comodidad de vivir en una casa inteligente, el problema que resuelve la tecnología o lo bien que se vive. Los textos en pantalla son las 'conversaciones' con la casa; la narradora es la voz de la marca. Termina sobre el cierre con: 'Geo Homes. Tu casa, a tu ritmo.'",
+  "anterior": "Samanta (qBvury71WUJfVeT1STkG), usada en ES01–ES07"
  },
  "musica": "Pista instrumental original con ElevenLabs Music: cálida, moderna, guitarra acústica suave, piano ligero, ~95 BPM, sin voces. Puede sonar desde el altavoz de la cocina y el altavoz la baja o la sube.",
  "reglas_guion": [
@@ -178,7 +179,8 @@
   "ES03 v1: el garaje no subía, se 'fundía' con la foto final (inicio y final eran ediciones distintas) → evitar acciones arriesgadas; foto final solo editando la misma foto inicial; detector de fundidos.",
   "ES03 v1: faltaba un paso (Daniel aparecía dentro sin verse llegar) → si un paso no es necesario, se quita de la historia sin romper la lógica.",
   "Las mascotas SIEMPRE comen de su comedero inteligente (nunca platos) y salen al patio por su puerta inteligente para mascotas (pedido del cliente, 2026-09-28).",
-  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion."
+  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion.",
+  "2026-10-15: el cliente cambió la voz de narración a Fernando Martínez (hombre, latino) como narrador fijo de la Familia 1."
  ],
  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
 }
