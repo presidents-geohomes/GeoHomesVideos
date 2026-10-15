@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES08",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/ES08/base_floyd_puerta.png",
+    "familias/familia_1/personajes/mariana_trabajo.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "prompt": "Same living room and entrance as the first photo (same arched dark wood front door, same warm stucco walls, terracotta tile floor, gray dog bed in the corner, gray sofa corner in the foreground, same late-afternoon sun beams on the floor), same camera framing and light. Now the front door is open and the woman from the second photo has just stepped inside: a Hispanic woman, 35, long wavy dark brown hair, wearing a light blue medical scrub uniform, a tote bag on her shoulder. She stands just inside the doorway, small in the frame, far from the camera, her face turned slightly down toward the dog, not facing the camera. The dog from the third photo (a red-nose American pit bull terrier with a shiny fawn/tan coat, big white chest patch, amber eyes) stands in front of her, tail up and happy, greeting her. Bright tropical garden visible through the open door. Keep the upper third of the image clear (ceiling and wall only). Vertical 9:16, photorealistic, cinematic, no other people, no other animals, no text, no logos.",
+  "archivo": "p6_mariana_entra.png"
+}
