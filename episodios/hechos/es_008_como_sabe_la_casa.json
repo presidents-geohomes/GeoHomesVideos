@@ -117,5 +117,9 @@
     "imagen": "planos/ES08/p6b_mariana_entra_1.png",
     "titulo": "¿Cómo sabe la casa que Mariana ya viene?",
     "etiqueta": "Casa que te entiende · Ep. 8"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES08_como-sabe-la-casa/ES08.mp4",
+  "duracion": 25.5,
+  "fecha": "2026-10-15T13:13:16Z"
 }
