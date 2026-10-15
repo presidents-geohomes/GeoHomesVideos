@@ -4,7 +4,8 @@
 Procesa en escenas/pendientes/ los JSON con:
   "tipo": "muestras_voz"  -> busca voces y genera una muestra de cada una.
       {"tipo": "muestras_voz", "idioma": "es", "genero": "female",
-       "texto": "Frase de prueba...", "carpeta": "muestras/voces_es", "cuantas": 4}
+       "texto": "Frase de prueba...", "carpeta": "muestras/voces_es", "cuantas": 4,
+       "excluir": ["voice_id ya escuchada", ...]}   # opcional
   "tipo": "musica"        -> genera pistas instrumentales (biblioteca de música).
       {"tipo": "musica", "carpeta": "musica/biblioteca",
        "pistas": [{"id": "es_bachata", "idioma": "es", "estilo": "...", "usar_para": "...",
@@ -155,7 +156,10 @@ def candidatas(idioma, genero, cuantas):
 
 
 def muestras(t):
-    lista = candidatas(t.get("idioma", "es"), t.get("genero", "female"), int(t.get("cuantas", 4)))
+    excluir = set(t.get("excluir", []))
+    lista = candidatas(t.get("idioma", "es"), t.get("genero", "female"),
+                       int(t.get("cuantas", 4)) + len(excluir))
+    lista = [v for v in lista if v["voice_id"] not in excluir]
     hechas, n = [], 0
     for v in lista:
         if n >= int(t.get("cuantas", 4)):
