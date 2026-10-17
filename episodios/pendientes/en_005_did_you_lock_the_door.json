@@ -1,0 +1,143 @@
+{
+  "id": "en_005_did_you_lock_the_door",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN05_did-you-lock-the-door",
+  "archivo": "EN05.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original soft bedtime instrumental for a cozy family smart-home story at night: starts with a few gentle, slightly curious music-box and felt-piano notes (a small question), then settles into a warm, tender lullaby with soft felt piano and light fingerpicked guitar, around 70 BPM, calm and reassuring, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN05/p1_emma_lee.png",
+      "imagen_final": "planos/EN05/p2_emma_celular_ajustada.png",
+      "duracion": 4,
+      "musica": "baja",
+      "prompt": "Static wide shot of a cozy master bedroom at night, warm bedside lamp light. The woman sitting in bed, seen from far away, slowly lowers her open book onto her lap, pauses and glances toward the bedroom door with a small doubtful look, then picks up her phone and holds it near her chin. The phone screen is never visible. Lamps stay on. Realistic, calm, gentle movement. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "imagen": "planos/EN05/p2_emma_celular_ajustada.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Goodnight, house",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static wide shot of the cozy master bedroom at night, warm lamp light. The woman in bed, seen from far away, holds her phone close to her chin for a quick voice command, then relaxes her shoulders and lowers the phone slightly. Her face stays small and far; no visible lip movement, no talking to camera. The phone screen is never visible. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "imagen": "planos/EN05/p3_cerradura_noche_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Front door · Locked",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6,
+      "prompt": "Static close-up of the matte black smart deadbolt on the white front door at night, warm porch lantern glow. The small red indicator light at the top of the keypad turns off and the small green indicator light turns on; the keypad glow softly dims. The lock and the door stay perfectly still, no hand, nobody. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "imagen": "planos/EN05/p4a_sala_luces_1.png",
+      "imagen_final": "planos/EN05/p4b_sala_oscura_1.png",
+      "duracion": 3.5,
+      "musica": "baja",
+      "texto": "Lights · Off",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5,
+      "prompt": "Static wide shot of the empty living room at night. First the floor lamp switches off, then the recessed ceiling lights switch off, and the room falls into soft blue moonlight. Furniture, fireplace (off) and TV (off) stay exactly the same. Nobody in the room. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Sleep mode · 70°F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6
+    },
+    {
+      "clip": "banco/tomas/f2/f2-cua-lily-duerme.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Garage closed · Cameras on",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5
+    },
+    {
+      "imagen": "planos/EN05/p2_emma_celular_ajustada.png",
+      "imagen_final": "planos/EN05/p7_dormir_1.png",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Good night · Home secured",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.2,
+      "prompt": "Static wide shot of the master bedroom at night, seen from far away. The woman sets her phone down on the nightstand, then both bedside lamps and the ceiling lights switch off by themselves and the room turns to soft blue moonlight; she slides down under the blue comforter and rests her head on the pillow, peaceful. The phone screen is never visible. Realistic, slow, calm movement. Static camera. Nobody else. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "In bed. Did you lock the front door?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Don't get up.",
+        "desde": 0.4
+      },
+      {
+        "escena": 3,
+        "texto": "One goodnight. The door locks,",
+        "desde": 0.1
+      },
+      {
+        "escena": 4,
+        "texto": "the lights go out,",
+        "desde": 0.4
+      },
+      {
+        "escena": 5,
+        "texto": "the air cools down,",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "and Lily and Biscuit sleep right through it.",
+        "desde": 0.3
+      },
+      {
+        "escena": 7,
+        "texto": "Now you can sleep too.",
+        "desde": 1.0
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN05/p1_emma_lee.png",
+    "titulo": "Did you lock the front door?",
+    "etiqueta": "Home, Simplified · Ep. 5"
+  }
+}
