@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos_insertos/f2/f2-ins-termostato_cat_1_1.jpg"
+  ],
+  "archivo": "p5_termostato_70.jpg",
+  "prompt": "Keep this exact same close-up of the same thermostat on the same white shiplap wall, same framing, same white rim and black glass, same three small icons at the top. Change ONLY the display: it is now lit with a soft cool blue glow and shows a large, crisp, clean white temperature reading exactly '70°F' in the center (big digits 7 and 0 followed by a small degree sign and F). Nothing else written. Evening, soft warm indoor light.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "9a9d6094-a486-48c1-956b-45dca6bcdb7b",
+    "status_url": "https://api.higgsfield.ai/requests/9a9d6094-a486-48c1-956b-45dca6bcdb7b/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/9a9d6094-a486-48c1-956b-45dca6bcdb7b/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "9a9d6094-a486-48c1-956b-45dca6bcdb7b",
+  "resultado": [
+    "planos/EN05/p5_termostato_70_1.png"
+  ],
+  "generado": "2026-10-17T14:38:10Z"
+}

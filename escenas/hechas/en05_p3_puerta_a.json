@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_porche.png",
+    "banco/fotos_insertos/f2/f2-ins-cerradura_cat_1_1.jpg"
+  ],
+  "archivo": "p3_puerta_a.jpg",
+  "prompt": "The same front porch and white front door of the house in the first reference photo, now late at night: dark blue night sky, the porch wall lantern glowing warm, closer framing on the CLOSED white front door, seen straight on from the porch at chest height, the whole door leaf and both sides of its frame visible so it is clearly shut tight. On the door, above the lever handle, the matte black smart deadbolt with a glossy black keypad and fingerprint reader exactly like the second reference photo, clearly visible; only its small RED indicator light is lit. Gray shutters, white stucco, potted palm at the side. Nobody. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "e1185a19-e2bf-4263-b027-d09bef897fe3",
+    "status_url": "https://api.higgsfield.ai/requests/e1185a19-e2bf-4263-b027-d09bef897fe3/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/e1185a19-e2bf-4263-b027-d09bef897fe3/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "e1185a19-e2bf-4263-b027-d09bef897fe3",
+  "resultado": [
+    "planos/EN05/p3_puerta_a_1.png"
+  ],
+  "generado": "2026-10-17T14:38:10Z"
+}

@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN05/p1_emma_lee.png",
+    "banco/fotos_insertos/f2/f2-ins-altavoz_1_1.jpg"
+  ],
+  "archivo": "p2_altavoz_a.jpg",
+  "prompt": "Close-up at night of the LEFT nightstand of this same master bedroom from the first reference photo: in sharp focus in the foreground, a small light-gray fabric cylinder smart speaker with a thin light ring on top (same design as the second reference photo, bedside size, no logo) stands on the light wood nightstand next to the warm glowing table lamp. Its light ring is off. In the softly blurred background, the woman with honey-blond hair in a light chambray shirt sits in the bed with a closed book on her lap, out of focus, small, face not readable. Same warm cozy lamp light and white shiplap wall. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "52058be6-debe-4324-9a78-10098e367fc9",
+    "status_url": "https://api.higgsfield.ai/requests/52058be6-debe-4324-9a78-10098e367fc9/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/52058be6-debe-4324-9a78-10098e367fc9/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "52058be6-debe-4324-9a78-10098e367fc9",
+  "resultado": [
+    "planos/EN05/p2_altavoz_a_1.png"
+  ],
+  "generado": "2026-10-17T14:38:10Z"
+}
