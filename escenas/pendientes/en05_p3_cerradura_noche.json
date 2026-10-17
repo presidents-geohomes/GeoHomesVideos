@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "banco/fotos_insertos/f2/f2-ins-cerradura_cat_1_1.jpg"
+  ],
+  "archivo": "p3_cerradura_noche.jpg",
+  "prompt": "Keep this exact same close-up from the reference photo: same white front door, same matte black smart deadbolt with the glossy black keypad and fingerprint reader, same lever handle, same framing and focus. Change ONLY the time: it is now late at night. The background outside is dark blue night with the dark silhouette of palms, the porch is lit only by a warm wall lantern glow from the left, the door is in soft warm low light. The keypad keys glow faintly white and only the small RED indicator light at the top is lit (the green one is off). Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, nobody else."
+}

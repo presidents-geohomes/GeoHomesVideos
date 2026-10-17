@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN05/p1_emma_lee.png"
+  ],
+  "archivo": "p7_dormir.jpg",
+  "prompt": "Keep this exact same master bedroom from the reference photo: same camera angle and framing, same upholstered headboard, same blue and white bedding with the navy throw, same two nightstands with the same lamps, same framed seascape on the white shiplap wall, same sliding glass door to the dark screened porch, same rug and wood floor, same woman (honey-blond shoulder-length hair, light chambray shirt), seen from far away. Change ONLY this: both bedside lamps and the ceiling lights are now OFF. The room is dark, lit only by soft cool blue moonlight coming through the sliding glass door. The woman now lies down in the bed under the blue comforter, head on the pillow, eyes closed, sleeping peacefully; the closed book rests on the left nightstand. Calm, quiet night. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, nobody else."
+}

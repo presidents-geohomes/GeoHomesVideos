@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "cantidad": 2,
+  "referencias": [
+    "planos/EN05/p4_sala_noche.png"
+  ],
+  "archivo": "p4a_sala_luces.jpg",
+  "prompt": "Keep this exact same living room from the reference photo: same camera angle and framing, same gray sofas, same white brick fireplace with the TV above, same window seat, same plant and floor lamp, same rug, same wood floor, same navy kitchen island and white counter in the foreground, same windows with dark night outside. Change ONLY the lighting: the recessed ceiling lights and the floor lamp are ON, warm and bright, the room is cozy and well lit, as if someone just left it. The fireplace is OFF and empty (no fire). The TV is off. Nobody in the room. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, nobody else."
+}
