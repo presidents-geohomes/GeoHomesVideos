@@ -98,7 +98,7 @@ A = {
  "luz-despertar": ("cuarto", "a bedside lamp", "The lamp brightens slowly like a sunrise."),
  "tiras-led": ("pared_cocina", "a warm LED strip under the white upper cabinets", "The LED strip fades on along the cabinets."),
  "ventiladores": ("cuarto", "a white ceiling fan with wood blades", "The fan starts turning slowly and speeds up."),
- "termostato": ("pared_pasillo", "a round smart thermostat with a large dark glass circular display that is completely blank (no numbers, no text, no icons) and a thin glowing ring", "The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device."),
+ "termostato": ("pared_pasillo", "a round smart thermostat with a large dark glass circular display that is completely blank (no numbers, no text, no icons) and a thin glowing ring", "The black glass display softly lights up with a cool blue glow; the small icons stay exactly the same, no numbers appear. Static camera, no zoom, no movement of the device."),
  "persianas": ("ventana_int", "a white motorized roller shade inside the window frame", "The shade lowers smoothly halfway down the window."),
  "sensor-agua": ("lavanderia", "a small white water leak sensor on the floor next to the washer", "A few drops touch it and its light blinks."),
  "valvula": ("cuarto_maquinas", "a smart automatic water shutoff valve actuator clamped on the main copper water supply pipe right next to the water heater", "The valve actuator's lever turns a quarter turn to closed and its light turns red."),
@@ -123,7 +123,7 @@ A = {
 # diseños (pedido del cliente). El altavoz NO cambia (se queda el cilindro gris de la biblia).
 CAT_DIR = "catalogo/seleccion-real/"
 CAT = {
- "cerradura": ("cerradura-inteligente", "the matte black smart deadbolt with the tall rounded keypad shown in the second reference photo"),
+ "cerradura": ("cerradura-inteligente", "the matte black smart deadbolt shown in the second reference photo: a tall rounded black glossy panel with a full 12-button numeric keypad (clearly visible keys) above a round fingerprint reader and the key cylinder"),
  "timbre": ("timbre-video", "the slim black video doorbell shown in the second reference photo"),
  "cam-ext": ("camara-exterior", "the compact black outdoor security camera shown in the second reference photo"),
  "cam-lanai": ("camara-exterior", "the compact black outdoor security camera shown in the second reference photo"),
@@ -139,7 +139,6 @@ CAT = {
  "valvula": ("valvula-agua-sensor-fugas", "the black smart water shutoff valve actuator with a red light shown in the second reference photo, clamped on the main copper water pipe next to the water heater"),
  "humo-co": ("detector-humo-co", "the round white smart smoke and CO detector shown in the second reference photo, on the ceiling"),
  "ventiladores": ("control-ventilador", "the black ceiling fan with wood blades and a light shown in the second reference photo"),
- "tiras-led": ("bombillo-tira-led", "a warm LED strip like the one shown in the second reference photo, under the white upper cabinets"),
 }
 
 

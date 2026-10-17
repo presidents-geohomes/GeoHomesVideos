@@ -1,0 +1,12 @@
+{
+ "tipo": "imagen",
+ "carpeta": "banco/fotos_insertos/f1",
+ "archivo": "f1-ins-cerradura_cat2_2.jpg",
+ "formato": "9:16",
+ "jpg": true,
+ "referencias": [
+  "familias/familia_1/set/ext_dia.png",
+  "catalogo/seleccion-real/cerradura-inteligente.jpg"
+ ],
+ "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show the matte black smart deadbolt shown in the second reference photo: a tall rounded black glossy panel with a full 12-button numeric keypad (clearly visible keys) above a round fingerprint reader and the key cylinder on the arched dark-wood front door, beside the black lanterns, sand stucco around it. The device fills the center of the frame; the background is softly blurred but clearly this same house. The device must look EXACTLY like the one in the second reference photo (same shape, colors, materials and buttons), but placed in this house; ignore the second photo's background."
+}
