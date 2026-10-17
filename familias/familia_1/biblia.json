@@ -182,5 +182,6 @@
   "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion.",
   "2026-10-15: el cliente cambió la voz de narración a Fernando Martínez (hombre, latino) como narrador fijo de la Familia 1."
  ],
- "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista)."
+ "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista).",
+ "diseno_aparatos": "Desde 2026-10-17 (pedido del cliente) los aparatos de los videos tienen el diseño de los carruseles: catalogo/seleccion-real/ (cerradura negra con teclado y huella, timbre negro, cámaras negras, termostato negro con borde blanco, sensores blancos, válvula negra, abridor de garaje blanco/negro, interruptor y enchufe blancos, detector de humo blanco, ventilador negro con aspas de madera, persianas blancas). Los insertos del banco (banco/insertos/) ya están rehechos con ese diseño. El altavoz NO cambia: sigue el de 'aparatos'."
 }
