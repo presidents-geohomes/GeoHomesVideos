@@ -99,7 +99,7 @@ A = {
  "tiras-led": ("pared_cocina", "a warm LED strip under the white upper cabinets", "The LED strip fades on along the cabinets."),
  "ventiladores": ("cuarto", "a white ceiling fan with wood blades", "The fan starts turning slowly and speeds up."),
  "termostato": ("pared_pasillo", "a round smart thermostat with a large dark glass circular display that is completely blank (no numbers, no text, no icons) and a thin glowing ring", "The black glass display softly lights up with a cool blue glow; the small icons stay exactly the same, no numbers appear. Static camera, no zoom, no movement of the device."),
- "persianas": ("ventana_int", "a white motorized roller shade inside the window frame", "The shade lowers smoothly halfway down the window."),
+ "persianas": ("ventana_int", "a white motorized roller shade inside the window frame", "The white roller shade clearly rolls DOWN smoothly from where it is now all the way to the bottom of the window, covering the glass completely by the end."),
  "sensor-agua": ("lavanderia", "a small white water leak sensor on the floor next to the washer", "A few drops touch it and its light blinks."),
  "valvula": ("cuarto_maquinas", "a smart automatic water shutoff valve actuator clamped on the main copper water supply pipe right next to the water heater", "The valve actuator's lever turns a quarter turn to closed and its light turns red."),
  "humedad": ("lavanderia", "a white compact dehumidifier with a status light", "It starts running, the status light turns on, air flows gently."),
