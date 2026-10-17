@@ -6,16 +6,16 @@
   "duracion": 3,
   "crf": 21,
   "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
-  "prompt": "The shade lowers smoothly halfway down the window. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "prompt": "The white roller shade clearly rolls DOWN smoothly from where it is now all the way to the bottom of the window, covering the glass completely by the end. Close-up, static camera or very slow push-in, realistic, one clear action only.",
   "respuesta_hf": {
     "status": "completed",
-    "request_id": "96bac476-d325-461e-8665-6e383630144d",
-    "status_url": "https://api.higgsfield.ai/requests/96bac476-d325-461e-8665-6e383630144d/status",
-    "cancel_url": "https://api.higgsfield.ai/requests/96bac476-d325-461e-8665-6e383630144d/cancel"
+    "request_id": "c4440672-2438-4630-82c0-7beaf6ea8de9",
+    "status_url": "https://api.higgsfield.ai/requests/c4440672-2438-4630-82c0-7beaf6ea8de9/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/c4440672-2438-4630-82c0-7beaf6ea8de9/cancel"
   },
   "estado": "hecho",
   "modelo_usado": "kling-video/v3.0/std/image-to-video",
-  "request_id": "96bac476-d325-461e-8665-6e383630144d",
+  "request_id": "c4440672-2438-4630-82c0-7beaf6ea8de9",
   "resultado": "banco/insertos/f2/f2-ins-persianas.mp4",
-  "generado": "2026-10-17T13:27:00Z"
+  "generado": "2026-10-17T13:35:13Z"
 }
