@@ -2,20 +2,20 @@
   "carpeta": "banco/insertos/f2",
   "archivo": "f2-ins-termostato.mp4",
   "modelo": "kling-video/v3.0/std/image-to-video",
-  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-termostato_r_1_1.jpg",
+  "imagen_inicial": "banco/fotos_insertos/f2/f2-ins-termostato_cat_1_1.jpg",
   "duracion": 3,
   "crf": 21,
   "negativo": "text, captions, subtitles, watermark, logo, brand badge, people talking, lip movement, distorted face, extra fingers, extra limbs, morphing, flicker, objects appearing, duplicate animals",
-  "prompt": "The thin ring glow shifts slowly from warm orange to cool blue. The blank display stays blank. Static camera, no zoom, no movement of the device. Close-up, static camera or very slow push-in, realistic, one clear action only.",
+  "prompt": "The black glass display softly lights up with a cool blue glow; the small icons stay exactly the same, no numbers appear. Static camera, no zoom, no movement of the device. Close-up, static camera or very slow push-in, realistic, one clear action only.",
   "respuesta_hf": {
     "status": "completed",
-    "request_id": "6fd31b01-8668-4327-b255-85fb686adf2f",
-    "status_url": "https://platform.higgsfield.ai/requests/6fd31b01-8668-4327-b255-85fb686adf2f/status",
-    "cancel_url": "https://platform.higgsfield.ai/requests/6fd31b01-8668-4327-b255-85fb686adf2f/cancel"
+    "request_id": "a3e3ac2c-a8e0-4bae-bc31-9a25e6cc9af0",
+    "status_url": "https://api.higgsfield.ai/requests/a3e3ac2c-a8e0-4bae-bc31-9a25e6cc9af0/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/a3e3ac2c-a8e0-4bae-bc31-9a25e6cc9af0/cancel"
   },
   "estado": "hecho",
   "modelo_usado": "kling-video/v3.0/std/image-to-video",
-  "request_id": "6fd31b01-8668-4327-b255-85fb686adf2f",
+  "request_id": "a3e3ac2c-a8e0-4bae-bc31-9a25e6cc9af0",
   "resultado": "banco/insertos/f2/f2-ins-termostato.mp4",
-  "generado": "2026-09-29T17:25:57Z"
+  "generado": "2026-10-17T13:27:48Z"
 }
