@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN05/p1b_emma_altavoz_1.png"
+  ],
+  "archivo": "p7b_dormir.jpg",
+  "prompt": "Keep this exact same master bedroom from the reference photo: same camera angle and framing, same bed, bedding and navy throw, same two nightstands and lamps, the same small gray fabric cylinder speaker on the LEFT nightstand, same seascape picture, same sliding door to the dark porch, same rug and floor, same woman (honey-blond hair, light chambray shirt), seen from far away. Change ONLY this: both bedside lamps and the ceiling lights are now OFF; the room is dark, lit only by soft cool blue moonlight from the sliding glass door. The woman now lies down under the blue comforter, head on the pillow, eyes closed, sleeping peacefully; the closed book rests on the left nightstand next to the speaker. The speaker's light ring glows very faintly. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "2a1d7897-e749-4677-bc5c-b837415f09c3",
+    "status_url": "https://api.higgsfield.ai/requests/2a1d7897-e749-4677-bc5c-b837415f09c3/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/2a1d7897-e749-4677-bc5c-b837415f09c3/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "2a1d7897-e749-4677-bc5c-b837415f09c3",
+  "resultado": [
+    "planos/EN05/p7b_dormir_1.png"
+  ],
+  "generado": "2026-10-17T14:42:26Z"
+}
