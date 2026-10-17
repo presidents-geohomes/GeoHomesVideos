@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN05",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN05/p1_emma_lee.png",
+    "banco/fotos_insertos/f2/f2-ins-altavoz_1_1.jpg"
+  ],
+  "archivo": "p2_altavoz_b.jpg",
+  "prompt": "Medium close-up at night, camera low at the side of the bed: a small light-gray fabric cylinder smart speaker with a thin light ring on top (same design as the second reference photo, bedside size, no logo) on the light wood nightstand, sharp, next to the warm table lamp of this same master bedroom from the first reference photo. Behind it, softly out of focus, the woman in the light chambray shirt rests against the pillows in the blue and white bed, seen from the side, face blurred and not readable. Light ring off. Warm, calm, cozy night. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else."
+}
