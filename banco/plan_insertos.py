@@ -119,6 +119,30 @@ A = {
 }
 
 
+# Aparatos de los carruseles (catalogo/seleccion-real): desde 2026-10-17 los insertos usan ESTOS
+# diseños (pedido del cliente). El altavoz NO cambia (se queda el cilindro gris de la biblia).
+CAT_DIR = "catalogo/seleccion-real/"
+CAT = {
+ "cerradura": ("cerradura-inteligente", "the matte black smart deadbolt with the tall rounded keypad shown in the second reference photo"),
+ "timbre": ("timbre-video", "the slim black video doorbell shown in the second reference photo"),
+ "cam-ext": ("camara-exterior", "the compact black outdoor security camera shown in the second reference photo"),
+ "cam-lanai": ("camara-exterior", "the compact black outdoor security camera shown in the second reference photo"),
+ "cam-mascotas": ("camara-interior", "the small black indoor camera on its round stand shown in the second reference photo"),
+ "sensor-puertas": ("sensor-puerta-ventana", "the small white two-piece contact sensor shown in the second reference photo, on the door and frame"),
+ "sensor-mov": ("sensor-movimiento", "the white rectangular motion sensor shown in the second reference photo, mounted on the wall"),
+ "garaje": ("abridor-garaje", "the white-and-black wall-mounted smart garage opener panel shown in the second reference photo"),
+ "interruptores": ("interruptor", "the white decorator smart light switch shown in the second reference photo"),
+ "enchufes": ("tomacorriente-inteligente", "the round white smart plug shown in the second reference photo, plugged into a wall outlet with a coffee maker plugged in"),
+ "termostato": ("termostato", "the rounded-square black-glass smart thermostat with a white rim shown in the second reference photo (its display shows a soft glow and simple icons, no readable brand)"),
+ "persianas": ("control-persianas", "the white motorized roller shade shown in the second reference photo, inside the window frame"),
+ "sensor-agua": ("valvula-agua-sensor-fugas", "the small round white water leak sensor puck shown in the second reference photo, on the floor next to the washer"),
+ "valvula": ("valvula-agua-sensor-fugas", "the black smart water shutoff valve actuator with a red light shown in the second reference photo, clamped on the main copper water pipe next to the water heater"),
+ "humo-co": ("detector-humo-co", "the round white smart smoke and CO detector shown in the second reference photo, on the ceiling"),
+ "ventiladores": ("control-ventilador", "the black ceiling fan with wood blades and a light shown in the second reference photo"),
+ "tiras-led": ("bombillo-tira-led", "a warm LED strip like the one shown in the second reference photo, under the white upper cabinets"),
+}
+
+
 def superficies(fam):
     return S1 if fam == "f1" else S2
 
@@ -143,15 +167,22 @@ def partes(iid):
         desc = "a white smart pet door flap sized for a medium-large pit bull"
     if (fam, ap) == ("f2", "puerta-mascota"):
         desc = "a small white smart cat door flap sized for a house cat"
-    return fam, ap, base, lugar, desc, accion
+    cat = None
+    if ap in CAT and os.environ.get("CATALOGO", "1") == "1":
+        cat = CAT_DIR + CAT[ap][0] + ".jpg"
+        desc = CAT[ap][1]
+    return fam, ap, base, lugar, desc, accion, cat
 
 
 def tarea_fotos(iid):
-    fam, ap, base, lugar, desc, _ = partes(iid)
+    fam, ap, base, lugar, desc, _, cat = partes(iid)
     f = F[fam]
     prompt = (REGLA + f" Show {desc} {lugar}. The device fills the center of the frame; "
               "the background is softly blurred but clearly this same house.")
-    extra = []
+    extra = [cat] if cat else []
+    if cat:
+        prompt += (" The device must look EXACTLY like the one in the second reference photo (same shape, colors, "
+                   "materials and buttons), but placed in this house; ignore the second photo's background.")
     if ap == "comedero":
         extra = [f["fichas"]["floyd" if fam == "f1" else "biscuit"]]
     return [{"tipo": "imagen", "carpeta": f"banco/fotos_insertos/{fam}", "archivo": f"{iid}{os.environ.get('SUFIJO', '')}_{n}.jpg",
@@ -160,7 +191,7 @@ def tarea_fotos(iid):
 
 
 def tarea_video(iid, foto):
-    fam, _, _, _, _, accion = partes(iid)
+    fam, _, _, _, _, accion, _ = partes(iid)
     return {"carpeta": f"banco/insertos/{fam}", "archivo": f"{iid}.mp4",
             "modelo": "kling-video/v3.0/std/image-to-video", "imagen_inicial": foto,
             "duracion": 3, "crf": 21, "negativo": NEGATIVO,
