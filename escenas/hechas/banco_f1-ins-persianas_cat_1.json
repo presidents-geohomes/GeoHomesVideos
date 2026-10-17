@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f1",
+  "archivo": "f1-ins-persianas_cat_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/sala.png",
+    "catalogo/seleccion-real/control-persianas.jpg"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show the white motorized roller shade shown in the second reference photo, inside the window frame on a normal-size interior window of the living room. The device fills the center of the frame; the background is softly blurred but clearly this same house. The device must look EXACTLY like the one in the second reference photo (same shape, colors, materials and buttons), but placed in this house; ignore the second photo's background.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "d6b886a9-f761-4518-aa3d-93c1778477d9",
+    "status_url": "https://api.higgsfield.ai/requests/d6b886a9-f761-4518-aa3d-93c1778477d9/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/d6b886a9-f761-4518-aa3d-93c1778477d9/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "d6b886a9-f761-4518-aa3d-93c1778477d9",
+  "resultado": [
+    "banco/fotos_insertos/f1/f1-ins-persianas_cat_1_1.jpg"
+  ],
+  "generado": "2026-10-17T13:15:03Z"
+}

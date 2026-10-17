@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f1",
+  "archivo": "f1-ins-sensor-agua_cat_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_1/set/lavanderia.png",
+    "catalogo/seleccion-real/valvula-agua-sensor-fugas.jpg"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show the small round white water leak sensor puck shown in the second reference photo, on the floor next to the washer in the laundry room with white cabinets and terracotta floor. The device fills the center of the frame; the background is softly blurred but clearly this same house. The device must look EXACTLY like the one in the second reference photo (same shape, colors, materials and buttons), but placed in this house; ignore the second photo's background.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "ab652edd-8a2a-42e6-8786-9bd323dc2163",
+    "status_url": "https://api.higgsfield.ai/requests/ab652edd-8a2a-42e6-8786-9bd323dc2163/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/ab652edd-8a2a-42e6-8786-9bd323dc2163/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "ab652edd-8a2a-42e6-8786-9bd323dc2163",
+  "resultado": [
+    "banco/fotos_insertos/f1/f1-ins-sensor-agua_cat_1_1.jpg"
+  ],
+  "generado": "2026-10-17T13:15:03Z"
+}

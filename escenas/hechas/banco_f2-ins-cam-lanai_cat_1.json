@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "banco/fotos_insertos/f2",
+  "archivo": "f2-ins-cam-lanai_cat_1.jpg",
+  "formato": "9:16",
+  "jpg": true,
+  "referencias": [
+    "familias/familia_2/set/patio_trasero.png",
+    "catalogo/seleccion-real/camara-exterior.jpg"
+  ],
+  "prompt": "Close-up product detail shot in THIS same house, matching exactly the colors and materials of the reference photo. Shallow depth of field, warm natural light, photorealistic, vertical 9:16. The device is a clean generic modern design: NO brand, NO logo, NO readable text or numbers on it or on any screen. No people unless stated (only a hand if stated). No text, no watermarks. Show the compact black outdoor security camera shown in the second reference photo on a post of the screened back porch with the garden behind. The device fills the center of the frame; the background is softly blurred but clearly this same house. The device must look EXACTLY like the one in the second reference photo (same shape, colors, materials and buttons), but placed in this house; ignore the second photo's background.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "f8f50b18-e26a-4980-865b-5a8875e4aa5b",
+    "status_url": "https://api.higgsfield.ai/requests/f8f50b18-e26a-4980-865b-5a8875e4aa5b/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/f8f50b18-e26a-4980-865b-5a8875e4aa5b/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "f8f50b18-e26a-4980-865b-5a8875e4aa5b",
+  "resultado": [
+    "banco/fotos_insertos/f2/f2-ins-cam-lanai_cat_1_1.jpg"
+  ],
+  "generado": "2026-10-17T13:16:12Z"
+}
