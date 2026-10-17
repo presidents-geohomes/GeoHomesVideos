@@ -139,5 +139,9 @@
     "imagen": "planos/EN05/p1_emma_lee.png",
     "titulo": "Did you lock the front door?",
     "etiqueta": "Home, Simplified · Ep. 5"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN05_did-you-lock-the-door/EN05.mp4",
+  "duracion": 25.0,
+  "fecha": "2026-10-17T14:29:37Z"
 }
