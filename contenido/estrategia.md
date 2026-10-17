@@ -175,7 +175,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - Llega a casa y ya está fresca (usado: 015)
 - "Modo película" con una sola frase (usado: 007)
 - Paquetes en la puerta: ve quién los deja (usado: 003)
-- Apaga todo al salir con un botón
+- Apaga todo al salir con un botón (usado: 017)
 - Deja entrar al técnico sin estar en casa
 - Temporada de huracanes: revisa tu casa desde el celular (usado: 005)
 - ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo
@@ -216,8 +216,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 | 014 | Snowbirds: vigila tu casa desde el norte | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/014_snowbirds_casa.json y _en) |
 | 015 | Llega a casa y ya está fresca (termostato y persianas) | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-12 (EN 12:00, ES 18:00) | Sí (contenido/guiones/015_casa_fresca.json y _en) |
 | 016 | ¿Casa inteligente solo para ricos? (mito, sin precios) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-14 (EN 12:00, ES 18:00) | Sí (contenido/guiones/016_no_millonarios.json y _en) |
+| 017 | Apaga todo al salir con un toque (escena "Salir") | Texto ES/EN | Escenas y estilo de vida | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-17 (EN 12:00, ES 18:00) | Sí (contenido/guiones/017_apaga_todo.json y _en) |
 
-Siguiente número: 017.
+Siguiente número: 018.
 
 ## Series de familias (episodios con historia)
 
