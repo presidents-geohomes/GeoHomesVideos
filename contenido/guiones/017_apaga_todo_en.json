@@ -1,0 +1,13 @@
+{
+  "titulo": "Turn everything off with one tap",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Still turning *everything off* by hand?", "dur": 2.8},
+    {"type": "text", "kicker": "\"Leaving\" scene", "text": "One tap. *Done.*", "dur": 2.8},
+    {"type": "list", "title": "When you leave, your home:", "items": ["Turns off the lights", "Adjusts the climate", "Locks the door", "Alerts you if needed"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Leave *worry-free.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Still turning everything off by hand? 🔘 One tap and the lights are off, the climate is set and the door is locked. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeAutomation #SmartScenes",
+  "tiktok_title": "Turn everything off with one tap 🔘"
+}

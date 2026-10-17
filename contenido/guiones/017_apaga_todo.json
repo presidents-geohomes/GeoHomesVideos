@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Apagar todo al salir? Un botón",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Sales y *apagas todo* a mano?", "dur": 2.8},
+    {"type": "text", "kicker": "Escena \"Salir\"", "text": "Un toque y *listo.*", "dur": 2.8},
+    {"type": "list", "title": "Al salir, tu casa:", "items": ["Apaga las luces", "Ajusta el clima", "Cierra la puerta", "Te avisa si falta algo"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Sal *tranquilo.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Sales y apagas todo a mano? 🔘 Con un toque apagas luces, ajustas el clima y cierras la puerta. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #EscenasInteligentes",
+  "tiktok_title": "¿Apagas todo a mano al salir? Un toque 🔘"
+}
