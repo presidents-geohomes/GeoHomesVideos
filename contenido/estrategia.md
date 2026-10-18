@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -182,7 +182,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - Tus papás mayores, más seguros e independientes
 - Airbnb: códigos de puerta para cada huésped
 - Despierta con luz natural: persianas automáticas (usado: 012)
-- Luces que se prenden solas al anochecer
+- Luces que se prenden solas al anochecer (usado: 018)
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
 - Antes y después: interruptor normal vs. inteligente
@@ -218,7 +218,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 | 016 | ¿Casa inteligente solo para ricos? (mito, sin precios) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-14 (EN 12:00, ES 18:00) | Sí (contenido/guiones/016_no_millonarios.json y _en) |
 | 017 | Apaga todo al salir con un toque (escena "Salir") | Texto ES/EN | Escenas y estilo de vida | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-17 (EN 12:00, ES 18:00) | Sí (contenido/guiones/017_apaga_todo.json y _en) |
 
-Siguiente número: 018.
+| 018 | Luces que se prenden solas al anochecer | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-18 (EN 12:00, ES 18:00) | Sí (contenido/guiones/018_luces_anochecer.json y _en) |
+
+Siguiente número: 019.
 
 ## Series de familias (episodios con historia)
 
