@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -188,7 +188,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - Antes y después: interruptor normal vs. inteligente
 - Modo vacaciones: tu casa parece habitada (parecido a 002)
 - Mascotas solas en casa: míralas y háblales
-- Cierra la puerta desde la cama
+- Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples
 - 3 señales de que tu casa necesita ser inteligente
 - ¿Qué pasa si se va el internet? (explicar sin prometer)
@@ -219,8 +219,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 | 017 | Apaga todo al salir con un toque (escena "Salir") | Texto ES/EN | Escenas y estilo de vida | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-17 (EN 12:00, ES 18:00) | Sí (contenido/guiones/017_apaga_todo.json y _en) |
 
 | 018 | Luces que se prenden solas al anochecer | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-18 (EN 12:00, ES 18:00) | Sí (contenido/guiones/018_luces_anochecer.json y _en) |
+| 019 | Cierra la puerta desde la cama (cerradura inteligente) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/019_puerta_cama.json y _en) |
 
-Siguiente número: 019.
+Siguiente número: 020.
 
 ## Series de familias (episodios con historia)
 
