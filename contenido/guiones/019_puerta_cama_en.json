@@ -1,0 +1,13 @@
+{
+  "titulo": "Lock the door from bed",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Did you lock the door? *Are you sure?*", "dur": 2.8},
+    {"type": "text", "kicker": "Smart lock", "text": "Check it and lock it *from bed.*", "dur": 2.8},
+    {"type": "list", "title": "From your phone:", "items": ["See if it's locked", "Lock it instantly", "Get an alert", "Without getting up"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Sleep with *peace of mind.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Did you lock the door? 🔒 With a smart lock you check it and lock it from bed. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLock #HomeSecurity",
+  "tiktok_title": "Did you lock the door? Do it from bed 🔒"
+}

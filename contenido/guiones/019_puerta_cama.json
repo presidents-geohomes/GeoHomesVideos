@@ -1,0 +1,13 @@
+{
+  "titulo": "Cierra la puerta desde la cama",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Ya cerraste la puerta? *¿Seguro?*", "dur": 2.8},
+    {"type": "text", "kicker": "Cerradura inteligente", "text": "Revísala y ciérrala *desde la cama.*", "dur": 2.8},
+    {"type": "list", "title": "Desde tu celular:", "items": ["Ves si está cerrada", "La cierras al instante", "Recibes un aviso", "Sin levantarte"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Duerme con *tranquilidad.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Ya cerraste la puerta? 🔒 Con una cerradura inteligente la revisas y la cierras desde la cama. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CerraduraInteligente",
+  "tiktok_title": "¿Ya cerraste la puerta? Hazlo desde la cama 🔒"
+}
