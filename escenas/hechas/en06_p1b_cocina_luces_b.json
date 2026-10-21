@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f2/f2-coc-noche_1_b_1.jpg",
+    "banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg"
+  ],
+  "archivo": "p1b_cocina_luces_b.jpg",
+  "prompt": "Keep this exact same kitchen from the first reference photo: same camera angle and framing, same navy island with the three light wood stools, same small gray speaker in the center of the island, same white cabinets, brass pendant lights, window over the sink, plants, doors and wood floor. It is 5:45 a.m. before sunrise: the window over the sink shows a deep dark-blue pre-dawn sky, no sunlight anywhere. The two brass pendant lights and the under-cabinet lights are ON with a soft warm glow. Change ONLY this: add a white drip coffee maker with a glass carafe (same design as the second reference photo, no logo) on the back counter just to the RIGHT of the sink. The carafe is empty and clean. The kitchen is empty. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "6be55149-c9f3-4532-b8d2-9ad53c3329f6",
+    "status_url": "https://api.higgsfield.ai/requests/6be55149-c9f3-4532-b8d2-9ad53c3329f6/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/6be55149-c9f3-4532-b8d2-9ad53c3329f6/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "6be55149-c9f3-4532-b8d2-9ad53c3329f6",
+  "resultado": [
+    "planos/EN06/p1b_cocina_luces_b_1.png"
+  ],
+  "generado": "2026-10-21T14:29:15Z"
+}
