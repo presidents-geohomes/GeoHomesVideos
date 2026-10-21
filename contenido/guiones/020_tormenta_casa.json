@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Viene tormenta? Tu casa se encarga",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Viene tormenta? *¿Y tu casa?*", "dur": 2.8},
+    {"type": "text", "kicker": "Florida y temporada", "text": "Prepárala *desde tu celular.*", "dur": 2.8},
+    {"type": "list", "title": "Con un toque:", "items": ["Bajas las persianas", "Cierras el garaje", "Revisas tus cámaras", "Controlas las luces"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Que la tormenta *no te sorprenda.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Viene tormenta? Tu casa se encarga ⛈️ Baja las persianas, cierra el garaje y revisa tus cámaras desde el celular. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #TormentaEnFlorida",
+  "tiktok_title": "¿Viene tormenta? Prepara tu casa desde el celular ⛈️"
+}
