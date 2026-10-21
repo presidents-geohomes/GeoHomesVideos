@@ -126,5 +126,9 @@
     "imagen": "planos/EN06/p1b_cocina_luces_a_1.png",
     "titulo": "Who's making coffee at 5:45?",
     "etiqueta": "Home, Simplified · Ep. 6"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN06_whos-making-coffee/EN06.mp4",
+  "duracion": 23.0,
+  "fecha": "2026-10-21T14:48:28Z"
 }
