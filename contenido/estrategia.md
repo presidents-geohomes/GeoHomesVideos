@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -172,6 +172,7 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 - Snowbirds: vigila tu casa de Naples desde el norte (usado: 014)
 - Un sensor de agua te avisa antes de que sea tarde (usado: 010)
 - Persianas que bajan solas cuando pega el sol
+- ¿Viene tormenta? Prepara tu casa desde el celular (usado: 020)
 - Llega a casa y ya está fresca (usado: 015)
 - "Modo película" con una sola frase (usado: 007)
 - Paquetes en la puerta: ve quién los deja (usado: 003)
@@ -220,8 +221,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 | 018 | Luces que se prenden solas al anochecer | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-18 (EN 12:00, ES 18:00) | Sí (contenido/guiones/018_luces_anochecer.json y _en) |
 | 019 | Cierra la puerta desde la cama (cerradura inteligente) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/019_puerta_cama.json y _en) |
+| 020 | ¿Viene tormenta? Tu casa se encarga (preparar la casa desde el celular) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-10-21 (EN 12:00, ES 18:00) | Sí (contenido/guiones/020_tormenta_casa.json y _en) |
 
-Siguiente número: 020.
+Siguiente número: 021.
 
 ## Series de familias (episodios con historia)
 
