@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN06/p1b_cocina_luces_a_1.png"
+  ],
+  "archivo": "p1a_cocina_oscura_b.jpg",
+  "prompt": "Keep this exact same image: same kitchen, same camera angle and framing, same island, stools, gray speaker, cabinets, window, white coffee maker to the right of the sink, plants and floor. Change ONLY the lights: the two brass pendant lights, the under-cabinet lights and all ceiling lights are OFF. The kitchen is dark and quiet, lit only by the faint deep-blue pre-dawn glow from the window over the sink; shapes still readable in soft blue darkness. The kitchen is empty. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "a94eb91e-7208-49b7-9fb1-5649e287b8c7",
+    "status_url": "https://api.higgsfield.ai/requests/a94eb91e-7208-49b7-9fb1-5649e287b8c7/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/a94eb91e-7208-49b7-9fb1-5649e287b8c7/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "a94eb91e-7208-49b7-9fb1-5649e287b8c7",
+  "resultado": [
+    "planos/EN06/p1a_cocina_oscura_b_1.png"
+  ],
+  "generado": "2026-10-21T14:36:36Z"
+}

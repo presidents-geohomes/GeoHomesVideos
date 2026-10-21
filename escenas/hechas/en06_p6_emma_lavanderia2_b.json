@@ -1,0 +1,23 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN06/p6_emma_lavanderia_a_1.png"
+  ],
+  "archivo": "p6_emma_lavanderia2_b.jpg",
+  "prompt": "Keep this exact same image: same kitchen corner, same camera angle and framing, same woman in navy scrubs seen from behind walking toward the laundry room, same pose, same travel cup and tote bag, same washer and dryer, pet feeder, island, stools, gray speaker, cabinets, pendant lights. Change ONLY the light: it is 5:45 a.m. before sunrise, so there is NO sunlight anywhere: remove the bright sun patches from the wood floor and the sunlit glow from the walls. The room is lit only by the soft warm glow of the pendant lights, the recessed ceiling lights and the under-cabinet lights; the window shows a deep dark-blue pre-dawn sky. Slightly darker, calm early-morning interior. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "47dd8fa3-46d9-45f3-aa5a-f4bcdf7e2e87",
+    "status_url": "https://api.higgsfield.ai/requests/47dd8fa3-46d9-45f3-aa5a-f4bcdf7e2e87/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/47dd8fa3-46d9-45f3-aa5a-f4bcdf7e2e87/cancel"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "47dd8fa3-46d9-45f3-aa5a-f4bcdf7e2e87",
+  "resultado": [
+    "planos/EN06/p6_emma_lavanderia2_b_1.png"
+  ],
+  "generado": "2026-10-21T14:36:36Z"
+}
