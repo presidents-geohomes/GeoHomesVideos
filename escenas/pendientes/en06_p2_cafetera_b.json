@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f2/f2-coc-noche_1_b_1.jpg",
+    "banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg"
+  ],
+  "archivo": "p2_cafetera_b.jpg",
+  "prompt": "Medium close-up of the back counter of this same kitchen from the first reference photo, just to the right of the sink: in sharp focus a white drip coffee maker with an empty glass carafe (same design as the second reference photo, no logo) on the white quartz counter, under the white shaker cabinets with brass handles. Soft warm under-cabinet light. It is 5:45 a.m. before sunrise: the window over the sink shows a deep dark-blue pre-dawn sky, no sunlight anywhere. Behind it the window shows the dark-blue pre-dawn sky. The coffee maker's small power light is off. The kitchen is empty. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else."
+}

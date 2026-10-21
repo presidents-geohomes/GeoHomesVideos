@@ -103,7 +103,8 @@
   "riego": "Riego automático del patio y del huerto.",
   "puerta_mascotas": "Puerta inteligente para mascotas en la puerta del porche trasero (malla) que da al patio: solo se abre para Biscuit.",
   "valvula": "Válvula de cierre de agua automática en la tubería principal, en el garaje junto al calentador (añadida en EN02, 2026-10-08).",
-  "altavoz_mesita": "Altavoz inteligente pequeño, el mismo modelo genérico del de la cocina (cilindro de tela gris claro con aro de luz, sin logo), en la mesita de noche IZQUIERDA del cuarto principal, junto a la lámpara. Emma le da órdenes de voz (sin verla hablar: la orden va como texto y se enciende el aro). Añadido en EN05, 2026-10-17."
+  "altavoz_mesita": "Altavoz inteligente pequeño, el mismo modelo genérico del de la cocina (cilindro de tela gris claro con aro de luz, sin logo), en la mesita de noche IZQUIERDA del cuarto principal, junto a la lámpara. Emma le da órdenes de voz (sin verla hablar: la orden va como texto y se enciende el aro). Añadido en EN05, 2026-10-17.",
+  "cafetera": "Cafetera de goteo blanca genérica con jarra de vidrio (diseño de banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg, sin logo) en la encimera del fondo de la cocina, justo a la DERECHA del fregadero. Se enciende sola con la rutina de días de turno de Emma (5:45 a. m.). Añadida en EN06, 2026-10-21."
  },
  "set": {
   "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",

@@ -1,0 +1,12 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f2/f2-coc-noche_1_b_1.jpg",
+    "familias/familia_2/personajes/emma_trabajo.png",
+    "banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg"
+  ],
+  "archivo": "p5_emma_cafe_a.jpg",
+  "prompt": "Same kitchen from the first reference photo, same camera angle and framing, same navy island with three light wood stools and the small gray speaker in the center of the island, brass pendant lights ON with a soft warm glow, under-cabinet lights ON. It is 5:45 a.m. before sunrise: the window over the sink shows a deep dark-blue pre-dawn sky, no sunlight anywhere. A white drip coffee maker (design of the third reference photo, no logo) sits on the back counter just to the right of the sink, its glass carafe full of fresh coffee. The woman from the second reference photo, honey-blond hair in a low ponytail, wearing navy nurse scrubs and a lanyard badge, stands at the back counter next to the coffee maker, seen from BEHIND, far from the camera, holding a white travel cup with a black lid. Her face is not visible. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else."
+}

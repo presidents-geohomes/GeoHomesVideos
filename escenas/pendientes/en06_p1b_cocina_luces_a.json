@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN06",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f2/f2-coc-noche_1_b_1.jpg",
+    "banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg"
+  ],
+  "archivo": "p1b_cocina_luces_a.jpg",
+  "prompt": "Keep this exact same kitchen from the first reference photo: same camera angle and framing, same navy island with the three light wood stools, same small gray speaker in the center of the island, same white cabinets, brass pendant lights, window over the sink, plants, doors and wood floor. It is 5:45 a.m. before sunrise: the window over the sink shows a deep dark-blue pre-dawn sky, no sunlight anywhere. The two brass pendant lights and the under-cabinet lights are ON with a soft warm glow. Change ONLY this: add a white drip coffee maker with a glass carafe (same design as the second reference photo, no logo) on the back counter just to the RIGHT of the sink. The carafe is empty and clean. The kitchen is empty. Ceiling stays a normal white ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, nobody else."
+}
