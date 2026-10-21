@@ -1,0 +1,130 @@
+{
+  "id": "en_006_whos_making_coffee",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN06_whos-making-coffee",
+  "archivo": "EN06.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original soft pre-dawn instrumental for a cozy family smart-home story at 5:45 a.m.: opens with a few quiet, curious plucked notes and soft felt piano (a small mystery), then warms into a gentle, hopeful morning theme with light fingerpicked acoustic guitar and soft piano, around 85 BPM, calm and tender, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN06/p1a_cocina_oscura_a_1.png",
+      "imagen_final": "planos/EN06/p1b_cocina_luces_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "5:45 AM",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static wide shot of an empty, dark kitchen before sunrise, soft blue pre-dawn light from the window. After a moment, the two brass pendant lights over the island and the under-cabinet lights slowly fade ON by themselves with a soft warm glow. Nothing else moves; the island, stools, speaker and coffee maker stay exactly the same. Nobody in the room. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "imagen": "planos/EN06/p2_cafetera_a_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Coffee · Brewing",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static medium close-up of the white drip coffee maker on the kitchen counter before sunrise, dark-blue window behind. A small light on its front glows on, a soft wisp of steam rises from the top, and dark coffee begins to drip steadily into the empty glass carafe, slowly filling the bottom. The coffee maker does not move. No hands, nobody. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-pas-noche.mp4",
+      "duracion": 3.5,
+      "musica": "baja",
+      "texto": "Hallway lights · 20%",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4
+    },
+    {
+      "clip": "banco/tomas/f2/f2-cua-lily-duerme.mp4",
+      "duracion": 3.5,
+      "musica": "baja",
+      "texto": "Lily's room · Lights stay off",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4
+    },
+    {
+      "imagen": "planos/EN06/p5_emma_cafe2_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Shift-day routine · 5:45 AM",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5,
+      "prompt": "Static wide shot of the warmly lit kitchen before sunrise. The woman in navy nurse scrubs, seen from behind and far away, lifts the glass carafe from the white coffee maker and calmly pours fresh coffee into her white travel cup, then sets the carafe back. Her face is never shown. Lights stay on, the window stays dark blue. Realistic, calm, gentle movement. Static camera. Nobody else. No camera movement."
+    },
+    {
+      "imagen": "planos/EN06/p6_emma_lavanderia2_b_1.png",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Kitchen lights · Off at 6:15",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6,
+      "prompt": "Static wide shot of the kitchen corner before sunrise, warm lights on, dark-blue window. The woman in navy scrubs, seen from behind, carrying her white travel cup and navy tote bag, keeps walking calmly away from the camera into the laundry room doorway on the left and out of sight. The pet feeder, island, stools and speaker stay exactly in place. Realistic, natural walking. Static camera. Nobody else. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "5:45 a.m. Who's making coffee?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Nobody's in the kitchen.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "The hallway glows, just enough.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "Lily and Biscuit sleep right through.",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "The coffee's for Mom. It's a shift day.",
+        "desde": 0.4
+      },
+      {
+        "escena": 6,
+        "texto": "She set it once. The house remembers.",
+        "desde": 0.6
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN06/p1b_cocina_luces_a_1.png",
+    "titulo": "Who's making coffee at 5:45?",
+    "etiqueta": "Home, Simplified · Ep. 6"
+  }
+}
