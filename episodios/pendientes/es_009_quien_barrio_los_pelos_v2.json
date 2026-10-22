@@ -1,0 +1,135 @@
+{
+  "id": "es_009_quien_barrio_los_pelos_v2",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES09_quien-barrio-los-pelos-de-floyd_v2",
+  "archivo": "ES09.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Warm, curious and playful instrumental for a premium smart-home lifestyle commercial on a sunny, quiet Florida afternoon: soft acoustic guitar, light felt piano and gentle pizzicato, around 95 BPM, a light sense of mystery at the start that stays soft and hushed in the middle (a sleeping dog) and turns warm and happy when someone arrives home, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-floyd-corre.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "1:30 p. m. · Nadie en casa",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The pit bull runs happily across the sunny, empty living room."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-sal-floyd-cama.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Floyd se durmió",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The dog sleeps curled up on his bed in the corner by the front door."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cam-mascotas.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cámara de la sala: Floyd dormido",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The pet camera pans slowly and its small light turns on."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-aspiradora.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Aspiradora · Modo silencioso",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The robot vacuum glides slowly across the tile floor."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-sal-tarde.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Sala limpia · 3:40 p. m.",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Empty, spotless living room with afternoon sun coming in diagonally."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-ent-floyd-puerta.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "4:20 p. m. · Mariana llega",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The dog sits in front of the closed front door, wagging his tail."
+    },
+    {
+      "imagen": "planos/ES09/p7_mariana_llega_b_1.png",
+      "duracion": 5,
+      "musica": "alta",
+      "texto": "Casa limpia · Bienvenida",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera, far shot of the entrance hall. The woman in the light blue scrub uniform STAYS where she is, she does not walk toward the door; she slows down, turns her head toward the happy pit bull at her side and bends slightly to pet his head while he wags his tail and wiggles happily. Small, gentle movements only. The front door stays closed behind her. Nothing else changes: same room, same dog bed, same sofa, same sunlight on the clean tile floor. No one else appears."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Quién barrió los pelos de Floyd?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "En casa no hay nadie…",
+        "desde": 0.6
+      },
+      {
+        "escena": 3,
+        "texto": "pero la casa lo está mirando.",
+        "desde": 0.1
+      },
+      {
+        "escena": 4,
+        "texto": "Limpia bajito, para no despertarlo.",
+        "desde": 0.1
+      },
+      {
+        "escena": 7,
+        "texto": "Cuando la casa se queda sola, barre sola.",
+        "desde": 0.5
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES09/p7_mariana_llega_b_1.png",
+    "titulo": "¿Quién barrió los pelos de Floyd?",
+    "etiqueta": "Casa que te entiende · Ep. 9"
+  }
+}
