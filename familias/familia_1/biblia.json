@@ -101,7 +101,8 @@
   "piscina": "Luces de piscina y bomba automatizadas; luces del lanai.",
   "riego": "Riego automático del jardín delantero.",
   "puerta_mascotas": "Puerta inteligente para mascotas en la puerta corrediza de la sala al lanai: solo se abre para Floyd.",
-  "comedero": "Comedero automático inteligente y fuente de agua de Floyd en la cocina, junto a la puerta de la lavandería."
+  "comedero": "Comedero automático inteligente y fuente de agua de Floyd en la cocina, junto a la puerta de la lavandería.",
+  "aspiradora": "Aspiradora robot blanca y redonda (sin logo) que vive en la sala; limpia sola cuando la casa queda vacía y pasa a modo silencioso si la cámara de mascotas ve a Floyd dormido (añadida en ES09, 2026-10-22)."
  },
  "set": {
   "_nota": "Fotos fijas aprobadas. Cada plano de un episodio parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",

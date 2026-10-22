@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES09",
+  "formato": "9:16",
+  "cantidad": 1,
+  "referencias": [
+    "planos/ES08/base_floyd_puerta.png",
+    "familias/familia_1/personajes/mariana_trabajo.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "archivo": "p7_mariana_llega_b.png",
+  "prompt": "Same living room and entrance as the first photo: same arched dark wood front door, same warm stucco walls, same terracotta tile floor, same gray dog bed in the corner, same gray sofa corner in the foreground, same afternoon sun beams on the floor, same camera framing and light. The tile floor looks freshly cleaned and spotless. Change ONLY this: the woman from the second photo (a Hispanic woman, 35, long wavy dark brown hair, light blue medical scrub uniform, tote bag on her shoulder) walks from the closed front door into the room, seen from far away and from behind at a three-quarter angle, her face not visible. The dog from the third photo (a red-nose American pit bull terrier with a shiny fawn/tan coat, big white chest patch) trots happily at her side, tail wagging, looking up at her. Keep the upper third of the image clear (ceiling and wall only). Ceiling stays a normal white ceiling. Vertical 9:16, photorealistic, cinematic, no other people, no other animals, no text, no logos."
+}
