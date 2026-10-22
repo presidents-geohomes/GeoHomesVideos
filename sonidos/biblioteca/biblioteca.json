@@ -231,6 +231,13 @@
       "texto": "A pencil writing on paper at a quiet kitchen counter, soft scratching strokes and a page turning, calm indoor room tone. No voices, no music.",
       "segundos": 5,
       "usar_para": "alguien escribiendo o haciendo tareas en la mesa/isla"
+    },
+    {
+      "id": "aspiradora_robot",
+      "archivo": "sonidos/biblioteca/aspiradora_robot.mp3",
+      "texto": "A small robot vacuum cleaner gliding quietly across a tile floor in a calm living room, soft low whirring hum and gentle brushing, very quiet. No voices, no music.",
+      "segundos": 4,
+      "usar_para": "aspiradora robot limpiando en modo silencioso"
     }
   ]
 }
