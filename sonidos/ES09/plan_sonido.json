@@ -1,0 +1,14 @@
+{
+  "_nota": "ES09 ¿Quién barrió los pelos de Floyd? (v2). Planos: 1=0.0 2=3.5 3=7.0 4=9.5 5=12.0 6=15.5 7=19.0 cierre=23.5. Biblioteca + aspiradora_robot nueva.",
+  "efectos": [
+    {"archivo": "sonidos/biblioteca/amb_sala.mp3", "en": 0.0, "db": -40, "dur": 3.9, "entrada": 0.2, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/perro_corre_1.mp3", "escena": 1, "t": 0.3, "db": -32, "dur": 3.4, "entrada": 0.1, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/amb_sala.mp3", "en": 3.5, "db": -42, "dur": 3.8, "entrada": 0.4, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/aviso_altavoz_1.mp3", "escena": 3, "t": 0.2, "db": -30, "alinear": true},
+    {"archivo": "sonidos/biblioteca/aspiradora_robot.mp3", "escena": 4, "t": 0.0, "db": -34, "dur": 4.0, "entrada": 0.3, "salida": 0.8},
+    {"archivo": "sonidos/biblioteca/amb_sala.mp3", "en": 12.0, "db": -40, "dur": 3.8, "entrada": 0.4, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/perro_feliz_2.mp3", "escena": 6, "t": 0.6, "db": -33, "dur": 3.0, "entrada": 0.2, "salida": 0.5},
+    {"archivo": "sonidos/biblioteca/cerradura_teclado_1.mp3", "escena": 6, "t": 2.4, "db": -30, "alinear": true},
+    {"archivo": "sonidos/biblioteca/perro_feliz_1.mp3", "escena": 7, "t": 0.3, "db": -32, "dur": 4.0, "entrada": 0.2, "salida": 0.6}
+  ]
+}
