@@ -1,0 +1,8 @@
+{
+  "tipo": "efectos",
+  "carpeta": "sonidos/ES09",
+  "biblioteca": true,
+  "efectos": [
+    {"id": "aspiradora_robot", "texto": "A small robot vacuum cleaner gliding quietly across a tile floor in a calm living room, soft low whirring hum and gentle brushing, very quiet. No voices, no music.", "segundos": 4, "usar_para": "aspiradora robot limpiando en modo silencioso"}
+  ]
+}
