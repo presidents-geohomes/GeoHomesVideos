@@ -131,5 +131,9 @@
     "imagen": "planos/ES09/p7_mariana_llega_b_1.png",
     "titulo": "¿Quién barrió los pelos de Floyd?",
     "etiqueta": "Casa que te entiende · Ep. 9"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES09_quien-barrio-los-pelos-de-floyd_v2/ES09.mp4",
+  "duracion": 27.0,
+  "fecha": "2026-10-22T13:17:46Z"
 }
