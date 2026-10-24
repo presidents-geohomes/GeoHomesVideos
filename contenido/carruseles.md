@@ -18,10 +18,15 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-10-14/15 | Paquete Intermedio | casa cómoda y alerta (luz, enchufes, alarmas) |
 | 2026-10-15/16 | Cámaras exteriores | tu casa desde donde estés (video en vivo, alertas) |
 | 2026-10-16/17 | Paquete Premium | casa protegida (fugas, sol, tormentas) |
+| 2026-10-25/26 | Controlador de riego | aspersores que riegan bajo la lluvia; riego por zona desde el celular |
+| 2026-10-26/27 | Detector de humo/CO | si suena la alarma te enteras aunque no estés; CO y generador tras la tormenta |
+| 2026-10-27/28 | Tira LED / ambiente | cocina del color que quieras; escena "cena" con una frase |
+| 2026-10-28/29 | Wifi mesh | señal en toda la casa hasta el patio; base de cámaras, cerradura y timbre |
+| 2026-10-29/30 | Sensor de puerta/ventana | ¿alguien abrió la puerta del patio? (niños y piscina, aviso al celular) |
+| 2026-10-30/31 | Control de ventilador | el ventilador sin salir de la cama; adiós a la cadenita |
 
 ## Temas sugeridos aún sin usar
-cerradura inteligente · timbre con video · control de persianas · controlador de riego · válvula de agua y sensor
-de fugas · detector de humo/CO · sensor de puerta/ventana · sensor de movimiento · bocina inteligente · pantalla
-inteligente · tira LED / ambiente · interruptor dimmer · abridor de garaje · control de ventilador · tomacorriente
-exterior · tomacorriente inteligente · wifi mesh · cámara interior · inodoro inteligente · escenas (me voy / llegué /
+cerradura inteligente · timbre con video · control de persianas · válvula de agua y sensor de fugas · sensor de
+movimiento · bocina inteligente · pantalla inteligente · interruptor dimmer · abridor de garaje · tomacorriente
+exterior · tomacorriente inteligente · cámara interior · inodoro inteligente · escenas (me voy / llegué /
 buenas noches) · temporada de huracanes · casa de vacaciones / snowbirds · mascotas solas en casa
