@@ -1,0 +1,127 @@
+{
+  "id": "en_007_who_let_the_cat_in",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN07_who-let-the-cat-in",
+  "archivo": "EN07.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original playful afternoon instrumental for a cozy family smart-home story about a cat: opens with a few light, curious pizzicato and plucked notes (a small mystery), then warms into a gentle, sunny theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, tender and hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f2/f2-bis-entra.mp4",
+      "duracion": 4.5,
+      "musica": "baja",
+      "texto": "2:30 PM · Nobody home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3
+    },
+    {
+      "imagen": "planos/EN07/p2_biscuit_puerta_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Back door · Biscuit's waiting",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static shot at the back porch in warm afternoon sunlight. The fluffy long-haired orange tabby cat sits in front of the closed white pet door, seen from behind. He waits patiently: his ears twitch, he turns his head slightly toward the pet door, and his fluffy tail sways slowly on the floor. The pet door stays closed. Leaves in the garden move gently in the breeze. Realistic cat movement and size. Static camera. Nobody else. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Let Biscuit in",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, stands still holding her phone; she looks down at it, smiles softly and taps the screen once with her thumb, then lowers the phone a little, relaxed. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-puerta-mascota.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Pet door · Unlocked for Biscuit",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-cam-lanai.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Back porch cam · He's in",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3
+    },
+    {
+      "clip": "banco/tomas/f2/f2-bis-sofa.mp4",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Pet door · Locked again",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who let the cat in?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Biscuit's done with the garden.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "Mom's at work. One tap.",
+        "desde": 0.4
+      },
+      {
+        "escena": 4,
+        "texto": "It opens for him. Only him.",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "She sees him walk in.",
+        "desde": 0.2
+      },
+      {
+        "escena": 6,
+        "texto": "Mystery solved. Mom did, from work.",
+        "desde": 0.4
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN07/p2_biscuit_puerta_a_1.png",
+    "titulo": "Nobody's home. Who let the cat in?",
+    "etiqueta": "Home, Simplified · Ep. 7"
+  }
+}
