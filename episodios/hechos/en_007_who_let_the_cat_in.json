@@ -123,5 +123,9 @@
     "imagen": "planos/EN07/p2_biscuit_puerta_a_1.png",
     "titulo": "Nobody's home. Who let the cat in?",
     "etiqueta": "Home, Simplified · Ep. 7"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN07_who-let-the-cat-in/EN07.mp4",
+  "duracion": 23.5,
+  "fecha": "2026-10-24T13:15:49Z"
 }
