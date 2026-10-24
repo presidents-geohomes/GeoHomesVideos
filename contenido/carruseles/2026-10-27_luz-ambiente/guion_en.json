@@ -1,0 +1,50 @@
+{
+  "titulo": "Your kitchen, any color you want",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/bombillo-tira-led.jpg",
+      "etiqueta": "LED STRIPS & SMART BULBS",
+      "titulo": "Your kitchen, any color you want",
+      "texto": "Change the light by voice or phone."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Same white light for everything?",
+      "texto": "Cooking, dinner and movie night don't need the same light."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/bombillo-tira-led_1.jpg",
+      "etiqueta": "\"DINNER\" SCENE",
+      "titulo": "Say one phrase, change the mood",
+      "texto": "Warm over the table, soft in the kitchen."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/bombillo-tira-led_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Colors and whites you pick",
+        "A scene for every moment",
+        "Voice control",
+        "On by itself at your time"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us LIGHT",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Your kitchen, any color you want 🌈 LED strips and smart bulbs you change by voice or phone. Free estimate. Text us LIGHT or call (239) 204-6336.\n\n#SmartHome #SmartLighting #SouthwestFlorida #EsteroFL #GeoHomes",
+  "tiktok_title": "Same white light for everything? Change the mood with one phrase 🌈"
+}

@@ -1,0 +1,48 @@
+{
+  "titulo": "Wi-Fi in every room, even the lanai",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/wifi-mesh.jpg",
+      "etiqueta": "MESH WI-FI",
+      "titulo": "Wi-Fi in every room, even the lanai",
+      "texto": "The foundation of a smart home."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Wi-Fi dies in the back bedroom?",
+      "texto": "And the patio camera keeps dropping."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Your smart home runs on Wi-Fi",
+      "texto": "Cameras, locks and doorbells need a strong signal."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/wifi-mesh.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "One network, whole house",
+        "Signal on the lanai and garage",
+        "Stronger signal for cameras",
+        "We set it all up"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us WIFI",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Wi-Fi in every room, even the lanai 📶 A mesh network so your cameras, lock and doorbell stay connected. Free estimate. Text us WIFI or call (239) 204-6336.\n\n#SmartHome #MeshWiFi #SouthwestFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "Wi-Fi dead in the back bedroom? Get signal in every room 📶"
+}

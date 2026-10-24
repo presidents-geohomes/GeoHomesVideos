@@ -1,0 +1,48 @@
+{
+  "titulo": "Si suena la alarma, te enteras",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/detector-humo-co.jpg",
+      "etiqueta": "DETECTOR DE HUMO Y CO",
+      "titulo": "Si suena la alarma, te enteras",
+      "texto": "Aunque no estés en casa."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Y si suena cuando no hay nadie?",
+      "texto": "Un detector común solo pita adentro."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Generador después de la tormenta?",
+      "texto": "El monóxido no se ve ni se huele. El detector lo nota y te avisa."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/detector-humo-co_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Alerta en tu celular",
+        "Humo y monóxido en uno",
+        "Te avisa aunque estés fuera",
+        "Revisas su estado en la app"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos ALARMA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Si suena la alarma, te enteras 🔔 Humo y monóxido con aviso en tu celular, aunque no estés en casa. Estimado gratis. Escríbenos ALARMA o llama al (239) 204-6336.\n\n#CasaInteligente #DetectorDeHumo #SuroesteDeFlorida #Naples #GeoHomes",
+  "tiktok_title": "¿Y si la alarma de humo suena y no hay nadie? Te avisa al celular 🔔"
+}

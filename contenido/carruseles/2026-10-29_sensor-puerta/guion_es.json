@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Alguien abrió la puerta del patio?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "etiqueta": "SENSOR DE PUERTA Y VENTANA",
+      "titulo": "¿Alguien abrió la puerta del patio?",
+      "texto": "Te enteras al momento en tu celular."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Niños, piscina y una puerta corrediza",
+      "texto": "Saber cuándo se abre te da tranquilidad."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/sensor-puerta-ventana_1.jpg",
+      "etiqueta": "PEQUEÑO Y DISCRETO",
+      "titulo": "Va pegado al marco",
+      "texto": "Sin obras ni cables a la vista."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Aviso cuando se abre",
+        "Ves si todo quedó cerrado",
+        "Sirve en ventanas también",
+        "Puede prender luces o alarma"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos PUERTA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Alguien abrió la puerta del patio? 🚪 Un sensor pequeño te avisa en el celular cuando se abre. Estimado gratis. Escríbenos PUERTA o llama al (239) 204-6336.\n\n#CasaInteligente #SeguridadEnCasa #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "¿Se abrió la puerta del patio? Entérate al momento en tu celular 🚪"
+}

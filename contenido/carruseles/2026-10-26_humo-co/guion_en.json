@@ -1,0 +1,48 @@
+{
+  "titulo": "If the alarm goes off, you'll know",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/detector-humo-co.jpg",
+      "etiqueta": "SMOKE & CO DETECTOR",
+      "titulo": "If the alarm goes off, you'll know",
+      "texto": "Even when you're not home."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "What if it goes off and no one's home?",
+      "texto": "A regular detector only beeps inside."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Running a generator after a storm?",
+      "texto": "You can't see or smell carbon monoxide. The detector catches it and alerts you."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/detector-humo-co_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Alerts on your phone",
+        "Smoke and CO in one",
+        "Works while you're away",
+        "Check its status in the app"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us ALARM",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "If the alarm goes off, you'll know 🔔 Smoke and CO alerts on your phone, even when you're away. Free estimate. Text us ALARM or call (239) 204-6336.\n\n#SmartHome #SmokeDetector #SouthwestFlorida #NaplesFL #GeoHomes",
+  "tiktok_title": "Smoke alarm going off and nobody home? Get the alert on your phone 🔔"
+}

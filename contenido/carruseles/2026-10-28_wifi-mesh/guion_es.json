@@ -1,0 +1,48 @@
+{
+  "titulo": "Señal en toda la casa, hasta el patio",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/wifi-mesh.jpg",
+      "etiqueta": "WIFI MESH",
+      "titulo": "Señal en toda la casa, hasta el patio",
+      "texto": "La base de una casa inteligente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿El wifi muere en el último cuarto?",
+      "texto": "Y la cámara del patio se desconecta."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tu casa inteligente vive del wifi",
+      "texto": "Cámaras, cerradura y timbre necesitan buena señal."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/wifi-mesh.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Una red en toda la casa",
+        "Señal en el patio y el garaje",
+        "Mejor señal para tus cámaras",
+        "Lo dejamos configurado"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos WIFI",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Señal en toda la casa, hasta el patio 📶 Un wifi mesh para que cámaras, cerradura y timbre no pierdan la conexión. Estimado gratis. Escríbenos WIFI o llama al (239) 204-6336.\n\n#CasaInteligente #WifiMesh #SuroesteDeFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "¿El wifi no llega al último cuarto? Señal en toda la casa 📶"
+}

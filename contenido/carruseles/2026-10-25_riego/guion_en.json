@@ -1,0 +1,50 @@
+{
+  "titulo": "Watering the lawn in the rain?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/controlador-riego_1.jpg",
+      "etiqueta": "SMART SPRINKLER CONTROLLER",
+      "titulo": "Watering the lawn in the rain?",
+      "texto": "Run your sprinklers from your phone."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Downpour at 4. Sprinklers at 5.",
+      "texto": "Your old timer has no idea it rained."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/controlador-riego.jpg",
+      "etiqueta": "IT GOES WHERE THE OLD ONE WAS",
+      "titulo": "Swap the timer, keep the system",
+      "texto": "We use the zones you already have."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/controlador-riego_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Schedules by zone",
+        "Pause it from your phone",
+        "Adjusts to the weather",
+        "Waters while you travel"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us YARD",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Sprinklers running in the rain? 🌧️ Control them from your phone, zone by zone, on your schedule. Free estimate. Text us YARD or call (239) 204-6336.\n\n#SmartHome #SmartIrrigation #SouthwestFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Sprinklers on in the rain? Control them from your phone 🌧️"
+}

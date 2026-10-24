@@ -1,0 +1,50 @@
+{
+  "titulo": "Tu cocina, del color que quieras",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/bombillo-tira-led.jpg",
+      "etiqueta": "TIRAS LED Y BOMBILLOS",
+      "titulo": "Tu cocina, del color que quieras",
+      "texto": "Cambia la luz con tu voz o el celular."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿La misma luz blanca para todo?",
+      "texto": "Cocinar, cenar y ver una película no piden la misma luz."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/bombillo-tira-led_1.jpg",
+      "etiqueta": "ESCENA \"CENA\"",
+      "titulo": "Una frase y cambia el ambiente",
+      "texto": "Luz cálida en la mesa, suave en la cocina."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/bombillo-tira-led_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Colores y blancos a tu gusto",
+        "Una escena para cada momento",
+        "Control por voz",
+        "Se prenden solas a tu hora"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos LUZ",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Tu cocina, del color que quieras 🌈 Tiras LED y bombillos que cambias con tu voz o el celular. Estimado gratis. Escríbenos LUZ o llama al (239) 204-6336.\n\n#CasaInteligente #IluminacionLED #SuroesteDeFlorida #Estero #GeoHomes",
+  "tiktok_title": "¿La misma luz blanca para todo? Cambia el ambiente con una frase 🌈"
+}

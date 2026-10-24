@@ -1,0 +1,50 @@
+{
+  "titulo": "Did someone open the patio door?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "etiqueta": "DOOR & WINDOW SENSOR",
+      "titulo": "Did someone open the patio door?",
+      "texto": "Know right away on your phone."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Kids, a pool and a sliding door",
+      "texto": "Knowing when it opens gives you peace of mind."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/sensor-puerta-ventana_1.jpg",
+      "etiqueta": "SMALL AND DISCREET",
+      "titulo": "It sits right on the frame",
+      "texto": "No construction, no visible wires."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Alert when it opens",
+        "See if everything's closed",
+        "Works on windows too",
+        "Can trigger lights or alarm"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us DOOR",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Did someone open the patio door? 🚪 A small sensor alerts your phone the moment it opens. Free estimate. Text us DOOR or call (239) 204-6336.\n\n#SmartHome #HomeSecurity #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Patio door just opened? Know right away on your phone 🚪"
+}

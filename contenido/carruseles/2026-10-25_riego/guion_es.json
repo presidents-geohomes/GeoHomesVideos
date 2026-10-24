@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Regando el césped mientras llueve?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/controlador-riego_1.jpg",
+      "etiqueta": "CONTROLADOR DE RIEGO",
+      "titulo": "¿Regando el césped mientras llueve?",
+      "texto": "Controla el riego desde tu celular."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Aguacero a las 4. Aspersores a las 5.",
+      "texto": "El reloj de siempre no sabe que llovió."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/controlador-riego.jpg",
+      "etiqueta": "VA DONDE ESTÁ EL VIEJO",
+      "titulo": "Cambia el reloj, no el sistema",
+      "texto": "Usamos tus zonas de riego de siempre."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/controlador-riego_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Horarios por zona",
+        "Lo pausas desde el celular",
+        "Se ajusta al clima",
+        "Riega aunque estés de viaje"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos JARDÍN",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Regando mientras llueve? 🌧️ Controla los aspersores desde tu celular, por zona y a tu horario. Estimado gratis. Escríbenos JARDÍN o llama al (239) 204-6336.\n\n#CasaInteligente #RiegoInteligente #SuroesteDeFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "¿Aspersores prendidos bajo la lluvia? Contrólalos desde tu celular 🌧️"
+}
