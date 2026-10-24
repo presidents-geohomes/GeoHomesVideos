@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -192,7 +192,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples
 - 3 señales de que tu casa necesita ser inteligente
-- ¿Qué pasa si se va el internet? (explicar sin prometer)
+- ¿Qué pasa si se va el internet? (explicar sin prometer) (usado: 021)
 - Timbre con cámara: habla con el repartidor desde la oficina (parecido a 009)
 - El garaje se cierra solo cuando te vas (parecido a 008)
 - Empieza con un solo dispositivo (usado: 006)
@@ -222,8 +222,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 | 018 | Luces que se prenden solas al anochecer | Texto ES/EN | Molestia diaria | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-18 (EN 12:00, ES 18:00) | Sí (contenido/guiones/018_luces_anochecer.json y _en) |
 | 019 | Cierra la puerta desde la cama (cerradura inteligente) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/019_puerta_cama.json y _en) |
 | 020 | ¿Viene tormenta? Tu casa se encarga (preparar la casa desde el celular) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-10-21 (EN 12:00, ES 18:00) | Sí (contenido/guiones/020_tormenta_casa.json y _en) |
+| 021 | ¿Y si se va el internet? (pregunta frecuente, sin prometer) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-24 (EN 12:00, ES 18:00) | Sí (contenido/guiones/021_sin_internet.json y _en) |
 
-Siguiente número: 021.
+Siguiente número: 022.
 
 ## Series de familias (episodios con historia)
 
