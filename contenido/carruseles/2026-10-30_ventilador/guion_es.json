@@ -1,0 +1,50 @@
+{
+  "titulo": "El ventilador, sin salir de la cama",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-ventilador.jpg",
+      "etiqueta": "CONTROL DE VENTILADOR",
+      "titulo": "El ventilador, sin salir de la cama",
+      "texto": "Velocidad y luz desde el celular o con tu voz."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Peleando con la cadenita?",
+      "texto": "O levantándote de noche para bajarle."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-ventilador_2.jpg",
+      "etiqueta": "VA EN LA PARED",
+      "titulo": "Cambiamos el interruptor de siempre",
+      "texto": "Tu ventilador actual, ahora inteligente."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/control-ventilador_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Sube o baja la velocidad",
+        "Prende la luz aparte",
+        "Horarios para dormir",
+        "Control por voz"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos FRESCO",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "El ventilador, sin salir de la cama 🌀 Velocidad y luz desde el celular o con tu voz. Estimado gratis. Escríbenos FRESCO o llama al (239) 204-6336.\n\n#CasaInteligente #VentiladorDeTecho #SuroesteDeFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "¿Todavía peleas con la cadenita del ventilador? Contrólalo desde la cama 🌀"
+}

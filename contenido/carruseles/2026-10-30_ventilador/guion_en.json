@@ -1,0 +1,50 @@
+{
+  "titulo": "Control the fan without leaving bed",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-ventilador.jpg",
+      "etiqueta": "SMART FAN CONTROL",
+      "titulo": "Control the fan without leaving bed",
+      "texto": "Speed and light from your phone or your voice."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Still tugging the fan chain?",
+      "texto": "Or getting up at night to turn it down."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-ventilador_2.jpg",
+      "etiqueta": "ON THE WALL",
+      "titulo": "We swap your old switch",
+      "texto": "Your current fan, now smart."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/control-ventilador_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Change the speed",
+        "Fan light, its own control",
+        "Bedtime schedules",
+        "Voice control"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us FAN",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Control the fan without leaving bed 🌀 Speed and light from your phone or your voice. Free estimate. Text us FAN or call (239) 204-6336.\n\n#SmartHome #CeilingFan #SouthwestFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "Still tugging the fan chain? Control it from bed 🌀"
+}
