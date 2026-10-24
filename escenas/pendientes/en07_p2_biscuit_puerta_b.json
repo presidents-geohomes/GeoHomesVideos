@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN07",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos_insertos/f2/f2-ins-puerta-mascota_1_1.jpg",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "archivo": "p2_biscuit_puerta_b.jpg",
+  "prompt": "Keep the same place from the first reference photo, but seen from a bit further back inside the screened back porch: the black-framed screen door with the white smart pet door low in it, the sunny garden with raised vegetable beds, tree swing and wooden fence visible through the screen, warm afternoon sunlight, concrete floor, a wicker chair at the side. Add ONLY the fluffy long-haired orange tabby cat with green eyes from the second reference photo, walking across the porch floor toward the pet door, seen from behind and the side, about two steps away from it. The pet door flap is closed. Ceiling of the porch stays a normal solid porch ceiling. Photorealistic, vertical 9:16, no text, no logos, no brand, no people, only one cat."
+}
