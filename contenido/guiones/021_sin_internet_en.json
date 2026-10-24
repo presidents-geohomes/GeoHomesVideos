@@ -1,0 +1,13 @@
+{
+  "titulo": "What if the internet goes down?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Internet down? *Now what?*", "dur": 2.8},
+    {"type": "text", "kicker": "Myth or reality", "text": "Your home *doesn't shut down* with the wifi.", "dur": 2.8},
+    {"type": "list", "title": "We'll explain:", "items": ["What keeps working", "What needs internet", "How to prepare it", "No fine print"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "We'll answer *your questions.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "What if the internet goes down? Fair question 📶 We'll explain what keeps working and what doesn't, no fine print. We install it in your home anywhere in Southwest Florida. 📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #SmartHomeFAQ #HomeTech",
+  "tiktok_title": "What if the internet goes down? Smart home answers 📶"
+}
