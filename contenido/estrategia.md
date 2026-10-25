@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -187,7 +187,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
 - Antes y después: interruptor normal vs. inteligente
-- Modo vacaciones: tu casa parece habitada (parecido a 002)
+- Modo vacaciones: tu casa parece habitada (parecido a 002) (usado: 022)
 - Mascotas solas en casa: míralas y háblales
 - Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples
@@ -223,8 +223,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 | 019 | Cierra la puerta desde la cama (cerradura inteligente) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/019_puerta_cama.json y _en) |
 | 020 | ¿Viene tormenta? Tu casa se encarga (preparar la casa desde el celular) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-10-21 (EN 12:00, ES 18:00) | Sí (contenido/guiones/020_tormenta_casa.json y _en) |
 | 021 | ¿Y si se va el internet? (pregunta frecuente, sin prometer) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-24 (EN 12:00, ES 18:00) | Sí (contenido/guiones/021_sin_internet.json y _en) |
+| 022 | Modo vacaciones: tu casa parece habitada | Texto ES/EN | Escenas y estilo de vida | Sí | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-25 (EN 12:00, ES 18:00) | Sí (contenido/guiones/022_modo_vacaciones.json y _en) |
 
-Siguiente número: 022.
+Siguiente número: 023.
 
 ## Series de familias (episodios con historia)
 
