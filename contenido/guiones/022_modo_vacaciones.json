@@ -1,0 +1,13 @@
+{
+  "titulo": "Modo vacaciones: tu casa parece habitada",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Casa vacía? *Que no lo parezca.*", "dur": 2.8},
+    {"type": "text", "kicker": "Modo vacaciones", "text": "Tu casa se ve *habitada* aunque no estés.", "dur": 2.8},
+    {"type": "list", "title": "Una escena, todo listo:", "items": ["Luces con horario", "Persianas que se mueven", "Todo desde la app", "Tú ves el estado"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Viaja *tranquilo.*", "sub": "Suroeste de Florida", "button": "Envíanos un texto", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "¿Casa vacía? Que no lo parezca 🌴 Con el modo vacaciones, luces y persianas siguen un horario y tú lo controlas desde el celular. Lo instalamos en tu casa en el suroeste de Florida. 📲 Envíanos un texto al (239) 204-6336 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #ModoVacaciones",
+  "tiktok_title": "¿Casa vacía? Que no lo parezca: modo vacaciones 🌴"
+}

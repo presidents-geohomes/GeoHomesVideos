@@ -1,0 +1,13 @@
+{
+  "titulo": "Vacation mode: your home looks lived-in",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Empty house? *Don't look it.*", "dur": 2.8},
+    {"type": "text", "kicker": "Vacation mode", "text": "Your home looks *lived-in* while you're away.", "dur": 2.8},
+    {"type": "list", "title": "One scene, all set:", "items": ["Lights on a schedule", "Shades that move", "All from one app", "You see the status"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Travel *worry-free.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "Empty house? Don't let it look that way 🌴 Vacation mode runs your lights and shades on a schedule, and you check it from your phone. We install it in your home anywhere in Southwest Florida. 📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #VacationMode #TravelTips",
+  "tiktok_title": "Empty house? Don't look it: vacation mode 🌴"
+}
