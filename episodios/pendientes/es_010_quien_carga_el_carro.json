@@ -1,0 +1,114 @@
+{
+  "id": "es_010_quien_carga_el_carro",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES10_quien-carga-el-carro",
+  "archivo": "ES10.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Calm, curious and warm instrumental for a premium smart-home lifestyle commercial on a quiet Florida night: soft acoustic guitar, light felt piano and gentle pizzicato, around 95 BPM, a light sense of mystery at the start, hushed and soft in the middle while everyone sleeps, turning warm and reassuring at the end, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-auto-sedan-cargando.mp4",
+      "clip_desde": 0.0,
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "9:30 p. m. · Carro de Mariana: 20 %",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Closed garage at night under ceiling lights: black pickup on the left, red sedan on the right plugged into the wall charger."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-sal-sofa.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Casa: carga programada · 11:00 p. m.",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The couple relaxes on the sofa at night, seen from behind, TV glow."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-sal-noche.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "10:45 p. m. · Todos a dormir",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Empty living room at night, soft dim lights, everything quiet."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-cua-dormidos.mp4",
+      "clip_desde": 0.0,
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "11:00 p. m. · Todos dormidos",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The couple sleeps in the dark bedroom, seen from afar."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cargador.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Cargador · Cargando",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The wall charger's light bar starts pulsing softly."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-auto-sedan-cargando.mp4",
+      "clip_desde": 1.0,
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Batería llena antes de las 6 a. m.",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The red sedan keeps charging in the quiet garage, the charger glows warm."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-ext-noche.mp4",
+      "duracion": 3,
+      "musica": "alta",
+      "texto": "Casa en calma · Carro listo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The house at night with warm lights, calm and quiet."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {"escena": 1, "texto": "¿Quién carga el carro mientras todos duermen?", "desde": 0.2},
+      {"escena": 2, "texto": "Mariana lo dejó conectado al llegar.", "desde": 0.4},
+      {"escena": 3, "texto": "La casa espera a que todos duerman…", "desde": 0.2},
+      {"escena": 5, "texto": "…y carga sola, de noche.", "desde": 0.1},
+      {"escena": 7, "texto": "En la mañana, el carro está listo.", "desde": 0.2},
+      {"escena": "cierre", "texto": "Geo Homes. Tu casa, a tu ritmo.", "desde": 0.4}
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES10/portada_garaje.png",
+    "titulo": "¿Quién carga el carro mientras todos duermen?",
+    "etiqueta": "Casa que te entiende · Ep. 10"
+  }
+}
