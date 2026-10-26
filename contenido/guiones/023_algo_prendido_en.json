@@ -1,0 +1,13 @@
+{
+  "titulo": "Left something on? Check from work",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Left the light *on?*", "dur": 2.8},
+    {"type": "text", "kicker": "Southwest Florida", "text": "Check from *work,* no trip back.", "dur": 2.8},
+    {"type": "list", "title": "From your phone:", "items": ["See what's on", "Turn off lights, plugs", "All in one app", "No trip home"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Leave home *worry-free.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "Did I leave the light on? 🤔 Check the app and shut it off from work. We install it in your home anywhere in Southwest Florida. 📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLights #HomeTips",
+  "tiktok_title": "Left the light on? Turn it off from work 💡"
+}

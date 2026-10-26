@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Dejaste algo prendido? Revísalo desde el trabajo",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Dejaste la luz *prendida?*", "dur": 2.8},
+    {"type": "text", "kicker": "Suroeste de Florida", "text": "Revísalo desde el *trabajo,* sin regresar.", "dur": 2.8},
+    {"type": "list", "title": "Desde tu celular:", "items": ["Ves qué está prendido", "Apagas luces y enchufes", "Todo en una app", "Sin volver a casa"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Sal de casa *tranquilo.*", "sub": "Suroeste de Florida", "button": "Envíanos un texto", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "¿Dejé la luz prendida? 🤔 Míralo en la app y apágalo desde el trabajo. Lo instalamos en tu casa en el suroeste de Florida. 📲 Envíanos un texto al (239) 204-6336 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #ApagaDesdeElCelular",
+  "tiktok_title": "¿Dejaste la luz prendida? Apágala desde el trabajo 💡"
+}
