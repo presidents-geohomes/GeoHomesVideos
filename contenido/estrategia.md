@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -179,7 +179,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - Apaga todo al salir con un botón (usado: 017)
 - Deja entrar al técnico sin estar en casa
 - Temporada de huracanes: revisa tu casa desde el celular (usado: 005)
-- ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo
+- ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo (usado: 023)
 - Tus papás mayores, más seguros e independientes
 - Airbnb: códigos de puerta para cada huésped
 - Despierta con luz natural: persianas automáticas (usado: 012)
@@ -224,8 +224,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 | 020 | ¿Viene tormenta? Tu casa se encarga (preparar la casa desde el celular) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-10-21 (EN 12:00, ES 18:00) | Sí (contenido/guiones/020_tormenta_casa.json y _en) |
 | 021 | ¿Y si se va el internet? (pregunta frecuente, sin prometer) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-24 (EN 12:00, ES 18:00) | Sí (contenido/guiones/021_sin_internet.json y _en) |
 | 022 | Modo vacaciones: tu casa parece habitada | Texto ES/EN | Escenas y estilo de vida | Sí | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-25 (EN 12:00, ES 18:00) | Sí (contenido/guiones/022_modo_vacaciones.json y _en) |
+| 023 | ¿Dejaste algo prendido? Revísalo desde el trabajo | Texto ES/EN | Molestia diaria | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/023_algo_prendido.json y _en) |
 
-Siguiente número: 023.
+Siguiente número: 024.
 
 ## Series de familias (episodios con historia)
 
