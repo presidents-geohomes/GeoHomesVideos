@@ -86,12 +86,36 @@
   "narracion": {
     "voice_id": "dlGxemPxFMTY7iXagmOj",
     "partes": [
-      {"escena": 1, "texto": "¿Quién carga el carro mientras todos duermen?", "desde": 0.2},
-      {"escena": 2, "texto": "Mariana lo dejó conectado al llegar.", "desde": 0.4},
-      {"escena": 3, "texto": "La casa espera a que todos duerman…", "desde": 0.2},
-      {"escena": 5, "texto": "…y carga sola, de noche.", "desde": 0.1},
-      {"escena": 7, "texto": "En la mañana, el carro está listo.", "desde": 0.2},
-      {"escena": "cierre", "texto": "Geo Homes. Tu casa, a tu ritmo.", "desde": 0.4}
+      {
+        "escena": 1,
+        "texto": "¿Quién carga el carro mientras todos duermen?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Mariana lo dejó conectado al llegar.",
+        "desde": 0.4
+      },
+      {
+        "escena": 3,
+        "texto": "La casa espera a que todos duerman…",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "…y carga sola, de noche.",
+        "desde": 0.1
+      },
+      {
+        "escena": 7,
+        "texto": "En la mañana, el carro está listo.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
     ]
   },
   "cierre": {
@@ -110,5 +134,9 @@
     "imagen": "planos/ES10/portada_garaje.png",
     "titulo": "¿Quién carga el carro mientras todos duermen?",
     "etiqueta": "Casa que te entiende · Ep. 10"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES10_quien-carga-el-carro/ES10.mp4",
+  "duracion": 24.0,
+  "fecha": "2026-10-26T13:37:51Z"
 }
