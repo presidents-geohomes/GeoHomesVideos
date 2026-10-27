@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -180,7 +180,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - Deja entrar al técnico sin estar en casa
 - Temporada de huracanes: revisa tu casa desde el celular (usado: 005)
 - ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo (usado: 023)
-- Tus papás mayores, más seguros e independientes
+- Tus papás mayores, más seguros e independientes (usado: 024)
 - Airbnb: códigos de puerta para cada huésped
 - Despierta con luz natural: persianas automáticas (usado: 012)
 - Luces que se prenden solas al anochecer (usado: 018)
@@ -225,8 +225,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 | 021 | ¿Y si se va el internet? (pregunta frecuente, sin prometer) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-10-24 (EN 12:00, ES 18:00) | Sí (contenido/guiones/021_sin_internet.json y _en) |
 | 022 | Modo vacaciones: tu casa parece habitada | Texto ES/EN | Escenas y estilo de vida | Sí | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-25 (EN 12:00, ES 18:00) | Sí (contenido/guiones/022_modo_vacaciones.json y _en) |
 | 023 | ¿Dejaste algo prendido? Revísalo desde el trabajo | Texto ES/EN | Molestia diaria | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/023_algo_prendido.json y _en) |
+| 024 | ¿Tus papás viven solos? (papás mayores: puerta, avisos, luces) | Texto ES/EN | Seguridad y tranquilidad | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/024_papas_solos.json y _en) |
 
-Siguiente número: 024.
+Siguiente número: 025.
 
 ## Series de familias (episodios con historia)
 
