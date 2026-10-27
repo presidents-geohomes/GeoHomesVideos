@@ -1,0 +1,13 @@
+{
+  "titulo": "Parents living alone? Peace of mind for you",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Do your parents live *alone?*", "dur": 2.8},
+    {"type": "text", "kicker": "Southwest Florida", "text": "They stay *independent.* You stay *calm.*", "dur": 2.8},
+    {"type": "list", "title": "From your phone:", "items": ["See their front door", "Alert when it opens", "Night lights turn on", "Unlock when needed"], "dur": 5.0},
+    {"type": "text", "text": "Their current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Stay *close,* from anywhere.", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Mom and Dad living on their own? 👵👴 See their front door and get alerts on your phone. They stay independent, you stay calm. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #AgingInPlace #PeaceOfMind",
+  "tiktok_title": "Parents living alone? Look out for them from your phone 👵👴"
+}

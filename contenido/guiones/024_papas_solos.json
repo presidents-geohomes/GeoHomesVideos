@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Tus papás viven solos? Tú tranquilo, ellos independientes",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tus papás viven *solos?*", "dur": 2.8},
+    {"type": "text", "kicker": "Suroeste de Florida", "text": "Ellos *independientes.* Tú, *tranquilo.*", "dur": 2.8},
+    {"type": "list", "title": "Desde tu celular:", "items": ["Ves su puerta principal", "Aviso si se abre", "Luces de noche solas", "Abres si te necesitan"], "dur": 5.0},
+    {"type": "text", "text": "Su casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Cuida a los tuyos *de cerca.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Tus papás viven solos? 👵👴 Ve su puerta y recibe avisos en tu celular. Ellos independientes, tú tranquilo. Lo instalamos en su casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #PapasMayores",
+  "tiktok_title": "¿Tus papás viven solos? Cuídalos desde tu celular 👵👴"
+}
