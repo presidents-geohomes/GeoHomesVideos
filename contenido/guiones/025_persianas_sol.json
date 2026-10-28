@@ -1,0 +1,13 @@
+{
+  "titulo": "Persianas que bajan solas cuando pega el sol",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿El sol te *cocina* la sala?", "dur": 2.8},
+    {"type": "text", "kicker": "Suroeste de Florida", "text": "Tus persianas bajan *solas.*", "dur": 2.8},
+    {"type": "list", "title": "Con persianas inteligentes:", "items": ["Bajan cuando pega el sol", "Suben al atardecer", "Las mueves desde la app", "También con tu voz"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Que el sol no *mande.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿El sol de la tarde te cocina la sala? ☀️ Las persianas bajan solas cuando pega y suben cuando se va. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #PersianasInteligentes",
+  "tiktok_title": "¿El sol te cocina la sala? Persianas que bajan solas ☀️"
+}

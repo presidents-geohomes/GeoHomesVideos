@@ -1,0 +1,13 @@
+{
+  "titulo": "Shades that lower themselves when the sun hits",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Sun *roasting* your living room?", "dur": 2.8},
+    {"type": "text", "kicker": "Southwest Florida", "text": "Your shades lower *themselves.*", "dur": 2.8},
+    {"type": "list", "title": "With smart shades:", "items": ["Lower when the sun hits", "Rise at sunset", "Control them from the app", "Or just use your voice"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Don't let the sun *decide.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Afternoon sun roasting your living room? ☀️ Smart shades lower when it hits and rise when it's gone. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartShades #FloridaLiving",
+  "tiktok_title": "Sun roasting your living room? Shades that lower themselves ☀️"
+}

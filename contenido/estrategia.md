@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -171,7 +171,7 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 - Mira quién toca el timbre desde cualquier lugar (usado: 009)
 - Snowbirds: vigila tu casa de Naples desde el norte (usado: 014)
 - Un sensor de agua te avisa antes de que sea tarde (usado: 010)
-- Persianas que bajan solas cuando pega el sol
+- Persianas que bajan solas cuando pega el sol (usado: 025)
 - ¿Viene tormenta? Prepara tu casa desde el celular (usado: 020)
 - Llega a casa y ya está fresca (usado: 015)
 - "Modo película" con una sola frase (usado: 007)
@@ -226,8 +226,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 | 022 | Modo vacaciones: tu casa parece habitada | Texto ES/EN | Escenas y estilo de vida | Sí | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-10-25 (EN 12:00, ES 18:00) | Sí (contenido/guiones/022_modo_vacaciones.json y _en) |
 | 023 | ¿Dejaste algo prendido? Revísalo desde el trabajo | Texto ES/EN | Molestia diaria | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/023_algo_prendido.json y _en) |
 | 024 | ¿Tus papás viven solos? (papás mayores: puerta, avisos, luces) | Texto ES/EN | Seguridad y tranquilidad | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/024_papas_solos.json y _en) |
+| 025 | Persianas que bajan solas cuando pega el sol | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-28 (EN 12:00, ES 18:00) | Sí (contenido/guiones/025_persianas_sol.json y _en) |
 
-Siguiente número: 025.
+Siguiente número: 026.
 
 ## Series de familias (episodios con historia)
 
