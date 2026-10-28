@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN08",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN08/p2_sale_e_1.png"
+  ],
+  "archivo": "p2_limpia.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Remove the orange cat completely and fill that spot with the same green lawn, porch slab and porch screen that are behind it, so the yard is empty. Keep everything else in the photo EXACTLY the same: same camera angle, same house, porch, small white pet door, plants, pots, lawn, raised bed, light and shadows. Vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a182cb-8ac8-734d-a6f5-649c8c6bc4a1",
+    "status_url": "https://api.higgsfield.ai/requests/01a182cb-8ac8-734d-a6f5-649c8c6bc4a1/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a182cb-8ac8-734d-a6f5-649c8c6bc4a1/cancel",
+    "expires_at": "2026-11-04T13:56:16.198341+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a182cb-8ac8-734d-a6f5-649c8c6bc4a1",
+  "resultado": [
+    "planos/EN08/p2_limpia_1.png"
+  ],
+  "generado": "2026-10-28T13:56:23Z"
+}
