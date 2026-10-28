@@ -1,0 +1,129 @@
+{
+  "id": "en_008_whos_mowing_the_lawn",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN08_whos-mowing-the-lawn",
+  "archivo": "EN08.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original sunny afternoon instrumental for a cozy family smart-home story about a cat and a robot lawn mower: opens with a few light, curious plucked notes and soft marimba (a small mystery), then warms into a gentle, sunny theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, tender and hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/insertos/f2/f2-ins-podadora.mp4",
+      "duracion": 3.5,
+      "musica": "baja",
+      "texto": "2:30 PM · Nobody home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3
+    },
+    {
+      "imagen": "planos/EN08/p2_sale_z_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Pet door · Biscuit's heading out",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Sunny backyard in warm golden afternoon light. The small orange tabby cat, who just came out of the small white pet door, walks slowly and calmly across the lawn to the right, tail up. The cat keeps its small, realistic house-cat size relative to the porch and the flower pots the whole time. Leaves move gently in the breeze. Only one cat. No people. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-cam-lanai.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Back porch cam · Biscuit near the mower",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Pause the mower",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, stands still holding her phone; she looks down at it, and taps the screen once with her thumb, then lowers the phone a little and smiles softly, relaxed. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "banco/fotos_insertos/f2/f2-ins-podadora_1_1.jpg",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Mower · Paused",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.2,
+      "prompt": "Static camera, low close shot on the lawn in warm afternoon sun. The dark gray robot lawn mower glides slowly forward a short distance across the grass, then gently slows down and comes to a complete stop and stays still. Grass blades and garden leaves sway gently in the breeze. No people, no animals. No camera movement."
+    },
+    {
+      "imagen": "planos/EN08/p6_cesped_z_1.png",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Mower · Waits till he's back in",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Sunny backyard in warm golden afternoon light. The small orange tabby cat lying on the lawn slowly stretches his front paws, blinks lazily and settles again, content, his fluffy tail sways slowly on the grass. He stays in the same spot and keeps his small, realistic house-cat size. Leaves move gently in the breeze. Only one cat. No people. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who's mowing the lawn?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "And Biscuit wants out.",
+        "desde": 0.4
+      },
+      {
+        "escena": 3,
+        "texto": "The camera spots him.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "Mom's at work. One tap.",
+        "desde": 0.4
+      },
+      {
+        "escena": 5,
+        "texto": "The mower stops.",
+        "desde": 0.6
+      },
+      {
+        "escena": 6,
+        "texto": "Lawn can wait. Biscuit's sunbathing.",
+        "desde": 0.4
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "banco/fotos_insertos/f2/f2-ins-podadora_1_1.jpg",
+    "titulo": "Nobody's home. Who's mowing the lawn?",
+    "etiqueta": "Home, Simplified · Ep. 8"
+  }
+}
