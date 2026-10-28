@@ -124,5 +124,9 @@
     "imagen": "banco/fotos_insertos/f2/f2-ins-podadora_1_1.jpg",
     "titulo": "Nobody's home. Who's mowing the lawn?",
     "etiqueta": "Home, Simplified · Ep. 8"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN08_whos-mowing-the-lawn/EN08.mp4",
+  "duracion": 23.5,
+  "fecha": "2026-10-28T13:24:20Z"
 }
