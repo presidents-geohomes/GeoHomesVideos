@@ -128,7 +128,8 @@
  "control_calidad": "Igual que la familia 1: ver familias/familia_1/biblia.json → control_calidad (guion, fotos de partida, acciones seguras/arriesgadas, video terminado, publicación).",
  "errores_aprendidos": [
   "Ver familias/familia_1/biblia.json → errores_aprendidos. Aplican a todas las familias.",
-  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion."
+  "ES04: los letreros blancos tapaban a la pareja y a Floyd; ahora todos van arriba. Y el gancho inicial de la narradora era flojo y genérico → regla de gancho en reglas_guion.",
+  "EN08 (2026-10-28): Biscuit y la puerta de mascotas salían ~3 veces más grandes de lo real (puerta ~70x90 cm, gato ~1,2 m). La toma del banco f2-pat-biscuit-sale y f2-bis-entra tienen ese error: no usarlas. Medir siempre contra macetas, huerto o podadora (gato ~25 cm al hombro, ~45 cm de largo; puerta ~25x30 cm). Grok no reduce bien el tamaño: lo que funcionó fue foto del patio vacío + gato recortado y pegado a escala (rembg) + recorte vertical."
  ],
  "oferta_cierre_regla": "Elegir una al azar en cada episodio (montar_episodio.py lo hace si 'oferta' es una lista).",
  "diseno_aparatos": "Desde 2026-10-17 (pedido del cliente) los aparatos de los videos tienen el diseño de los carruseles: catalogo/seleccion-real/ (cerradura negra con teclado y huella, timbre negro, cámaras negras, termostato negro con borde blanco, sensores blancos, válvula negra, abridor de garaje blanco/negro, interruptor y enchufe blancos, detector de humo blanco, ventilador negro con aspas de madera, persianas blancas). Los insertos del banco (banco/insertos/) ya están rehechos con ese diseño. El altavoz NO cambia: sigue el de 'aparatos'."
