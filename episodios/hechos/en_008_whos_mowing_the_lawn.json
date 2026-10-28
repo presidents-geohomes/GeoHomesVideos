@@ -20,13 +20,14 @@
       "texto_desde": 0.3
     },
     {
-      "clip": "banco/tomas/f2/f2-pat-biscuit-sale.mp4",
+      "imagen": "planos/EN08/p2_sale_z_1.png",
       "duracion": 4,
       "musica": "baja",
       "texto": "Pet door · Biscuit's heading out",
       "estilo_texto": "aviso",
       "posicion_texto": "arriba",
-      "texto_desde": 0.4
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Sunny backyard in warm golden afternoon light. The small orange tabby cat, who just came out of the small white pet door, walks slowly and calmly across the lawn to the right, tail up. The cat keeps its small, realistic house-cat size relative to the porch and the flower pots the whole time. Leaves move gently in the breeze. Only one cat. No people. No camera movement."
     },
     {
       "clip": "banco/insertos/f2/f2-ins-cam-lanai.mp4",
@@ -58,14 +59,14 @@
       "prompt": "Static camera, low close shot on the lawn in warm afternoon sun. The dark gray robot lawn mower glides slowly forward a short distance across the grass, then gently slows down and comes to a complete stop and stays still. Grass blades and garden leaves sway gently in the breeze. No people, no animals. No camera movement."
     },
     {
-      "imagen": "planos/EN08/p6_biscuit_cesped_a_1.png",
+      "imagen": "planos/EN08/p6_cesped_z_1.png",
       "duracion": 4.5,
       "musica": "media",
       "texto": "Mower · Waits till he's back in",
       "estilo_texto": "aviso",
       "posicion_texto": "arriba",
       "texto_desde": 0.4,
-      "prompt": "Static camera. Sunny backyard in warm golden afternoon light. The fluffy orange tabby cat lying on the lawn slowly stretches his front paws, rolls a little onto his back in the warm sun and settles again, eyes half closed, content; his fluffy tail sways slowly. The robot mower stays completely still, parked near the porch. Leaves move gently in the breeze. Realistic cat movement and size. Only one cat. No people. No camera movement."
+      "prompt": "Static camera. Sunny backyard in warm golden afternoon light. The small orange tabby cat lying on the lawn slowly stretches his front paws, blinks lazily and settles again, content, his fluffy tail sways slowly on the grass. He stays in the same spot and keeps his small, realistic house-cat size. Leaves move gently in the breeze. Only one cat. No people. No camera movement."
     }
   ],
   "narracion": {
@@ -128,5 +129,5 @@
   "estado": "hecho",
   "video": "series/ingles/EN08_whos-mowing-the-lawn/EN08.mp4",
   "duracion": 23.5,
-  "fecha": "2026-10-28T13:24:20Z"
+  "fecha": "2026-10-28T14:08:47Z"
 }
