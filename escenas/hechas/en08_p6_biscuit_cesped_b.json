@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN08",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f2/f2-pat-biscuit-sale_1_b_1.jpg",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "archivo": "p6_biscuit_cesped_b.jpg",
+  "prompt": "Photorealistic photo. The same sunny backyard from the first reference photo (same house: white stucco, screened back porch with hammock, white smart pet door low in the black screen door, raised vegetable beds with red tomatoes, wooden swing hanging from the big tree, wooden fence, palm trees), warm golden afternoon sunlight, same camera angle and same light. The fluffy long-haired orange tabby cat with green eyes from the second reference photo lies relaxed on his side on the green lawn in the middle of the yard, in a warm patch of sun, about four meters from the camera, eyes half closed, content. Only one cat. No mower in the frame. Vertical 9:16, no people, no text, no logos, no brand names, the sky stays a normal sky above the roof.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a182a5-3425-7f30-bb28-ba6e8da48c59",
+    "status_url": "https://api.higgsfield.ai/requests/01a182a5-3425-7f30-bb28-ba6e8da48c59/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a182a5-3425-7f30-bb28-ba6e8da48c59/cancel",
+    "expires_at": "2026-11-04T13:14:33.143952+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a182a5-3425-7f30-bb28-ba6e8da48c59",
+  "resultado": [
+    "planos/EN08/p6_biscuit_cesped_b_1.png"
+  ],
+  "generado": "2026-10-28T13:14:41Z"
+}
