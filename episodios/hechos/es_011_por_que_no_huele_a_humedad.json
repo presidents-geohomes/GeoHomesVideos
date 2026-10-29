@@ -133,5 +133,9 @@
     "imagen": "banco/fotos/f1/f1-esp-tormenta_1_b_1.jpg",
     "titulo": "¿Por qué esta casa nunca huele a humedad?",
     "etiqueta": "Casa que te entiende · Ep. 11"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES11_por-que-no-huele-a-humedad/ES11.mp4",
+  "duracion": 24.0,
+  "fecha": "2026-10-29T13:13:23Z"
 }
