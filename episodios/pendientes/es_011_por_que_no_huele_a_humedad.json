@@ -1,0 +1,137 @@
+{
+  "id": "es_011_por_que_no_huele_a_humedad",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES11_por-que-no-huele-a-humedad",
+  "archivo": "ES11.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Calm, curious and cozy instrumental for a premium smart-home lifestyle commercial on a rainy Florida afternoon: soft acoustic guitar, light felt piano and gentle pizzicato, around 95 BPM, a light sense of mystery at the start, soft and hushed in the middle, turning warm and reassuring at the end, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-ext-lluvia.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "3:00 p. m. · Aguacero de tarde",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Heavy afternoon rain over the front of the house and the palm trees.",
+      "clip_desde": 0.0
+    },
+    {
+      "clip": "banco/tomas/f1/f1-lan-lluvia.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Lluvia sin parar",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Rain splashing on the pool and the screen cage."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-esp-tormenta.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Mariana en casa · Todo cerrado",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The woman watches the rain from the living room, seen from behind."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Termostato · Humedad 72 %",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The thermostat ring glow shifts slowly."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-humedad.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Deshumidificador · Se enciende solo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The dehumidifier starts running, its light turns on."
+    },
+    {
+      "imagen": "planos/ES11/p6_sala_lluvia_a_1_limpia.png",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Humedad 50 % · Aire fresco",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera, same living room on a dark rainy afternoon. The woman on the sofa, seen from behind, slowly turns a page of her book; the tan pit bull resting his head on the sofa arm blinks calmly and wags the tip of his tail. Heavy rain keeps falling outside the sliding glass doors, raindrops running down the glass. Small, gentle movements only. Nothing else changes: same furniture, same lights, same dog bed by the front door. No one else appears."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-ext-lluvia.mp4",
+      "duracion": 3,
+      "musica": "alta",
+      "texto": "Afuera llueve · Adentro, todo seco",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Rain keeps falling over the house.",
+      "clip_desde": 2.0
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Por qué esta casa nunca huele a humedad?",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Llueve toda la tarde, y adentro la humedad sube.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "La casa la mide sola…",
+        "desde": 0.1
+      },
+      {
+        "escena": 5,
+        "texto": "…y la saca antes de que se note.",
+        "desde": 0.1
+      },
+      {
+        "escena": 6,
+        "texto": "Afuera, aguacero. Adentro, aire fresco.",
+        "desde": 0.6
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "banco/fotos/f1/f1-esp-tormenta_1_b_1.jpg",
+    "titulo": "¿Por qué esta casa nunca huele a humedad?",
+    "etiqueta": "Casa que te entiende · Ep. 11"
+  }
+}
