@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES11",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos/f1/f1-esp-tormenta_1_b_1.jpg",
+    "familias/familia_1/personajes/mariana_cuerpo.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png"
+  ],
+  "archivo": "p6_sala_lluvia_b.jpg",
+  "prompt": "Photorealistic photo. The exact same living room from the first reference photo, same camera angle through the arch, same furniture in the same places (gray sofa on the left, TV on the left wall, dark wooden front door in the small arch at the back, round gray dog bed by the front door, sliding glass doors with white motorized shades on the right, screened pool cage outside), same dim gray stormy afternoon light: heavy rain and dark clouds outside the glass doors, warm recessed ceiling lights on inside, cozy. The woman from the second reference photo, wearing a cream linen blouse and cream linen pants, now sits relaxed on the gray sofa, seen from behind, far from the camera, reading a book, her face not visible. The tan red-nose pit bull with the big white chest patch from the third reference photo lies curled on the sofa next to her, calm. Only one woman and one dog. Vertical 9:16, no text, no logos, no brand names, the ceiling stays a normal ceiling.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a187c2-33ed-732c-ac9d-4deef2ba1c7f",
+    "status_url": "https://api.higgsfield.ai/requests/01a187c2-33ed-732c-ac9d-4deef2ba1c7f/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a187c2-33ed-732c-ac9d-4deef2ba1c7f/cancel",
+    "expires_at": "2026-11-05T13:04:30.226102+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a187c2-33ed-732c-ac9d-4deef2ba1c7f",
+  "resultado": [
+    "planos/ES11/p6_sala_lluvia_b_1.png"
+  ],
+  "generado": "2026-10-29T13:04:37Z"
+}
