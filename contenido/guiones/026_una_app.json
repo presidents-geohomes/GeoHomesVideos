@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Una app para cada aparato?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Una app para *cada aparato?*", "dur": 2.8},
+    {"type": "text", "kicker": "Pregunta frecuente", "text": "No: todo en *una sola app.*", "dur": 2.8},
+    {"type": "list", "title": "Desde la misma app:", "items": ["Luces y enchufes", "Cerradura y garaje", "Cámaras y timbre", "Clima y persianas"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Todo en *un solo lugar.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Una app para cada aparato? No hace falta 📱 Luces, puerta, cámaras y clima, todo en la misma app. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #UnaSolaApp",
+  "tiktok_title": "¿Una app para cada aparato? Todo en una sola 📱"
+}

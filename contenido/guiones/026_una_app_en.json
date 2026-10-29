@@ -1,0 +1,13 @@
+{
+  "titulo": "One app for every device?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "One app for *every device?*", "dur": 2.8},
+    {"type": "text", "kicker": "Common question", "text": "Nope. It's all in *one app.*", "dur": 2.8},
+    {"type": "list", "title": "All from one app:", "items": ["Lights and plugs", "Lock and garage", "Cameras and doorbell", "Climate and shades"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Everything in *one place.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Tired of a different app for every gadget? 📱 Lights, locks, cameras and climate, all in one app. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartHomeApp #HomeTech",
+  "tiktok_title": "One app for every device? Put it all in one 📱"
+}
