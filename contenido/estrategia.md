@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -196,6 +196,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - Timbre con cámara: habla con el repartidor desde la oficina (parecido a 009)
 - El garaje se cierra solo cuando te vas (parecido a 008)
 - Empieza con un solo dispositivo (usado: 006)
+- ¿Una app para cada aparato? Todo en una sola (usado: 026)
 
 ## Registro de videos
 
@@ -227,8 +228,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 | 023 | ¿Dejaste algo prendido? Revísalo desde el trabajo | Texto ES/EN | Molestia diaria | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/023_algo_prendido.json y _en) |
 | 024 | ¿Tus papás viven solos? (papás mayores: puerta, avisos, luces) | Texto ES/EN | Seguridad y tranquilidad | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/024_papas_solos.json y _en) |
 | 025 | Persianas que bajan solas cuando pega el sol | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-28 (EN 12:00, ES 18:00) | Sí (contenido/guiones/025_persianas_sol.json y _en) |
+| 026 | ¿Una app para cada aparato? (todo en una sola app) | Texto ES/EN | Mito o pregunta frecuente | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-29 (EN 12:00, ES 18:00) | Sí (contenido/guiones/026_una_app.json y _en) |
 
-Siguiente número: 026.
+Siguiente número: 027.
 
 ## Series de familias (episodios con historia)
 
