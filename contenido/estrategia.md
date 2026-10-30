@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -190,7 +190,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - Modo vacaciones: tu casa parece habitada (parecido a 002) (usado: 022)
 - Mascotas solas en casa: míralas y háblales
 - Cierra la puerta desde la cama (usado: 019)
-- Un día en una casa inteligente en Naples
+- Un día en una casa inteligente en Naples (usado: 027)
 - 3 señales de que tu casa necesita ser inteligente
 - ¿Qué pasa si se va el internet? (explicar sin prometer) (usado: 021)
 - Timbre con cámara: habla con el repartidor desde la oficina (parecido a 009)
@@ -229,8 +229,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 | 024 | ¿Tus papás viven solos? (papás mayores: puerta, avisos, luces) | Texto ES/EN | Seguridad y tranquilidad | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/024_papas_solos.json y _en) |
 | 025 | Persianas que bajan solas cuando pega el sol | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-28 (EN 12:00, ES 18:00) | Sí (contenido/guiones/025_persianas_sol.json y _en) |
 | 026 | ¿Una app para cada aparato? (todo en una sola app) | Texto ES/EN | Mito o pregunta frecuente | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-29 (EN 12:00, ES 18:00) | Sí (contenido/guiones/026_una_app.json y _en) |
+| 027 | Un día en una casa inteligente (rutina de mañana a noche) | Texto ES/EN | Escenas y estilo de vida | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-30 (EN 12:00, ES 18:00) | Sí (contenido/guiones/027_un_dia.json y _en) |
 
-Siguiente número: 027.
+Siguiente número: 028.
 
 ## Series de familias (episodios con historia)
 
