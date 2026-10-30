@@ -1,0 +1,13 @@
+{
+  "titulo": "Un día en una casa inteligente",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "Así trabaja tu casa *todo el día.*", "dur": 2.8},
+    {"type": "text", "kicker": "Un día en casa", "text": "Mañana, tarde y noche… *sin que hagas nada.*", "dur": 2.8},
+    {"type": "list", "title": "Tu casa, hora por hora:", "items": ["7:00 suben las persianas", "8:00 todo se apaga", "18:00 llegas y está fresca", "22:00 puerta cerrada"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tu rutina, *en automático.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "Un día normal en una casa inteligente ☀️🌙 Persianas al despertar, todo apagado al salir y la puerta cerrada de noche. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #RutinaInteligente",
+  "tiktok_title": "Un día en una casa inteligente: de la mañana a la noche ☀️🌙"
+}

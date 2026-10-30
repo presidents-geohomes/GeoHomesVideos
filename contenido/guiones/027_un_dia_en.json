@@ -1,0 +1,13 @@
+{
+  "titulo": "A day in a smart home",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Your home works *all day long.*", "dur": 2.8},
+    {"type": "text", "kicker": "A day at home", "text": "Morning to night… *you lift no finger.*", "dur": 2.8},
+    {"type": "list", "title": "Your home, hour by hour:", "items": ["7 AM shades open", "8 AM all off", "6 PM cool arrival", "10 PM door locked"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Your routine, *on autopilot.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "A day in a smart home, start to finish ☀️🌙 Shades open when you wake, everything shuts off when you leave, door locks at night. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLiving #DailyRoutine",
+  "tiktok_title": "A day in a smart home, from morning to night ☀️🌙"
+}
