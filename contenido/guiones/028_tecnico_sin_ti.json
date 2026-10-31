@@ -1,0 +1,13 @@
+{
+  "titulo": "Deja entrar al técnico sin estar en casa",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Esperando al *técnico* en casa?", "dur": 2.8},
+    {"type": "text", "kicker": "Cerraduras inteligentes", "text": "Déjalo entrar *sin estar tú.*", "dur": 2.8},
+    {"type": "list", "title": "Desde tu celular:", "items": ["Das un código temporal", "Ves cuándo entra", "Cierras al terminar", "Sin perder el día"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tu día es *tuyo.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Esperando al técnico todo el día? ⏰ Dale un código temporal y mira cuándo entra, desde tu celular. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CerraduraInteligente",
+  "tiktok_title": "¿Esperando al técnico? Déjalo entrar sin estar en casa 🔑"
+}

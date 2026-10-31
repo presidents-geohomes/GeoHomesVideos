@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -177,7 +177,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - "Modo película" con una sola frase (usado: 007)
 - Paquetes en la puerta: ve quién los deja (usado: 003)
 - Apaga todo al salir con un botón (usado: 017)
-- Deja entrar al técnico sin estar en casa
+- Deja entrar al técnico sin estar en casa (usado: 028)
 - Temporada de huracanes: revisa tu casa desde el celular (usado: 005)
 - ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo (usado: 023)
 - Tus papás mayores, más seguros e independientes (usado: 024)
@@ -230,8 +230,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 | 025 | Persianas que bajan solas cuando pega el sol | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-28 (EN 12:00, ES 18:00) | Sí (contenido/guiones/025_persianas_sol.json y _en) |
 | 026 | ¿Una app para cada aparato? (todo en una sola app) | Texto ES/EN | Mito o pregunta frecuente | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-29 (EN 12:00, ES 18:00) | Sí (contenido/guiones/026_una_app.json y _en) |
 | 027 | Un día en una casa inteligente (rutina de mañana a noche) | Texto ES/EN | Escenas y estilo de vida | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-30 (EN 12:00, ES 18:00) | Sí (contenido/guiones/027_un_dia.json y _en) |
+| 028 | Deja entrar al técnico sin estar en casa (código temporal) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-31 (EN 12:00, ES 18:00) | Sí (contenido/guiones/028_tecnico_sin_ti.json y _en) |
 
-Siguiente número: 028.
+Siguiente número: 029.
 
 ## Series de familias (episodios con historia)
 

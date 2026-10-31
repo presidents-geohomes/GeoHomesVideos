@@ -1,0 +1,13 @@
+{
+  "titulo": "Let the technician in without being home",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Waiting home for the *technician?*", "dur": 2.8},
+    {"type": "text", "kicker": "Smart door locks", "text": "Let them in *without you.*", "dur": 2.8},
+    {"type": "list", "title": "From your phone:", "items": ["Share a temporary code", "See when they arrive", "Lock up when done", "Keep your day"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Your day is *yours.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Stuck home waiting for the technician? ⏰ Share a temporary code and see when they come in, right from your phone. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLock #HomeTips",
+  "tiktok_title": "Waiting for the technician? Let them in remotely 🔑"
+}
