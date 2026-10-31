@@ -136,5 +136,9 @@
     "imagen": "planos/EN09/p1_camino_a_1.png",
     "titulo": "Mom's at work. Who answers the door?",
     "etiqueta": "Home, Simplified · Ep. 9"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN09_who-answers-the-door/EN09.mp4",
+  "duracion": 26.0,
+  "fecha": "2026-10-31T13:14:55Z"
 }
