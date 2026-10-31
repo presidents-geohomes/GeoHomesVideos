@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Dejaste el garaje abierto?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "etiqueta": "ABRIDOR DE GARAJE",
+      "titulo": "¿Dejaste el garaje abierto?",
+      "texto": "Míralo y ciérralo desde tu celular."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ya vas por la mitad del camino…",
+      "texto": "Y no recuerdas si bajaste la puerta."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/abridor-garaje.jpg",
+      "etiqueta": "VA EN TU GARAJE",
+      "titulo": "Tu puerta actual, ahora conectada",
+      "texto": "Sin cambiar el portón."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves si está abierta",
+        "Ciérrala desde el celular",
+        "Aviso si se queda abierta",
+        "Abre a quien tú digas"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos GARAJE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Dejaste el garaje abierto? 🚗 Míralo y ciérralo desde tu celular, estés donde estés. Estimado gratis. Escríbenos GARAJE o llama al (239) 204-6336.\n\n#CasaInteligente #PuertaDeGaraje #SuroesteDeFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "¿Cerraste el garaje? Revísalo y ciérralo desde el celular 🚗"
+}

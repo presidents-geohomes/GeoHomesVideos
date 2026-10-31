@@ -1,0 +1,50 @@
+{
+  "titulo": "La luz justa para cada momento",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/interruptor-dimmer.jpg",
+      "etiqueta": "INTERRUPTOR DIMMER",
+      "titulo": "La luz justa para cada momento",
+      "texto": "Sube o baja la intensidad con un toque."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Solo tienes prendido o apagado?",
+      "texto": "Luz fuerte para cenar, para la película y a medianoche."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/dimmer-lampara.jpg",
+      "etiqueta": "NOCHE DE PELÍCULA",
+      "titulo": "Luz suave sin levantarte",
+      "texto": "Bájala desde el celular o con tu voz."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/interruptor-dimmer_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Intensidad a tu gusto",
+        "Luz tenue de noche",
+        "Horarios automáticos",
+        "Usa tus lámparas actuales"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos LUZ",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "La luz justa para cada momento 💡 Sube o baja la intensidad con un toque, desde la pared o el celular. Estimado gratis. Escríbenos LUZ o llama al (239) 204-6336.\n\n#CasaInteligente #Iluminacion #SuroesteDeFlorida #Estero #GeoHomes",
+  "tiktok_title": "¿Tu luz solo tiene dos opciones? Dale la intensidad justa 💡"
+}

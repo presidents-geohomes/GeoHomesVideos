@@ -1,0 +1,50 @@
+{
+  "titulo": "Just the right light, every time",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/interruptor-dimmer.jpg",
+      "etiqueta": "SMART DIMMER",
+      "titulo": "Just the right light, every time",
+      "texto": "Brighter or softer with one touch."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Only on or off?",
+      "texto": "Same harsh light for dinner, movies and midnight."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/dimmer-lampara.jpg",
+      "etiqueta": "MOVIE NIGHT",
+      "titulo": "Soft light, no getting up",
+      "texto": "Dim it from your phone or your voice."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/interruptor-dimmer_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Set any brightness",
+        "Soft light at night",
+        "Automatic schedules",
+        "Works with your fixtures"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us DIMMER",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Just the right light, every time 💡 Brighter or softer with one touch, from the wall or your phone. Free estimate. Text us DIMMER or call (239) 204-6336.\n\n#SmartHome #SmartLighting #SouthwestFlorida #Estero #GeoHomes",
+  "tiktok_title": "Lights stuck on full blast? Dim them with one touch 💡"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Una fuga escondida, un aviso a tiempo",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/valvula-agua-sensor-fugas.jpg",
+      "etiqueta": "VÁLVULA Y SENSOR DE FUGAS",
+      "titulo": "Una fuga escondida, un aviso a tiempo",
+      "texto": "El sensor detecta agua y te avisa al celular."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Qué pasa debajo del fregadero?",
+      "texto": "O detrás del calentador, donde nadie mira."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_1.jpg",
+      "etiqueta": "EN LA TUBERÍA PRINCIPAL",
+      "titulo": "Cierra el agua desde el celular",
+      "texto": "La válvula corta el paso cuando tú digas."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Detecta agua en el piso",
+        "Aviso en tu celular",
+        "Cierra la llave a distancia",
+        "Ideal si viajas"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos AGUA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Una fuga escondida, un aviso a tiempo 💧 El sensor detecta agua y puedes cerrar la llave desde tu celular. Estimado gratis. Escríbenos AGUA o llama al (239) 204-6336.\n\n#CasaInteligente #SensorDeAgua #SuroesteDeFlorida #BonitaSprings #GeoHomes",
+  "tiktok_title": "¿Qué pasa debajo del fregadero cuando no miras? Entérate a tiempo 💧"
+}

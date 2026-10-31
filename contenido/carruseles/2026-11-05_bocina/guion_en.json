@@ -1,0 +1,50 @@
+{
+  "titulo": "Hands full? Your home is listening",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg",
+      "etiqueta": "SMART SPEAKER",
+      "titulo": "Hands full? Your home is listening",
+      "texto": "Ask for lights, music or a timer."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Cooking with messy hands?",
+      "texto": "And you need the lights on or a timer set."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/bocina-inteligente_1.jpg",
+      "etiqueta": "IN ANY ROOM",
+      "titulo": "Music all through the house",
+      "texto": "A speaker in each room, all in sync."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/bocina-inteligente_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Lights by voice",
+        "Timers and alarms",
+        "Music in every room",
+        "Daily reminders"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us VOICE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Hands full? Your home is listening 🎶 Ask for lights, music or a timer with your voice. Free estimate. Text us VOICE or call (239) 204-6336.\n\n#SmartHome #VoiceControl #SouthwestFlorida #Naples #GeoHomes",
+  "tiktok_title": "Cooking with messy hands? Just ask your home 🎶"
+}

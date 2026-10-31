@@ -1,0 +1,50 @@
+{
+  "titulo": "El baño también se pone inteligente",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/inodoro-inteligente.jpg",
+      "etiqueta": "INODORO INTELIGENTE",
+      "titulo": "El baño también se pone inteligente",
+      "texto": "Comodidad e higiene en tu baño de siempre."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Buscando la luz de madrugada?",
+      "texto": "Y el asiento frío para rematar."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/inodoro-inteligente_1.jpg",
+      "etiqueta": "ASIENTO CON BIDÉ",
+      "titulo": "Un asiento nuevo en tu inodoro actual",
+      "texto": "Bidé y asiento tibio, sin remodelar el baño."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/inodoro-inteligente_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Luz suave de noche",
+        "Asiento tibio",
+        "Bidé integrado",
+        "Tapa automática"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos BAÑO",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "El baño también se pone inteligente 🚽 Luz de noche, asiento tibio y tapa automática en tu baño actual. Estimado gratis. Escríbenos BAÑO o llama al (239) 204-6336.\n\n#CasaInteligente #BañoInteligente #SuroesteDeFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "¿Asiento frío a las 3 a.m.? Tu baño también puede ser inteligente 🚽"
+}

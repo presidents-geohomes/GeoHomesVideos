@@ -1,0 +1,50 @@
+{
+  "titulo": "Las luces del patio se prenden solas",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/tomacorriente-exterior.jpg",
+      "etiqueta": "TOMACORRIENTE EXTERIOR",
+      "titulo": "Las luces del patio se prenden solas",
+      "texto": "Al atardecer, sin salir a enchufar nada."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Sales cada noche a enchufar las luces?",
+      "texto": "Y a la medianoche, otra vez afuera para apagarlas."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/tomacorriente-exterior_1.jpg",
+      "etiqueta": "LISTO PARA LAS FIESTAS",
+      "titulo": "Tus luces del lanai con horario",
+      "texto": "Navidad, fiestas o una cena afuera."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/tomacorriente-exterior.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Prende al atardecer",
+        "Apaga a tu hora",
+        "Control desde el celular",
+        "Hecho para exterior"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos LUCES",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Las luces del patio se prenden solas 🎄 Al atardecer y se apagan a tu hora, sin salir a enchufar nada. Estimado gratis. Escríbenos LUCES o llama al (239) 204-6336.\n\n#CasaInteligente #LucesDeNavidad #SuroesteDeFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "¿Sales cada noche a enchufar las luces del patio? Que se prendan solas 🎄"
+}

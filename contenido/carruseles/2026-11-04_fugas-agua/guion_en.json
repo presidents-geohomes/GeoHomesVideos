@@ -1,0 +1,50 @@
+{
+  "titulo": "A hidden leak, a heads-up in time",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/valvula-agua-sensor-fugas.jpg",
+      "etiqueta": "SMART WATER SHUTOFF",
+      "titulo": "A hidden leak, a heads-up in time",
+      "texto": "The sensor spots water and alerts your phone."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "What's going on under the sink?",
+      "texto": "Or behind the water heater, where nobody looks."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_1.jpg",
+      "etiqueta": "ON THE MAIN LINE",
+      "titulo": "Shut off the water from your phone",
+      "texto": "The valve closes when you say so."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Detects water on the floor",
+        "Alerts on your phone",
+        "Remote water shutoff",
+        "Great when you travel"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us WATER",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "A hidden leak, a heads-up in time 💧 The sensor spots water and you can shut it off from your phone. Free estimate. Text us WATER or call (239) 204-6336.\n\n#SmartHome #LeakDetection #SouthwestFlorida #BonitaSprings #GeoHomes",
+  "tiktok_title": "What's happening under your sink right now? Get the alert 💧"
+}

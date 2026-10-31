@@ -1,0 +1,50 @@
+{
+  "titulo": "Did you leave the garage open?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "etiqueta": "SMART GARAGE OPENER",
+      "titulo": "Did you leave the garage open?",
+      "texto": "Check it and close it from your phone."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Halfway down the road…",
+      "texto": "And you can't remember closing the garage."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/abridor-garaje.jpg",
+      "etiqueta": "IN YOUR GARAGE",
+      "titulo": "Your current door, now connected",
+      "texto": "No new garage door needed."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "See if it's open",
+        "Close it from your phone",
+        "Alert if it stays open",
+        "Let in who you choose"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us GARAGE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Did you leave the garage open? 🚗 Check it and close it from your phone, wherever you are. Free estimate. Text us GARAGE or call (239) 204-6336.\n\n#SmartHome #GarageDoor #SouthwestFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "Did you close the garage? Check and close it from your phone 🚗"
+}

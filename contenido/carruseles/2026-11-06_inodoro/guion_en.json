@@ -1,0 +1,50 @@
+{
+  "titulo": "Your bathroom gets smart too",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/inodoro-inteligente.jpg",
+      "etiqueta": "SMART TOILET",
+      "titulo": "Your bathroom gets smart too",
+      "texto": "Comfort and hygiene in the bathroom you have."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Fumbling for the light at 3 a.m.?",
+      "texto": "Then a cold seat to top it off."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/inodoro-inteligente_1.jpg",
+      "etiqueta": "BIDET SEAT",
+      "titulo": "A new seat on your current toilet",
+      "texto": "Bidet and warm seat, no remodel."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/inodoro-inteligente_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Soft night light",
+        "Warm seat",
+        "Built-in bidet",
+        "Automatic lid"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us BATH",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Your bathroom gets smart too 🚽 Night light, warm seat and an automatic lid in the bathroom you already have. Free estimate. Text us BATH or call (239) 204-6336.\n\n#SmartHome #SmartBathroom #SouthwestFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "Cold seat at 3 a.m.? Your bathroom can be smart too 🚽"
+}

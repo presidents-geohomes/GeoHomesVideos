@@ -1,0 +1,50 @@
+{
+  "titulo": "Manos ocupadas, casa que escucha",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg",
+      "etiqueta": "BOCINA INTELIGENTE",
+      "titulo": "Manos ocupadas, casa que escucha",
+      "texto": "Pide luz, música o un temporizador con tu voz."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Cocinando y con las manos sucias?",
+      "texto": "Y necesitas prender la luz o poner un timer."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/bocina-inteligente_1.jpg",
+      "etiqueta": "EN CUALQUIER CUARTO",
+      "titulo": "Tu música en toda la casa",
+      "texto": "Una bocina por cuarto, todas sincronizadas."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/bocina-inteligente_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Luces con tu voz",
+        "Temporizadores y alarmas",
+        "Música en cada cuarto",
+        "Recordatorios del día"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos VOZ",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Manos ocupadas, casa que escucha 🎶 Pide luz, música o un temporizador con tu voz. Estimado gratis. Escríbenos VOZ o llama al (239) 204-6336.\n\n#CasaInteligente #ControlPorVoz #SuroesteDeFlorida #Naples #GeoHomes",
+  "tiktok_title": "¿Cocinando con las manos sucias? Pídeselo a tu casa 🎶"
+}

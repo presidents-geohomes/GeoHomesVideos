@@ -1,0 +1,50 @@
+{
+  "titulo": "Patio lights that turn on by themselves",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/tomacorriente-exterior.jpg",
+      "etiqueta": "SMART OUTDOOR PLUG",
+      "titulo": "Patio lights that turn on by themselves",
+      "texto": "At sunset, no more plugging things in."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Plugging in the lights every night?",
+      "texto": "Then heading back out at midnight to unplug them."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/tomacorriente-exterior_1.jpg",
+      "etiqueta": "HOLIDAY READY",
+      "titulo": "Lanai lights on a schedule",
+      "texto": "Holidays, parties or dinner outside."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/tomacorriente-exterior.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "On at sunset",
+        "Off when you say",
+        "Control from your phone",
+        "Built for outdoors"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us LIGHTS",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Patio lights that turn on by themselves 🎄 On at sunset, off when you say, no more plugging in. Free estimate. Text us LIGHTS or call (239) 204-6336.\n\n#SmartHome #HolidayLights #SouthwestFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Still plugging in the patio lights every night? Let them turn on alone 🎄"
+}
