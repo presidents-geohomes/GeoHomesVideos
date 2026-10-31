@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN09",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_porche.png"
+  ],
+  "archivo": "p1_camino_b.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, house, front door with its black smart lock, black video doorbell, black metal bench, columns, potted palms, lawn, concrete path, golden late-afternoon light and sky. Vertical 9:16, no text, no logos, no letters anywhere, no extra people. Add a delivery man in a plain solid gray polo shirt, plain dark gray cap and dark pants, with NO logos, NO text, NO badges, NO name tags anywhere on his clothes, carrying one plain brown cardboard box with no printing. Small in the frame, seen from behind as he walks up the concrete path toward the front door, a few steps from the porch. His face is not visible. Realistic scale.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a19211-65be-7445-aff6-d2463163486c",
+    "status_url": "https://api.higgsfield.ai/requests/01a19211-65be-7445-aff6-d2463163486c/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a19211-65be-7445-aff6-d2463163486c/cancel",
+    "expires_at": "2026-11-07T13:07:05.737456+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a19211-65be-7445-aff6-d2463163486c",
+  "resultado": [
+    "planos/EN09/p1_camino_b_1.png"
+  ],
+  "generado": "2026-10-31T13:07:10Z"
+}

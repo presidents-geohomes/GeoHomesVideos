@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN09",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_porche.png"
+  ],
+  "archivo": "p5_banco_a.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, house, front door with its black smart lock, black video doorbell, black metal bench, columns, potted palms, lawn, concrete path, golden late-afternoon light and sky. Vertical 9:16, no text, no logos, no letters anywhere, no extra people. Add one plain brown cardboard box with no printing resting on the seat of the black metal bench on the porch. Add a delivery man in a plain solid gray polo shirt, plain dark gray cap and dark pants, with NO logos, NO text, NO badges, NO name tags anywhere on his clothes, his hands empty, standing on the porch right next to the bench, turned three-quarters away from the camera, just straightening up after setting the box down. His face is not visible.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a19211-6447-77e6-866a-4b791240b14a",
+    "status_url": "https://api.higgsfield.ai/requests/01a19211-6447-77e6-866a-4b791240b14a/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a19211-6447-77e6-866a-4b791240b14a/cancel",
+    "expires_at": "2026-11-07T13:06:54.234283+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a19211-6447-77e6-866a-4b791240b14a",
+  "resultado": [
+    "planos/EN09/p5_banco_a_1.png"
+  ],
+  "generado": "2026-10-31T13:06:59Z"
+}
