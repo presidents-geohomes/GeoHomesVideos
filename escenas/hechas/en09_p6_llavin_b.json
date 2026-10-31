@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN09",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_porche.png",
+    "catalogo/seleccion-real/cerradura-inteligente.jpg"
+  ],
+  "archivo": "p6_llavin_cerrada_b.jpg",
+  "prompt": "Photorealistic close-up photo taken from OUTSIDE the house, on the front porch, of the same white paneled front door from the first reference photo, completely CLOSED and flush in its white frame (no gap, no opening, door edge not visible), with the matte black smart deadbolt with keypad and fingerprint sensor from the second reference photo mounted on the door above the dark bronze handle, centered in the frame at eye level. A small green status light glows on the lock. Part of the white stucco wall and door trim visible at the sides, warm golden late-afternoon sunlight on the door. Vertical 9:16, sharp focus on the lock, no text, no logos, no letters, no brand names, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a19235-6529-7593-b09e-7cd127397466",
+    "status_url": "https://api.higgsfield.ai/requests/01a19235-6529-7593-b09e-7cd127397466/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a19235-6529-7593-b09e-7cd127397466/cancel",
+    "expires_at": "2026-11-07T13:46:25.830365+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a19235-6529-7593-b09e-7cd127397466",
+  "resultado": [
+    "planos/EN09/p6_llavin_cerrada_b_1.png"
+  ],
+  "generado": "2026-10-31T13:46:28Z"
+}
