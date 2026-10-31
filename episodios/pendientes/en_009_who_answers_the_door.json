@@ -1,0 +1,140 @@
+{
+  "id": "en_009_who_answers_the_door",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN09_who-answers-the-door",
+  "archivo": "EN09.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original late-afternoon instrumental for a cozy family smart-home story: opens with a few light, curious plucked notes and soft pizzicato (a small mystery: someone is at the door), then warms into a gentle, reassuring theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, tender and hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN09/p1_camino_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "4:30 PM · Mom's at work",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Front of the house in warm golden late-afternoon light. The delivery man in a plain gray polo and gray cap, seen from behind, keeps walking slowly up the concrete path toward the front porch carrying the plain brown cardboard box in both hands. His face is never visible. Palm leaves move gently in the breeze. Only one person. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-timbre.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Doorbell · Front porch",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "imagen": "banco/fotos/f2/f2-coc-tareas_1_b_1.jpg",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Lily stays inside",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.8,
+      "prompt": "Static camera, wide shot of the sunny kitchen in golden afternoon light. The girl in the yellow t-shirt sitting on the wooden stool at the navy island stops writing, lifts her head and turns it to look over her shoulder toward the hallway behind her, then stays seated on her stool and does not get up. Calm and relaxed. Seen from far away, face not in close-up. Nothing else moves. No camera movement."
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Leave it on the bench, please",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.2,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, stands still holding her phone low in front of her; she looks down at it and taps the screen once with her thumb, then nods softly and smiles, relaxed. Her mouth does not move, she does not speak. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN09/p5_banco_a_1.png",
+      "imagen_final": "planos/EN09/p5_final_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Package · On the bench",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6,
+      "prompt": "Static camera, front porch in warm golden late-afternoon light. The delivery man in the gray polo lets go of the brown box, which stays resting on the black bench the whole time, then turns and walks calmly out of the frame to the right with empty hands. The box never moves. His face is never visible. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-cerradura.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Front door · Stayed locked",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "imagen": "banco/fotos/f2/f2-coc-tareas_1_b_1.jpg",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Back to homework",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5,
+      "prompt": "Static camera, wide shot of the sunny kitchen in golden afternoon light. The girl in the yellow t-shirt sitting on the wooden stool at the navy island keeps writing calmly in her notebook, gently swinging her feet, content. Seen from far away. Sunlight on the floor. Nothing else moves. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Mom's at work. Someone's at the door.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Lily knows the rule. She stays put.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "Mom sees him from work, and answers.",
+        "desde": 0.3
+      },
+      {
+        "escena": 5,
+        "texto": "Package on the bench.",
+        "desde": 0.6
+      },
+      {
+        "escena": 6,
+        "texto": "The door never opened.",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "Homework goes on.",
+        "desde": 0.5
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN09/p1_camino_a_1.png",
+    "titulo": "Mom's at work. Who answers the door?",
+    "etiqueta": "Home, Simplified · Ep. 9"
+  }
+}
