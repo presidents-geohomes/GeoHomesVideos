@@ -24,9 +24,14 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-10-28/29 | Wifi mesh | señal en toda la casa hasta el patio; base de cámaras, cerradura y timbre |
 | 2026-10-29/30 | Sensor de puerta/ventana | ¿alguien abrió la puerta del patio? (niños y piscina, aviso al celular) |
 | 2026-10-30/31 | Control de ventilador | el ventilador sin salir de la cama; adiós a la cadenita |
+| 2026-11-01/02 | Tomacorriente exterior | luces del patio/lanai que se prenden solas al atardecer; temporada de fiestas |
+| 2026-11-02/03 | Abridor de garaje | ¿dejaste el garaje abierto? míralo y ciérralo desde el celular |
+| 2026-11-03/04 | Interruptor dimmer | la luz justa para cada momento; noche de película sin levantarte |
+| 2026-11-04/05 | Válvula de agua y sensor de fugas | fuga escondida bajo el fregadero/calentador; aviso y cierre del agua a distancia |
+| 2026-11-05/06 | Bocina inteligente | manos ocupadas cocinando: luz, timer y música con la voz; música en toda la casa |
+| 2026-11-06/07 | Inodoro inteligente | el baño también se pone inteligente; asiento con bidé, tibio y luz de noche sin remodelar |
 
 ## Temas sugeridos aún sin usar
-cerradura inteligente · timbre con video · control de persianas · válvula de agua y sensor de fugas · sensor de
-movimiento · bocina inteligente · pantalla inteligente · interruptor dimmer · abridor de garaje · tomacorriente
-exterior · tomacorriente inteligente · cámara interior · inodoro inteligente · escenas (me voy / llegué /
-buenas noches) · temporada de huracanes · casa de vacaciones / snowbirds · mascotas solas en casa
+cerradura inteligente · timbre con video · control de persianas · sensor de movimiento · pantalla inteligente ·
+tomacorriente inteligente · cámara interior · escenas (me voy / llegué / buenas noches) · temporada de huracanes ·
+casa de vacaciones / snowbirds · mascotas solas en casa
