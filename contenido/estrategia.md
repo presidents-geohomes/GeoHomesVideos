@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -188,7 +188,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
 - Antes y después: interruptor normal vs. inteligente
 - Modo vacaciones: tu casa parece habitada (parecido a 002) (usado: 022)
-- Mascotas solas en casa: míralas y háblales
+- Mascotas solas en casa: míralas y háblales (usado: 029)
 - Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples (usado: 027)
 - 3 señales de que tu casa necesita ser inteligente
@@ -231,8 +231,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 | 026 | ¿Una app para cada aparato? (todo en una sola app) | Texto ES/EN | Mito o pregunta frecuente | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-10-29 (EN 12:00, ES 18:00) | Sí (contenido/guiones/026_una_app.json y _en) |
 | 027 | Un día en una casa inteligente (rutina de mañana a noche) | Texto ES/EN | Escenas y estilo de vida | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-10-30 (EN 12:00, ES 18:00) | Sí (contenido/guiones/027_un_dia.json y _en) |
 | 028 | Deja entrar al técnico sin estar en casa (código temporal) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-31 (EN 12:00, ES 18:00) | Sí (contenido/guiones/028_tecnico_sin_ti.json y _en) |
+| 029 | Mascotas solas en casa: míralas y háblales (cámaras) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-01 (EN 12:00, ES 18:00) | Sí (contenido/guiones/029_mascotas_solas.json y _en) |
 
-Siguiente número: 029.
+Siguiente número: 030.
 
 ## Series de familias (episodios con historia)
 

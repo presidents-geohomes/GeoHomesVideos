@@ -1,0 +1,13 @@
+{
+  "titulo": "Mascotas solas en casa: míralas y háblales",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tu *mascota* sola en casa?", "dur": 2.8},
+    {"type": "text", "kicker": "Cámaras inteligentes", "text": "Mírala y *háblale* desde donde estés.", "dur": 2.8},
+    {"type": "list", "title": "Desde tu celular:", "items": ["La ves en vivo", "Le hablas un momento", "Recibes avisos", "Estás más tranquilo"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Cerquita de ella, *siempre.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Tu mascota sola en casa? 🐶 Mírala y háblale un ratito desde tu celular. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #MascotasEnCasa",
+  "tiktok_title": "¿Tu mascota sola en casa? Mírala y háblale desde el celular 🐶"
+}

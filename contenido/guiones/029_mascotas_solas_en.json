@@ -1,0 +1,13 @@
+{
+  "titulo": "Pets home alone: watch and talk to them",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Your *pet* home alone?", "dur": 2.8},
+    {"type": "text", "kicker": "Smart cameras", "text": "Check in and *talk* from anywhere.", "dur": 2.8},
+    {"type": "list", "title": "From your phone:", "items": ["See them live", "Say a quick hello", "Get alerts", "Feel more at ease"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Always *close by.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Pet home alone? 🐾 Check in and say a quick hello from your phone. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #PetCam #PetParents",
+  "tiktok_title": "Pet home alone? Check in and talk to them from your phone 🐾"
+}
