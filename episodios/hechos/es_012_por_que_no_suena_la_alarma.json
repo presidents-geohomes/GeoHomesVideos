@@ -136,5 +136,9 @@
     "imagen": "planos/ES12/portada_sala.jpg",
     "titulo": "Nadie en casa… y algo se mueve",
     "etiqueta": "Casa que te entiende · Ep. 12"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES12_por-que-no-suena-la-alarma/ES12.mp4",
+  "duracion": 25.0,
+  "fecha": "2026-11-02T14:15:25Z"
 }
