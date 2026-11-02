@@ -1,0 +1,140 @@
+{
+  "id": "es_012_por_que_no_suena_la_alarma",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES12_por-que-no-suena-la-alarma",
+  "archivo": "ES12.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Tense but soft mystery opening that resolves into warm playful relief, instrumental for a premium smart-home lifestyle commercial: quiet pulsing felt piano and light pizzicato with a hint of suspense for the first ten seconds, then soft acoustic guitar enters warm and cheerful, around 95 BPM, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-ext-dia.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "11:00 a. m. · Nadie en casa",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The front of the empty house on a sunny morning."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-alarma.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Alarma · Activada",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The alarm panel status ring turns green."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-sensor-mov.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Sensor de la sala · Movimiento",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The living room motion sensor light blinks as a soft shadow passes."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cam-mascotas.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cámara de la sala · Revisando",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The living room camera turns on its small light and pans."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-corre.mp4",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Cámara: es Floyd",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Floyd runs happily around the living room."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-alarma.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Alarma · Sin sirena",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The alarm panel stays quiet with its ring green."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-duerme.mp4",
+      "duracion": 5,
+      "musica": "alta",
+      "texto": "Floyd a su cama · Casa vigilada",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Floyd sleeps in his bed in the corner facing the entrance."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Nadie en casa… y algo se mueve.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "¿Y la alarma no suena?",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "La casa revisa primero.",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "Era Floyd, jugando solo.",
+        "desde": 0.8
+      },
+      {
+        "escena": 6,
+        "texto": "Si fuera un extraño, sonaría.",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "Con él, sigue la calma.",
+        "desde": 0.6
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES12/portada_sala.jpg",
+    "titulo": "Nadie en casa… y algo se mueve",
+    "etiqueta": "Casa que te entiende · Ep. 12"
+  }
+}
