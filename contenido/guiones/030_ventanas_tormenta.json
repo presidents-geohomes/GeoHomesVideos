@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Cerraste las ventanas antes de la tormenta?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Cerraste las *ventanas?*", "dur": 2.8},
+    {"type": "text", "kicker": "Antes de la tormenta", "text": "Tu celular te dice qué *sigue abierto.*", "dur": 2.8},
+    {"type": "list", "title": "Sensores en tu casa:", "items": ["Puertas abiertas o cerradas", "Ventanas abiertas o cerradas", "Aviso en tu celular", "Revisas sin caminar"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Revisa todo *en segundos.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Cerraste todas las ventanas antes de la tormenta? ⛈️ Los sensores te muestran en el celular qué puerta o ventana sigue abierta. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #TemporadaDeHuracanes",
+  "tiktok_title": "¿Cerraste las ventanas? Revisa qué sigue abierto desde el celular ⛈️"
+}

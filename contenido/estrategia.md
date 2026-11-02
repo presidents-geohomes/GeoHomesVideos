@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -233,7 +233,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 | 028 | Deja entrar al técnico sin estar en casa (código temporal) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-10-31 (EN 12:00, ES 18:00) | Sí (contenido/guiones/028_tecnico_sin_ti.json y _en) |
 | 029 | Mascotas solas en casa: míralas y háblales (cámaras) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-01 (EN 12:00, ES 18:00) | Sí (contenido/guiones/029_mascotas_solas.json y _en) |
 
-Siguiente número: 030.
+| 030 | ¿Cerraste las ventanas antes de la tormenta? (sensores de puertas y ventanas) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-11-02 (EN 12:00, ES 18:00) | Sí (contenido/guiones/030_ventanas_tormenta.json y _en) |
+
+Siguiente número: 031.
 
 ## Series de familias (episodios con historia)
 

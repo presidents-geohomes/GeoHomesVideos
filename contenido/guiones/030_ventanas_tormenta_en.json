@@ -1,0 +1,13 @@
+{
+  "titulo": "Windows closed before the storm?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Windows *closed?*", "dur": 2.8},
+    {"type": "text", "kicker": "Before the storm", "text": "Your phone shows what's *still open.*", "dur": 2.8},
+    {"type": "list", "title": "Sensors at home:", "items": ["Doors open or closed", "Windows open or closed", "Alert on your phone", "Check without walking"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Check it all *in seconds.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Windows closed before the storm? ⛈️ Sensors show on your phone which door or window is still open. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HurricaneSeason #HomeSensors",
+  "tiktok_title": "Windows closed? See what's still open from your phone ⛈️"
+}
