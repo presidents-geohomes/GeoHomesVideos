@@ -1,0 +1,13 @@
+{
+  "titulo": "Family won't use the app?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Family won't *use the app?*", "dur": 2.8},
+    {"type": "text", "kicker": "Common question", "text": "The app is *just one option.*", "dur": 2.8},
+    {"type": "list", "title": "It also works with:", "items": ["The same wall switch", "Your voice", "A door keypad code", "Automatic schedules"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Everyone, *their own way.*", "sub": "Southwest Florida", "phone": "(239) 204-6336", "button": "Text us today", "dur": 4.0}
+  ],
+  "caption": "Family won't touch the app? 📱 Wall switches, voice and door codes work too. We install it in your home anywhere in Southwest Florida.\n📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #SmartHomeFAQ #EasyTech",
+  "tiktok_title": "Family won't use the app? It's just one option 📱"
+}
