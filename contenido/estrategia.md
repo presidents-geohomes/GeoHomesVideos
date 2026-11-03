@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -235,7 +235,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 | 030 | ¿Cerraste las ventanas antes de la tormenta? (sensores de puertas y ventanas) | Texto ES/EN | Florida y temporada | No | es_tormenta_latina / en_storm_cinematic | Hecho y programado 2026-11-02 (EN 12:00, ES 18:00) | Sí (contenido/guiones/030_ventanas_tormenta.json y _en) |
 
-Siguiente número: 031.
+| 031 | ¿Y si en casa no usan celular? (la app es solo una opción: interruptor, voz, código, horarios) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-03 (EN 12:00, ES 18:00) | Sí (contenido/guiones/031_sin_celular.json y _en) |
+
+Siguiente número: 032.
 
 ## Series de familias (episodios con historia)
 
