@@ -105,6 +105,7 @@
   "valvula": "Válvula de cierre de agua automática en la tubería principal, en el garaje junto al calentador (añadida en EN02, 2026-10-08).",
   "altavoz_mesita": "Altavoz inteligente pequeño, el mismo modelo genérico del de la cocina (cilindro de tela gris claro con aro de luz, sin logo), en la mesita de noche IZQUIERDA del cuarto principal, junto a la lámpara. Emma le da órdenes de voz (sin verla hablar: la orden va como texto y se enciende el aro). Añadido en EN05, 2026-10-17.",
   "cafetera": "Cafetera de goteo blanca genérica con jarra de vidrio (diseño de banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg, sin logo) en la encimera del fondo de la cocina, justo a la DERECHA del fregadero. Se enciende sola con la rutina de días de turno de Emma (5:45 a. m.). Añadida en EN06, 2026-10-21.",
+  "purificador": "Purificador de aire inteligente genérico (cilindro blanco de piso con rejilla redonda arriba y franja de luz en el medio, sin logo, diseño de banco/fotos_insertos/f2/f2-ins-purificador_1_1.jpg) en la sala, en el piso junto al extremo del sofá gris más cercano a la cocina. Sensor de aire propio: franja ámbar si baja la calidad del aire, blanca cuando funciona. Añadido en EN10, 2026-11-04.",
   "podadora": "Podadora robot gris oscuro genérica (diseño de banco/fotos_insertos/f2/f2-ins-podadora_1_1.jpg, sin logo) en el césped del patio trasero; cuando está en pausa queda parada junto al porche trasero. Emma la pausa desde el celular si Biscuit sale al patio. Añadida en EN08, 2026-10-28."
  },
  "set": {

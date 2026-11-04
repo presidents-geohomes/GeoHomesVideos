@@ -1,0 +1,147 @@
+{
+  "id": "en_010_why_isnt_lily_sneezing",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN10_why-isnt-lily-sneezing",
+  "archivo": "EN10.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original afternoon instrumental for a cozy family smart-home story: opens with a few light, curious plucked notes and soft pizzicato (a small mystery), then warms into a gentle reassuring theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, tender and hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN10/p1_sala_off_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "3:40 PM · Mom's at work",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Sunny living room in golden afternoon light. Far away on the gray sofa the girl in the yellow t-shirt turns a page slowly while the fluffy orange cat on her lap flicks its tail. Tiny dust specks and cat hairs drift lazily through the sunbeam. The white cylinder purifier on the floor stays still and unlit. Nothing else moves. No camera movement."
+    },
+    {
+      "imagen": "planos/EN10/p2_pelo_a_1.png",
+      "duracion": 3.5,
+      "musica": "baja",
+      "texto": "Biscuit · Shedding again",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. The fluffy orange tabby cat lying on the gray sofa blinks slowly and flicks its ears. A few loose orange hairs on the cushion in the foreground tremble and one tuft lifts gently into the air. Golden afternoon light. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/EN10/p3_ambar_final.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Air quality · Dropping",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera, close view of the white smart air purifier on the wood floor. Its thin light band glows steady amber and pulses softly once. A few tiny specks drift past. The purifier does not move or change shape. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/EN10/p3_ambar_final.png",
+      "imagen_final": "planos/EN10/p4_blanco_final.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Air purifier · On · Quiet mode",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera, close view of the white smart air purifier on the wood floor. The thin light band changes smoothly from amber to soft cool white. The floating specks near the top grille drift gently down into the grille as it starts drawing air. The purifier itself does not move or change shape. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/EN10/p7_lily_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Living room · Air clearing",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Wide sunny living room in golden afternoon light. Far away on the gray sofa the girl in the yellow t-shirt keeps reading calmly with the orange cat on her lap. The purifier on the floor glows with a soft white band; faint specks in the sunbeam slowly drift toward it and thin out. Nobody gets up. No camera movement."
+    },
+    {
+      "imagen": "planos/EN02/p3_emma_hospital_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Air quality · Back to good",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5,
+      "prompt": "Static camera. Bright hospital corridor in afternoon light. The nurse in navy scrubs, seen three-quarters from behind, stands still holding her phone low in front of her; she glances down at it, then nods softly and smiles, relaxed. Her mouth does not move, she does not speak. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN10/p7_cerca.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Lily · Still reading",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Golden afternoon living room. The girl in the yellow t-shirt turns a page calmly, seen from the side and from a distance; the fluffy orange cat on her lap stretches a paw and settles. The purifier on the floor glows softly white and stays still. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Biscuit sheds everywhere. So why isn't Lily sneezing?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "Fur on the sofa. Fur in the air.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "The house catches it first.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "The purifier kicks on, quietly.",
+        "desde": 0.4
+      },
+      {
+        "escena": 5,
+        "texto": "Lily never hears a thing.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Mom gets the all-clear at work.",
+        "desde": 0.4
+      },
+      {
+        "escena": 7,
+        "texto": "Just a girl and her cat.",
+        "desde": 0.5
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN10/p1_sala_off_a_1.png",
+    "titulo": "Biscuit sheds everywhere. Why isn't Lily sneezing?",
+    "etiqueta": "Home, Simplified · Ep. 10"
+  }
+}
