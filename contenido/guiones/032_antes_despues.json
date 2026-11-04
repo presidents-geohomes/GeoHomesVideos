@@ -1,0 +1,13 @@
+{
+  "titulo": "Antes y después: tu interruptor",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "Tu interruptor, *antes y después*", "dur": 2.8},
+    {"type": "text", "kicker": "Antes y después", "text": "El mismo interruptor, *ahora inteligente.*", "dur": 2.8},
+    {"type": "list", "title": "Ahora también:", "items": ["Se prende con tu voz", "Sigue horarios solo", "Lo controlas desde el celular", "Funciona como siempre"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Cambia el interruptor, *no la casa.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "Antes: un interruptor. Después: el mismo, pero con voz, horarios y celular 💡 Sin obras ni construcción nueva. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #InterruptorInteligente",
+  "tiktok_title": "Tu interruptor, antes y después 💡"
+}

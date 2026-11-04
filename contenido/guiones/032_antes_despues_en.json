@@ -1,0 +1,13 @@
+{
+  "titulo": "Your switch, before and after",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Your switch, *before and after*", "dur": 2.8},
+    {"type": "text", "kicker": "Before and after", "text": "Same wall switch, *now smart.*", "dur": 2.8},
+    {"type": "list", "title": "Now it also:", "items": ["Turns on with your voice", "Runs on schedules", "Works from your phone", "Still works as always"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Swap the switch, *not the house.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Before: a plain switch. After: the same spot, now with voice, schedules and your phone 💡 No remodel, no new build. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartSwitch #HomeUpgrade",
+  "tiktok_title": "Your light switch, before and after 💡"
+}
