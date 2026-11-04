@@ -17,6 +17,7 @@
  },
  "musica": "Pista instrumental original con ElevenLabs Music: cálida, moderna, guitarra acústica suave, piano ligero, ~95 BPM, sin voces. Puede sonar desde el altavoz de la cocina y el altavoz la baja o la sube.",
  "reglas_guion": [
+  "Variar los escenarios (pedido del cliente, 2026-11-04): no repetir el mismo lugar de un personaje entre episodios seguidos, sobre todo fuera de casa. Antes de elegir, mirar en episodios/hechos/ dónde apareció en los últimos episodios y usar otro. Cada aparición en el trabajo va en un sitio distinto del anterior.",
   "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado.",
   "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
   "Continuidad de lugares según el plano: nadie cambia de habitación sin verlo moverse; se entra al garaje por la lavandería.",

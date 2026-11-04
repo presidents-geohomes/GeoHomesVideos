@@ -23,6 +23,7 @@
  "musica": "Pista instrumental original con ElevenLabs Music: cálida, acústica, piano suave y guitarra, ~90 BPM, tierna y esperanzadora, sin voces. Puede sonar desde el altavoz de la cocina.",
  "tono": "Tranquilidad, seguridad y pequeños gestos de cariño. Una madre que trabaja turnos, una hija independiente y un papá que trabaja fuera por temporadas.",
  "reglas_guion": [
+  "Variar los escenarios (pedido del cliente, 2026-11-04): no repetir el mismo lugar de un personaje entre episodios seguidos, sobre todo fuera de casa. Antes de elegir, mirar en episodios/hechos/ dónde apareció en los últimos episodios y usar otro. Cada aparición en el trabajo va en un sitio distinto del anterior.",
   "Orden cronológico real: causa → aviso → reacción → orden → acción de la casa → resultado. Toda orden aparece ANTES de su efecto.",
   "Una sola línea de tiempo: misma hora del día y misma luz en todo el episodio (usar la foto del set de esa hora).",
   "Continuidad de lugares según el plano: nadie cambia de habitación sin verlo moverse; al garaje se entra por la lavandería.",
@@ -89,6 +90,7 @@
    "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
   }
  },
+ "escenarios_trabajo": {"_nota": "Lugares de Emma en el hospital. Rotarlos; el último usado no se repite. Añadir aquí cada lugar nuevo. Sin el celular mostrando pantalla.", "pasillo": "planos/EN02/p3_emma_hospital_1.png (usado en EN02, EN04, EN07, EN08, EN09)", "sala_descanso": "planos/EN10/p6_descanso_b_1.png (mesa redonda, café, casilleros; usado en EN10)", "estacion_enfermeras": "planos/EN10/p6_estacion_a_1.png (sin usar)", "terraza": "planos/EN10/p6_estacion_b_1.png (sin usar; la cabeza queda muy arriba: revisar que el letrero no la tape)"},
  "aparatos": {
   "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
   "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
