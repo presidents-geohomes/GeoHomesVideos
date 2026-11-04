@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN10",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/sala.png",
+    "banco/fotos_insertos/f2/f2-ins-purificador_1_1.jpg"
+  ],
+  "archivo": "p3_pur_ambar_a.jpg",
+  "prompt": "Photorealistic close-up photo in the same living room as the first reference (gray sofa softly blurred behind, warm golden afternoon light, wood floor, shiplap wall). In the center foreground, standing on the wood floor beside the sofa, ONE smart air purifier with the exact design of the second reference photo: matte white cylinder, round slotted grille on top, thin horizontal light band around the middle glowing soft AMBER, no logo, no screen, no text. Camera low at the height of the device, shallow depth of field. Vertical 9:16. No people, no letters, no brand names.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1a6e6-acbf-7112-aa70-9a08e3fbb4b8",
+    "status_url": "https://api.higgsfield.ai/requests/01a1a6e6-acbf-7112-aa70-9a08e3fbb4b8/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1a6e6-acbf-7112-aa70-9a08e3fbb4b8/cancel",
+    "expires_at": "2026-11-11T14:13:56.698407+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1a6e6-acbf-7112-aa70-9a08e3fbb4b8",
+  "resultado": [
+    "planos/EN10/p3_pur_ambar_a_1.png"
+  ],
+  "generado": "2026-11-04T14:14:02Z"
+}
