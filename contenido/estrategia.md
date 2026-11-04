@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -186,7 +186,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - Luces que se prenden solas al anochecer (usado: 018)
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
-- Antes y después: interruptor normal vs. inteligente
+- Antes y después: interruptor normal vs. inteligente (usado: 032)
 - Modo vacaciones: tu casa parece habitada (parecido a 002) (usado: 022)
 - Mascotas solas en casa: míralas y háblales (usado: 029)
 - Cierra la puerta desde la cama (usado: 019)
@@ -237,7 +237,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 | 031 | ¿Y si en casa no usan celular? (la app es solo una opción: interruptor, voz, código, horarios) | Texto ES/EN | Mito o pregunta frecuente | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-03 (EN 12:00, ES 18:00) | Sí (contenido/guiones/031_sin_celular.json y _en) |
 
-Siguiente número: 032.
+| 032 | Antes y después: tu interruptor (interruptor normal vs. inteligente) | Texto ES/EN | Escenas y estilo de vida | No | es_salsa_ligera / en_upbeat_pop | Hecho y programado 2026-11-04 (EN 12:00, ES 18:00) | Sí (contenido/guiones/032_antes_despues.json y _en) |
+
+Siguiente número: 033.
 
 ## Series de familias (episodios con historia)
 
