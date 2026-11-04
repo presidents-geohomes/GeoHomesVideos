@@ -143,5 +143,9 @@
     "imagen": "planos/EN10/p1_sala_off_a_1.png",
     "titulo": "Biscuit sheds everywhere. Why isn't Lily sneezing?",
     "etiqueta": "Home, Simplified · Ep. 10"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN10_why-isnt-lily-sneezing/EN10.mp4",
+  "duracion": 26.5,
+  "fecha": "2026-11-04T14:27:39Z"
 }
