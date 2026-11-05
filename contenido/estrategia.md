@@ -239,7 +239,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 032 | Antes y después: tu interruptor (interruptor normal vs. inteligente) | Texto ES/EN | Escenas y estilo de vida | No | es_salsa_ligera / en_upbeat_pop | Hecho y programado 2026-11-04 (EN 12:00, ES 18:00) | Sí (contenido/guiones/032_antes_despues.json y _en) |
 
-Siguiente número: 033.
+| 033 | ¿Quién movió el termostato otra vez? (termostato inteligente: horarios, celular, voz) | Texto ES/EN | Molestia diaria | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-05 (EN 12:00, ES 18:00) | Sí (contenido/guiones/033_guerra_termostato.json y _en) |
+
+Siguiente número: 034.
 
 ## Series de familias (episodios con historia)
 
