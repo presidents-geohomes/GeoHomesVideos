@@ -1,0 +1,130 @@
+{
+  "id": "es_013_que_se_mueve_en_la_piscina",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES13_que-se-mueve-en-la-piscina",
+  "archivo": "ES13.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Curious, lightly suspenseful opening that resolves into warm playful relief, instrumental for a premium smart-home lifestyle commercial: soft plucked notes and quiet felt piano with a small mystery for the first ten seconds, then warm cheerful acoustic guitar and light piano around 95 BPM, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/ES13/p1_sombra_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "11:00 a. m. · Rutina de la mañana",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Bright sunny late-morning backyard pool seen from above the water. The dark oval shadow on the pool floor slides slowly and steadily across the tiles under the rippling turquoise water. Sunlight caustics shimmer. Nothing else moves. No people, no animals. No camera movement."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-lanai.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Nadie en casa · Floyd mira el agua",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Floyd sits at the sliding door looking at the pool."
+    },
+    {
+      "imagen": "planos/ES13/p3_cam_a_1.png",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Cámara del lanai · Revisando",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera, close view of the black camera on the lanai post in bright late-morning sun. Its head pans slowly a little toward the pool and a tiny status light blinks. Palm leaves sway gently. The camera does not change shape. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/ES13/p4_robot_b_1.png",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Robot de piscina · Limpiando el fondo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Bright sunny late morning, clear turquoise pool. The round white and dark gray robotic pool cleaner glides slowly forward along the tiled pool floor under the water, and the brown leaves in front of it get gently pulled underneath it and disappear one by one. Ripples and sunlight caustics move over it. The robot keeps its shape. No people. No camera movement."
+    },
+    {
+      "imagen": "planos/ES13/p6_daniel_a_1.png",
+      "duracion": 5,
+      "musica": "media",
+      "texto": "Aviso a Daniel · Piscina limpia",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Sunny tropical garden in late morning. The man in the olive green shirt, seen from behind and the side, stands still next to his rake holding his phone low; he glances down at it, nods softly and smiles a little. The phone screen is never visible. His mouth does not move, he does not speak. Palm leaves sway gently. Nobody else around. No camera movement."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-lan-piscina.mp4",
+      "duracion": 4,
+      "musica": "alta",
+      "texto": "Piscina lista · Sin tocar nada",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The clean pool shines under the sun."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Qué se mueve en el fondo de esta piscina?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Floyd lo vio primero.",
+        "desde": 0.4
+      },
+      {
+        "escena": 3,
+        "texto": "Y en casa no hay nadie.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "Es el robot. La casa lo manda a las once.",
+        "desde": 0.6
+      },
+      {
+        "escena": 5,
+        "texto": "Daniel limpia jardines ajenos todo el día.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Su piscina se limpia sola.",
+        "desde": 0.4
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES13/p1_sombra_a_1.png",
+    "titulo": "¿Qué se mueve en el fondo?",
+    "etiqueta": "Casa que te entiende · Ep. 13"
+  }
+}
