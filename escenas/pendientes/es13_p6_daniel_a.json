@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES13",
+  "archivo": "p6_daniel_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/personajes/daniel_cuerpo.png"
+  ],
+  "prompt": "The same man from the reference photo: hispanic, short dark brown hair, short beard, olive green henley, jeans and work boots. Photo of a neighbor customer's tropical garden in Southwest Florida in bright late-morning sun, a different property: hedges, palms and a pile of raked leaves on a green lawn, a plain rake leaning next to him. He is seen from behind and the side, at medium distance, holding a phone low in one hand, the screen not visible. Realistic photo, vertical. No other people, no vehicles, no text, no logos."
+}
