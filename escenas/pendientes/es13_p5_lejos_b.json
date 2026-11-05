@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES13",
+  "archivo": "p5_daniel_lejos_b.png",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES13/p6_daniel_a_1.png"
+  ],
+  "prompt": "Same man, same olive green shirt, jeans and boots, same sunny tropical customer garden, same rake and pile of leaves as the reference photo, seen from behind and the side, holding his phone low with the screen not visible. Wider framing: the camera is much farther away, so the man is small and stands in the exact middle of the vertical frame. His head is at about one third of the image height with empty palm trees and sky above him, and his boots are at about two thirds of the image height with a lot of empty green lawn below him. Only one person. Realistic photo. No text, no logos."
+}
