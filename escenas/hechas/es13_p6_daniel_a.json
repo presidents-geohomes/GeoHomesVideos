@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES13",
+  "archivo": "p6_daniel_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/personajes/daniel_cuerpo.png"
+  ],
+  "prompt": "The same man from the reference photo: hispanic, short dark brown hair, short beard, olive green henley, jeans and work boots. Photo of a neighbor customer's tropical garden in Southwest Florida in bright late-morning sun, a different property: hedges, palms and a pile of raked leaves on a green lawn, a plain rake leaning next to him. He is seen from behind and the side, at medium distance, holding a phone low in one hand, the screen not visible. Realistic photo, vertical. No other people, no vehicles, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1ac23-2d9c-74c4-8a5d-a91346f0894c",
+    "status_url": "https://api.higgsfield.ai/requests/01a1ac23-2d9c-74c4-8a5d-a91346f0894c/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1ac23-2d9c-74c4-8a5d-a91346f0894c/cancel",
+    "expires_at": "2026-11-12T14:36:25.209617+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1ac23-2d9c-74c4-8a5d-a91346f0894c",
+  "resultado": [
+    "planos/ES13/p6_daniel_a_1.png"
+  ],
+  "generado": "2026-11-05T14:36:32Z"
+}

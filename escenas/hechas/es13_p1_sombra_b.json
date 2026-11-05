@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES13",
+  "archivo": "p1_sombra_b.png",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png"
+  ],
+  "prompt": "Keep the very same backyard pool, cage, brick pavers and bright late-morning sunny daylight from the reference photo. Move closer: a medium view looking down at the turquoise pool water, the water filling most of the vertical frame, with the edge of the pool and the covered lanai small at the top. On the pool floor, deep under the rippling water, one single blurry dark oval shadow about the size of a large suitcase, mysterious and not recognizable. No people, no animals, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1ac22-8004-75d6-9717-df4a7a121d7f",
+    "status_url": "https://api.higgsfield.ai/requests/01a1ac22-8004-75d6-9717-df4a7a121d7f/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1ac22-8004-75d6-9717-df4a7a121d7f/cancel",
+    "expires_at": "2026-11-12T14:35:46.295205+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1ac22-8004-75d6-9717-df4a7a121d7f",
+  "resultado": [
+    "planos/ES13/p1_sombra_b_1.png"
+  ],
+  "generado": "2026-11-05T14:35:48Z"
+}

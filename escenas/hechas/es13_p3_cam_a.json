@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES13",
+  "archivo": "p3_cam_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "banco/fotos_insertos/f1/f1-ins-cam-lanai_1_1.jpg",
+    "familias/familia_1/set/lanai_piscina.png"
+  ],
+  "prompt": "Keep exactly the black camera from the first photo mounted on the same stucco post of the covered lanai, in the same framing. Change only the light and background to bright sunny late morning as in the second photo: blue sky, palms, turquoise pool behind. No sunset, no orange tones. No people, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1ac22-817b-7fe3-9cc4-553826bfd217",
+    "status_url": "https://api.higgsfield.ai/requests/01a1ac22-817b-7fe3-9cc4-553826bfd217/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1ac22-817b-7fe3-9cc4-553826bfd217/cancel",
+    "expires_at": "2026-11-12T14:36:27.637676+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1ac22-817b-7fe3-9cc4-553826bfd217",
+  "resultado": [
+    "planos/ES13/p3_cam_a_1.png"
+  ],
+  "generado": "2026-11-05T14:36:39Z"
+}
