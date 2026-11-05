@@ -126,5 +126,9 @@
     "imagen": "planos/ES13/p1_sombra_a_1.png",
     "titulo": "¿Qué se mueve en el fondo?",
     "etiqueta": "Casa que te entiende · Ep. 13"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES13_que-se-mueve-en-la-piscina/ES13.mp4",
+  "duracion": 25.5,
+  "fecha": "2026-11-05T14:53:10Z"
 }
