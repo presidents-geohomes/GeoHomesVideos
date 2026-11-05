@@ -1,0 +1,13 @@
+{
+  "titulo": "Who touched the thermostat again?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Who touched the *thermostat again?*", "dur": 2.8},
+    {"type": "text", "kicker": "Every home has this", "text": "End the *thermostat wars.*", "dur": 2.8},
+    {"type": "list", "title": "*Smart thermostat:*", "items": ["Schedules for every day", "Check it from your phone", "Adjust it from anywhere", "Or just ask out loud"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Peace at home, *at your temp.*", "sub": "Southwest Florida", "phone": "(239) 204-6336", "button": "Text us today", "dur": 4.0}
+  ],
+  "caption": "Who touched the thermostat again? 🌡️ Set schedules and check it from your phone. We install it in your home anywhere in Southwest Florida.\n📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #SmartThermostat #HomeTips",
+  "tiktok_title": "Who touched the thermostat again? End the fight 🌡️"
+}
