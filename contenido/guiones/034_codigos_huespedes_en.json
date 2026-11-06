@@ -1,0 +1,42 @@
+{
+  "titulo": "Still handing keys to your guests?",
+  "idioma": "en",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Still handing *keys to your guests?*",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Rental homes",
+      "text": "Every guest gets *their own code.*",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "*Smart lock:*",
+      "items": [
+        "A code per guest",
+        "Expires when they leave",
+        "See when they arrive",
+        "No more key copies"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Your current home. *No new build.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "Your rental, *no keys to chase.*",
+      "sub": "Southwest Florida",
+      "button": "Message us today",
+      "dur": 3.8
+    }
+  ],
+  "caption": "Still handing keys to your guests? 🔑 Give each one a code that expires when they leave. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartLock #VacationRental",
+  "tiktok_title": "Still handing keys to your guests? Give each a code 🔑"
+}

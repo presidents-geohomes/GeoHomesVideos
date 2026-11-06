@@ -1,0 +1,42 @@
+{
+  "titulo": "¿Aún le das llaves a tus huéspedes?",
+  "idioma": "es",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "¿Aún le das *llaves a tus huéspedes?*",
+      "dur": 2.8
+    },
+    {
+      "type": "text",
+      "kicker": "Casa de alquiler",
+      "text": "Cada huésped, *su propio código.*",
+      "dur": 2.8
+    },
+    {
+      "type": "list",
+      "title": "*Cerradura inteligente:*",
+      "items": [
+        "Un código por huésped",
+        "Caduca cuando se van",
+        "Mira cuándo entran",
+        "Sin copias de llaves"
+      ],
+      "dur": 5.0
+    },
+    {
+      "type": "text",
+      "text": "Tu casa actual. *Sin construcción nueva.*",
+      "dur": 2.6
+    },
+    {
+      "type": "cta",
+      "text": "Tu alquiler, *sin pasar llaves.*",
+      "sub": "Suroeste de Florida",
+      "button": "Escríbenos hoy",
+      "dur": 3.8
+    }
+  ],
+  "caption": "¿Aún le das llaves a tus huéspedes? 🔑 Mejor un código para cada uno, que caduca cuando se van. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CasaDeAlquiler",
+  "tiktok_title": "¿Aún le das llaves a tus huéspedes? Un código para cada uno 🔑"
+}
