@@ -181,7 +181,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - Temporada de huracanes: revisa tu casa desde el celular (usado: 005)
 - ¿Dejé la plancha / la luz prendida? Revísalo desde el trabajo (usado: 023)
 - Tus papás mayores, más seguros e independientes (usado: 024)
-- Airbnb: códigos de puerta para cada huésped
+- Airbnb: códigos de puerta para cada huésped (usado: 034)
 - Despierta con luz natural: persianas automáticas (usado: 012)
 - Luces que se prenden solas al anochecer (usado: 018)
 - 5 cosas que puedes controlar con tu voz (parecido a 004)
@@ -241,7 +241,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 033 | ¿Quién movió el termostato otra vez? (termostato inteligente: horarios, celular, voz) | Texto ES/EN | Molestia diaria | Sí | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-05 (EN 12:00, ES 18:00) | Sí (contenido/guiones/033_guerra_termostato.json y _en) |
 
-Siguiente número: 034.
+| 034 | ¿Aún le das llaves a tus huéspedes? (cerradura inteligente en casas de alquiler: un código por huésped) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-06 (EN 12:00, ES 18:00) | Sí (contenido/guiones/034_codigos_huespedes.json y _en) |
+
+Siguiente número: 035.
 
 ## Series de familias (episodios con historia)
 
