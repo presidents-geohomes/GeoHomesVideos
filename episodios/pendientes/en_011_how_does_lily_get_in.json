@@ -1,0 +1,148 @@
+{
+  "id": "en_011_how_does_lily_get_in",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN11_how-does-lily-get-in",
+  "archivo": "EN11.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original afternoon instrumental for a cozy family smart-home story: opens with a few light, curious plucked notes and soft pizzicato (a small mystery), then warms into a gentle reassuring theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, tender and hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN11/p1_bici_b_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "4:00 PM · Mom's at work",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Sunny late afternoon in front of a white single-story house. Far away, seen from behind, the girl in the yellow t-shirt and lilac helmet pedals her light-blue bicycle slowly up the concrete driveway toward the closed white garage door and gently slows down. Palm fronds sway softly, long shadows on the driveway. The garage door stays closed. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-cam-ext.mp4",
+      "clip_desde": 0.0,
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Garage cam · Lily's home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2
+    },
+    {
+      "imagen": "planos/EN11/p3_emma_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Open the garage",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.6,
+      "prompt": "Static camera. Bright hospital nurses' station in afternoon daylight. The nurse in navy scrubs, seen three-quarters from behind, stands at the white counter holding her phone low in front of her; she glances down at it, taps it once with her thumb and smiles softly, relaxed. Her mouth does not move, she does not speak. The phone screen is never visible. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN11/p4_espera_b_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Garage · Opening",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Sunny late afternoon. Seen from behind and far away, the girl in the yellow t-shirt and lilac helmet stands still holding her light-blue bicycle on the driveway. The wide white garage door rolls smoothly straight up and opens, revealing a tidy garage with an empty left bay, a workbench and shelves; the garage lights are on. The girl stays in place and only takes one small step forward. The house does not change. No camera movement.",
+      "imagen_final": "planos/EN11/p4_abierto_a_1.png"
+    },
+    {
+      "imagen": "planos/EN11/p5_entra_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Bike · Parked inside",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "Static camera. Sunny late afternoon. Seen from behind and far away, the girl in the yellow t-shirt and lilac helmet slowly walks her light-blue bicycle into the open garage toward the workbench on the right side. Everything else stays still. No camera movement."
+    },
+    {
+      "imagen": "planos/EN11/p6_vacio_sin_casco_a_1.png",
+      "duracion": 3.5,
+      "musica": "media",
+      "texto": "Garage · Closing",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Sunny late afternoon in front of the white house. Nobody is visible. The wide white garage door rolls smoothly straight down and closes completely, hiding the parked light-blue bicycle and the workbench. Palm fronds sway softly. The house does not change. No camera movement.",
+      "imagen_final": "familias/familia_2/set/ext_dia.png"
+    },
+    {
+      "imagen": "planos/EN11/p7_cocina_b_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Garage · Closed · Lily's in",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Warm golden afternoon kitchen. The girl in the yellow t-shirt, holding a lilac bike helmet, steps in from the laundry room door on the left and smiles down at the fluffy orange tabby cat, who walks slowly over to her, tail up, and rubs against her legs. Seen from a distance. Nobody speaks. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Lily has no garage remote. So how?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "The garage camera sees her first.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Mom's on shift. She checks, and taps.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "The door rolls up, just for her.",
+        "desde": 0.4
+      },
+      {
+        "escena": 5,
+        "texto": "Bike parked, right where it goes.",
+        "desde": 0.5
+      },
+      {
+        "escena": 6,
+        "texto": "Then it closes behind her.",
+        "desde": 0.3
+      },
+      {
+        "escena": 7,
+        "texto": "No remote needed. Mom was one tap away.",
+        "desde": 0.4
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN11/p4_espera_b_1.png",
+    "titulo": "Lily has no garage remote. So how does she get in?",
+    "etiqueta": "Home, Simplified · Ep. 11"
+  }
+}
