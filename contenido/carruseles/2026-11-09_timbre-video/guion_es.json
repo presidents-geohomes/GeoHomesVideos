@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Quién toca? Míralo antes de abrir",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/timbre-video.jpg",
+      "etiqueta": "TIMBRE CON VIDEO",
+      "titulo": "¿Quién toca? Míralo antes de abrir",
+      "texto": "Ve y habla con quien está en tu puerta."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Suena el timbre y no esperas a nadie",
+      "texto": "¿Abres a ciegas? ¿Miras por la ventana?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/timbre-video_1.jpg",
+      "etiqueta": "VIDEO EN TU CELULAR",
+      "titulo": "Contesta desde el sofá o desde el trabajo",
+      "texto": "Y si te dejan un paquete, te enteras al momento."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/timbre-video.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves quién toca",
+        "Hablas sin abrir",
+        "Aviso de paquetes",
+        "Grabación de visitas"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos TIMBRE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Quién toca? Míralo antes de abrir 🔔 Video y voz en tu celular, estés en casa o no. Estimado gratis. Escríbenos TIMBRE o llama al (239) 204-6336.\n\n#CasaInteligente #TimbreConVideo #SuroesteDeFlorida #Naples #GeoHomes",
+  "tiktok_title": "Suena el timbre y no esperas a nadie: míralo antes de abrir 🔔"
+}

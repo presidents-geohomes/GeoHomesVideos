@@ -1,0 +1,50 @@
+{
+  "titulo": "Your whole home on one screen",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/pantalla-inteligente_1.jpg",
+      "etiqueta": "SMART DISPLAY",
+      "titulo": "Your whole home on one screen",
+      "texto": "Lights, door and cameras from the kitchen."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Hunting for your phone to turn off a light?",
+      "texto": "Not easy with flour on your hands."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg",
+      "etiqueta": "ON THE WALL OR COUNTER",
+      "titulo": "One tap and you see it all",
+      "texto": "When you're not using it, it shows your photos."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/pantalla-inteligente_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "See who's at the door",
+        "Lights and locks",
+        "Live cameras",
+        "No phone needed"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us SCREEN",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Your whole home on one screen 📲 Lights, locks and cameras with one tap from the kitchen. Free estimate. Text us SCREEN or call (239) 204-6336.\n\n#SmartHome #SmartDisplay #SouthwestFlorida #BonitaSprings #GeoHomes",
+  "tiktok_title": "Lights, locks and cameras on one kitchen screen 📲"
+}

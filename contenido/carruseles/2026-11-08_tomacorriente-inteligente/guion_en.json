@@ -1,0 +1,50 @@
+{
+  "titulo": "Did you leave the coffee maker on?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/tomacorriente-inteligente_1.jpg",
+      "etiqueta": "SMART PLUG",
+      "titulo": "Did you leave the coffee maker on?",
+      "texto": "Turn it off from your phone, wherever you are."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Halfway to work and the doubt kicks in",
+      "texto": "The coffee maker? The iron? Turn around?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "KEEP YOUR APPLIANCES",
+      "titulo": "It goes into the outlet you already have",
+      "texto": "Whatever you plug in, you control from the app."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/tomacorriente-inteligente_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Turn it off remotely",
+        "See if it's still on",
+        "Set your own schedules",
+        "Works with your voice"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us PLUG",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Did you leave the coffee maker on? 🔌 Check it and turn it off from your phone. Free estimate. Text us PLUG or call (239) 204-6336.\n\n#SmartHome #SmartPlug #SouthwestFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Left the coffee maker on? Turn it off from your phone 🔌"
+}

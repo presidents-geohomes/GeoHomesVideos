@@ -1,0 +1,50 @@
+{
+  "titulo": "Anochece y las persianas bajan solas",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-persianas.jpg",
+      "etiqueta": "PERSIANAS MOTORIZADAS",
+      "titulo": "Anochece y las persianas bajan solas",
+      "texto": "Tu sala, privada sin que lo pienses."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Luz prendida, persianas arriba",
+      "texto": "Y desde la calle se ve toda tu sala."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-persianas_2.jpg",
+      "etiqueta": "AL ATARDECER",
+      "titulo": "Bajan solas cuando se pone el sol",
+      "texto": "Y suben en la mañana para dejar entrar la luz."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/control-persianas_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Privacidad de noche",
+        "Luz al despertar",
+        "Todas con un toque",
+        "Con tu voz o la app"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos PERSIANA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Anochece y las persianas bajan solas 🌇 Privacidad de noche y luz natural en la mañana, sin tocar un cordón. Estimado gratis. Escríbenos PERSIANA o llama al (239) 204-6336.\n\n#CasaInteligente #PersianasMotorizadas #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "¿Desde la calle se ve tu sala de noche? Las persianas bajan solas 🌇"
+}

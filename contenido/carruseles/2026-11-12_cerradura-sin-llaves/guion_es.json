@@ -1,0 +1,50 @@
+{
+  "titulo": "Adiós a la llave bajo la maceta",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "CERRADURA INTELIGENTE",
+      "titulo": "Adiós a la llave bajo la maceta",
+      "texto": "Entras con un código, sin llaves."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Copias de llaves por toda la familia?",
+      "texto": "Y una escondida afuera, por si acaso."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "etiqueta": "UN CÓDIGO PARA CADA UNO",
+      "titulo": "Cada quien con su propio código",
+      "texto": "Y ves en el celular quién entró y a qué hora."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/cerradura-inteligente_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Sin llaves escondidas",
+        "Códigos por persona",
+        "Aviso al entrar",
+        "Ciérrala desde la app"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos LLAVE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Adiós a la llave bajo la maceta 🔑 Cada quien entra con su código y tú ves quién llegó. Estimado gratis. Escríbenos LLAVE o llama al (239) 204-6336.\n\n#CasaInteligente #CerraduraInteligente #SuroesteDeFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "¿Todavía escondes la llave bajo la maceta? Hay algo mejor 🔑"
+}

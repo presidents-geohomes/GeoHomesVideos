@@ -1,0 +1,50 @@
+{
+  "titulo": "Who's at the door? See before you open",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/timbre-video.jpg",
+      "etiqueta": "VIDEO DOORBELL",
+      "titulo": "Who's at the door? See before you open",
+      "texto": "See and talk to whoever's on your porch."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Doorbell rings and you're not expecting anyone",
+      "texto": "Open blind? Peek through the blinds?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/timbre-video_1.jpg",
+      "etiqueta": "VIDEO ON YOUR PHONE",
+      "titulo": "Answer from the couch or from work",
+      "texto": "And when a package lands, you know right away."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/timbre-video.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "See who's there",
+        "Talk without opening",
+        "Package alerts",
+        "Recorded visits"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us DOORBELL",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Who's at the door? See before you open 🔔 Video and two-way talk on your phone, home or away. Free estimate. Text us DOORBELL or call (239) 204-6336.\n\n#SmartHome #VideoDoorbell #SouthwestFlorida #Naples #GeoHomes",
+  "tiktok_title": "Not expecting anyone? See who's at the door first 🔔"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "No more key under the flowerpot",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "SMART LOCK",
+      "titulo": "No more key under the flowerpot",
+      "texto": "Walk in with a code. No keys."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Spare keys all over the family?",
+      "texto": "Plus one hidden outside, just in case."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "etiqueta": "A CODE FOR EVERYONE",
+      "titulo": "Everyone gets their own code",
+      "texto": "And your phone shows who came in, and when."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/cerradura-inteligente_2.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "No hidden spare key",
+        "Codes per person",
+        "Alerts when they arrive",
+        "Lock it from the app"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us KEY",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "No more key under the flowerpot 🔑 Everyone gets their own code, and you see who came home. Free estimate. Text us KEY or call (239) 204-6336.\n\n#SmartHome #SmartLock #SouthwestFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "Still hiding a key under the flowerpot? There's a better way 🔑"
+}

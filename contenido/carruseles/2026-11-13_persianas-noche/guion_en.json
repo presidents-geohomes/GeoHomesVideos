@@ -1,0 +1,50 @@
+{
+  "titulo": "Sunset hits and the shades come down",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-persianas.jpg",
+      "etiqueta": "MOTORIZED SHADES",
+      "titulo": "Sunset hits and the shades come down",
+      "texto": "A private living room, without thinking about it."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Lights on, shades open",
+      "texto": "And the whole street can see your living room."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-persianas_2.jpg",
+      "etiqueta": "AT SUNSET",
+      "titulo": "They lower when the sun goes down",
+      "texto": "And rise in the morning to let the light in."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/control-persianas_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Privacy at night",
+        "Daylight to wake up",
+        "All with one tap",
+        "Voice or app control"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us SHADES",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Sunset hits and the shades come down 🌇 Privacy at night, daylight in the morning, no cords to pull. Free estimate. Text us SHADES or call (239) 204-6336.\n\n#SmartHome #MotorizedShades #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Can the street see into your living room at night? Not anymore 🌇"
+}

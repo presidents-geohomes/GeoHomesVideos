@@ -1,0 +1,50 @@
+{
+  "titulo": "Tu casa entera en una pantalla",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/pantalla-inteligente_1.jpg",
+      "etiqueta": "PANTALLA INTELIGENTE",
+      "titulo": "Tu casa entera en una pantalla",
+      "texto": "Luces, puerta y cámaras desde la cocina."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Buscando el celular para apagar una luz?",
+      "texto": "Con las manos en la masa, no siempre se puede."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg",
+      "etiqueta": "EN LA PARED O LA ENCIMERA",
+      "titulo": "Un toque y lo ves todo",
+      "texto": "Y cuando no la usas, muestra tus fotos."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/pantalla-inteligente_2.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves quién toca",
+        "Luces y puerta",
+        "Cámaras en vivo",
+        "Sin buscar el celular"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos PANTALLA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Tu casa entera en una pantalla 📲 Luces, puerta y cámaras con un toque desde la cocina. Estimado gratis. Escríbenos PANTALLA o llama al (239) 204-6336.\n\n#CasaInteligente #PantallaInteligente #SuroesteDeFlorida #BonitaSprings #GeoHomes",
+  "tiktok_title": "Luces, puerta y cámaras en una pantalla en la cocina 📲"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Dejaste la cafetera prendida?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/tomacorriente-inteligente_1.jpg",
+      "etiqueta": "TOMACORRIENTE INTELIGENTE",
+      "titulo": "¿Dejaste la cafetera prendida?",
+      "texto": "Apágala desde tu celular, estés donde estés."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Vas por la autopista y te entra la duda",
+      "texto": "¿La cafetera? ¿La plancha? ¿Me regreso?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "SIN CAMBIAR TUS APARATOS",
+      "titulo": "Se conecta al enchufe que ya tienes",
+      "texto": "Y lo que enchufes ahí lo controlas desde la app."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/tomacorriente-inteligente_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Apaga desde el celular",
+        "Ves si quedó prendido",
+        "Horarios a tu gusto",
+        "Funciona con tu voz"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos ENCHUFE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Dejaste la cafetera prendida? 🔌 Revísala y apágala desde tu celular. Estimado gratis. Escríbenos ENCHUFE o llama al (239) 204-6336.\n\n#CasaInteligente #EnchufeInteligente #SuroesteDeFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "¿Dejaste la cafetera prendida? Apágala desde el celular 🔌"
+}

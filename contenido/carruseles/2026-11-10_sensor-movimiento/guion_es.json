@@ -1,0 +1,50 @@
+{
+  "titulo": "De noche, la luz te recibe sola",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/sensor-movimiento_1.jpg",
+      "etiqueta": "SENSOR DE MOVIMIENTO",
+      "titulo": "De noche, la luz te recibe sola",
+      "texto": "Caminas por el pasillo y se prende."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Las 3 a. m. y vas a la cocina a oscuras",
+      "texto": "Tanteando la pared para encontrar el interruptor."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/sensor-movimiento.jpg",
+      "etiqueta": "PEQUEÑO Y DISCRETO",
+      "titulo": "Detecta que pasas y enciende la luz",
+      "texto": "Suave de noche, y se apaga cuando ya no hay nadie."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/sensor-movimiento_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Luz al pasar",
+        "Se apaga sola",
+        "Brillo suave de noche",
+        "Pasillos, baños y garaje"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos SENSOR",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "De noche, la luz te recibe sola 🌙 Pasas por el pasillo y se prende; te vas y se apaga. Estimado gratis. Escríbenos SENSOR o llama al (239) 204-6336.\n\n#CasaInteligente #SensorDeMovimiento #SuroesteDeFlorida #Estero #GeoHomes",
+  "tiktok_title": "¿A la cocina a las 3 a. m. y a oscuras? La luz se prende sola 🌙"
+}

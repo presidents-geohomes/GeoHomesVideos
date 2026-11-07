@@ -1,0 +1,50 @@
+{
+  "titulo": "At night, the lights meet you",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/sensor-movimiento_1.jpg",
+      "etiqueta": "MOTION SENSOR",
+      "titulo": "At night, the lights meet you",
+      "texto": "Walk down the hallway and they turn on."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "3 a.m. snack run in the dark",
+      "texto": "Feeling along the wall for the switch."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/sensor-movimiento.jpg",
+      "etiqueta": "SMALL AND DISCREET",
+      "titulo": "It senses you and turns on the light",
+      "texto": "Soft at night, off again once you're gone."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/sensor-movimiento_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Lights on as you walk",
+        "Off by themselves",
+        "Soft glow at night",
+        "Halls, baths, garage"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us SENSOR",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "At night, the lights meet you 🌙 Walk by and they turn on, walk away and they turn off. Free estimate. Text us SENSOR or call (239) 204-6336.\n\n#SmartHome #MotionSensor #SouthwestFlorida #Estero #GeoHomes",
+  "tiktok_title": "3 a.m. snack run? The lights turn on by themselves 🌙"
+}
