@@ -144,5 +144,9 @@
     "imagen": "planos/EN11/p4_espera_b_1.png",
     "titulo": "Lily has no garage remote. So how does she get in?",
     "etiqueta": "Home, Simplified · Ep. 11"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN11_how-does-lily-get-in/EN11.mp4",
+  "duracion": 26.5,
+  "fecha": "2026-11-07T14:27:48Z"
 }
