@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN11",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN11/p6_vacio_a_1.png"
+  ],
+  "archivo": "p6_vacio_sin_casco_b.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EVERYTHING exactly the same (camera angle, framing, house, open garage, workbench, shelves, water heater, light, sky, driveway, lawn, the light-blue kids bicycle parked in the garage). Only change: remove the lilac helmet from the bicycle, nothing hangs on the handlebars. Vertical 9:16, no text, no logos, no people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1b65e-9b69-73f4-b86d-5e0d7483cd2b",
+    "status_url": "https://api.higgsfield.ai/requests/01a1b65e-9b69-73f4-b86d-5e0d7483cd2b/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1b65e-9b69-73f4-b86d-5e0d7483cd2b/cancel",
+    "expires_at": "2026-11-14T14:17:33.268123+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1b65e-9b69-73f4-b86d-5e0d7483cd2b",
+  "resultado": [
+    "planos/EN11/p6_vacio_sin_casco_b_1.png"
+  ],
+  "generado": "2026-11-07T14:17:38Z"
+}
