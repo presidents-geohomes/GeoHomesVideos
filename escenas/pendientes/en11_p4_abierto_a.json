@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN11",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_dia.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "archivo": "p4_abierto_a.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, house, white stucco walls, gray tile roof, arched garage, potted palms, front porch with black bench, lawn, concrete driveway, street, red curb, sky and warm late-afternoon light with long shadows. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people, no cars. The wide single garage door is now FULLY OPEN (rolled up out of sight), showing the inside of a tidy garage: the LEFT bay is completely EMPTY (no car, bare light-gray concrete floor), on the RIGHT side a wooden workbench with a pegboard of tools and metal shelves with gray storage bins, a water heater in the back corner, white ceiling lights on. The girl is the 9-year-old girl from the second reference photo (light brown hair in a long ponytail, yellow t-shirt, denim shorts, white sneakers, NO backpack) wearing a plain lilac bike helmet with no logo, with a plain light-blue kids bicycle with no logo or text. She stands still on the driveway right in front of the open garage, seen from behind, holding her bicycle by the handlebars beside her, looking into the garage. Far from the camera, realistic child scale (her helmet reaches about half the door opening height), face not visible."
+}
