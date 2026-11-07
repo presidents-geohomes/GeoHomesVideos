@@ -90,7 +90,7 @@
    "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
   }
  },
- "escenarios_trabajo": {"_nota": "Lugares de Emma en el hospital. Rotarlos; el último usado no se repite. Añadir aquí cada lugar nuevo. Sin el celular mostrando pantalla.", "pasillo": "planos/EN02/p3_emma_hospital_1.png (usado en EN02, EN04, EN07, EN08, EN09)", "sala_descanso": "planos/EN10/p6_descanso_b_1.png (mesa redonda, café, casilleros; usado en EN10)", "estacion_enfermeras": "planos/EN10/p6_estacion_a_1.png (sin usar)", "terraza": "planos/EN10/p6_estacion_b_1.png (sin usar; la cabeza queda muy arriba: revisar que el letrero no la tape)"},
+ "escenarios_trabajo": {"_nota": "Lugares de Emma en el hospital. Rotarlos; el último usado no se repite. Añadir aquí cada lugar nuevo. Sin el celular mostrando pantalla.", "pasillo": "planos/EN02/p3_emma_hospital_1.png (usado en EN02, EN04, EN07, EN08, EN09)", "sala_descanso": "planos/EN10/p6_descanso_b_1.png (mesa redonda, café, casilleros; usado en EN10)", "estacion_enfermeras": "planos/EN10/p6_estacion_a_1.png (sin usar)", "estacion_mostrador": "planos/EN11/p3_emma_a_1.png (mostrador blanco junto a ventana, plano abierto con espacio arriba para el letrero; usado en EN11)", "terraza": "planos/EN10/p6_estacion_b_1.png (sin usar; la cabeza queda muy arriba: revisar que el letrero no la tape)"},
  "aparatos": {
   "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
   "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
