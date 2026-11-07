@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN11",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/ext_dia.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "archivo": "p4_espera_a.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, house, white stucco walls, gray tile roof, arched garage, potted palms, front porch with black bench, lawn, concrete driveway, street, red curb, sky and warm late-afternoon light with long shadows. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people, no cars. The garage door stays CLOSED. The girl is the 9-year-old girl from the second reference photo (light brown hair in a long ponytail, yellow t-shirt, denim shorts, white sneakers, NO backpack) wearing a plain lilac bike helmet with no logo, with a plain light-blue kids bicycle with no logo or text. She stands still on the driveway right in front of the closed garage door, seen from behind, holding her bicycle by the handlebars beside her, looking at the garage door. Far from the camera, realistic child scale against the garage door (her helmet reaches about half the door height), face not visible.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1b654-f9cc-7b7a-a0d5-ade6cec623b2",
+    "status_url": "https://api.higgsfield.ai/requests/01a1b654-f9cc-7b7a-a0d5-ade6cec623b2/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1b654-f9cc-7b7a-a0d5-ade6cec623b2/cancel",
+    "expires_at": "2026-11-14T14:07:43.380350+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1b654-f9cc-7b7a-a0d5-ade6cec623b2",
+  "resultado": [
+    "planos/EN11/p4_espera_a_1.png"
+  ],
+  "generado": "2026-11-07T14:07:49Z"
+}
