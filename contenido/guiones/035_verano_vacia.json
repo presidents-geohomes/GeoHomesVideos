@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Te vas todo el verano?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Te vas todo el *verano?*", "dur": 2.8},
+    {"type": "text", "kicker": "Casa sola en Florida", "text": "Tu casa te *avisa de todo.*", "dur": 2.8},
+    {"type": "list", "title": "*Revísala desde lejos:*", "items": ["Cámaras en vivo", "Aviso de fugas", "Clima a tu gusto", "Luces con horario"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Vete tranquilo, *ella vigila.*", "sub": "Suroeste de Florida", "phone": "(239) 204-6336", "button": "Envíanos un texto", "dur": 4.0}
+  ],
+  "caption": "¿Te vas todo el verano? ☀️ Mira tu casa, recibe avisos de fugas y cuida el clima desde el celular. Lo instalamos en tu casa en el suroeste de Florida.\n📲 Envíanos un texto al (239) 204-6336 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CasaVacia",
+  "tiktok_title": "¿Te vas todo el verano? Tu casa te avisa de todo ☀️"
+}

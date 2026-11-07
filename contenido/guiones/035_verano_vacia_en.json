@@ -1,0 +1,13 @@
+{
+  "titulo": "Leaving for the summer?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Leaving for the *summer?*", "dur": 2.8},
+    {"type": "text", "kicker": "Empty home in Florida", "text": "Your home *keeps you posted.*", "dur": 2.8},
+    {"type": "list", "title": "*Check it from afar:*", "items": ["Live cameras", "Leak alerts", "Climate your way", "Lights on a schedule"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Go relax, *it keeps watch.*", "sub": "Southwest Florida", "phone": "(239) 204-6336", "button": "Text us today", "dur": 4.0}
+  ],
+  "caption": "Leaving for the summer? ☀️ Check your home, get leak alerts and set the climate from your phone. We install it in your home anywhere in Southwest Florida.\n📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #VacantHome #HomeTips",
+  "tiktok_title": "Leaving for the summer? Your home keeps you posted ☀️"
+}
