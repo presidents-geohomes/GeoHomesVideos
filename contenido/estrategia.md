@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -192,6 +192,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples (usado: 027)
 - 3 señales de que tu casa necesita ser inteligente
+- ¿Te vas todo el verano? Tu casa te avisa (usado: 035)
 - ¿Qué pasa si se va el internet? (explicar sin prometer) (usado: 021)
 - Timbre con cámara: habla con el repartidor desde la oficina (parecido a 009)
 - El garaje se cierra solo cuando te vas (parecido a 008)
@@ -243,7 +244,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 034 | ¿Aún le das llaves a tus huéspedes? (cerradura inteligente en casas de alquiler: un código por huésped) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-06 (EN 12:00, ES 18:00) | Sí (contenido/guiones/034_codigos_huespedes.json y _en) |
 
-Siguiente número: 035.
+| 035 | ¿Te vas todo el verano? (casa vacía en verano: cámaras, fugas, clima, luces) | Texto ES/EN | Florida y temporada | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-07 (EN 12:00, ES 18:00) | Sí (contenido/guiones/035_verano_vacia.json y _en) |
+
+Siguiente número: 036.
 
 ## Series de familias (episodios con historia)
 
