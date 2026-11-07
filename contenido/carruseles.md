@@ -30,8 +30,13 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-11-04/05 | Válvula de agua y sensor de fugas | fuga escondida bajo el fregadero/calentador; aviso y cierre del agua a distancia |
 | 2026-11-05/06 | Bocina inteligente | manos ocupadas cocinando: luz, timer y música con la voz; música en toda la casa |
 | 2026-11-06/07 | Inodoro inteligente | el baño también se pone inteligente; asiento con bidé, tibio y luz de noche sin remodelar |
+| 2026-11-08/09 | Tomacorriente inteligente | ¿dejaste la cafetera prendida? revísala y apágala desde el celular; horarios |
+| 2026-11-09/10 | Timbre con video | ¿quién toca? míralo antes de abrir; contesta desde el sofá o el trabajo; aviso de paquetes |
+| 2026-11-10/11 | Sensor de movimiento | de noche la luz te recibe sola; ir a la cocina a las 3 a. m. sin tantear el interruptor |
+| 2026-11-11/12 | Pantalla inteligente | tu casa entera en una pantalla en la cocina (luces, puerta, cámaras, fotos) |
+| 2026-11-12/13 | Cerradura inteligente | adiós a la llave bajo la maceta; un código para cada quien y aviso de quién entró |
+| 2026-11-13/14 | Persianas motorizadas | anochece y bajan solas (privacidad de noche), suben en la mañana |
 
 ## Temas sugeridos aún sin usar
-cerradura inteligente · timbre con video · control de persianas · sensor de movimiento · pantalla inteligente ·
-tomacorriente inteligente · cámara interior · escenas (me voy / llegué / buenas noches) · temporada de huracanes ·
+cámara interior · escenas (me voy / llegué / buenas noches) · temporada de huracanes ·
 casa de vacaciones / snowbirds · mascotas solas en casa
