@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN11",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN10/p6_estacion_a_1.png",
+    "familias/familia_2/personajes/emma_trabajo.png"
+  ],
+  "archivo": "p3_emma_b.jpg",
+  "prompt": "Photorealistic photo based on the first reference: the same bright hospital nurses' station with the white counter, computer monitor and large window, same daylight. Vertical 9:16, no text, no logos, no letters, no extra people. The camera is pulled back further: the nurse (the woman from the second reference: honey-blonde hair in a ponytail, navy scrubs, white clogs, ID badge) stands at the counter seen three-quarters from behind, smaller in the frame, her head in the LOWER HALF of the image, at about 50-55% of the frame height. The upper 40% of the image is only plain wall, ceiling and window with no people. She holds a phone low in front of her with both hands, the phone screen is NOT visible (facing away from camera). Calm, natural pose."
+}
