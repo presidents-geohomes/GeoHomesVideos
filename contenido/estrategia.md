@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -191,7 +191,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - Mascotas solas en casa: míralas y háblales (usado: 029)
 - Cierra la puerta desde la cama (usado: 019)
 - Un día en una casa inteligente en Naples (usado: 027)
-- 3 señales de que tu casa necesita ser inteligente
+- 3 señales de que tu casa necesita ser inteligente (usado: 036)
 - ¿Te vas todo el verano? Tu casa te avisa (usado: 035)
 - ¿Qué pasa si se va el internet? (explicar sin prometer) (usado: 021)
 - Timbre con cámara: habla con el repartidor desde la oficina (parecido a 009)
@@ -246,7 +246,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 | 035 | ¿Te vas todo el verano? (casa vacía en verano: cámaras, fugas, clima, luces) | Texto ES/EN | Florida y temporada | Sí | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-07 (EN 12:00, ES 18:00) | Sí (contenido/guiones/035_verano_vacia.json y _en) |
 
-Siguiente número: 036.
+| 036 | ¿Tu casa ya pide ayuda? (3 señales: luces a mano, llaves, dudar si cerraste, no ver quién toca) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-08 (EN 12:00, ES 18:00) | Sí (contenido/guiones/036_senales_inteligente.json y _en) |
+
+Siguiente número: 037.
 
 ## Series de familias (episodios con historia)
 
