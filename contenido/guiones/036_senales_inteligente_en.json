@@ -1,0 +1,13 @@
+{
+  "titulo": "Does your home need a hand?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Does your home need a *hand?*", "dur": 2.8},
+    {"type": "text", "kicker": "Common question", "text": "How do I know if *I need it?*", "dur": 2.8},
+    {"type": "list", "title": "*If this sounds like you:*", "items": ["Lights off by hand", "Hunting for keys", "Did I lock up?", "Can't see who knocks"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Make it *easier.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Switching lights off by hand, hunting for keys, can't see who's knocking? 🤔 All of that gets easier. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeTips #EasyLiving",
+  "tiktok_title": "Does your home need a hand? 3 signs you need it 🤔"
+}

@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Tu casa ya pide ser inteligente?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tu casa ya pide *ayuda?*", "dur": 2.8},
+    {"type": "text", "kicker": "Pregunta frecuente", "text": "¿Cómo sé si *la necesito?*", "dur": 2.8},
+    {"type": "list", "title": "*Si te pasa esto:*", "items": ["Apagas luces a mano", "Buscas las llaves", "Dudas si cerraste", "No ves quién toca"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Hazla *más fácil.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Apagas luces a mano, buscas las llaves o no ves quién toca? 🤔 Todo eso se puede hacer más fácil. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CasaFacil",
+  "tiktok_title": "¿Tu casa ya pide ayuda? 3 señales de que la necesitas 🤔"
+}
