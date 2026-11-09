@@ -141,5 +141,9 @@
     "imagen": "planos/ES14/p5_bajo_b_1.png",
     "titulo": "¿Para quién son los ventiladores?",
     "etiqueta": "Casa que te entiende · Ep. 14"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES14_para-quien-giran-los-ventiladores/ES14.mp4",
+  "duracion": 27.0,
+  "fecha": "2026-11-09T14:27:21Z"
 }
