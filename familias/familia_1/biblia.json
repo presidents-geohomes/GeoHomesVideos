@@ -107,7 +107,8 @@
   "deshumidificador": "Deshumidificador inteligente blanco (sin logo) sobre la encimera de la lavandería; el termostato del pasillo mide la humedad y lo enciende solo cuando sube (añadido en ES11, 2026-10-29).",
   "alarma": "Panel de alarma blanco con aro de luz (sin logo) en la pared junto a la puerta de entrada (añadido en ES12, 2026-11-02).",
   "robot_piscina": "Robot limpiador de piscina redondo, blanco y gris oscuro (sin logo), que vive en la piscina; la rutina de la casa lo pone a limpiar el fondo a las 11:00 a. m. y avisa al celular al terminar (añadido en ES13, 2026-11-05).",
-  "sensor_movimiento": "Sensor de movimiento blanco (sin logo) en la pared de la sala; cuando detecta algo con la alarma activada, la cámara de la sala revisa antes de que suene la sirena (añadido en ES12, 2026-11-02)."
+  "sensor_movimiento": "Sensor de movimiento blanco (sin logo) en la pared de la sala; cuando detecta algo con la alarma activada, la cámara de la sala revisa antes de que suene la sirena (añadido en ES12, 2026-11-02).",
+  "ventiladores_lanai": "Ventiladores de techo inteligentes en el techo del lanai (negros con aspas de madera oscura y luz redonda, sin logo). La rutina de la casa los enciende cuando la cámara del lanai ve a Floyd afuera con calor y los apaga cuando él vuelve a entrar por su puerta (añadidos en ES14, 2026-11-09)."
  },
  "set": {
   "_nota": "Fotos fijas aprobadas. Cada plano de un episodio parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
