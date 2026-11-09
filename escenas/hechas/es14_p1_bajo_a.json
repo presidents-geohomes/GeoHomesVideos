@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES14",
+  "archivo": "p1_bajo_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES14/p1_vacio_d_1.png"
+  ],
+  "prompt": "Edit this photo. Zoom the camera out a little and tilt it slightly down, so the ceiling fan sits lower in the frame, around one third of the way down from the top, with a plain band of smooth stucco lanai ceiling above it filling the top of the image. Keep everything else exactly the same: the same black ceiling fan with dark wood blades, the same lanai, table, grill, pool, screen enclosure, bright sunny early-afternoon light and colors. The lanai stays empty. Realistic photo, vertical. No people, no animals, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1c0a8-8ad9-703d-99c0-d499a26a4725",
+    "status_url": "https://api.higgsfield.ai/requests/01a1c0a8-8ad9-703d-99c0-d499a26a4725/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1c0a8-8ad9-703d-99c0-d499a26a4725/cancel",
+    "expires_at": "2026-11-16T14:15:11.249234+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1c0a8-8ad9-703d-99c0-d499a26a4725",
+  "resultado": [
+    "planos/ES14/p1_bajo_a_1.png"
+  ],
+  "generado": "2026-11-09T14:15:17Z"
+}
