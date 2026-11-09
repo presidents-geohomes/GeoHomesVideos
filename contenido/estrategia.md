@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -184,7 +184,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - Airbnb: códigos de puerta para cada huésped (usado: 034)
 - Despierta con luz natural: persianas automáticas (usado: 012)
 - Luces que se prenden solas al anochecer (usado: 018)
-- 5 cosas que puedes controlar con tu voz (parecido a 004)
+- 5 cosas que puedes controlar con tu voz (parecido a 004) (usado: 037)
 - Mito: "las casas inteligentes son solo para millonarios" (sin dar precios) (usado: 016)
 - Antes y después: interruptor normal vs. inteligente (usado: 032)
 - Modo vacaciones: tu casa parece habitada (parecido a 002) (usado: 022)
@@ -248,7 +248,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 | 036 | ¿Tu casa ya pide ayuda? (3 señales: luces a mano, llaves, dudar si cerraste, no ver quién toca) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-08 (EN 12:00, ES 18:00) | Sí (contenido/guiones/036_senales_inteligente.json y _en) |
 
-Siguiente número: 037.
+| 037 | ¿Y si tu casa te hiciera caso? (control por voz: luces, persianas, aire, escenas) | Texto ES/EN | Escenas y estilo de vida | Sí | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-11-09 (EN 12:00, ES 18:00) | Sí (contenido/guiones/037_control_voz.json y _en) |
+
+Siguiente número: 038.
 
 ## Series de familias (episodios con historia)
 
