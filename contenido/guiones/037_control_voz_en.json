@@ -1,0 +1,13 @@
+{
+  "titulo": "What if your home listened?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "What if your home *listened?*", "dur": 2.8},
+    {"type": "text", "kicker": "Voice control", "text": "Just *say it out loud.*", "dur": 2.8},
+    {"type": "list", "title": "*With your voice:*", "items": ["Turn lights on", "Lower the shades", "Adjust the AC", "Start scenes"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Make it *easier.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "What if your home just listened? 🎙️ Lights, shades and AC with your voice. We install it in your home anywhere in Southwest Florida. 📲 Text us at (239) 204-6336 🏠 #NaplesFL #SmartHome #GeoHomes #VoiceControl #EasyLiving",
+  "tiktok_title": "What if your home listened? Lights and AC by voice 🎙️"
+}

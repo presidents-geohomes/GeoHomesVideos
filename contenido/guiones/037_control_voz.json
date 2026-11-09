@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Y si tu casa te hiciera caso?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Y si tu casa te *hiciera caso?*", "dur": 2.8},
+    {"type": "text", "kicker": "Control por voz", "text": "Solo *dilo en voz alta.*", "dur": 2.8},
+    {"type": "list", "title": "*Con tu voz:*", "items": ["Prendes las luces", "Bajas las persianas", "Ajustas el aire", "Activas escenas"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Hazla *más fácil.*", "sub": "Suroeste de Florida", "button": "Envíanos un texto", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "¿Y si tu casa te hiciera caso? 🎙️ Luces, persianas y aire con solo hablar. Lo instalamos en tu casa en el suroeste de Florida. 📲 Envíanos un texto al (239) 204-6336 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #ControlPorVoz",
+  "tiktok_title": "¿Y si tu casa te hiciera caso? Luces y aire con tu voz 🎙️"
+}
