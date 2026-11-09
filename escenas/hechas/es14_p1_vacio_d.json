@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES14",
+  "archivo": "p1_vacio_d.png",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES14/p5_floyd_b_1.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, lanai ceiling, ceiling fan, table, grill, pool, screen enclosure, light and colors exactly as they are. Only make this change: remove the dog completely, leaving the empty terracotta tiles where it was lying. The lanai is empty. Realistic photo, vertical. No people, no animals, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1c0a2-2666-7332-9eca-e91113778842",
+    "status_url": "https://api.higgsfield.ai/requests/01a1c0a2-2666-7332-9eca-e91113778842/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1c0a2-2666-7332-9eca-e91113778842/cancel",
+    "expires_at": "2026-11-16T14:07:47.366452+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1c0a2-2666-7332-9eca-e91113778842",
+  "resultado": [
+    "planos/ES14/p1_vacio_d_1.png"
+  ],
+  "generado": "2026-11-09T14:07:57Z"
+}
