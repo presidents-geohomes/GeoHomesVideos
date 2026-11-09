@@ -10,7 +10,7 @@
   },
   "escenas": [
     {
-      "imagen": "planos/ES14/p1_bajo_b_1.png",
+      "imagen": "planos/ES14/p1_final.png",
       "duracion": 4,
       "musica": "baja",
       "texto": "3:30 p. m. · 88 °F afuera",
@@ -50,7 +50,7 @@
       "prompt": "Static camera, close view of the black camera on the lanai post in bright afternoon sun. Its head pans slowly a little toward the lanai and a tiny status light blinks. Palm leaves sway gently. The camera does not change shape. No people. No camera movement."
     },
     {
-      "imagen": "planos/ES14/p5_bajo_b_1.png",
+      "imagen": "planos/ES14/p5_final.png",
       "duracion": 5,
       "musica": "media",
       "texto": "Ventiladores · Encendidos",
@@ -70,7 +70,7 @@
       "prompt": "Static camera. Bright dental clinic break room in early-afternoon daylight. The woman in light-blue scrubs, seen from behind and the side, holds her phone low and looks down at it, then smiles softly and nods a little. The phone screen is never visible. Her mouth does not move, she does not speak. Palm trees sway outside the window. Nobody else around. No camera movement."
     },
     {
-      "imagen": "planos/ES14/p5_bajo_b_1.png",
+      "imagen": "planos/ES14/p5_final.png",
       "duracion": 4,
       "musica": "alta",
       "texto": "Se apagan cuando él entre",
@@ -105,7 +105,7 @@
       },
       {
         "escena": 5,
-        "texto": "Y le prende los ventiladores.",
+        "texto": "Y prende los ventiladores.",
         "desde": 0.6
       },
       {
@@ -115,7 +115,7 @@
       },
       {
         "escena": 7,
-        "texto": "Cuando Floyd entre, se apagan solos.",
+        "texto": "Si Floyd entra, se apagan.",
         "desde": 0.3
       },
       {
@@ -138,12 +138,12 @@
   },
   "subtitulos": true,
   "portada": {
-    "imagen": "planos/ES14/p5_bajo_b_1.png",
+    "imagen": "planos/ES14/p5_final.png",
     "titulo": "¿Para quién son los ventiladores?",
     "etiqueta": "Casa que te entiende · Ep. 14"
   },
   "estado": "hecho",
   "video": "series/espanol/ES14_para-quien-giran-los-ventiladores/ES14.mp4",
   "duracion": 27.0,
-  "fecha": "2026-11-09T14:27:21Z"
+  "fecha": "2026-11-09T14:49:19Z"
 }
