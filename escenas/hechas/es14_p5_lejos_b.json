@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES14",
+  "archivo": "p5_lejos_b.png",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES14/p5_bajo_b_1.png"
+  ],
+  "prompt": "Edit this photo. Keep the camera angle, framing, lanai ceiling, the black ceiling fan with dark wood blades, table, chairs, grill, pool, screen enclosure, bright sunny afternoon light and colors exactly as they are. Only make this change: move the same tan pit bull further back, so he lies relaxed on the tiles closer to the pool edge, in the middle of the image, smaller and farther from the camera. The bottom third of the image is empty tiled floor. Realistic photo, vertical. Only one dog, no people, no text, no logos.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1c0b8-4a65-7a67-9e39-3004db4d0e11",
+    "status_url": "https://api.higgsfield.ai/requests/01a1c0b8-4a65-7a67-9e39-3004db4d0e11/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1c0b8-4a65-7a67-9e39-3004db4d0e11/cancel",
+    "expires_at": "2026-11-16T14:31:43.578336+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1c0b8-4a65-7a67-9e39-3004db4d0e11",
+  "resultado": [
+    "planos/ES14/p5_lejos_b_1.png"
+  ],
+  "generado": "2026-11-09T14:31:47Z"
+}
