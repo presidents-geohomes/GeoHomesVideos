@@ -141,5 +141,8 @@
     "imagen": "planos/ES14/p5_final.png",
     "titulo": "¿Para quién son los ventiladores?",
     "etiqueta": "Casa que te entiende · Ep. 14"
-  }
+  },
+  "estado": "error",
+  "error": "HTTP 429: {\"detail\":{\"type\":\"rate_limit_error\",\"code\":\"system_busy\",\"message\":\"The system is experiencing heavy traffic. Please try again.\",\"status\":\"system_busy\",\"request_id\":\"a2d7ec6e73b030db9a6685e32cf716f9\",\"docs_url\":\"https://elevenlabs.io/docs/eleven-api/resources/errors#rate-limiting-and-concurrency\"}}",
+  "fecha": "2026-11-09T14:37:40Z"
 }
