@@ -1,0 +1,12 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES14",
+  "archivo": "p5_floyd_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_1/set/lanai_piscina.png",
+    "familias/familia_1/personajes/floyd_cuerpo.png",
+    "banco/fotos_insertos/f1/f1-ins-ventiladores_cat_1_1.jpg"
+  ],
+  "prompt": "Use the first photo for this exact house, covered lanai and pool, but change the time to a hot, bright, sunny early afternoon with blue sky (no sunset, no evening lights). Medium-wide view of the covered lanai from inside it: the same dog from the second photo (tan red-nose pit bull with a big white chest patch, amber eyes) lies relaxed on the cool terracotta tiles in the shade, in the middle distance, under a black ceiling fan with dark wood blades like the one in the third photo, mounted on the lanai ceiling. The fan blades are still. Outdoor table and grill to the side, the bright turquoise pool behind the screen enclosure in strong sunlight. The whole roof and ceiling of the lanai stay solid. Realistic photo, vertical. Only one dog, no people, no text, no brand names, no logos."
+}
