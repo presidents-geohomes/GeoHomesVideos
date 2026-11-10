@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -198,6 +198,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - El garaje se cierra solo cuando te vas (parecido a 008)
 - Empieza con un solo dispositivo (usado: 006)
 - ¿Una app para cada aparato? Todo en una sola (usado: 026)
+- ¿Cada noche recorres la casa apagando luces? Escena "Buenas noches" (usado: 038)
 
 ## Registro de videos
 
@@ -250,7 +251,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 037 | ¿Y si tu casa te hiciera caso? (control por voz: luces, persianas, aire, escenas) | Texto ES/EN | Escenas y estilo de vida | Sí | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-11-09 (EN 12:00, ES 18:00) | Sí (contenido/guiones/037_control_voz.json y _en) |
 
-Siguiente número: 038.
+| 038 | ¿Cada noche recorres la casa apagando luces? (escena "Buenas noches": luces, puerta, persianas, aire) | Texto ES/EN | Molestia diaria | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-10 (EN 12:00, ES 18:00) | Sí (contenido/guiones/038_ronda_noche.json y _en) |
+
+Siguiente número: 039.
 
 ## Series de familias (episodios con historia)
 
