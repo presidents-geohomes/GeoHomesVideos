@@ -1,0 +1,13 @@
+{
+  "titulo": "Walking the house every night turning lights off?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Every night, walking around *turning lights off?*", "dur": 2.8},
+    {"type": "text", "kicker": "The nightly lap", "text": "Just say *\"good night.\"*", "dur": 2.8},
+    {"type": "list", "title": "*One phrase and:*", "items": ["Lights go off", "Front door locks", "Shades come down", "AC set your way"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Go to bed. *Skip the lap.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Still doing a lap of the house every night turning lights off? 🌙 Say \"good night\" and your home locks up and shuts down. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #GoodNightRoutine #EasyLiving",
+  "tiktok_title": "Still doing a nightly lap turning lights off? Just say \"good night\" 🌙"
+}

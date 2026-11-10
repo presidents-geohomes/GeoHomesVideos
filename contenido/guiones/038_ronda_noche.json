@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Todas las noches recorres la casa apagando luces?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Cada noche recorres la casa *apagando luces?*", "dur": 2.8},
+    {"type": "text", "kicker": "La ronda de la noche", "text": "Dile *\"buenas noches\"* y listo.", "dur": 2.8},
+    {"type": "list", "title": "*Con una frase:*", "items": ["Se apagan las luces", "Se cierra la puerta", "Bajan las persianas", "El aire, a tu gusto"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Acuéstate *sin dar vueltas.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Cada noche recorres la casa apagando luces? 🌙 Di \"buenas noches\" y tu casa apaga, cierra y baja las persianas. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #BuenasNoches",
+  "tiktok_title": "¿Cada noche apagando luces por toda la casa? Di \"buenas noches\" 🌙"
+}
