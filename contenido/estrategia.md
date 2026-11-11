@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -199,6 +199,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - Empieza con un solo dispositivo (usado: 006)
 - ¿Una app para cada aparato? Todo en una sola (usado: 026)
 - ¿Cada noche recorres la casa apagando luces? Escena "Buenas noches" (usado: 038)
+- ¿Un ruido afuera de madrugada? Revisa cámaras y luces desde la cama (usado: 039)
 
 ## Registro de videos
 
@@ -253,7 +254,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 | 038 | ¿Cada noche recorres la casa apagando luces? (escena "Buenas noches": luces, puerta, persianas, aire) | Texto ES/EN | Molestia diaria | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-10 (EN 12:00, ES 18:00) | Sí (contenido/guiones/038_ronda_noche.json y _en) |
 
-Siguiente número: 039.
+| 039 | ¿Un ruido afuera de madrugada? (cámaras, luces de afuera, puerta y timbre desde la cama) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/039_ruido_noche.json y _en) |
+
+Siguiente número: 040.
 
 ## Series de familias (episodios con historia)
 
