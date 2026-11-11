@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Escuchaste un ruido afuera de noche?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Un ruido afuera *de madrugada?*", "dur": 2.8},
+    {"type": "text", "kicker": "Seguridad sin salir", "text": "Míralo *desde la cama.*", "dur": 2.8},
+    {"type": "list", "title": "*Desde tu celular:*", "items": ["Ves todas las cámaras", "Prendes las luces afuera", "Revisas la puerta", "Hablas por el timbre"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Duerme *más tranquilo.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Un ruido afuera a las 2 a.m.? 🌙 Mira tus cámaras y prende las luces de afuera sin salir de la cama. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #SeguridadEnCasa",
+  "tiktok_title": "¿Un ruido afuera a las 2 a.m.? Revisa tus cámaras desde la cama 🌙"
+}

@@ -1,0 +1,13 @@
+{
+  "titulo": "Heard a noise outside at night?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "A strange noise *late at night?*", "dur": 2.8},
+    {"type": "text", "kicker": "Peace of mind", "text": "Check it *without getting up.*", "dur": 2.8},
+    {"type": "list", "title": "*From your phone:*", "items": ["See every camera", "Turn on outdoor lights", "Check the front door", "Talk through the doorbell"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Sleep *a little easier.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Heard something outside at 2 a.m.? 🌙 Check your cameras and flip on the yard lights without leaving bed. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeSecurity #PeaceOfMind",
+  "tiktok_title": "A noise outside at 2 a.m.? Check your cameras from bed 🌙"
+}
