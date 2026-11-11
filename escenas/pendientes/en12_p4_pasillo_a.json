@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/pasillo.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "archivo": "p4_pasillo_a.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, hallway, white shiplap walls, doors, framed family photos, smart thermostat on the left wall at the same place and wooden floor. Change the light to soft early morning: the ceiling lights of the hallway are ON with a warm gentle glow, and pale cool dawn daylight, no strong sun patches on the floor. The 9-year-old girl from the second reference photo (light brown hair in a slightly messy ponytail, yellow t-shirt, soft gray pajama pants, barefoot, no backpack) walks away from the camera down the middle of the hallway, seen fully from BEHIND, mid-distance, realistic child scale against the doors, face not visible, relaxed sleepy walk with one hand rubbing her eye. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people."
+}
