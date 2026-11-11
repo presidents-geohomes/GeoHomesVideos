@@ -1,0 +1,26 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN12/p6_cocina_off_a_1.png",
+    "familias/familia_2/personajes/lily_cuerpo.png",
+    "familias/familia_2/personajes/biscuit_cuerpo.png"
+  ],
+  "archivo": "p7_desayuno_a.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, kitchen, cabinets, navy island, three wooden stools, gray smart speaker on the island, pendants, window with palm trees and pale early dawn sky, white door on the left, pet feeder in the left corner and floor. The lights are ON: both brass pendants glowing warm, ceiling and under-cabinet lights on, warm cozy kitchen at early dawn. The 9-year-old girl from the second reference photo (light brown ponytail, yellow t-shirt, soft gray pajama pants) sits on the middle stool at the island, seen from BEHIND and slightly to the side, eating from a plain white cereal bowl with a spoon; a plain white milk carton with no text and her lilac backpack sit on the counter next to her. The fluffy long-haired orange tabby cat from the third reference photo sits on the wooden floor next to her stool looking up at her, at realistic small cat size (about as tall as the lower third of the stool legs). Face of the girl not visible. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1cbd7-bfd9-7eaf-93ea-0c03384085c5",
+    "status_url": "https://api.higgsfield.ai/requests/01a1cbd7-bfd9-7eaf-93ea-0c03384085c5/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1cbd7-bfd9-7eaf-93ea-0c03384085c5/cancel",
+    "expires_at": "2026-11-18T18:24:50.407996+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1cbd7-bfd9-7eaf-93ea-0c03384085c5",
+  "resultado": [
+    "planos/EN12/p7_desayuno_a_1.png"
+  ],
+  "generado": "2026-11-11T18:24:54Z"
+}

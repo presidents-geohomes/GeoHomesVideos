@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN12/p6_cocina_off_a_1.png"
+  ],
+  "archivo": "p6_cocina_on_b.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, kitchen, cabinets, navy island, stools, gray smart speaker, pendants, window with palm trees and the pale dawn sky, white door on the left, pet feeder, floor. Nobody in the room. ONLY change the lights: the two brass pendant lights over the island are now ON with warm glowing bulbs, the recessed ceiling lights are ON and the under-cabinet lights glow warm, making the kitchen bright, warm and welcoming while it is still early dawn outside. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1cbd7-be64-7e15-b04f-7bf7a0bfaa76",
+    "status_url": "https://api.higgsfield.ai/requests/01a1cbd7-be64-7e15-b04f-7bf7a0bfaa76/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1cbd7-be64-7e15-b04f-7bf7a0bfaa76/cancel",
+    "expires_at": "2026-11-18T18:22:04.940373+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1cbd7-be64-7e15-b04f-7bf7a0bfaa76",
+  "resultado": [
+    "planos/EN12/p6_cocina_on_b_1.png"
+  ],
+  "generado": "2026-11-11T18:22:10Z"
+}
