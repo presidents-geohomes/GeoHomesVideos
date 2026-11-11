@@ -1,0 +1,148 @@
+{
+  "id": "en_012_who_wakes_lily",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN12_who-wakes-lily",
+  "archivo": "EN12.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original early-morning instrumental for a cozy family smart-home story: opens very soft and sleepy with a few gentle music-box and celesta notes (a small mystery), then slowly warms like a sunrise into a tender reassuring theme with fingerpicked acoustic guitar and soft piano, around 90 BPM, hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/EN12/p1_dormida_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "7:00 AM · Mom left at 6",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Very early morning, dim quiet bedroom in cool blue dawn light, all lights off. The girl sleeps peacefully under the lilac quilt, breathing slowly, she does not move. Outside the window the dawn sky glows faintly pink and a palm frond sways gently. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p1_dormida_a_1.png",
+      "imagen_final": "planos/EN12/p2_luces_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "School-day routine · Lights up slowly",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Dim bedroom at dawn. Very slowly and smoothly the room lights fade up: the warm string fairy lights around the window and on the headboard begin to glow, the brass desk lamp turns on softly and the ceiling lights rise gently, filling the room with warm golden light. The girl keeps sleeping in exactly the same place under the lilac quilt. Nothing else moves. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p2_luces_a_1.png",
+      "duracion": 3.5,
+      "musica": "media",
+      "texto": "Wake-up routine · Mom notified",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Warm cozy bedroom with soft lights on at dawn. The girl in the yellow t-shirt slowly opens her eyes, stretches her arms up with a small yawn and sits up in bed under the lilac quilt, calm and rested, seen from across the room. Her mouth does not speak. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p4_pasillo_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Lily's up · Heading to the kitchen",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Softly lit hallway in the early morning. Seen from behind, the girl in the yellow t-shirt and gray pajama pants walks slowly away from the camera down the hallway, rubbing one eye sleepily, barefoot. The walls, doors, photos and thermostat stay still. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p5_emma_estacion.png",
+      "duracion": 3.5,
+      "musica": "media",
+      "texto": "Kitchen lights on",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.5,
+      "prompt": "Static camera. Bright hospital nurses' station in early morning sunlight. The nurse in navy scrubs, seen from behind, stands at the white counter holding her phone low in front of her; she glances at it, taps it once with her thumb and gives a small relaxed nod. The phone screen stays dark and is never visible. Her mouth does not move. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p6_cocina_off_a_1.png",
+      "imagen_final": "planos/EN12/p6_cocina_on_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Kitchen · Lights on",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "Static camera. Empty quiet kitchen at dawn, lights off, pale blue light from the window. Smoothly the two brass pendant lights over the navy island turn on with a warm glow, then the ceiling lights and the under-cabinet lights come on, making the kitchen warm and welcoming. Nobody in the room. Everything else stays still. No camera movement."
+    },
+    {
+      "imagen": "planos/EN12/p7_lily_b_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Lily · Up and ready for school",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Warm, bright kitchen at early dawn with the pendant lights on. Seen from behind, the girl in the yellow t-shirt sits on a stool at the navy island and calmly eats cereal from a white bowl with a spoon, relaxed. Nobody speaks. No camera movement."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Mom left at six. So who wakes Lily?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "Her room does. The lights rise, slow and soft.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "No alarm. No yelling.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "And Mom gets a quiet note: she's up.",
+        "desde": 0.3
+      },
+      {
+        "escena": 5,
+        "texto": "From work, one tap.",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "The kitchen's ready before she is.",
+        "desde": 0.3
+      },
+      {
+        "escena": 7,
+        "texto": "Mom's at work. Lily's morning still starts gently.",
+        "desde": 0.3
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/EN12/p2_luces_a_1.png",
+    "titulo": "Mom left at 6 a.m. So who wakes Lily up?",
+    "etiqueta": "Home, Simplified · Ep. 12"
+  }
+}
