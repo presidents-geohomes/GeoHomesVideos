@@ -144,5 +144,9 @@
     "imagen": "planos/EN12/p2_luces_a_1.png",
     "titulo": "Mom left at 6 a.m. So who wakes Lily up?",
     "etiqueta": "Home, Simplified · Ep. 12"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN12_who-wakes-lily/EN12.mp4",
+  "duracion": 27.0,
+  "fecha": "2026-11-11T18:48:41Z"
 }
