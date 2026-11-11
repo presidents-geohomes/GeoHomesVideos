@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/cocina.png"
+  ],
+  "archivo": "p6_cocina_off_b.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, kitchen, white shaker cabinets, navy blue island with white quartz top, three light wood stools, the gray fabric smart speaker on the island, two brass pendant lights, the window over the sink, the white door on the left, the pet feeder in the left corner and wooden floor. Change the time to EARLY MORNING just before sunrise, 7:00 AM: ALL lights are OFF (pendants off, ceiling lights off, under-cabinet lights off), the kitchen is dim and quiet with soft cool blue-gray dawn light from the window, palm trees outside under a pale blue dawn sky. No sun patches on the floor. Nobody in the room, no cat. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1cbcd-77eb-7ba9-b472-d73aa76ffb6a",
+    "status_url": "https://api.higgsfield.ai/requests/01a1cbcd-77eb-7ba9-b472-d73aa76ffb6a/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1cbcd-77eb-7ba9-b472-d73aa76ffb6a/cancel",
+    "expires_at": "2026-11-18T18:12:33.922807+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1cbcd-77eb-7ba9-b472-d73aa76ffb6a",
+  "resultado": [
+    "planos/EN12/p6_cocina_off_b_1.png"
+  ],
+  "generado": "2026-11-11T18:12:39Z"
+}

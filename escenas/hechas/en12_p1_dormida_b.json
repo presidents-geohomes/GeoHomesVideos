@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/cuarto_lily.png",
+    "familias/familia_2/personajes/lily.png"
+  ],
+  "archivo": "p1_dormida_b.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, room layout, lilac quilt bed, white headboard, desk with lamp, bookshelf with plush toys, white cabinets, window position, framed family photo and wooden floor. Change the time to very EARLY MORNING just before sunrise, 7:00 AM: ALL lights are OFF (ceiling lights off, desk lamp off, the string lights around the window and headboard are OFF and unlit), the room is dim with soft cool blue-gray dawn light coming through the window, sky outside pale blue with a faint pink glow at the horizon. The 9-year-old girl from the second reference photo (light brown hair, freckles) is sound asleep in the bed under the lilac quilt, lying on her side, only her head with loose light brown hair and one shoulder in a yellow t-shirt visible on the pillow, eyes closed, peaceful, seen from across the room, small in the frame. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people. No phone, no screens lit.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1cbcd-769c-7d18-a969-ed7ee34fc7cb",
+    "status_url": "https://api.higgsfield.ai/requests/01a1cbcd-769c-7d18-a969-ed7ee34fc7cb/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1cbcd-769c-7d18-a969-ed7ee34fc7cb/cancel",
+    "expires_at": "2026-11-18T18:10:53.700329+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1cbcd-769c-7d18-a969-ed7ee34fc7cb",
+  "resultado": [
+    "planos/EN12/p1_dormida_b_1.png"
+  ],
+  "generado": "2026-11-11T18:10:56Z"
+}
