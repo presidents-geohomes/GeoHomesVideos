@@ -1,0 +1,25 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN12",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN12/p6_cocina_on_a_1.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "archivo": "p7_lily_b.jpg",
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, kitchen, cabinets, navy island, three wooden stools, gray smart speaker on the island, glowing brass pendants, warm lights, window with palm trees and pale early dawn sky, white door on the left, white pet feeder in the left corner and floor. The 9-year-old girl from the second reference photo (light brown ponytail, yellow t-shirt, soft gray pajama pants, barefoot) sits on the middle stool at the island, seen from BEHIND, eating from a plain white cereal bowl with a spoon; a plain white milk carton with no text and her lilac backpack sit on the counter next to her. Face not visible. No cat, no animals. Vertical 9:16, no text, no logos, no letters, no numbers, no extra people.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1cbe2-e45a-7510-b250-af2a81dac370",
+    "status_url": "https://api.higgsfield.ai/requests/01a1cbe2-e45a-7510-b250-af2a81dac370/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1cbe2-e45a-7510-b250-af2a81dac370/cancel",
+    "expires_at": "2026-11-18T18:34:20.562863+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1cbe2-e45a-7510-b250-af2a81dac370",
+  "resultado": [
+    "planos/EN12/p7_lily_b_1.png"
+  ],
+  "generado": "2026-11-11T18:34:30Z"
+}
