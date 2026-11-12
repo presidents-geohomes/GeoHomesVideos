@@ -1,0 +1,147 @@
+{
+  "id": "es_015_por_que_se_apago_el_riego",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES15_por-que-se-apago-el-riego",
+  "archivo": "ES15.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Curious, lightly mysterious opening that resolves into warm playful relief, instrumental for a premium smart-home lifestyle commercial: soft plucked notes and quiet felt piano with a small question for the first eight seconds, then warm cheerful acoustic guitar and light piano around 95 BPM, fresh morning feeling, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "imagen": "planos/ES15/p1_riego_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "7:30 a. m. · Riego del jardín",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning sunlight on a quiet Florida street in front of a sand-colored stucco house. The three pop-up lawn sprinklers in the grass strip by the curb spray steady sparkling fans of water that gently sway side to side, droplets glittering in the sun. Palm leaves sway softly. No people, no animals, no cars. The house does not change. No camera movement."
+    },
+    {
+      "imagen": "planos/ES15/p2_vecina_a_1.png",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Alguien viene caminando",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning light. The woman in the pink t-shirt walks slowly forward along the edge of the street toward the right with her small white fluffy dog trotting on a red leash beside her. The three sprinklers keep spraying sparkling fans of water just ahead of her. Her mouth does not move. Only one person and one small dog. No camera movement."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-cam-ext.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Cámara del garaje · Vecina y su perro",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The exterior camera under the eave detects movement."
+    },
+    {
+      "imagen": "planos/ES15/p2_vecina_a_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Riego · En pausa",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning light. The woman with the small white dog stands still at the far left on the street edge and watches. The three sprinklers in the grass strip by the curb slowly lose pressure: their fans of water get gradually smaller and lower, never bigger, the water never reaches the woman or the dog, until the water stops completely and the sprinkler heads sink quietly into the grass. The house, the woman and the dog do not change. Only one person and one small dog. No camera movement.",
+      "imagen_final": "planos/ES15/p4_pausa_b_1.png"
+    },
+    {
+      "imagen": "planos/ES15/p5_pasa_b_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Vecina · Pasa seca",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning light. The woman in the pink t-shirt walks calmly to the right past the front of the house along the wet street edge with her small white fluffy dog trotting on the red leash. The sprinklers stay off. She smiles, relaxed. Her mouth does not move. Only one person and one small dog. No camera movement."
+    },
+    {
+      "imagen": "planos/ES15/p6_daniel_b_1.png",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Aviso a Daniel · Riego en pausa",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning light at an outdoor plant nursery. The man in the olive green shirt stands still by the open tailgate of the black pickup, holding his phone low; he glances down at it, nods softly and smiles a little. The phone screen is never visible. His mouth does not move, he does not speak. Palm leaves sway gently. Nobody else around. No camera movement."
+    },
+    {
+      "imagen": "planos/ES15/p7_sin_agua_a_1.png",
+      "duracion": 4,
+      "musica": "alta",
+      "texto": "Riego · Sigue regando",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Static camera. Golden early-morning light on the empty street in front of the house. The three pop-up sprinklers in the grass strip by the curb turn back on: water starts spraying up into sparkling fans that grow steadily. Palm leaves sway softly. No people, no animals, no cars. The house does not change. No camera movement.",
+      "imagen_final": "planos/ES15/p1_riego_a_1.png"
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Por qué se apagó el riego de repente?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "Una vecina sale con su perrito.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "La cámara la ve venir.",
+        "desde": 0.1
+      },
+      {
+        "escena": 4,
+        "texto": "Y el riego se detiene solo.",
+        "desde": 0.3
+      },
+      {
+        "escena": 5,
+        "texto": "Ella pasa sin mojarse.",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "Daniel cuida jardines ajenos. El suyo, la casa.",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "Cuando ella pasa, vuelve a regar.",
+        "desde": 0.3
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": false,
+  "portada": {
+    "imagen": "planos/ES15/p2_vecina_a_1.png",
+    "titulo": "¿Por qué se apagó el riego?",
+    "etiqueta": "Casa que te entiende · Ep. 15"
+  }
+}
