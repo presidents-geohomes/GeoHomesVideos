@@ -1,0 +1,13 @@
+{
+  "titulo": "Heading back to Florida this season?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Heading back to Florida *this season?*", "dur": 2.8},
+    {"type": "text", "kicker": "Snowbird season", "text": "Your home's *ready when you land.*", "dur": 2.8},
+    {"type": "list", "title": "*Before you arrive:*", "items": ["Check the cameras", "Cool it down", "Open the shades", "Lights already on"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Just walk in *and unwind.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Back in Florida for the season? 🌴 Cool the house, open the shades and check the cameras before you land. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #Snowbirds #FloridaLiving",
+  "tiktok_title": "Heading back to Florida? Your home's ready when you land 🌴"
+}

@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Vuelves a Florida esta temporada?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Vuelves a Florida esta *temporada?*", "dur": 2.8},
+    {"type": "text", "kicker": "Regreso de temporada", "text": "Tu casa te *recibe lista.*", "dur": 2.8},
+    {"type": "list", "title": "*Antes de llegar:*", "items": ["Revisa las cámaras", "Enfría la casa", "Abre las persianas", "Luces encendidas"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Llega y *solo descansa.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Vuelves a Florida esta temporada? 🌴 Enfría la casa, abre persianas y mira las cámaras antes de llegar. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #Snowbirds",
+  "tiktok_title": "¿Vuelves a Florida? Tu casa te recibe lista 🌴"
+}
