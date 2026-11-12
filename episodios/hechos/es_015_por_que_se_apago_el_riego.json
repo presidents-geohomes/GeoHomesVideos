@@ -143,5 +143,9 @@
     "imagen": "planos/ES15/p2_vecina_a_1.png",
     "titulo": "¿Por qué se apagó el riego?",
     "etiqueta": "Casa que te entiende · Ep. 15"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/espanol/ES15_por-que-se-apago-el-riego/ES15.mp4",
+  "duracion": 27.0,
+  "fecha": "2026-11-12T14:21:46Z"
 }
