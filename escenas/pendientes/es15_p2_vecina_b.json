@@ -1,0 +1,10 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES15",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES15/p1_riego_a_1.png"
+  ],
+  "archivo": "p2_vecina_b.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, house, garage, arched entry, lanterns, palm trees, plants, paver driveway, lawn, sidewalk, curb, street, sky and golden early-morning 7:30 AM sunlight. Keep the three black pop-up sprinkler heads in the grass strip by the curb in exactly the same places. ONLY ADD a friendly neighbor woman in her fifties with a gray ponytail, light pink t-shirt, white shorts and white sneakers, walking a small white fluffy dog on a red leash, walking on the concrete sidewalk from the LEFT side of the frame toward the right, still at the far left part of the sidewalk near the neighbor's lawn, small in the frame, seen from the side, about to reach the sprinklers. The sprinklers are still spraying their fine arcs of water exactly as in the reference. Only one person and one small dog. Vertical 9:16, no text, no logos, no letters, no numbers."
+}
