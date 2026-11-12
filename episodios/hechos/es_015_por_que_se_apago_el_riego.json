@@ -147,5 +147,9 @@
   "estado": "hecho",
   "video": "series/espanol/ES15_por-que-se-apago-el-riego/ES15.mp4",
   "duracion": 27.0,
-  "fecha": "2026-11-12T14:21:46Z"
+  "fecha": "2026-11-12T14:21:46Z",
+  "video_publicado": "series/espanol/ES15_por-que-se-apago-el-riego/ES15_con_portada.mp4",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7354229&openWithPostUuid=-2722083169222112387",
+  "publicacion": "2026-11-13 10:00",
+  "notas_qa": "v1: el plano 4 tenía un chorro que crecía antes de apagarse (corregido en local con fundido 10.8–12.3 s). Subtítulos tapan en parte al perrito de la vecina en planos 2 y 5. v2 sin subtítulos falló: Higgsfield sin créditos (2026-11-12)."
 }
