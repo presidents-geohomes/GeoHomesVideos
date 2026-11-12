@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -200,6 +200,7 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 - ¿Una app para cada aparato? Todo en una sola (usado: 026)
 - ¿Cada noche recorres la casa apagando luces? Escena "Buenas noches" (usado: 038)
 - ¿Un ruido afuera de madrugada? Revisa cámaras y luces desde la cama (usado: 039)
+- ¿Vuelves a Florida esta temporada? Tu casa te recibe lista (usado: 040)
 
 ## Registro de videos
 
@@ -256,7 +257,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 | 039 | ¿Un ruido afuera de madrugada? (cámaras, luces de afuera, puerta y timbre desde la cama) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-11 (EN 12:00, ES 18:00) | Sí (contenido/guiones/039_ruido_noche.json y _en) |
 
-Siguiente número: 040.
+| 040 | ¿Vuelves a Florida esta temporada? (regreso de snowbirds: cámaras, enfriar la casa, persianas y luces antes de llegar) | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_acoustic_warm | Hecho y programado 2026-11-12 (EN 12:00, ES 18:00) | Sí (contenido/guiones/040_regreso_temporada.json y _en) |
+
+Siguiente número: 041.
 
 ## Series de familias (episodios con historia)
 
