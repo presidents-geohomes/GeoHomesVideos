@@ -1,0 +1,24 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES15",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES15/p2_vecina_a_1.png"
+  ],
+  "archivo": "p4_pausa_a.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same camera angle, framing, house, palm trees, lawn, sidewalk, street, sky, golden morning light, and the woman with the small white dog in EXACTLY the same position, pose, size and clothing. ONLY CHANGE the sprinklers: they are now OFF, no water spraying at all, the three black sprinkler heads retracted low in the grass strip by the curb. The grass and pavement stay wet and glistening. Only one person and one small dog. Vertical 9:16, no text, no logos, no letters, no numbers.",
+  "respuesta_hf": {
+    "status": "completed",
+    "request_id": "01a1d018-4b88-76a9-9cc6-25c2d9d60397",
+    "status_url": "https://api.higgsfield.ai/requests/01a1d018-4b88-76a9-9cc6-25c2d9d60397/status",
+    "cancel_url": "https://api.higgsfield.ai/requests/01a1d018-4b88-76a9-9cc6-25c2d9d60397/cancel",
+    "expires_at": "2026-11-19T14:10:51.463600+00:00"
+  },
+  "estado": "hecho",
+  "modelo_usado": "xai/grok-imagine-image-2.0",
+  "request_id": "01a1d018-4b88-76a9-9cc6-25c2d9d60397",
+  "resultado": [
+    "planos/ES15/p4_pausa_a_1.png"
+  ],
+  "generado": "2026-11-12T14:10:58Z"
+}
