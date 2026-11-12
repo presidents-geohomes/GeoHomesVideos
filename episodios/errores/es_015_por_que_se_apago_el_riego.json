@@ -143,5 +143,8 @@
     "imagen": "planos/ES15/p2_vecina_a_1.png",
     "titulo": "¿Por qué se apagó el riego?",
     "etiqueta": "Casa que te entiende · Ep. 15"
-  }
+  },
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a1d026-b93b-76c9-93ab-667bbd8f1395\", \"status_url\": \"https://api.higgsfield.ai/requests/01a1d026-b93b-76c9-93ab-667bbd8f1395/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a1d026-b93b-76c9-93ab-667bbd8f1395/cancel\", \"expires_at\": \"2026-11-19T14:26:01.343035+00:00\"}",
+  "fecha": "2026-11-12T14:28:00Z"
 }
