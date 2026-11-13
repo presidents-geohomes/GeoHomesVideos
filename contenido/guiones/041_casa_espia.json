@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Una casa inteligente te espía?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Una casa inteligente te *espía?*", "dur": 2.8},
+    {"type": "text", "kicker": "Pregunta frecuente", "text": "Aquí *mandas tú.*", "dur": 2.8},
+    {"type": "list", "title": "*Tú decides:*", "items": ["Cámaras solo afuera", "Pausa las de adentro", "Quién tiene acceso", "Qué te avisa"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tu casa, *tus reglas.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Una casa inteligente te espía? 🤔 Aquí mandas tú: dónde van las cámaras, cuándo se pausan y quién tiene acceso. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #Privacidad",
+  "tiktok_title": "¿Una casa inteligente te espía? Aquí mandas tú 🤔"
+}

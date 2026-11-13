@@ -1,0 +1,13 @@
+{
+  "titulo": "Is a smart home spying on you?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Is a smart home *spying on you?*", "dur": 2.8},
+    {"type": "text", "kicker": "Common question", "text": "You're *in charge.*", "dur": 2.8},
+    {"type": "list", "title": "*You decide:*", "items": ["Cameras outside only", "Pause indoor cameras", "Who gets access", "What alerts you"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Your home, *your rules.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Worried a smart home is watching you? 🤔 You call the shots: where cameras go, when they pause and who gets access. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomePrivacy #SmartHomeTips",
+  "tiktok_title": "Is your smart home spying on you? You're in charge 🤔"
+}
