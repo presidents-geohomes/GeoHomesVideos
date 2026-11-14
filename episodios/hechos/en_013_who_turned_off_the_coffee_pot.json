@@ -70,14 +70,46 @@
   "narracion": {
     "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "partes": [
-      {"escena": 1, "texto": "Nobody's home. So who turned off the coffee pot?", "desde": 0.1},
-      {"escena": 2, "texto": "It's been on since dawn.", "desde": 0.2},
-      {"escena": 3, "texto": "Its smart plug noticed, and told Mom.", "desde": 0.2},
-      {"escena": 4, "texto": "One tap, from the hospital. Off.", "desde": 0.1},
-      {"escena": 5, "texto": "So when Lily gets home,", "desde": 0.3},
-      {"escena": 6, "texto": "the house is calm and safe.", "desde": 0.1},
-      {"escena": 7, "texto": "And Mom finishes her shift, worry-free.", "desde": 0.2},
-      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.4}
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who turned off the coffee pot?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "It's been on since dawn.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Its smart plug noticed, and told Mom.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "One tap, from the hospital. Off.",
+        "desde": 0.1
+      },
+      {
+        "escena": 5,
+        "texto": "So when Lily gets home,",
+        "desde": 0.3
+      },
+      {
+        "escena": 6,
+        "texto": "the house is calm and safe.",
+        "desde": 0.1
+      },
+      {
+        "escena": 7,
+        "texto": "And Mom finishes her shift, worry-free.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
     ]
   },
   "cierre": {
@@ -96,5 +128,9 @@
     "imagen": "planos/EN13/portada_base.png",
     "titulo": "Mom's at work. So who turned off the coffee pot?",
     "etiqueta": "Home, Simplified · Ep. 13"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN13_who-turned-off-the-coffee-pot/EN13.mp4",
+  "duracion": 27.5,
+  "fecha": "2026-11-14T14:07:25Z"
 }
