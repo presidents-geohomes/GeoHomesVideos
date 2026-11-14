@@ -1,0 +1,13 @@
+{
+  "titulo": "Having people over tonight?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Having *people over* tonight?", "dur": 2.8},
+    {"type": "text", "kicker": "Guest scene", "text": "One tap. *Your home gets ready.*", "dur": 2.8},
+    {"type": "list", "title": "*One tap:*", "items": ["Lanai lights on", "AC just right", "Shades open", "Door code ready"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "You host, *your home helps.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Having people over tonight? 🥂 One tap turns on the lanai lights, sets the AC and gets the door code ready. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #SmartHomeScenes #EntertainingAtHome",
+  "tiktok_title": "Having people over tonight? One tap and your home gets ready 🥂"
+}

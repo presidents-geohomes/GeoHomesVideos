@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Vienen visitas esta noche?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Vienen *visitas* esta noche?", "dur": 2.8},
+    {"type": "text", "kicker": "Escena Visitas", "text": "Un toque y *tu casa se prepara.*", "dur": 2.8},
+    {"type": "list", "title": "*Con un toque:*", "items": ["Luces del lanai", "Aire a tu gusto", "Persianas abiertas", "Puerta con código"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tú atiendes, *la casa se encarga.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Vienen visitas esta noche? 🥂 Un toque y se prenden las luces del lanai, el aire se ajusta y la puerta abre con código. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #EscenasInteligentes",
+  "tiktok_title": "¿Vienen visitas esta noche? Tu casa se prepara con un toque 🥂"
+}
