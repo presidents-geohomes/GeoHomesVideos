@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Te vas por Acción de Gracias?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "etiqueta": "VIAJE DE ACCIÓN DE GRACIAS",
+      "titulo": "¿Te vas por Acción de Gracias?",
+      "texto": "Revisa tu casa desde la mesa de la familia."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ya en camino, y la duda",
+      "texto": "¿Cerré la puerta? ¿Dejé el aire prendido?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "DESDE LEJOS",
+      "titulo": "El aire, a tu gusto mientras no estás",
+      "texto": "Y fresco para cuando vuelvas."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves si la puerta quedó cerrada",
+        "Cierras con un toque",
+        "Ajustas el aire de lejos",
+        "Disfrutas el viaje tranquilo"
+      ],
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos VIAJE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Te vas por Acción de Gracias? 🦃 Revisa la puerta y el aire desde tu celular, estés donde estés. Estimado gratis. Escríbenos VIAJE o llama al (239) 204-6336.\n\n#CasaInteligente #AccionDeGracias #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "¿Cerré la puerta? Revisa tu casa desde el viaje 🦃"
+}

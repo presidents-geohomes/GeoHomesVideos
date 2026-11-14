@@ -1,0 +1,50 @@
+{
+  "titulo": "Dog home alone? Keep him cool",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/camara-interior.jpg",
+      "etiqueta": "PETS AT HOME",
+      "titulo": "Dog home alone? Keep him cool",
+      "texto": "Climate control that thinks of them too."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "You leave early, the day heats up",
+      "texto": "He's home all day and can't touch the AC."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "SMART THERMOSTAT",
+      "titulo": "Adjust the AC from your phone",
+      "texto": "And the camera shows he's doing fine."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Home temperature on your phone",
+        "Change the AC from anywhere",
+        "Watch him live on camera",
+        "Head to work worry-free"
+      ],
+      "foto": "catalogo/seleccion/termostato_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us PET",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Your dog's home alone, and staying cool 🐶 Adjust the AC from your phone and check on him on camera. Free estimate. Text us PET or call (239) 204-6336.\n\n#SmartHome #PetParents #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Dog home alone in the Florida heat? You control the AC 🐶"
+}

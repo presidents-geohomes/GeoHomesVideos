@@ -1,0 +1,50 @@
+{
+  "titulo": "You evacuated. How's your home?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/camara-exterior.jpg",
+      "etiqueta": "HURRICANE SEASON",
+      "titulo": "You evacuated. How's your home?",
+      "texto": "See it before you head back."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Far from home, no news",
+      "texto": "And days of waiting before you can return."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_1.jpg",
+      "etiqueta": "WATER SENSOR",
+      "titulo": "Get an alert if water gets in",
+      "texto": "And shut off the water from afar."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "See your home on video",
+        "Alerts if there's water inside",
+        "Check doors and windows",
+        "Know the temperature inside"
+      ],
+      "foto": "catalogo/seleccion/camara-exterior_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us STORM",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "You evacuated. How's your home holding up? 🌀 See it on video and get water alerts on your phone. Free estimate. Text us STORM or call (239) 204-6336.\n\n#SmartHome #HurricaneSeason #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Evacuated and wondering about your home? See it 🌀"
+}

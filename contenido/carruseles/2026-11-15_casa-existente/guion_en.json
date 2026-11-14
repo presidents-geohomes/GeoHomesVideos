@@ -1,0 +1,50 @@
+{
+  "titulo": "Older home? It can still be smart",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/interruptor_2.jpg",
+      "etiqueta": "MYTH",
+      "titulo": "Older home? It can still be smart",
+      "texto": "No new build needed to get a smart home."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "“That's only for new houses”",
+      "texto": "We hear it all the time. It's just not true."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "SMART SWITCH",
+      "titulo": "It goes where your switch already is",
+      "texto": "Same spot, no holes in the walls."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "No remodel",
+        "Works with your Wi-Fi",
+        "Start with one room",
+        "Add more anytime"
+      ],
+      "foto": "catalogo/seleccion/interruptor_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us HOME",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Older home? It can still be a smart home 🏡 No remodel, no tearing into walls. Free estimate. Text us HOME or call (239) 204-6336.\n\n#SmartHome #HomeUpgrade #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Smart homes are only for new builds? Myth 🏡"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Arms full of groceries?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "etiqueta": "“I'M HOME” SCENE",
+      "titulo": "Arms full of groceries?",
+      "texto": "One tap and your home clears the way."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Keys in your teeth, elbow on the switch",
+      "texto": "And the ice cream melting in the bag."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "ONE TAP",
+      "titulo": "Garage and door open together",
+      "texto": "And the kitchen light is already on."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Garage, door and lights at once",
+        "From the car or by voice",
+        "No digging for keys",
+        "Hands free for the bags"
+      ],
+      "foto": "catalogo/seleccion/interruptor-dimmer_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us SCENE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Arms full of groceries? 🛒 One tap opens the garage, unlocks the door and turns on the kitchen light. Free estimate. Text us SCENE or call (239) 204-6336.\n\n#SmartHome #SmartScenes #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Hands full of groceries and the house lets you in 🛒"
+}

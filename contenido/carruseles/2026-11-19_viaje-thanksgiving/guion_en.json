@@ -1,0 +1,50 @@
+{
+  "titulo": "Heading out for Thanksgiving?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "etiqueta": "THANKSGIVING TRAVEL",
+      "titulo": "Heading out for Thanksgiving?",
+      "texto": "Check on your home from the family table."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "On the road, and then it hits you",
+      "texto": "Did I lock the door? Is the AC still running?"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "FROM ANYWHERE",
+      "titulo": "Set the AC while you're away",
+      "texto": "And cool again before you're back."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "See if the door is locked",
+        "Lock it with one tap",
+        "Adjust the AC from afar",
+        "Enjoy the trip"
+      ],
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us TRIP",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Heading out for Thanksgiving? 🦃 Check the door and the AC from your phone, wherever you are. Free estimate. Text us TRIP or call (239) 204-6336.\n\n#SmartHome #ThanksgivingTravel #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Did I lock the door? Check your home from the road 🦃"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Evacuaste. ¿Cómo quedó tu casa?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/camara-exterior.jpg",
+      "etiqueta": "TEMPORADA DE HURACANES",
+      "titulo": "Evacuaste. ¿Cómo quedó tu casa?",
+      "texto": "Mírala antes de emprender el regreso."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Lejos de casa, sin saber nada",
+      "texto": "Y días esperando para poder volver."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/valvula-agua-sensor-fugas_1.jpg",
+      "etiqueta": "SENSOR DE AGUA",
+      "titulo": "Te avisa si entró agua",
+      "texto": "Y puedes cerrar la llave desde lejos."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves tu casa en video",
+        "Aviso si hay agua dentro",
+        "Revisas puertas y ventanas",
+        "Sabes la temperatura adentro"
+      ],
+      "foto": "catalogo/seleccion/camara-exterior_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos TORMENTA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Evacuaste. ¿Cómo quedó tu casa? 🌀 Mírala en video y recibe avisos de agua en tu celular. Estimado gratis. Escríbenos TORMENTA o llama al (239) 204-6336.\n\n#CasaInteligente #TemporadaDeHuracanes #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Evacuaste y no sabes cómo quedó tu casa? Mírala 🌀"
+}

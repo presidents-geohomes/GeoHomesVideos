@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Llegas con las bolsas del súper?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/abridor-garaje_1.jpg",
+      "etiqueta": "ESCENA “LLEGUÉ”",
+      "titulo": "¿Llegas con las bolsas del súper?",
+      "texto": "Un toque y la casa te abre paso."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Llaves en la boca, codo en el interruptor",
+      "texto": "Y el helado derritiéndose en la bolsa."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "UN SOLO TOQUE",
+      "titulo": "Se abre el garaje y la puerta",
+      "texto": "Y la luz de la cocina ya te espera."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Garaje, puerta y luces a la vez",
+        "Desde el carro o con tu voz",
+        "Sin buscar llaves",
+        "Manos libres para las bolsas"
+      ],
+      "foto": "catalogo/seleccion/interruptor-dimmer_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos ESCENA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Llegas con las bolsas del súper? 🛒 Un toque y se abre el garaje, la puerta y se prende la cocina. Estimado gratis. Escríbenos ESCENA o llama al (239) 204-6336.\n\n#CasaInteligente #EscenasInteligentes #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Llegas cargado del súper y la casa te abre sola 🛒"
+}

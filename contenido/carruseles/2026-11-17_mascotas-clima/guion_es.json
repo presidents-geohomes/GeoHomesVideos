@@ -1,0 +1,50 @@
+{
+  "titulo": "Tu perro solo en casa, y fresquito",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/camara-interior.jpg",
+      "etiqueta": "MASCOTAS EN CASA",
+      "titulo": "Tu perro solo en casa, y fresquito",
+      "texto": "El aire, también pensado para ellos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Sales temprano y el día se calienta",
+      "texto": "Él se queda en casa y no puede bajar el aire."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "TERMOSTATO INTELIGENTE",
+      "titulo": "Ajusta el aire desde tu celular",
+      "texto": "Y la cámara te deja ver que está tranquilo."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Temperatura en tu celular",
+        "Subes o bajas el aire de lejos",
+        "Lo ves en vivo por la cámara",
+        "Te vas tranquilo al trabajo"
+      ],
+      "foto": "catalogo/seleccion/termostato_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos MASCOTA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Tu perro solo en casa, y fresquito 🐶 Ajusta el aire desde tu celular y míralo por la cámara. Estimado gratis. Escríbenos MASCOTA o llama al (239) 204-6336.\n\n#CasaInteligente #Mascotas #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "Tu perro solo en casa con este calor? Tú controlas el aire 🐶"
+}

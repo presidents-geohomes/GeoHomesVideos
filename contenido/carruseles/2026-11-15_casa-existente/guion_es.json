@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Tu casa no es nueva? También se puede",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/interruptor_2.jpg",
+      "etiqueta": "MITO",
+      "titulo": "¿Tu casa no es nueva? También se puede",
+      "texto": "No hace falta construir para tener casa inteligente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "“Eso es solo para casas nuevas”",
+      "texto": "Es lo que más escuchamos. Y no es así."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "INTERRUPTOR INTELIGENTE",
+      "titulo": "Va donde ya está tu interruptor",
+      "texto": "Mismo lugar, sin romper paredes."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Sin remodelar",
+        "Usa tu wifi de siempre",
+        "Empiezas por un cuarto",
+        "Sumas más cuando quieras"
+      ],
+      "foto": "catalogo/seleccion/interruptor_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos CASA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Tu casa no es nueva? También puede ser inteligente 🏡 Sin remodelar y sin romper paredes. Estimado gratis. Escríbenos CASA o llama al (239) 204-6336.\n\n#CasaInteligente #MitosCasaInteligente #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "¿Casa inteligente solo en casas nuevas? Mito 🏡"
+}
