@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -202,6 +202,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - ¿Un ruido afuera de madrugada? Revisa cámaras y luces desde la cama (usado: 039)
 - ¿Vuelves a Florida esta temporada? Tu casa te recibe lista (usado: 040)
 - ¿Una casa inteligente te espía? Privacidad: tú decides (usado: 041)
+- ¿Vienen visitas esta noche? Escena "Visitas" con un toque (usado: 042)
 
 ## Registro de videos
 
@@ -262,7 +263,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 | 041 | ¿Una casa inteligente te espía? (privacidad: cámaras solo afuera, pausar las de adentro, quién tiene acceso, qué te avisa) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-13 (EN 12:00, ES 18:00) | Sí (contenido/guiones/041_casa_espia.json y _en) |
 
-Siguiente número: 042.
+| 042 | ¿Vienen visitas esta noche? (escena "Visitas": luces del lanai, aire, persianas abiertas, puerta con código) | Texto ES/EN | Escenas y estilo de vida | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-14 (EN 12:00, ES 18:00) | Sí (contenido/guiones/042_visitas_noche.json y _en) |
+
+Siguiente número: 043.
 
 ## Series de familias (episodios con historia)
 
