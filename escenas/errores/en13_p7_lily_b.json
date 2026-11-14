@@ -1,0 +1,14 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN13",
+  "formato": "9:16",
+  "archivo": "p7_lily_b.jpg",
+  "referencias": [
+    "familias/familia_2/set/cocina_puerta_lavanderia.png",
+    "familias/familia_2/personajes/lily_cuerpo.png"
+  ],
+  "prompt": "Photorealistic edit of the first reference photo. Keep EXACTLY the same camera angle, framing, kitchen, the open laundry room on the left with washer and dryer, white door, white cabinets, navy island with white quartz, three wooden stools, gray fabric smart speaker on the island, brass pendants, window with palm trees, white pet feeder, floor and the warm afternoon sunlight. The 9-year-old girl from the second reference photo (light brown ponytail, yellow t-shirt, denim shorts, white sneakers) sits on the middle stool at the island, seen from BEHIND, doing homework, calm and relaxed: writing in a plain notebook with a pencil; her lilac backpack rests on the stool next to her. Face not visible. She is small and natural in the scene, lower half of the frame; the top third of the image stays clear. Vertical 9:16, no text on anything, no logos, no letters, no numbers, no extra people, no animals.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a1da5b-9552-7533-bfa6-9cc0e293066d\", \"status_url\": \"https://api.higgsfield.ai/requests/01a1da5b-9552-7533-bfa6-9cc0e293066d/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a1da5b-9552-7533-bfa6-9cc0e293066d/cancel\", \"expires_at\": \"2026-11-21T13:59:58.702478+00:00\"}",
+  "fecha_error": "2026-11-14T14:00:00Z"
+}

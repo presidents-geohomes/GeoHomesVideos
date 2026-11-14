@@ -1,0 +1,14 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN13",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN10/p6_estacion_b_1.png",
+    "familias/familia_2/personajes/emma_trabajo.png"
+  ],
+  "archivo": "p3_emma_terraza_a.jpg",
+  "prompt": "Photorealistic photo of the same scene as the first reference photo: a sunny hospital terrace balcony with a glass and steel railing, palm trees and warm afternoon light. The SAME nurse from the second reference photo (honey-blonde hair in a ponytail, navy scrubs, ID lanyard, white clogs) stands at the railing seen from BEHIND and slightly to the side, holding a phone low in both hands, looking down at it; the phone screen faces her and is NOT visible. The camera is further back than in the first photo: she is smaller in the frame, her head at about 40 percent of the image height, with lots of open sky and palm trees above her in the top third. Face not visible. Nobody else. Vertical 9:16, no text, no logos, no letters, no numbers.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a1da5b-8af7-73ce-a7a8-d2b474cd0cc9\", \"status_url\": \"https://api.higgsfield.ai/requests/01a1da5b-8af7-73ce-a7a8-d2b474cd0cc9/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a1da5b-8af7-73ce-a7a8-d2b474cd0cc9/cancel\", \"expires_at\": \"2026-11-21T13:59:57.530038+00:00\"}",
+  "fecha_error": "2026-11-14T14:00:01Z"
+}

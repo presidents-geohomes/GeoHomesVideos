@@ -1,0 +1,14 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN13",
+  "formato": "9:16",
+  "archivo": "p2_enchufe_a.jpg",
+  "referencias": [
+    "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+    "familias/familia_2/set/lavanderia.png"
+  ],
+  "prompt": "Photorealistic close-up photo in the same laundry room as the second reference photo (white shiplap wall, warm wooden counter, warm afternoon sunlight). A small round white smart plug, exactly like the one in the first reference photo, is plugged into a white wall outlet on the shiplap wall just above the wooden counter; its small status light ring glows soft amber. A black power cord goes from the smart plug to a plain white-and-light-gray household steam iron (generic, no logo) standing upright on its heel on a folded white towel on the counter, slightly out of focus on the right, with a faint wisp of steam. Calm, still, cozy. Leave the top third of the frame as plain wall. Vertical 9:16, no text, no logos, no letters, no numbers, no brand names, no people, no animals.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a1da5b-8af7-7116-874c-10c14076d179\", \"status_url\": \"https://api.higgsfield.ai/requests/01a1da5b-8af7-7116-874c-10c14076d179/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a1da5b-8af7-7116-874c-10c14076d179/cancel\", \"expires_at\": \"2026-11-21T13:59:56.606534+00:00\"}",
+  "fecha_error": "2026-11-14T13:59:57Z"
+}
