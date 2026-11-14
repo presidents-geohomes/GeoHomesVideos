@@ -36,7 +36,13 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-11-11/12 | Pantalla inteligente | tu casa entera en una pantalla en la cocina (luces, puerta, cámaras, fotos) |
 | 2026-11-12/13 | Cerradura inteligente | adiós a la llave bajo la maceta; un código para cada quien y aviso de quién entró |
 | 2026-11-13/14 | Persianas motorizadas | anochece y bajan solas (privacidad de noche), suben en la mañana |
+| 2026-11-15/16 | Casa existente (mito) | "¿tu casa no es nueva? también se puede"; interruptor inteligente donde ya está el tuyo, sin remodelar |
+| 2026-11-16/17 | Cámara interior | ¿ya llegaron los niños de la escuela? míralos en vivo y háblales por la cámara |
+| 2026-11-17/18 | Mascotas solas en casa | tu perro solo y fresquito: aire desde el celular + verlo por la cámara |
+| 2026-11-18/19 | Escena "Llegué" | llegas con las bolsas del súper: un toque abre garaje y puerta y prende la cocina |
+| 2026-11-19/20 | Viaje de Acción de Gracias | ¿cerré la puerta? revisa puerta y aire desde la mesa de la familia |
+| 2026-11-20/21 | Temporada de huracanes | evacuaste, ¿cómo quedó tu casa? video, aviso de agua, puertas y temperatura a distancia |
 
 ## Temas sugeridos aún sin usar
-cámara interior · escenas (me voy / llegué / buenas noches) · temporada de huracanes ·
-casa de vacaciones / snowbirds · mascotas solas en casa
+escenas (me voy / buenas noches: ya muy usadas en videos, buscar otro gancho) · casa de vacaciones / snowbirds (muy usado en videos) ·
+bombillos de luz cálida/blanca según la hora · mito "se cae si se va el internet" (ya hubo FAQ, otro gancho) · casa de alquiler vacacional
