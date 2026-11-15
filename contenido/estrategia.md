@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -203,6 +203,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - ¿Vuelves a Florida esta temporada? Tu casa te recibe lista (usado: 040)
 - ¿Una casa inteligente te espía? Privacidad: tú decides (usado: 041)
 - ¿Vienen visitas esta noche? Escena "Visitas" con un toque (usado: 042)
+- ¿Tropiezas de noche buscando la luz? Luces con sensor en el pasillo (usado: 043)
 
 ## Registro de videos
 
@@ -265,7 +266,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 042 | ¿Vienen visitas esta noche? (escena "Visitas": luces del lanai, aire, persianas abiertas, puerta con código) | Texto ES/EN | Escenas y estilo de vida | No | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-14 (EN 12:00, ES 18:00) | Sí (contenido/guiones/042_visitas_noche.json y _en) |
 
-Siguiente número: 043.
+| 043 | ¿Tropiezas de noche buscando la luz? (luces con sensor de movimiento: pasillo al caminar, luz suave de noche, baño sin deslumbrar, se apagan solas) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-15 (EN 12:00, ES 18:00) | Sí (contenido/guiones/043_luz_pasillo.json y _en) |
+
+Siguiente número: 044.
 
 ## Series de familias (episodios con historia)
 
