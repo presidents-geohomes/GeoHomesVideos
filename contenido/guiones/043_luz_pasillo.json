@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Tropiezas de noche buscando la luz?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tropiezas de noche *buscando la luz?*", "dur": 2.8},
+    {"type": "text", "kicker": "Luces con sensor", "text": "Caminas y *la luz te acompaña.*", "dur": 2.8},
+    {"type": "list", "title": "*Sin buscar el interruptor:*", "items": ["Pasillo al caminar", "Luz suave de noche", "Baño sin deslumbrar", "Se apagan solas"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Camina tranquilo, *aunque sea de noche.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Tropiezas de noche buscando la luz? 🌙 Con un sensor, el pasillo se prende suave al caminar y se apaga solo. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #LucesInteligentes",
+  "tiktok_title": "¿Tropiezas de noche buscando la luz? Que se prenda sola 🌙"
+}
