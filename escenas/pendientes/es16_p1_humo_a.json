@@ -1,0 +1,11 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/ES16",
+  "formato": "9:16",
+  "referencias": [
+    "planos/ES16/ref_mariana_estufa.jpg",
+    "familias/familia_1/set/cocina.png"
+  ],
+  "archivo": "p1_humo_a.jpg",
+  "prompt": "Photorealistic edit of the reference photo. Keep EXACTLY the same kitchen, camera angle, framing and warm golden late-afternoon light: white shaker cabinets, light quartz island with three wooden stools, the gray fabric cylinder smart speaker in the center of the island, window over the sink showing the screened pool, white door on the left wall, terracotta diagonal tile floor, steel stove on the left. Keep the same woman with long wavy dark brown hair in a cream linen blouse and cream pants standing at the stove, seen from behind, same pose. Add ONLY this: a black frying pan on the front burner of the stove and a thin column of light gray cooking smoke rising from the pan up toward the ceiling, with a faint soft haze spreading just under the ceiling near the stove. No flames, no fire. Nothing else changes. No other people, no animals. Vertical 9:16, no text, no logos, no letters, no numbers."
+}
