@@ -1,0 +1,146 @@
+{
+  "id": "es_016_por_que_se_apago_el_aire",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES16_por-que-se-apago-el-aire",
+  "archivo": "ES16.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Curious, lightly mysterious opening that resolves into warm relief, instrumental for a premium smart-home lifestyle commercial: soft plucked notes and quiet felt piano with a small question for the first eight seconds, then warm acoustic guitar and light piano around 95 BPM, cozy late-afternoon feeling, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "planos/ES16/p1_humo.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "5:15 p. m. · Se pasó la cena",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Mariana cooks at the stove; smoke rises from the pan."
+    },
+    {
+      "clip": "planos/ES16/p2_detector_ambar.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Detector · Humo en la cocina",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Smoke detector ring glows amber."
+    },
+    {
+      "clip": "planos/ES16/termostato_pausa.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Aire en pausa · El humo no viaja",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Thermostat turns off."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-floyd-levanta.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Floyd · Lejos del humo, en la sala",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Floyd lifts his head on his bed."
+    },
+    {
+      "clip": "planos/ES16/p5_se_despeja.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Cocina · El humo se despeja",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Mariana at the sink, the last haze clears."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-humo-co.mp4",
+      "duracion": 3,
+      "musica": "alta",
+      "texto": "Detector · Todo en verde",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Smoke detector ring glows green."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "alta",
+      "texto": "Aire · Encendido otra vez",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Thermostat turns back on."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Por qué se apagó el aire de golpe?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "El detector notó el humo.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Y la casa pausó el aire,",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "para que no llegue a los cuartos.",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "En un par de minutos, se despeja.",
+        "desde": 0.2
+      },
+      {
+        "escena": 6,
+        "texto": "El detector vuelve a verde,",
+        "desde": 0.2
+      },
+      {
+        "escena": 7,
+        "texto": "y el aire, solo.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES16/portada_base.jpg",
+    "titulo": "¿Por qué se apagó el aire?",
+    "etiqueta": "Casa que te entiende · Ep. 16"
+  },
+  "notas": "Hecho solo con tomas del banco + efectos locales (humo y aro ámbar con OpenCV): Higgsfield sin créditos el 2026-11-16."
+}
