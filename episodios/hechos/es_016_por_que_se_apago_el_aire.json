@@ -30,7 +30,7 @@
       "prompt": "Smoke detector ring glows amber."
     },
     {
-      "clip": "planos/ES16/termostato_pausa.mp4",
+      "clip": "planos/ES16/termostato_pausa2.mp4",
       "duracion": 3,
       "musica": "media",
       "texto": "Aire en pausa · El humo no viaja",
@@ -142,9 +142,9 @@
     "titulo": "¿Por qué se apagó el aire?",
     "etiqueta": "Casa que te entiende · Ep. 16"
   },
-  "notas": "Hecho solo con tomas del banco + efectos locales (humo y aro ámbar con OpenCV): Higgsfield sin créditos el 2026-11-16.",
+  "notas": "Hecho solo con tomas del banco + efectos locales (humo y aro ámbar con OpenCV): Higgsfield sin créditos el 2026-11-16. v2: termostato se apaga antes (plano 3).",
   "estado": "hecho",
   "video": "series/espanol/ES16_por-que-se-apago-el-aire/ES16.mp4",
   "duracion": 24.0,
-  "fecha": "2026-11-16T14:15:09Z"
+  "fecha": "2026-11-16T14:21:51Z"
 }
