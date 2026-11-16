@@ -1,0 +1,13 @@
+{
+  "titulo": "Who just opened the lanai door?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Who just opened *the lanai door?*", "dur": 2.8},
+    {"type": "text", "kicker": "Door sensors", "text": "Your phone knows *right away.*", "dur": 2.8},
+    {"type": "list", "title": "*Always in the loop:*", "items": ["Alert when it opens", "Check the camera", "Doors, windows, gates", "Alerts on a schedule"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Relax. *Your home speaks up.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Who just opened the lanai door? 👀 A sensor pings your phone right away, and you can check the camera. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeSecurity #DoorSensor",
+  "tiktok_title": "Who just opened the lanai door? Your phone knows 👀"
+}

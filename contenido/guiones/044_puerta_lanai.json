@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Alguien abrió la puerta del lanai?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Alguien abrió *la puerta del lanai?*", "dur": 2.8},
+    {"type": "text", "kicker": "Sensores de puerta", "text": "Tu celular te avisa *al instante.*", "dur": 2.8},
+    {"type": "list", "title": "*Siempre sabes:*", "items": ["Aviso al abrirse", "Míralo en la cámara", "Puerta, ventana o portón", "Avisos con horario"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tú tranquilo, *tu casa te avisa.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Alguien abrió la puerta del lanai? 👀 Un sensor te avisa al instante y lo ves por la cámara. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #SensoresDePuerta",
+  "tiktok_title": "¿Alguien abrió la puerta del lanai? Tu celular lo sabe 👀"
+}
