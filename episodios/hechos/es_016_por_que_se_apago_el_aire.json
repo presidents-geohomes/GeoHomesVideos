@@ -142,5 +142,9 @@
     "titulo": "¿Por qué se apagó el aire?",
     "etiqueta": "Casa que te entiende · Ep. 16"
   },
-  "notas": "Hecho solo con tomas del banco + efectos locales (humo y aro ámbar con OpenCV): Higgsfield sin créditos el 2026-11-16."
+  "notas": "Hecho solo con tomas del banco + efectos locales (humo y aro ámbar con OpenCV): Higgsfield sin créditos el 2026-11-16.",
+  "estado": "hecho",
+  "video": "series/espanol/ES16_por-que-se-apago-el-aire/ES16.mp4",
+  "duracion": 24.0,
+  "fecha": "2026-11-16T14:15:09Z"
 }
