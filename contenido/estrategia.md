@@ -204,6 +204,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - ¿Una casa inteligente te espía? Privacidad: tú decides (usado: 041)
 - ¿Vienen visitas esta noche? Escena "Visitas" con un toque (usado: 042)
 - ¿Tropiezas de noche buscando la luz? Luces con sensor en el pasillo (usado: 043)
+- ¿Alguien abrió la puerta del lanai? Sensores de puerta que avisan al celular (usado: 044)
 
 ## Registro de videos
 
@@ -268,7 +269,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 | 043 | ¿Tropiezas de noche buscando la luz? (luces con sensor de movimiento: pasillo al caminar, luz suave de noche, baño sin deslumbrar, se apagan solas) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-15 (EN 12:00, ES 18:00) | Sí (contenido/guiones/043_luz_pasillo.json y _en) |
 
-Siguiente número: 044.
+| 044 | ¿Alguien abrió la puerta del lanai? (sensores de puerta: aviso al abrirse, ver la cámara, puertas/ventanas/portón, avisos con horario) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-16 (EN 12:00, ES 18:00) | Sí (contenido/guiones/044_puerta_lanai.json y _en) |
+
+Siguiente número: 045.
 
 ## Series de familias (episodios con historia)
 
