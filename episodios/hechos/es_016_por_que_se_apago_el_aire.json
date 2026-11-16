@@ -146,5 +146,9 @@
   "estado": "hecho",
   "video": "series/espanol/ES16_por-que-se-apago-el-aire/ES16.mp4",
   "duracion": 24.0,
-  "fecha": "2026-11-16T14:21:51Z"
+  "fecha": "2026-11-16T14:21:51Z",
+  "video_publicado": "series/espanol/ES16_por-que-se-apago-el-aire/ES16_con_portada.mp4",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7354229&openWithPostUuid=3404217895311197662",
+  "publicacion": "2026-11-17 10:00",
+  "notas_qa": "Higgsfield sin créditos: episodio armado con tomas del banco + humo y aro ámbar hechos en local. v2 corrigió el termostato (plano 3). Audio presente (-16.9 dB), 24.2 s (24.7 con portada)."
 }
