@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -205,6 +205,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - ¿Vienen visitas esta noche? Escena "Visitas" con un toque (usado: 042)
 - ¿Tropiezas de noche buscando la luz? Luces con sensor en el pasillo (usado: 043)
 - ¿Alguien abrió la puerta del lanai? Sensores de puerta que avisan al celular (usado: 044)
+- ¿Tu casa huele a humedad? Ve la humedad en la app y recibe avisos (usado: 045)
 
 ## Registro de videos
 
@@ -271,7 +272,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 | 044 | ¿Alguien abrió la puerta del lanai? (sensores de puerta: aviso al abrirse, ver la cámara, puertas/ventanas/portón, avisos con horario) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-16 (EN 12:00, ES 18:00) | Sí (contenido/guiones/044_puerta_lanai.json y _en) |
 
-Siguiente número: 045.
+| 045 | ¿Tu casa huele a humedad? (humedad en Florida: ver la humedad en la app, aviso si sube, aire con horario, todo desde el celular) | Texto ES/EN | Florida y temporada | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-17 (EN 12:00, ES 18:00) | Sí (contenido/guiones/045_humedad_casa.json y _en) |
+
+Siguiente número: 046.
 
 ## Series de familias (episodios con historia)
 
