@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Tu casa huele a humedad?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tu casa *huele a humedad?*", "dur": 2.8},
+    {"type": "text", "kicker": "Humedad en Florida", "text": "Sabes *cómo está el aire.*", "dur": 2.8},
+    {"type": "list", "title": "*Tú decides:*", "items": ["Ve la humedad en la app", "Aviso si sube mucho", "Aire con horario", "Todo desde tu celular"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Respira tranquilo *en casa.*", "sub": "Suroeste de Florida", "button": "Envíanos un texto", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "¿Tu casa huele a humedad? 💧 Ve la humedad en tu celular y recibe un aviso si sube. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠\n📲 Envíanos un texto al (239) 204-6336\n#NaplesFL #SmartHome #CasaInteligente #GeoHomes #HumedadEnFlorida",
+  "tiktok_title": "¿Tu casa huele a humedad? Mírala desde tu celular 💧"
+}

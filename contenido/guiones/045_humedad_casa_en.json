@@ -1,0 +1,13 @@
+{
+  "titulo": "Does your home smell musty?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Does your home *smell musty?*", "dur": 2.8},
+    {"type": "text", "kicker": "Florida humidity", "text": "Know *how the air feels.*", "dur": 2.8},
+    {"type": "list", "title": "*You're in control:*", "items": ["See humidity in the app", "Alert when it climbs", "AC on a schedule", "All from your phone"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Breathe easy *at home.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "Does your home smell musty? 💧 Check the humidity on your phone and get an alert when it climbs. We install it in your home anywhere in Southwest Florida. Message us 🏠\n📲 Text us at (239) 204-6336\n#NaplesFL #SmartHome #GeoHomes #FloridaHumidity #SmartThermostat",
+  "tiktok_title": "Does your home smell musty? Check it from your phone 💧"
+}
