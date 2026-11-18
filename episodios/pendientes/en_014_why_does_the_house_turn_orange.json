@@ -1,0 +1,31 @@
+{
+  "id": "en_014_why_does_the_house_turn_orange",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN14_why-does-the-house-turn-orange",
+  "archivo": "EN14.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {"prompt": "Original gentle bedtime instrumental for a cozy family smart-home story: opens with a soft curious music-box and celesta motif (a small mystery), then settles into a warm, slow lullaby with felt piano and fingerpicked acoustic guitar, around 80 BPM, tender and calm, clean mix, no vocals, soft fading ending."},
+  "escenas": [
+    {"clip": "planos/EN14/p1_cuarto_blanco.mp4", "duracion": 4.5, "musica": "baja", "texto": "7:59 PM · Story time", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.3, "prompt": "Emma reads a bedtime story to Lily in her room under bright cool white light."},
+    {"clip": "planos/EN14/p2_cocina_calida.mp4", "duracion": 4, "musica": "baja", "texto": "8:00 PM · Bedtime routine", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.2, "prompt": "Empty kitchen at night; the lights shift from white to warm and dim."},
+    {"clip": "planos/EN14/p3_pasillo_calido.mp4", "duracion": 3.5, "musica": "media", "texto": "Hallway · Warm night glow", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.2, "prompt": "Hallway lights soften to a warm low glow."},
+    {"clip": "planos/EN14/p4_sala_calida.mp4", "duracion": 3.5, "musica": "media", "texto": "Living room · Lights down", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.2, "prompt": "Empty living room; lights warm up and dim down."},
+    {"clip": "planos/EN14/p5_cuarto_calido.mp4", "duracion": 5, "musica": "media", "texto": "Lily's room · Warm light", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.3, "prompt": "Lily's room turns from white light to a warm amber glow while Emma keeps reading."},
+    {"clip": "planos/EN14/p6_lily_duerme_calido.mp4", "duracion": 4.5, "musica": "media", "texto": "8:30 PM · Lily's asleep", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.3, "prompt": "Lily asleep with Biscuit at her feet in warm low light."},
+    {"clip": "banco/tomas/f2/f2-ext-noche.mp4", "duracion": 4, "musica": "alta", "texto": "Every school night · 8:00 PM", "estilo_texto": "aviso", "posicion_texto": "arriba", "texto_desde": 0.3, "prompt": "The house at night, porch light on, calm street."}
+  ],
+  "narracion": {"voice_id": "MFZUKuGQUsGJPQjTS4wC", "partes": [
+    {"escena": 1, "texto": "Why does this house turn orange at eight?", "desde": 0.2},
+    {"escena": 2, "texto": "It's not a glitch. It's bedtime.", "desde": 0.3},
+    {"escena": 3, "texto": "The lights soften, room by room.", "desde": 0.2},
+    {"escena": 5, "texto": "Warm light tells Lily it's time to wind down.", "desde": 0.4},
+    {"escena": 6, "texto": "No arguing. Asleep by eight-thirty.", "desde": 0.4},
+    {"escena": 7, "texto": "And Mom finally gets her evening back.", "desde": 0.2},
+    {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.4}
+  ]},
+  "cierre": {"frase": "Home that keeps up.", "lugar": "Geo Homes · Naples, FL", "oferta": ["Free visit & estimate · We make your home smart", "Free estimate · Your current home, now smart", "No-obligation quote · We make your home smart"], "segundos": 3.5, "musica": "media"},
+  "subtitulos": true,
+  "portada": {"imagen": "planos/EN14/portada_base.jpg", "titulo": "Why does this house turn orange at 8 PM?", "etiqueta": "Home, Simplified · Ep. 14"}
+}
