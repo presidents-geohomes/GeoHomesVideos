@@ -141,5 +141,18 @@
   "estado": "hecho",
   "video": "series/ingles/EN14_why-does-the-house-turn-orange/EN14.mp4",
   "duracion": 29.0,
-  "fecha": "2026-11-18T14:14:56Z"
+  "fecha": "2026-11-18T14:14:56Z",
+  "publicacion": {
+    "metricool_id": 432897078,
+    "fecha": "2026-11-19T10:00:00",
+    "zona": "America/New_York",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "facebook",
+      "youtube"
+    ],
+    "video": "series/ingles/EN14_why-does-the-house-turn-orange/EN14_con_portada.mp4",
+    "titulo": "Why does this house turn orange at 8 PM? 🧡"
+  }
 }
