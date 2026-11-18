@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Solo tú puedes manejar tu casa?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Solo tú puedes *manejar tu casa?*", "dur": 2.8},
+    {"type": "text", "kicker": "Pregunta frecuente", "text": "Toda la familia *puede usarla.*", "dur": 2.8},
+    {"type": "list", "title": "*Cada uno con:*", "items": ["Su propio acceso", "Su código de puerta", "Avisos si quiere", "Permisos que tú das"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Una casa, *toda la familia.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Solo tú puedes manejar la casa? 👨‍👩‍👧 Cada uno tiene su acceso y su código, y tú decides qué puede hacer. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CasaEnFamilia",
+  "tiktok_title": "¿Solo tú puedes manejar tu casa? Toda la familia puede 👨‍👩‍👧"
+}
