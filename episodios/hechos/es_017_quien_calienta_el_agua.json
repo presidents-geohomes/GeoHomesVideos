@@ -126,5 +126,9 @@
   "estado": "hecho",
   "video": "series/espanol/ES17_quien-calienta-el-agua/ES17.mp4",
   "duracion": 23.5,
-  "fecha": "2026-11-19T14:03:07Z"
+  "fecha": "2026-11-19T14:03:07Z",
+  "video_publicado": "series/espanol/ES17_quien-calienta-el-agua/ES17_con_portada.mp4",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7354229&openWithPostUuid=-6132614137449986878",
+  "publicacion": "2026-11-20 10:00",
+  "notas_qa": "QA sin supervisión: fotogramas 1/s OK (letreros arriba, sin tapar a nadie, sin logos), audio presente (-17.1 dB), 23.7 s (24.2 con portada)."
 }
