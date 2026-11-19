@@ -1,0 +1,126 @@
+{
+  "id": "es_017_quien_calienta_el_agua",
+  "familia": "familia_1",
+  "serie": "Casa que te entiende",
+  "carpeta": "series/espanol/ES17_quien-calienta-el-agua",
+  "archivo": "ES17.mp4",
+  "idioma": "es",
+  "musica": {
+    "prompt": "Quiet, curious pre-dawn opening that blooms into warm morning optimism, instrumental for a premium smart-home lifestyle commercial: soft music-box plucks and hushed felt piano for the first seven seconds, then warm acoustic guitar and light piano around 95 BPM, sunrise feeling, clean mix, no vocals, gentle fading ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f1/f1-cua-dormidos.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "5:40 a. m. · Alarma de Daniel: 6:00",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Daniel and Mariana asleep in the dark bedroom."
+    },
+    {
+      "clip": "banco/insertos/f1/f1-ins-calentador.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Calentador · Se enciende solo",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Water heater controller light turns on in the garage."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-cua-botas.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "6:15 a. m. · Ducha caliente al instante",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Daniel, freshly showered, puts on his work boots."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-coc-cafe-daniel.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Calentador · En pausa hasta las 7",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Daniel makes coffee in the dim kitchen."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-auto-daniel-sale.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "6:30 a. m. · Daniel sale a trabajar",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Daniel walks to his pickup at sunrise."
+    },
+    {
+      "clip": "banco/tomas/f1/f1-cua-estira.mp4",
+      "duracion": 4,
+      "musica": "alta",
+      "texto": "7:15 a. m. · Turno de Mariana · Agua lista",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Mariana stretches in bed in the morning light."
+    }
+  ],
+  "narracion": {
+    "voice_id": "dlGxemPxFMTY7iXagmOj",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "¿Quién calienta el agua mientras todos duermen?",
+        "desde": 0.2
+      },
+      {
+        "escena": 2,
+        "texto": "El calentador se adelanta a la alarma.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Daniel se baña sin esperar ni un minuto.",
+        "desde": 0.2
+      },
+      {
+        "escena": 4,
+        "texto": "Luego descansa, para no gastar de más.",
+        "desde": 0.2
+      },
+      {
+        "escena": 6,
+        "texto": "Y para Mariana, otra vez a su hora.",
+        "desde": 0.2
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Tu casa, a tu ritmo.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Tu casa, a tu ritmo.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+      "Estimado gratis · Tu casa actual, ahora inteligente",
+      "Cotiza sin compromiso · Hacemos tu casa inteligente"
+    ],
+    "segundos": 3.5,
+    "musica": "baja"
+  },
+  "subtitulos": true,
+  "portada": {
+    "imagen": "planos/ES17/portada_base.jpg",
+    "titulo": "¿Quién calienta el agua?",
+    "etiqueta": "Casa que te entiende · Ep. 17"
+  },
+  "notas": "Tomas del banco (calentador de agua inteligente, rutina de la mañana). Producido sin supervisión 2026-11-19."
+}
