@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -207,6 +207,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - ¿Alguien abrió la puerta del lanai? Sensores de puerta que avisan al celular (usado: 044)
 - ¿Tu casa huele a humedad? Ve la humedad en la app y recibe avisos (usado: 045)
 - ¿Solo tú puedes manejar tu casa? Acceso para toda la familia (usado: 046)
+- ¿Hoy hay partido en casa? Escena "Partido" con un toque (usado: 047)
 
 ## Registro de videos
 
@@ -277,7 +278,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 | 046 | ¿Solo tú puedes manejar tu casa? (acceso para toda la familia: cada uno con su acceso, su código de puerta, avisos si quiere, permisos que tú das) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-18 (EN 12:00, ES 18:00) | Sí (contenido/guiones/046_familia_acceso.json y _en) |
 
-Siguiente número: 047.
+| 047 | ¿Hoy hay partido en casa? (escena "Partido": persianas sin reflejo, luces bajas en la sala, aire más fresco, lanai iluminado) | Texto ES/EN | Escenas y estilo de vida | No | es_salsa_ligera / en_upbeat_pop | Hecho y programado 2026-11-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/047_dia_partido.json y _en) |
+
+Siguiente número: 048.
 
 ## Series de familias (episodios con historia)
 
