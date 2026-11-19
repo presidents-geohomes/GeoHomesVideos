@@ -122,5 +122,9 @@
     "titulo": "¿Quién calienta el agua?",
     "etiqueta": "Casa que te entiende · Ep. 17"
   },
-  "notas": "Tomas del banco (calentador de agua inteligente, rutina de la mañana). Producido sin supervisión 2026-11-19."
+  "notas": "Tomas del banco (calentador de agua inteligente, rutina de la mañana). Producido sin supervisión 2026-11-19.",
+  "estado": "hecho",
+  "video": "series/espanol/ES17_quien-calienta-el-agua/ES17.mp4",
+  "duracion": 23.5,
+  "fecha": "2026-11-19T14:03:07Z"
 }
