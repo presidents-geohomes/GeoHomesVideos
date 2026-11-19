@@ -1,0 +1,13 @@
+{
+  "titulo": "Game day at your place?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "*Game day* at your place?", "dur": 2.8},
+    {"type": "text", "kicker": "Game day scene", "text": "One tap. *The living room's ready.*", "dur": 2.8},
+    {"type": "list", "title": "*One tap:*", "items": ["Shades cut the glare", "Living room lights dim", "AC a bit cooler", "Lanai lights on"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "You watch the game, *your home sets the stage.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Game day at your place? 🏈 One tap lowers the shades, dims the lights and cools down the living room. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #GameDay #SmartHomeScenes",
+  "tiktok_title": "Game day at your place? Your living room, ready in one tap 🏈"
+}
