@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 1 (Molestia diaria).
+El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 ## Banco de temas
 
@@ -208,6 +208,7 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 - ¿Tu casa huele a humedad? Ve la humedad en la app y recibe avisos (usado: 045)
 - ¿Solo tú puedes manejar tu casa? Acceso para toda la familia (usado: 046)
 - ¿Hoy hay partido en casa? Escena "Partido" con un toque (usado: 047)
+- ¿Todavía te agachas a prender el arbolito? Luces de Navidad con enchufe inteligente (usado: 048)
 
 ## Registro de videos
 
@@ -280,7 +281,9 @@ El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 | 047 | ¿Hoy hay partido en casa? (escena "Partido": persianas sin reflejo, luces bajas en la sala, aire más fresco, lanai iluminado) | Texto ES/EN | Escenas y estilo de vida | No | es_salsa_ligera / en_upbeat_pop | Hecho y programado 2026-11-19 (EN 12:00, ES 18:00) | Sí (contenido/guiones/047_dia_partido.json y _en) |
 
-Siguiente número: 048.
+| 048 | ¿Todavía te agachas a prender el arbolito? (enchufes inteligentes para las luces de Navidad: se prenden al anochecer, se apagan a medianoche, desde el celular, con la voz) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_acoustic_warm | Hecho y programado 2026-11-20 (EN 12:00, ES 18:00) | Sí (contenido/guiones/048_luces_navidad.json y _en) |
+
+Siguiente número: 049.
 
 ## Series de familias (episodios con historia)
 
