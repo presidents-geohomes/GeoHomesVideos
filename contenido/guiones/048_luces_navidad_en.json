@@ -1,0 +1,13 @@
+{
+  "titulo": "Still crawling under the tree to plug in?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Still crawling under the tree *to plug in?*", "dur": 2.8},
+    {"type": "text", "kicker": "Smart plugs", "text": "Your holiday lights *on autopilot.*", "dur": 2.8},
+    {"type": "list", "title": "*Your lights:*", "items": ["On at sunset", "Off at midnight", "From your phone", "Or with your voice"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "You enjoy them, *your home runs them.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Still crawling under the tree to plug it in? 🎄 A smart plug turns your holiday lights on at sunset and off on its own. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HolidayLights #SmartPlug",
+  "tiktok_title": "Still crawling under the tree? Let your lights run themselves 🎄"
+}

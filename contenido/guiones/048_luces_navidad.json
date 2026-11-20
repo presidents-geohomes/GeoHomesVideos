@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Todavía te agachas a prender el arbolito?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Todavía te agachas a prender *el arbolito?*", "dur": 2.8},
+    {"type": "text", "kicker": "Enchufes inteligentes", "text": "Tus luces de Navidad, *en piloto automático.*", "dur": 2.8},
+    {"type": "list", "title": "*Tus luces:*", "items": ["Se prenden al anochecer", "Se apagan a medianoche", "Desde tu celular", "O con tu voz"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Tú disfrutas, *la casa las prende.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Todavía te agachas a prender el arbolito? 🎄 Con un enchufe inteligente las luces se prenden al anochecer y se apagan solas. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #LucesDeNavidad",
+  "tiktok_title": "¿Todavía te agachas a prender el arbolito? Que se prenda solo 🎄"
+}
