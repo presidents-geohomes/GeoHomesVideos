@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -209,6 +209,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - ¿Solo tú puedes manejar tu casa? Acceso para toda la familia (usado: 046)
 - ¿Hoy hay partido en casa? Escena "Partido" con un toque (usado: 047)
 - ¿Todavía te agachas a prender el arbolito? Luces de Navidad con enchufe inteligente (usado: 048)
+- ¿Llegas de noche y todo está oscuro? Entrada que te recibe con luz y sin llaves (usado: 049)
 
 ## Registro de videos
 
@@ -283,7 +284,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 | 048 | ¿Todavía te agachas a prender el arbolito? (enchufes inteligentes para las luces de Navidad: se prenden al anochecer, se apagan a medianoche, desde el celular, con la voz) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_acoustic_warm | Hecho y programado 2026-11-20 (EN 12:00, ES 18:00) | Sí (contenido/guiones/048_luces_navidad.json y _en) |
 
-Siguiente número: 049.
+| 049 | ¿Llegas de noche y todo está oscuro? (entrada inteligente: luz al detectarte, ver la entrada en la cámara, abrir sin buscar llaves, se cierra sola al entrar) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-21 (EN 12:00, ES 18:00) | Sí (contenido/guiones/049_entrada_oscura.json y _en) |
+
+Siguiente número: 050.
 
 ## Series de familias (episodios con historia)
 
