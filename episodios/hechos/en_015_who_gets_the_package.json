@@ -137,5 +137,18 @@
   "estado": "hecho",
   "video": "series/ingles/EN15_who-gets-the-package/EN15.mp4",
   "duracion": 26.5,
-  "fecha": "2026-11-21T14:09:43Z"
+  "fecha": "2026-11-21T14:09:43Z",
+  "publicacion": {
+    "metricool_id": 436705389,
+    "fecha": "2026-11-22T10:00:00",
+    "zona": "America/New_York",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "facebook",
+      "youtube"
+    ],
+    "video": "series/ingles/EN15_who-gets-the-package/EN15_con_portada.mp4",
+    "titulo": "Nobody's home. So who gets the package? 📦"
+  }
 }
