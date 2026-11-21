@@ -1,0 +1,50 @@
+{
+  "titulo": "AC on and a window open?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "etiqueta": "WINDOW SENSOR",
+      "titulo": "AC running and a window open?",
+      "texto": "Your phone lets you know right away."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Cooling… the backyard",
+      "texto": "Someone opened a window and forgot."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "PHONE ALERT",
+      "titulo": "Window open? You'll know right away",
+      "texto": "Then adjust the AC from there."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Alert if one is left open",
+        "See which ones are open",
+        "Adjust the AC from your phone",
+        "Check it all before bed"
+      ],
+      "foto": "catalogo/seleccion/sensor-puerta-ventana_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us WINDOW",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "AC running with a window wide open? 🪟 The sensor sends an alert to your phone, and you can adjust the AC right there. Free estimate. Text us WINDOW or call (239) 204-6336.\n\n#SmartHome #WindowSensor #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "AC on and a window open? Your phone will tell you 🪟"
+}

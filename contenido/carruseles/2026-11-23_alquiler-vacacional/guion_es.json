@@ -1,0 +1,50 @@
+{
+  "titulo": "Alquiler vacacional",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "ALQUILER VACACIONAL",
+      "titulo": "El huésped se fue. ¿Y el aire?",
+      "texto": "Revisa tu alquiler sin manejar hasta allá."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Check-out a las 11. El próximo llega a las 4.",
+      "texto": "Y tú no estás cerca para revisar."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/camara-exterior_1.jpg",
+      "etiqueta": "ENTRE HUÉSPEDES",
+      "titulo": "Mira la entrada desde tu celular",
+      "texto": "Sabes cuándo llegan y cuándo se van."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Aire listo antes del check-in",
+        "Apagas lo que quedó prendido",
+        "Un código para cada huésped",
+        "Ves la entrada en vivo"
+      ],
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos ALQUILER",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Tienes un alquiler vacacional? 🏝️ Ajusta el aire, revisa la entrada y da un código a cada huésped desde tu celular. Estimado gratis. Escríbenos ALQUILER o llama al (239) 204-6336.\n\n#CasaInteligente #AlquilerVacacional #SuroesteDeFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "¿El huésped se fue y dejó el aire a tope? Revísalo desde el celular 🏝️"
+}

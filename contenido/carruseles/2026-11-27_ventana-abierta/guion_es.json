@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Aire prendido y ventana abierta?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/sensor-puerta-ventana.jpg",
+      "etiqueta": "SENSOR DE VENTANA",
+      "titulo": "¿Aire prendido y ventana abierta?",
+      "texto": "Tu celular te avisa al momento."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El aire, enfriando… el patio",
+      "texto": "Alguien abrió la ventana y se le olvidó."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "AVISO AL CELULAR",
+      "titulo": "Ventana abierta: te enteras al momento",
+      "texto": "Y desde ahí ajustas el aire."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Aviso si queda una abierta",
+        "Ves cuáles están abiertas",
+        "Ajustas el aire desde el celular",
+        "Revisas todo antes de dormir"
+      ],
+      "foto": "catalogo/seleccion/sensor-puerta-ventana_1.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos VENTANA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Aire prendido y una ventana abierta? 🪟 El sensor te avisa al celular y desde ahí ajustas el aire. Estimado gratis. Escríbenos VENTANA o llama al (239) 204-6336.\n\n#CasaInteligente #SensorDeVentana #SuroesteDeFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "¿Aire prendido y ventana abierta? Tu celular te avisa 🪟"
+}

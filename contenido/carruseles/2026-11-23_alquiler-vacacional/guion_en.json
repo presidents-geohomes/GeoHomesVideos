@@ -1,0 +1,50 @@
+{
+  "titulo": "Vacation rental",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "VACATION RENTAL",
+      "titulo": "Guests checked out. Is the AC still blasting?",
+      "texto": "Check your rental without the drive."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Checkout at 11. Next guests at 4.",
+      "texto": "And you're nowhere near the place."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/camara-exterior_1.jpg",
+      "etiqueta": "BETWEEN GUESTS",
+      "titulo": "See the front entry from your phone",
+      "texto": "Know when they arrive and leave."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "AC ready before check-in",
+        "Turn off what was left on",
+        "A code for each guest",
+        "Live view of the entry"
+      ],
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us RENTAL",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Own a vacation rental? 🏝️ Set the AC, check the entry and give each guest their own code, all from your phone. Free estimate. Text us RENTAL or call (239) 204-6336.\n\n#SmartHome #VacationRental #SouthwestFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "Guests left the AC blasting? Fix it from your phone 🏝️"
+}

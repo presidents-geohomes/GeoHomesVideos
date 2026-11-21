@@ -1,0 +1,50 @@
+{
+  "titulo": "Myth: it's too complicated",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/interruptor_1.jpg",
+      "etiqueta": "MYTH VS. FACT",
+      "titulo": "\"It's too complicated\"",
+      "texto": "What if the switch still works the same?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Myth: you need to be a tech pro",
+      "texto": "Fact: if you can flip a switch, you're set."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "FACT",
+      "titulo": "Your wall switch stays right there",
+      "texto": "Tap it and the light comes on. Same as today."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Tap the wall, like always",
+        "Or just ask out loud",
+        "Or one tap on your phone",
+        "We show you how"
+      ],
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us EASY",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Think a smart home is complicated? 🤔 Your wall switch works like always, plus you can use your voice or your phone. Free estimate. Text us EASY or call (239) 204-6336.\n\n#SmartHome #MythVsFact #SouthwestFlorida #NaplesFL #GeoHomes",
+  "tiktok_title": "Smart home too complicated? Your light switch still works the same 🤔"
+}

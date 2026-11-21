@@ -1,0 +1,50 @@
+{
+  "titulo": "Live in a condo?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "CONDOS",
+      "titulo": "Live in a condo? You can go smart too",
+      "texto": "No major renovation needed."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Condos come with their own rules",
+      "texto": "That's why we look at your space first."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "KEEP IT SIMPLE",
+      "titulo": "Start with what you already have",
+      "texto": "Your outlets, lights and AC."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Keypad door lock",
+        "AC from your phone",
+        "Smart lights and plugs",
+        "All in one app"
+      ],
+      "foto": "catalogo/seleccion-real/termostato.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us CONDO",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Live in a condo? 🏢 It can be smart too: keypad lock, AC from your phone and lights that fit your routine. Free estimate. Text us CONDO or call (239) 204-6336.\n\n#SmartHome #CondoLiving #SouthwestFlorida #Estero #GeoHomes",
+  "tiktok_title": "Live in a condo? Your place can go smart too 🏢"
+}

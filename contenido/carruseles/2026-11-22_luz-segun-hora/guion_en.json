@@ -1,0 +1,50 @@
+{
+  "titulo": "Light that follows your day",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/bombillo-tira-led_1.jpg",
+      "etiqueta": "SMART BULBS",
+      "titulo": "Light that follows your day",
+      "texto": "Bright to start. Warm to wind down."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Same light at 8 a.m. and 10 p.m.?",
+      "texto": "Your day changes. Your lights don't."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/dimmer-lampara_1.jpg",
+      "etiqueta": "AT NIGHT",
+      "titulo": "Warm light to slow down",
+      "texto": "It shifts on its own, on your schedule."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Bright white in the morning",
+        "Warm as the sun sets",
+        "Changes on a schedule",
+        "Or by voice or phone"
+      ],
+      "foto": "catalogo/seleccion/bombillo-tira-led_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us LIGHT",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Same light all day long? 💡 Smart bulbs go from bright white in the morning to warm at night, on their own. Free estimate. Text us LIGHT or call (239) 204-6336.\n\n#SmartHome #SmartLighting #SouthwestFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Bright in the morning, warm at night. Lights that follow your day 💡"
+}

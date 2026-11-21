@@ -1,0 +1,50 @@
+{
+  "titulo": "¡A cenar! Sin gritar",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/bocina-inteligente_1.jpg",
+      "etiqueta": "BOCINAS EN CASA",
+      "titulo": "¡A cenar! Sin gritar por la casa",
+      "texto": "Un aviso y se oye en todos los cuartos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Gritas tres veces y nadie baja?",
+      "texto": "Unos con audífonos, otros en el patio."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg",
+      "etiqueta": "AVISO A TODA LA CASA",
+      "titulo": "Lo dices una vez y lo oyen todos",
+      "texto": "Desde la cocina o desde tu celular."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Llamas a todos a cenar",
+        "Avisas que ya hay que salir",
+        "Hablas a un solo cuarto",
+        "Desde la cocina o el celular"
+      ],
+      "foto": "catalogo/seleccion/bocina-inteligente_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos BOCINA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Gritas \"¡a cenar!\" y nadie baja? 🍽️ Lo dices una vez y se oye en las bocinas de toda la casa. Estimado gratis. Escríbenos BOCINA o llama al (239) 204-6336.\n\n#CasaInteligente #BocinaInteligente #SuroesteDeFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "¿Gritas \"¡a cenar!\" y nadie baja? Dilo una vez en toda la casa 🍽️"
+}

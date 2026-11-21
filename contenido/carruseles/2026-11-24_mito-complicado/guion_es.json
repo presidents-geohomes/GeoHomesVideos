@@ -1,0 +1,50 @@
+{
+  "titulo": "Mito: es muy complicado",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/interruptor_1.jpg",
+      "etiqueta": "MITO VS. REALIDAD",
+      "titulo": "\"Es muy complicado\"",
+      "texto": "¿Y si el interruptor sigue funcionando igual?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Mito: hay que ser experto en tecnología",
+      "texto": "Realidad: si sabes prender la luz, ya sabes usarla."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "REALIDAD",
+      "titulo": "El interruptor de siempre sigue ahí",
+      "texto": "Lo tocas y prende, como hoy."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Tocas la pared, como siempre",
+        "Le hablas a tu casa",
+        "O un toque en el celular",
+        "Te enseñamos a usarla"
+      ],
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos FÁCIL",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Crees que una casa inteligente es complicada? 🤔 El interruptor sigue funcionando como siempre, y además le puedes hablar o usar el celular. Estimado gratis. Escríbenos FÁCIL o llama al (239) 204-6336.\n\n#CasaInteligente #MitoOVerdad #SuroesteDeFlorida #Naples #GeoHomes",
+  "tiktok_title": "¿Casa inteligente = complicada? El interruptor sigue funcionando igual 🤔"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "La luz cambia con tu día",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/bombillo-tira-led_1.jpg",
+      "etiqueta": "BOMBILLOS INTELIGENTES",
+      "titulo": "La luz cambia con tu día",
+      "texto": "Blanca para empezar, cálida para descansar."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿La misma luz en la mañana y en la noche?",
+      "texto": "Tu día cambia. Tu luz, no."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/dimmer-lampara_1.jpg",
+      "etiqueta": "DE NOCHE",
+      "titulo": "Luz cálida para bajar el ritmo",
+      "texto": "Se pone sola a la hora que elijas."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Luz blanca en la mañana",
+        "Cálida al caer la noche",
+        "Cambia sola por horario",
+        "O con la voz o el celular"
+      ],
+      "foto": "catalogo/seleccion/bombillo-tira-led_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos LUZ",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿La misma luz todo el día? 💡 Bombillos que pasan de luz blanca en la mañana a cálida en la noche, solos. Estimado gratis. Escríbenos LUZ o llama al (239) 204-6336.\n\n#CasaInteligente #IluminacionInteligente #SuroesteDeFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Luz blanca de día, cálida de noche: tu casa cambia sola 💡"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Dinner's ready, no yelling",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/bocina-inteligente_1.jpg",
+      "etiqueta": "WHOLE-HOME SPEAKERS",
+      "titulo": "\"Dinner's ready!\" No yelling needed",
+      "texto": "Say it once. Every room hears it."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Yell three times and still nobody comes?",
+      "texto": "Some have headphones on. Some are out back."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg",
+      "etiqueta": "WHOLE-HOME ANNOUNCE",
+      "titulo": "Say it once, everyone hears it",
+      "texto": "From the kitchen or your phone."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "How it helps",
+      "puntos": [
+        "Call everyone to dinner",
+        "Time to head out",
+        "Talk to just one room",
+        "From the kitchen or phone"
+      ],
+      "foto": "catalogo/seleccion/bocina-inteligente_2.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us SPEAKER",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Yelling \"dinner's ready\" and nobody shows up? 🍽️ Say it once and it plays on speakers all over the house. Free estimate. Text us SPEAKER or call (239) 204-6336.\n\n#SmartHome #SmartSpeaker #SouthwestFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "Yelling \"dinner's ready\" and nobody comes? Say it once, every room hears 🍽️"
+}

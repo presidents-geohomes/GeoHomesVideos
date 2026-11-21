@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Vives en un condo?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "CONDOMINIOS",
+      "titulo": "¿Vives en un condo? También se puede",
+      "texto": "Tu casa inteligente, sin obras grandes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un condo tiene sus propias reglas",
+      "texto": "Por eso revisamos tu espacio antes de instalar."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "SIN COMPLICARTE",
+      "titulo": "Empieza por lo que ya tienes",
+      "texto": "Enchufes, luces y el aire de siempre."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Cerradura con código",
+        "Aire desde el celular",
+        "Luces y enchufes inteligentes",
+        "Todo en una app"
+      ],
+      "foto": "catalogo/seleccion-real/termostato.jpg"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos nosotros"
+      ],
+      "boton": "Escríbenos CONDO",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Vives en un condo? 🏢 También puede ser inteligente: puerta con código, aire desde el celular y luces a tu ritmo. Estimado gratis. Escríbenos CONDO o llama al (239) 204-6336.\n\n#CasaInteligente #Condominio #SuroesteDeFlorida #Estero #GeoHomes",
+  "tiktok_title": "¿Vives en un condo? Tu casa también puede ser inteligente 🏢"
+}
