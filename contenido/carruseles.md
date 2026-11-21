@@ -42,7 +42,13 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-11-18/19 | Escena "Llegué" | llegas con las bolsas del súper: un toque abre garaje y puerta y prende la cocina |
 | 2026-11-19/20 | Viaje de Acción de Gracias | ¿cerré la puerta? revisa puerta y aire desde la mesa de la familia |
 | 2026-11-20/21 | Temporada de huracanes | evacuaste, ¿cómo quedó tu casa? video, aviso de agua, puertas y temperatura a distancia |
+| 2026-11-22/23 | Bombillos luz blanca/cálida | la luz cambia con tu día: blanca en la mañana, cálida en la noche, sola por horario |
+| 2026-11-23/24 | Alquiler vacacional | el huésped se fue, ¿y el aire? aire listo antes del check-in, entrada en vivo, código por huésped |
+| 2026-11-24/25 | Mito "es muy complicado" | el interruptor de siempre sigue funcionando igual; además voz y celular |
+| 2026-11-25/26 | Condominios (tipo de casa) | ¿vives en un condo? también se puede: cerradura con código, aire, luces y enchufes, sin obras grandes |
+| 2026-11-26/27 | Bocinas: aviso a toda la casa | ¡a cenar! sin gritar: lo dices una vez y se oye en todos los cuartos |
+| 2026-11-27/28 | Sensor de ventana + aire | ¿aire prendido y ventana abierta? aviso al celular y ajustas el aire |
 
 ## Temas sugeridos aún sin usar
 escenas (me voy / buenas noches: ya muy usadas en videos, buscar otro gancho) · casa de vacaciones / snowbirds (muy usado en videos) ·
-bombillos de luz cálida/blanca según la hora · mito "se cae si se va el internet" (ya hubo FAQ, otro gancho) · casa de alquiler vacacional
+mito "se cae si se va el internet" (ya hubo FAQ, otro gancho) · lámpara de mesa inteligente (dimmer de enchufe, sin cambiar la lámpara)
