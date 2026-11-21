@@ -90,7 +90,14 @@
    "porche_trasero": "Con malla, ventilador, hamaca y mesa; da al patio con huerto y columpio en el árbol."
   }
  },
- "escenarios_trabajo": {"_nota": "Lugares de Emma en el hospital. Rotarlos; el último usado no se repite. Añadir aquí cada lugar nuevo. Sin el celular mostrando pantalla.", "pasillo": "planos/EN02/p3_emma_hospital_1.png (usado en EN02, EN04, EN07, EN08, EN09)", "sala_descanso": "planos/EN10/p6_descanso_b_1.png (mesa redonda, café, casilleros; usado en EN10)", "estacion_enfermeras": "planos/EN10/p6_estacion_a_1.png (sin usar)", "estacion_mostrador": "planos/EN11/p3_emma_a_1.png (mostrador blanco junto a ventana, plano abierto con espacio arriba para el letrero; usado en EN11)", "terraza": "planos/EN10/p6_estacion_b_1.png (sin usar; la cabeza queda muy arriba: revisar que el letrero no la tape)"},
+ "escenarios_trabajo": {
+  "_nota": "Lugares de Emma en el hospital. Rotarlos; el último usado no se repite. Añadir aquí cada lugar nuevo. Sin el celular mostrando pantalla.",
+  "pasillo": "planos/EN02/p3_emma_hospital_1.png (usado en EN02, EN04, EN07, EN08, EN09)",
+  "sala_descanso": "planos/EN10/p6_descanso_b_1.png (mesa redonda, café, casilleros; usado en EN10)",
+  "estacion_enfermeras": "planos/EN10/p6_estacion_a_1.png (sin usar)",
+  "estacion_mostrador": "planos/EN11/p3_emma_a_1.png (mostrador blanco junto a ventana, plano abierto con espacio arriba para el letrero; usado en EN11)",
+  "terraza": "planos/EN10/p6_estacion_b_1.png (sin usar; la cabeza queda muy arriba: revisar que el letrero no la tape)"
+ },
  "aparatos": {
   "altavoz": "Altavoz inteligente genérico (cilindro de tela gris claro con aro de luz, sin logo) en la isla de la cocina. Siempre ahí.",
   "luces": "Todas las luces con interruptores inteligentes en su lugar de siempre; las lámparas y luces NO cambian de posición. Luz del porche programada.",
@@ -109,7 +116,8 @@
   "cafetera": "Cafetera de goteo blanca genérica con jarra de vidrio (diseño de banco/fotos_insertos/f2/f2-ins-cafetera_1_1.jpg, sin logo) en la encimera del fondo de la cocina, justo a la DERECHA del fregadero. Se enciende sola con la rutina de días de turno de Emma (5:45 a. m.). Añadida en EN06, 2026-10-21.",
   "purificador": "Purificador de aire inteligente genérico (cilindro blanco de piso con rejilla redonda arriba y franja de luz en el medio, sin logo, diseño de banco/fotos_insertos/f2/f2-ins-purificador_1_1.jpg) en la sala, en el piso junto al extremo del sofá gris más cercano a la cocina. Sensor de aire propio: franja ámbar si baja la calidad del aire, blanca cuando funciona. Añadido en EN10, 2026-11-04.",
   "podadora": "Podadora robot gris oscuro genérica (diseño de banco/fotos_insertos/f2/f2-ins-podadora_1_1.jpg, sin logo) en el césped del patio trasero; cuando está en pausa queda parada junto al porche trasero. Emma la pausa desde el celular si Biscuit sale al patio. Añadida en EN08, 2026-10-28.",
-  "enchufe_cafetera": "Enchufe inteligente blanco redondo (diseño de catalogo/seleccion-real/tomacorriente-inteligente.jpg, luz de estado pequeña) en la pared de la encimera de la cocina, donde se conecta la cafetera. Emma lo apaga desde el celular si la cafetera queda encendida. Toma del banco: banco/insertos/f2/f2-ins-enchufes.mp4 (al revés = se apaga: planos/EN13/p4_enchufe_off.mp4). Añadido en EN13, 2026-11-14."
+  "enchufe_cafetera": "Enchufe inteligente blanco redondo (diseño de catalogo/seleccion-real/tomacorriente-inteligente.jpg, luz de estado pequeña) en la pared de la encimera de la cocina, donde se conecta la cafetera. Emma lo apaga desde el celular si la cafetera queda encendida. Toma del banco: banco/insertos/f2/f2-ins-enchufes.mp4 (al revés = se apaga: planos/EN13/p4_enchufe_off.mp4). Añadido en EN13, 2026-11-14.",
+  "caja_paquetes": "Caja inteligente para paquetes gris oscuro mate, cuadrada, con tapa y luz de estado verde (diseño de banco/insertos/f2/f2-ins-caja-paquetes.mp4, sin logo) en el piso del porche delantero, a la izquierda de la puerta, junto a la maceta con palmera. Emma la abre desde el celular cuando llega un repartidor; se cierra sola con la luz verde. Añadida en EN15, 2026-11-21."
  },
  "set": {
   "_nota": "Fotos fijas aprobadas. Cada plano parte de una de estas fotos (o de una edición de ellas con Grok usando la foto como referencia).",
