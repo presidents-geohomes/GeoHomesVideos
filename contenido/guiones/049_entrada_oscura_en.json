@@ -1,0 +1,13 @@
+{
+  "titulo": "Pulling in after dark to a pitch-black porch?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Coming home to *a dark porch?*", "dur": 2.8},
+    {"type": "text", "kicker": "Smart entry", "text": "Your home greets you *with the lights on.*", "dur": 2.8},
+    {"type": "list", "title": "*When you pull in:*", "items": ["Lights sense you", "Check the porch first", "Unlock, no keys", "Locks behind you"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Come home easy. *Lights already on.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Coming home to a pitch-black porch? 🌙 The entry light comes on as you pull in, and you unlock without digging for keys. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeSecurity #SmartLighting",
+  "tiktok_title": "Coming home to a dark porch? Let your home greet you with light 🌙"
+}

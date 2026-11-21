@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Llegas de noche y todo está oscuro?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Llegas de noche y *todo está oscuro?*", "dur": 2.8},
+    {"type": "text", "kicker": "Entrada inteligente", "text": "Tu casa te recibe *con la luz prendida.*", "dur": 2.8},
+    {"type": "list", "title": "*Al llegar:*", "items": ["Luz al detectarte", "Mira la entrada antes", "Abre sin buscar llaves", "Cierra sola al entrar"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Llega tranquilo, *tu casa te espera.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Llegas de noche y todo está oscuro? 🌙 La luz de la entrada se prende al llegar y abres sin buscar llaves. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #LlegarSeguro",
+  "tiktok_title": "¿Llegas de noche y todo está oscuro? Tu casa te recibe con luz 🌙"
+}
