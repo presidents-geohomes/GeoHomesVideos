@@ -1,0 +1,137 @@
+{
+  "id": "en_015_who_gets_the_package",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN15_who-gets-the-package",
+  "archivo": "EN15.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original warm afternoon instrumental for a cozy family smart-home story: opens with a light curious pizzicato and soft marimba motif (a small mystery: a doorbell at an empty house), then resolves into a tender reassuring theme with fingerpicked acoustic guitar and gentle piano, around 90 BPM, hopeful, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f2/f2-ext-dia.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "2:50 PM · Nobody's home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The house in the afternoon, empty driveway, nobody home."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-timbre.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Front door · Delivery",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The doorbell camera ring lights up: someone is at the door."
+    },
+    {
+      "clip": "planos/EN15/p3_emma_estacion.mp4",
+      "duracion": 4.5,
+      "musica": "media",
+      "texto": "Unlock the package box",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Emma at the nurses' station, seen from behind, taps her phone."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-caja-paquetes.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "Package in · Box locked",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.4,
+      "prompt": "The package box lid closes on the porch and its lock light turns green."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-auto-lily-llega.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "3:15 PM · Lily's home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Lily walks up to the house after school."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-ent-mochila.mp4",
+      "duracion": 3.5,
+      "musica": "media",
+      "prompt": "Lily hangs her lilac backpack by the front door."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-coc-tareas.mp4",
+      "duracion": 4.5,
+      "musica": "alta",
+      "texto": "Package · Safe till Mom's home",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Lily does homework at the kitchen island."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Nobody's home. So who gets the package?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "The doorbell rings at an empty house.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "Mom sees the driver from the hospital.",
+        "desde": 0.3
+      },
+      {
+        "escena": 4,
+        "texto": "The box opens, then locks right back.",
+        "desde": 0.1
+      },
+      {
+        "escena": 5,
+        "texto": "No porch pirates. No missed delivery.",
+        "desde": 0.4
+      },
+      {
+        "escena": 7,
+        "texto": "Just a package, waiting safe for Mom.",
+        "desde": 0.3
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": false,
+  "portada": {
+    "imagen": "planos/EN15/portada_base.jpg",
+    "titulo": "Nobody's home. So who gets the package?",
+    "etiqueta": "Home, Simplified · Ep. 15"
+  }
+}
