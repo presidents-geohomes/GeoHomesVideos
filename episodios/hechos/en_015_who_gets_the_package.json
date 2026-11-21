@@ -133,5 +133,9 @@
     "imagen": "planos/EN15/portada_base.jpg",
     "titulo": "Nobody's home. So who gets the package?",
     "etiqueta": "Home, Simplified · Ep. 15"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN15_who-gets-the-package/EN15.mp4",
+  "duracion": 26.5,
+  "fecha": "2026-11-21T14:04:04Z"
 }
