@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Por fin refresca en Florida?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Por fin *refresca en Florida?*", "dur": 2.8},
+    {"type": "text", "kicker": "Frente frío", "text": "Tu casa se ajusta *al nuevo clima.*", "dur": 2.8},
+    {"type": "list", "title": "*Con el fresquito:*", "items": ["Aire con otro horario", "Persianas abiertas al sol", "Ventiladores desde la app", "Todo desde el celular"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Disfruta el fresco, *tu casa se adapta.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Por fin refresca? 🌤️ Cambia el horario del aire y abre las persianas al sol desde el celular. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #FrenteFrio",
+  "tiktok_title": "¿Por fin refresca en Florida? Tu casa se ajusta al nuevo clima 🌤️"
+}
