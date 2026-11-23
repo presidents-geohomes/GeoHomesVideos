@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -211,6 +211,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - ¿Todavía te agachas a prender el arbolito? Luces de Navidad con enchufe inteligente (usado: 048)
 - ¿Llegas de noche y todo está oscuro? Entrada que te recibe con luz y sin llaves (usado: 049)
 - ¿Por fin refresca en Florida? Tu casa se ajusta al frente frío (usado: 050)
+- ¿Hay que romper paredes? Se instala en lo que ya tienes (usado: 051)
 
 ## Registro de videos
 
@@ -289,7 +290,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 | 050 | ¿Por fin refresca en Florida? (frente frío: aire con otro horario, persianas abiertas al sol, ventiladores desde la app, todo desde el celular) | Texto ES/EN | Florida y temporada | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-22 (EN 12:00, ES 18:00) | Sí (contenido/guiones/050_frente_frio.json y _en) |
 
-Siguiente número: 051.
+| 051 | ¿Hay que romper paredes? (mito: se instala en lo que ya tienes: interruptores en su lugar, cerradura en tu puerta, cámaras en tu fachada, persianas en tus ventanas) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-23 (EN 12:00, ES 18:00) | Sí (contenido/guiones/051_romper_paredes.json y _en) |
+
+Siguiente número: 052.
 
 ## Series de familias (episodios con historia)
 
