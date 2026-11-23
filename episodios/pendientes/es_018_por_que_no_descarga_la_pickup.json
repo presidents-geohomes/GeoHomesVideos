@@ -1,0 +1,131 @@
+{
+ "id": "es_018_por_que_no_descarga_la_pickup",
+ "familia": "familia_1",
+ "serie": "Casa que te entiende",
+ "carpeta": "series/espanol/ES18_por-que-no-descarga-la-pickup",
+ "archivo": "ES18.mp4",
+ "idioma": "es",
+ "musica": {
+  "prompt": "Curious, lightly mysterious dusk opening that resolves into calm, safe warmth, instrumental for a premium smart-home lifestyle commercial: soft plucked notes and quiet felt piano asking a small question for the first eight seconds, then warm acoustic guitar and light piano around 95 BPM, cozy evening-at-home feeling, clean mix, no vocals, gentle fading ending."
+ },
+ "escenas": [
+  {
+   "clip": "planos/ES18/p1_pickup_entrada.mp4",
+   "duracion": 4,
+   "musica": "baja",
+   "texto": "5:40 p. m. · Herramientas en la pickup",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "Daniel's loaded black pickup parked on the driveway at dusk."
+  },
+  {
+   "clip": "banco/tomas/f1/f1-ent-daniel-floyd.mp4",
+   "duracion": 4,
+   "musica": "baja",
+   "texto": "Daniel entra · Sin descargar nada",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "Daniel comes in the front door and Floyd jumps to greet him."
+  },
+  {
+   "clip": "planos/ES18/p3_reflector_enciende.mp4",
+   "duracion": 3,
+   "musica": "media",
+   "texto": "Reflector del garaje · Se enciende solo",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "The floodlight camera over the garage switches on at dusk."
+  },
+  {
+   "clip": "planos/ES18/p4_entrada_iluminada.mp4",
+   "duracion": 3,
+   "musica": "media",
+   "texto": "Su cámara · Vigila la pickup",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "The floodlight lights up the driveway and the pickup."
+  },
+  {
+   "clip": "banco/tomas/f1/f1-coc-cena.mp4",
+   "duracion": 4,
+   "musica": "media",
+   "texto": "Si alguien se acerca · Luz, sirena y aviso",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "Daniel and Mariana have dinner at the kitchen island."
+  },
+  {
+   "clip": "banco/tomas/f1/f1-coc-brindis.mp4",
+   "duracion": 4,
+   "musica": "alta",
+   "texto": "Herramientas · A salvo toda la noche",
+   "estilo_texto": "aviso",
+   "posicion_texto": "arriba",
+   "texto_desde": 0.3,
+   "prompt": "Daniel and Mariana toast in the kitchen."
+  }
+ ],
+ "narracion": {
+  "voice_id": "dlGxemPxFMTY7iXagmOj",
+  "partes": [
+   {
+    "escena": 1,
+    "texto": "¿Por qué Daniel ya no descarga su pickup?",
+    "desde": 0.2
+   },
+   {
+    "escena": 2,
+    "texto": "Antes bajaba todo, cada noche, cansado.",
+    "desde": 0.2
+   },
+   {
+    "escena": 3,
+    "texto": "Ahora el reflector se enciende solo,",
+    "desde": 0.2
+   },
+   {
+    "escena": 4,
+    "texto": "y su cámara vigila la pickup.",
+    "desde": 0.2
+   },
+   {
+    "escena": 5,
+    "texto": "Si alguien se acerca, suena la sirena.",
+    "desde": 0.2
+   },
+   {
+    "escena": 6,
+    "texto": "Y Daniel, por fin, cena tranquilo.",
+    "desde": 0.2
+   },
+   {
+    "escena": "cierre",
+    "texto": "Geo Homes. Tu casa, a tu ritmo.",
+    "desde": 0.4
+   }
+  ]
+ },
+ "cierre": {
+  "frase": "Tu casa, a tu ritmo.",
+  "lugar": "Geo Homes · Naples, FL",
+  "oferta": [
+   "Visita y estimado sin costo · Convertimos tu casa en inteligente",
+   "Estimado gratis · Tu casa actual, ahora inteligente",
+   "Cotiza sin compromiso · Hacemos tu casa inteligente"
+  ],
+  "segundos": 3.5,
+  "musica": "baja"
+ },
+ "subtitulos": true,
+ "portada": {
+  "imagen": "planos/ES18/portada_base.jpg",
+  "titulo": "¿Por qué ya no descarga la pickup?",
+  "etiqueta": "Casa que te entiende · Ep. 18"
+ },
+ "notas": "Reflector con cámara (aparato nuevo). Tomas del banco + efectos locales (reflector que se enciende, entrada iluminada, emblema de la parrilla borrado). Higgsfield sin créditos. Producido sin supervisión 2026-11-23. Temas propuestos: 1) ¿Por qué Daniel ya no descarga su pickup? (reflector con cámara) [elegido]; 2) ¿Por qué se abrió el garaje solo? (detector de CO) — necesitaba tomas nuevas; 3) ¿A quién le ladra Floyd a medianoche? (animal de noche) — muy parecido a EN03."
+}
