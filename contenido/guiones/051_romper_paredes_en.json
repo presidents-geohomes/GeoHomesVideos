@@ -1,0 +1,13 @@
+{
+  "titulo": "Do you need to tear down walls?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Do you need to *tear down walls?*", "dur": 2.8},
+    {"type": "text", "kicker": "Myth vs. fact", "text": "It fits *what you already have.*", "dur": 2.8},
+    {"type": "list", "title": "*For example:*", "items": ["Switches stay in place", "Lock on your door", "Cameras on your house", "Blinds on your windows"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Same home. *Way smarter.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Think going smart means tearing up walls? 🔨 Nope. It goes into the switches, doors and windows you already have. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #MythVsFact #SmartHomeTips",
+  "tiktok_title": "Do you need to tear down walls for a smart home? Nope 🔨"
+}
