@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
+El próximo video de texto toca el pilar 1 (Molestia diaria).
 
 ## Banco de temas
 
@@ -212,6 +212,7 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 - ¿Llegas de noche y todo está oscuro? Entrada que te recibe con luz y sin llaves (usado: 049)
 - ¿Por fin refresca en Florida? Tu casa se ajusta al frente frío (usado: 050)
 - ¿Hay que romper paredes? Se instala en lo que ya tienes (usado: 051)
+- ¿Hoy trabajas desde casa? Escena "Oficina" con un toque (usado: 052)
 
 ## Registro de videos
 
@@ -292,7 +293,9 @@ El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 | 051 | ¿Hay que romper paredes? (mito: se instala en lo que ya tienes: interruptores en su lugar, cerradura en tu puerta, cámaras en tu fachada, persianas en tus ventanas) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-23 (EN 12:00, ES 18:00) | Sí (contenido/guiones/051_romper_paredes.json y _en) |
 
-Siguiente número: 052.
+| 052 | ¿Hoy trabajas desde casa? (escena "Oficina": luz clara en el escritorio, persianas a media altura, timbre en tu celular, aire a tu gusto) | Texto ES/EN | Escenas y estilo de vida | No | es_reggaeton_suave / en_tech_electronic | Hecho y programado 2026-11-24 (EN 12:00, ES 18:00) | Sí (contenido/guiones/052_oficina_casa.json y _en) |
+
+Siguiente número: 053.
 
 ## Series de familias (episodios con historia)
 
