@@ -1,0 +1,13 @@
+{
+  "titulo": "Working from home today?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "*Working from home* today?", "dur": 2.8},
+    {"type": "text", "kicker": "Work mode scene", "text": "One tap. *Your office is ready.*", "dur": 2.8},
+    {"type": "list", "title": "*One tap:*", "items": ["Bright desk light on", "Shades halfway down", "Doorbell on your phone", "AC just right"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "You work, *your home adjusts.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Working from home today? 💻 One tap turns on your desk light and sets the shades and the AC. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #WorkFromHome #SmartHomeScenes",
+  "tiktok_title": "Working from home today? Your office, ready in one tap 💻"
+}
