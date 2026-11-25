@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN16",
+  "archivo": "p5_pavo_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "familias/familia_2/set/cocina.png"
+  ],
+  "prompt": "Edit this photo. Keep the exact same kitchen, camera angle, framing, navy blue island, white quartz top, brass pendant lamps, three wooden stools, window, white doors, pet feeder, warm late-afternoon sunlight and colors exactly as they are. Keep the small light gray fabric smart speaker in the center of the island exactly where it is. Only add on the island, to the right of the speaker: a golden roasted turkey on a white platter with a little steam rising, a pumpkin pie and a bowl of green beans, ready for Thanksgiving dinner. Nobody in the kitchen. Realistic photo, vertical. No people, no animals, no text, no brand names, no logos.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a21305-62da-746b-abce-39d344a83cc2\", \"status_url\": \"https://api.higgsfield.ai/requests/01a21305-62da-746b-abce-39d344a83cc2/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a21305-62da-746b-abce-39d344a83cc2/cancel\", \"expires_at\": \"2026-12-02T14:04:11.024907+00:00\"}",
+  "fecha_error": "2026-11-25T14:04:12Z"
+}

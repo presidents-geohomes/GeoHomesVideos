@@ -1,0 +1,13 @@
+{
+  "tipo": "imagen",
+  "carpeta": "planos/EN16",
+  "archivo": "p6_cena_a.png",
+  "formato": "9:16",
+  "referencias": [
+    "planos/EN16/ref_desayuno.png"
+  ],
+  "prompt": "Edit this photo. Keep the exact same kitchen, camera angle, framing, navy blue island, white quartz top, brass pendant lamps, wooden stools, window, warm late-afternoon sunlight and colors exactly as they are. Keep the mother (honey-blonde hair, light blue chambray shirt, jeans) and the girl (light brown ponytail, yellow t-shirt, denim shorts) sitting on the stools seen from behind, exactly as they are. Only change what is on the island: replace the breakfast plates and juice with a Thanksgiving dinner: a golden roasted turkey on a white platter in front of them, a pumpkin pie, a bowl of mashed potatoes and a small bowl of green beans, two dinner plates. Realistic photo, vertical. Only these two people, no other people, no text, no brand names, no logos.",
+  "estado": "error",
+  "error": "Higgsfield: la generación falló (no se cobra). Detalle: {\"status\": \"failed\", \"error\": \"Your credit balance is too low to complete this request. Please top up your balance and try again.\", \"request_id\": \"01a21305-62c6-77d3-b82a-ff9971b21496\", \"status_url\": \"https://api.higgsfield.ai/requests/01a21305-62c6-77d3-b82a-ff9971b21496/status\", \"cancel_url\": \"https://api.higgsfield.ai/requests/01a21305-62c6-77d3-b82a-ff9971b21496/cancel\", \"expires_at\": \"2026-12-02T14:04:10.667206+00:00\"}",
+  "fecha_error": "2026-11-25T14:04:12Z"
+}
