@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Bajas las persianas una por una?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Bajas las persianas *una por una?*", "dur": 2.8},
+    {"type": "text", "kicker": "Molestia diaria", "text": "Deja de *recorrer la casa.*", "dur": 2.8},
+    {"type": "list", "title": "*Persianas motorizadas:*", "items": ["Todas con un toque", "Solas por horario", "Con tu voz", "Desde el sofá"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Un toque y *listo.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Bajas las persianas una por una? 🪟 Con un toque bajan todas juntas, o solas a la hora que elijas. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #PersianasMotorizadas",
+  "tiktok_title": "¿Bajas las persianas una por una? Todas con un toque 🪟"
+}

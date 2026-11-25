@@ -1,0 +1,13 @@
+{
+  "titulo": "Still lowering shades one by one?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Still lowering shades *one by one?*", "dur": 2.8},
+    {"type": "text", "kicker": "Everyday hassle", "text": "Stop *walking room to room.*", "dur": 2.8},
+    {"type": "list", "title": "*Motorized shades:*", "items": ["All in one tap", "On a schedule", "With your voice", "From the couch"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "One tap. *Done.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Still lowering the shades one by one? 🪟 One tap brings them all down, or set them to move on their own. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #MotorizedShades #SmartHomeTips",
+  "tiktok_title": "Still lowering shades one by one? All of them in one tap 🪟"
+}
