@@ -1,0 +1,131 @@
+{
+  "id": "en_016_why_isnt_the_kitchen_hot",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN16_why-isnt-the-kitchen-hot",
+  "archivo": "EN16.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original warm Thanksgiving afternoon instrumental for a cozy family smart-home story: opens with a light curious pizzicato and soft glockenspiel motif (a small mystery: a hot kitchen that stays cool), then resolves into a tender, grateful theme with fingerpicked acoustic guitar and gentle piano, around 90 BPM, hopeful, homey, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f2/f2-coc-juntas.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Thanksgiving · Oven on since noon",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Emma and Lily cook together at the kitchen island on Thanksgiving afternoon."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-ext-dia.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Outside · 81°F",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The house on a hot, sunny Florida afternoon."
+    },
+    {
+      "clip": "planos/EN16/p2_termostato_espera.mp4",
+      "duracion": 3,
+      "musica": "baja",
+      "texto": "Kitchen · 79°F and rising",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.2,
+      "prompt": "The hallway smart thermostat notices the kitchen heating up."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-coc-celular.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Cool the house to 72°",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Emma, behind the island, checks the alert on her phone and taps it."
+    },
+    {
+      "clip": "banco/insertos/f2/f2-ins-termostato.mp4",
+      "duracion": 3,
+      "musica": "media",
+      "texto": "AC on · Cooling to 72°",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The thermostat ring glows cool blue: the AC starts cooling."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-coc-desayuno.mp4",
+      "duracion": 4.5,
+      "musica": "alta",
+      "texto": "Thanksgiving dinner · 72°F inside",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Emma and Lily sit down to eat together at the island, relaxed."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {
+        "escena": 1,
+        "texto": "Oven on since noon. So why isn't it hot?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "It's eighty-one outside.",
+        "desde": 0.2
+      },
+      {
+        "escena": 3,
+        "texto": "The thermostat feels the heat building,",
+        "desde": 0.1
+      },
+      {
+        "escena": 4,
+        "texto": "and pings Mom. One tap, mid-recipe.",
+        "desde": 0.2
+      },
+      {
+        "escena": 5,
+        "texto": "The AC eases on before anyone sweats.",
+        "desde": 0.1
+      },
+      {
+        "escena": 6,
+        "texto": "The turkey's hot. The house isn't. Happy Thanksgiving.",
+        "desde": 0.3
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": false,
+  "portada": {
+    "imagen": "planos/EN16/portada_base.jpg",
+    "titulo": "Oven on since noon. So why isn't it hot?",
+    "etiqueta": "Home, Simplified · Ep. 16"
+  }
+}
