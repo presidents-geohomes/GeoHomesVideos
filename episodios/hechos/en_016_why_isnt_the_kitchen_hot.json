@@ -131,5 +131,18 @@
   "estado": "hecho",
   "video": "series/ingles/EN16_why-isnt-the-kitchen-hot/EN16.mp4",
   "duracion": 22.0,
-  "fecha": "2026-11-25T14:12:14Z"
+  "fecha": "2026-11-25T14:12:14Z",
+  "publicacion": {
+    "metricool_id": 441799588,
+    "fecha": "2026-11-26T10:00:00",
+    "zona": "America/New_York",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "facebook",
+      "youtube"
+    ],
+    "video": "series/ingles/EN16_why-isnt-the-kitchen-hot/EN16_con_portada.mp4",
+    "titulo": "Oven on since noon. So why isn't the kitchen hot? 🦃"
+  }
 }
