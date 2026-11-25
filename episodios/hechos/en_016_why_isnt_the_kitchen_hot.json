@@ -127,5 +127,9 @@
     "imagen": "planos/EN16/portada_base.jpg",
     "titulo": "Oven on since noon. So why isn't it hot?",
     "etiqueta": "Home, Simplified · Ep. 16"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN16_why-isnt-the-kitchen-hot/EN16.mp4",
+  "duracion": 22.0,
+  "fecha": "2026-11-25T14:12:14Z"
 }
