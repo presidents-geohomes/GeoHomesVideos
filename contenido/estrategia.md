@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
+El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 ## Banco de temas
 
@@ -214,6 +214,7 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 - ¿Hay que romper paredes? Se instala en lo que ya tienes (usado: 051)
 - ¿Hoy trabajas desde casa? Escena "Oficina" con un toque (usado: 052)
 - ¿Bajas las persianas una por una? Todas con un toque (usado: 053)
+- ¿Tu cámara te avisa por cada hoja? Avisos solo de lo importante (usado: 054)
 
 ## Registro de videos
 
@@ -298,7 +299,9 @@ El próximo video de texto toca el pilar 2 (Seguridad y tranquilidad).
 
 | 053 | ¿Bajas las persianas una por una? (persianas motorizadas: todas con un toque, solas por horario, con tu voz, desde el sofá) | Texto ES/EN | Molestia diaria | No | es_tropical_alegre / en_upbeat_pop | Hecho y programado 2026-11-25 (EN 12:00, ES 18:00) | Sí (contenido/guiones/053_persianas_una.json y _en) |
 
-Siguiente número: 054.
+| 054 | ¿Tu cámara te avisa por cada hoja? (avisos de cámaras: zonas que tú marcas, personas y no hojas, silencio si estás en casa, video al instante) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/054_avisos_camara.json y _en) |
+
+Siguiente número: 055.
 
 ## Series de familias (episodios con historia)
 
