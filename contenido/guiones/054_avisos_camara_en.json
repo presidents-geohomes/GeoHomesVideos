@@ -1,0 +1,13 @@
+{
+  "titulo": "Does your camera ping for every leaf?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Does your camera ping for *every leaf?*", "dur": 2.8},
+    {"type": "text", "kicker": "Peace of mind", "text": "Only alerts that *matter.*", "dur": 2.8},
+    {"type": "list", "title": "*You decide when:*", "items": ["Zones you draw", "People, not leaves", "Quiet when you're home", "Live video instantly"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Less noise. *More calm.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Does your camera ping you every time a leaf moves? 🍃 Set the zones that matter and only get the alerts worth opening. We install it in your home anywhere in Southwest Florida. Message us 🏠 #NaplesFL #SmartHome #GeoHomes #HomeSecurity #SecurityCameras",
+  "tiktok_title": "Does your camera ping for every leaf? Only what matters 🍃"
+}

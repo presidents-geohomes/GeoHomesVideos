@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Tu cámara te avisa por cada hoja?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Tu cámara te avisa por *cada hoja?*", "dur": 2.8},
+    {"type": "text", "kicker": "Seguridad y tranquilidad", "text": "Avisos solo de lo *importante.*", "dur": 2.8},
+    {"type": "list", "title": "*Tú decides cuándo avisa:*", "items": ["Zonas que tú marcas", "Personas, no hojas", "Silencio si estás en casa", "Video al instante"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Menos ruido, *más calma.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Tu cámara te avisa por cada hoja que se mueve? 🍃 Marca las zonas que importan y recibe solo los avisos que valen la pena. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #CamarasDeSeguridad",
+  "tiktok_title": "¿Tu cámara te avisa por cada hoja? Solo lo importante 🍃"
+}
