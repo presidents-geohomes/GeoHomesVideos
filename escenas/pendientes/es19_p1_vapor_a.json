@@ -1,8 +1,0 @@
-{
-  "tipo": "imagen",
-  "carpeta": "planos/ES19",
-  "archivo": "p1_vapor_a",
-  "formato": "9:16",
-  "referencias": ["familias/familia_1/set/lanai_piscina.png"],
-  "prompt": "Edit this photo. Keep the exact same house back, covered lanai, ceiling fans, outdoor table, grill, sliding glass doors, rectangular pool, screen enclosure (pool cage with its screen roof) and palm trees, same camera angle and framing. Change only the time and weather: a cool, calm early morning right after sunrise, soft pale golden light low on the horizon, light blue sky. A thin layer of white steam mist rises gently from the warm pool water, clearly visible over the whole surface of the pool. Pool lights off. Nobody in the scene, no animals. Realistic photo, vertical. No people, no text, no brand names, no logos."
-}
