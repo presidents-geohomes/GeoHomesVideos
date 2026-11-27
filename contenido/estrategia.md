@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 3 (Florida y temporada).
+El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 ## Banco de temas
 
@@ -215,6 +215,7 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 - ¿Hoy trabajas desde casa? Escena "Oficina" con un toque (usado: 052)
 - ¿Bajas las persianas una por una? Todas con un toque (usado: 053)
 - ¿Tu cámara te avisa por cada hoja? Avisos solo de lo importante (usado: 054)
+- ¿Vienen los nietos estas fiestas? Casa lista para la familia (usado: 055)
 
 ## Registro de videos
 
@@ -301,7 +302,9 @@ El próximo video de texto toca el pilar 3 (Florida y temporada).
 
 | 054 | ¿Tu cámara te avisa por cada hoja? (avisos de cámaras: zonas que tú marcas, personas y no hojas, silencio si estás en casa, video al instante) | Texto ES/EN | Seguridad y tranquilidad | No | es_bossa_latina / en_chill_lofi | Hecho y programado 2026-11-26 (EN 12:00, ES 18:00) | Sí (contenido/guiones/054_avisos_camara.json y _en) |
 
-Siguiente número: 055.
+| 055 | ¿Vienen los nietos estas fiestas? (temporada de fiestas: aviso si abren el lanai, luces suaves de noche, código para tus hijos, el patio en tu celular) | Texto ES/EN | Florida y temporada | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/055_nietos_fiestas.json y _en) |
+
+Siguiente número: 056.
 
 ## Series de familias (episodios con historia)
 
