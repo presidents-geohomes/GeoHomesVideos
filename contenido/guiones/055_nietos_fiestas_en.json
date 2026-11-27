@@ -1,0 +1,13 @@
+{
+  "titulo": "Grandkids coming for the holidays?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Grandkids coming for *the holidays?*", "dur": 2.8},
+    {"type": "text", "kicker": "Holiday season", "text": "Your home, ready for *family.*", "dur": 2.8},
+    {"type": "list", "title": "*With everyone home:*", "items": ["Alert if the lanai opens", "Soft lights at night", "A code for your kids", "The yard on your phone"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "More family, *less worry.*", "sub": "Southwest Florida", "button": "Text us today", "phone": "(239) 204-6336", "dur": 4.0}
+  ],
+  "caption": "Grandkids flying in for the holidays? 🎄 Get an alert if the lanai door opens, and the hallway lights up on its own at night. We install it in your home anywhere in Southwest Florida. Message us 🏠\n📲 Text us at (239) 204-6336\n\n#NaplesFL #SmartHome #GeoHomes #HolidaySeason #FamilyTime",
+  "tiktok_title": "Grandkids coming for the holidays? Your home is ready 🎄"
+}
