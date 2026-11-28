@@ -74,13 +74,41 @@
   "narracion": {
     "voice_id": "MFZUKuGQUsGJPQjTS4wC",
     "partes": [
-      {"escena": 1, "texto": "Lily left every light on. So who turned them off?", "desde": 0.1},
-      {"escena": 2, "texto": "Not Lily. She's on the bus.", "desde": 0.3},
-      {"escena": 3, "texto": "The house sees nobody's home, and tells Mom.", "desde": 0.1},
-      {"escena": 4, "texto": "She's on her break. One tap.", "desde": 0.3},
-      {"escena": 5, "texto": "Lily's room goes dark,", "desde": 1.2},
-      {"escena": 6, "texto": "then the kitchen. Nothing left burning all day.", "desde": 1.0},
-      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.4}
+      {
+        "escena": 1,
+        "texto": "Lily left every light on. So who turned them off?",
+        "desde": 0.1
+      },
+      {
+        "escena": 2,
+        "texto": "Not Lily. She's on the bus.",
+        "desde": 0.3
+      },
+      {
+        "escena": 3,
+        "texto": "The house sees nobody's home, and tells Mom.",
+        "desde": 0.1
+      },
+      {
+        "escena": 4,
+        "texto": "She's on her break. One tap.",
+        "desde": 0.3
+      },
+      {
+        "escena": 5,
+        "texto": "Lily's room goes dark,",
+        "desde": 1.2
+      },
+      {
+        "escena": 6,
+        "texto": "then the kitchen. Nothing left burning all day.",
+        "desde": 1.0
+      },
+      {
+        "escena": "cierre",
+        "texto": "Geo Homes. Home that keeps up.",
+        "desde": 0.4
+      }
     ]
   },
   "cierre": {
@@ -99,5 +127,9 @@
     "imagen": "planos/EN17/portada_base.jpg",
     "titulo": "Lily left every light on. So who turned them off?",
     "etiqueta": "Home, Simplified · Ep. 17"
-  }
+  },
+  "estado": "hecho",
+  "video": "series/ingles/EN17_who-turned-off-the-lights/EN17.mp4",
+  "duracion": 25.0,
+  "fecha": "2026-11-28T14:08:06Z"
 }
