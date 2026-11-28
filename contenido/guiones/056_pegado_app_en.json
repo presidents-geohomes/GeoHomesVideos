@@ -1,0 +1,13 @@
+{
+  "titulo": "Do you have to babysit the app?",
+  "idioma": "en",
+  "scenes": [
+    {"type": "hook", "text": "Do you have to *babysit the app?*", "dur": 2.8},
+    {"type": "text", "kicker": "Myth vs. fact", "text": "Set it up once. *It runs itself.*", "dur": 2.8},
+    {"type": "list", "title": "*On its own:*", "items": ["Schedules that repeat", "Scenes in one tap", "Sensors that just act", "Alerts only when needed"], "dur": 5.0},
+    {"type": "text", "text": "Your current home. *No new build.*", "dur": 2.6},
+    {"type": "cta", "text": "Less app, *more life.*", "sub": "Southwest Florida", "button": "Message us today", "dur": 3.8}
+  ],
+  "caption": "Think a smart home means living in the app? 📱 Nope. Set it up once and it runs on its own. We install it in your home anywhere in Southwest Florida. Message us 🏠\n\n#NaplesFL #SmartHome #GeoHomes #MythVsFact #SmartHomeTips",
+  "tiktok_title": "Do you have to babysit a smart home app? Myth vs. fact 📱"
+}

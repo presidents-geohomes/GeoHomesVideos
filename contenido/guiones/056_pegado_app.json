@@ -1,0 +1,13 @@
+{
+  "titulo": "¿Hay que estar pegado a la app?",
+  "idioma": "es",
+  "scenes": [
+    {"type": "hook", "text": "¿Hay que estar *pegado a la app?*", "dur": 2.8},
+    {"type": "text", "kicker": "Mito o verdad", "text": "Se configura una vez y *funciona sola.*", "dur": 2.8},
+    {"type": "list", "title": "*Tu casa, sola:*", "items": ["Horarios que se repiten", "Escenas con un toque", "Sensores que actúan solos", "Avisos solo si importa"], "dur": 5.0},
+    {"type": "text", "text": "Tu casa actual. *Sin construcción nueva.*", "dur": 2.6},
+    {"type": "cta", "text": "Menos app, *más vida.*", "sub": "Suroeste de Florida", "button": "Escríbenos hoy", "dur": 3.8}
+  ],
+  "caption": "¿Casa inteligente es vivir pegado al celular? 📱 No: se configura una vez y luego funciona sola. Lo instalamos en tu casa en el suroeste de Florida. Escríbenos 🏠 #NaplesFL #SmartHome #CasaInteligente #GeoHomes #MitoOVerdad",
+  "tiktok_title": "¿Casa inteligente es vivir pegado a la app? Mito 📱"
+}
