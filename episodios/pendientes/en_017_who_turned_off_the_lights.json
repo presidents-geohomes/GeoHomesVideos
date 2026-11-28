@@ -1,0 +1,103 @@
+{
+  "id": "en_017_who_turned_off_the_lights",
+  "familia": "familia_2",
+  "serie": "Home, Simplified",
+  "carpeta": "series/ingles/EN17_who-turned-off-the-lights",
+  "archivo": "EN17.mp4",
+  "idioma": "en",
+  "sonido": "efectos",
+  "musica": {
+    "prompt": "Original warm early-morning instrumental for a cozy family smart-home story: opens with a light curious pizzicato and soft glockenspiel motif (a small mystery: every light left on in an empty house), then resolves into a tender, reassuring theme with fingerpicked acoustic guitar and gentle piano, around 90 BPM, hopeful, homey, clean mix, no vocals, soft gentle ending."
+  },
+  "escenas": [
+    {
+      "clip": "banco/tomas/f2/f2-ext-manana.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "7:50 AM · Lily's on the school bus",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The house early in the morning, nobody home."
+    },
+    {
+      "clip": "planos/EN17/p2_lily_luces.mp4",
+      "duracion": 4,
+      "musica": "baja",
+      "texto": "Lily's room · Every light still on",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "Lily's empty bedroom with the ceiling lights, desk lamp and string lights all left on."
+    },
+    {
+      "clip": "banco/tomas/f2/f2-coc-vacia.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Nobody home · Lights on · Alert to Mom",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 0.3,
+      "prompt": "The empty kitchen with the pendant lights, ceiling lights and under-cabinet lights on."
+    },
+    {
+      "clip": "planos/EN17/p4_emma_descanso.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Turn off all lights",
+      "estilo_texto": "orden",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.0,
+      "prompt": "Emma, on her break at the hospital, checks the alert on her phone (screen hidden) and taps it."
+    },
+    {
+      "clip": "planos/EN17/p5_lily_apaga.mp4",
+      "duracion": 4,
+      "musica": "media",
+      "texto": "Lights off · Lily's room",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.6,
+      "prompt": "Lily's bedroom: the string lights, desk lamp and ceiling lights switch off; morning daylight stays."
+    },
+    {
+      "clip": "planos/EN17/p6_cocina_apaga.mp4",
+      "duracion": 4.5,
+      "musica": "alta",
+      "texto": "7:52 AM · Lights off · Kitchen too",
+      "estilo_texto": "aviso",
+      "posicion_texto": "arriba",
+      "texto_desde": 1.6,
+      "prompt": "The kitchen lights switch off; the room stays bright with morning sun."
+    }
+  ],
+  "narracion": {
+    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+    "partes": [
+      {"escena": 1, "texto": "Lily left every light on. So who turned them off?", "desde": 0.1},
+      {"escena": 2, "texto": "Not Lily. She's on the bus.", "desde": 0.3},
+      {"escena": 3, "texto": "The house sees nobody's home, and tells Mom.", "desde": 0.1},
+      {"escena": 4, "texto": "She's on her break. One tap.", "desde": 0.3},
+      {"escena": 5, "texto": "Lily's room goes dark,", "desde": 1.2},
+      {"escena": 6, "texto": "then the kitchen. Nothing left burning all day.", "desde": 1.0},
+      {"escena": "cierre", "texto": "Geo Homes. Home that keeps up.", "desde": 0.4}
+    ]
+  },
+  "cierre": {
+    "frase": "Home that keeps up.",
+    "lugar": "Geo Homes · Naples, FL",
+    "oferta": [
+      "Free visit & estimate · We make your home smart",
+      "Free estimate · Your current home, now smart",
+      "No-obligation quote · We make your home smart"
+    ],
+    "segundos": 3.5,
+    "musica": "media"
+  },
+  "subtitulos": false,
+  "portada": {
+    "imagen": "planos/EN17/portada_base.jpg",
+    "titulo": "Lily left every light on. So who turned them off?",
+    "etiqueta": "Home, Simplified · Ep. 17"
+  }
+}
