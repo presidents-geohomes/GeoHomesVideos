@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Quedó prendida la luz de arriba?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "CASA DE DOS PISOS",
+      "titulo": "¿Quedó prendida la luz de arriba?",
+      "texto": "Apágala sin subir la escalera."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ya estás en el sofá…",
+      "texto": "…y ves la luz del cuarto de arriba encendida."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/interruptor_2.jpg",
+      "etiqueta": "INTERRUPTOR INTELIGENTE",
+      "titulo": "Arriba y abajo, desde el celular",
+      "texto": "O pídeselo a la bocina desde la cocina."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/interruptor_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Ves qué luces quedaron prendidas",
+        "Las apagas sin subir",
+        "Apagas todo de una vez al dormir",
+        "El interruptor sigue igual"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos por ti"
+      ],
+      "boton": "Escríbenos PISOS",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿La luz de arriba otra vez prendida? 🪜 Apágala desde el celular o con la voz, sin subir la escalera. Estimado gratis. Escríbenos PISOS o llama al (239) 204-6336.\n\n#CasaInteligente #InterruptorInteligente #SuroesteDeFlorida #Estero #GeoHomes",
+  "tiktok_title": "¿La luz de arriba prendida? Apágala sin subir la escalera 🪜"
+}

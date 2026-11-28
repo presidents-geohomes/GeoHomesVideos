@@ -1,0 +1,50 @@
+{
+  "titulo": "What if the internet goes out?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "MYTH VS. FACT",
+      "titulo": "Internet down? You're locked out?",
+      "texto": "Nope. Your code still opens the door."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "The internet drops for a bit",
+      "texto": "It happens. Your home doesn't “freeze.”"
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "NO INTERNET",
+      "titulo": "Lights still work from the switch",
+      "texto": "And the lock opens with your code."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Get in with your code",
+        "Flip the lights like always",
+        "Internet's back, it all reconnects",
+        "We show you how it works"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us INTERNET",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Internet goes down and you're locked out? 🔐 Myth: your code still opens the door and the switch still turns on the lights. Free estimate. Text us INTERNET or call (239) 204-6336.\n\n#SmartHome #MythVsFact #SouthwestFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "Internet goes out and you're locked out? Myth 🔐"
+}

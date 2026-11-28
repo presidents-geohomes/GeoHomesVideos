@@ -1,0 +1,50 @@
+{
+  "titulo": "Your favorite lamp, now smart",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/dimmer-lampara_1.jpg",
+      "etiqueta": "SMART LAMP",
+      "titulo": "Your favorite lamp, now smart",
+      "texto": "Keep the lamp. Just add a smart plug."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Love that lamp?",
+      "texto": "You don't have to replace it to get smart lighting."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "DIMMER PLUG",
+      "titulo": "Plug it in. That's it.",
+      "texto": "Dim it or turn it off from your phone or by voice."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/dimmer-lampara.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Soft light for reading",
+        "Turns off on its own at bedtime",
+        "On before you get home",
+        "No getting out of bed"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us LAMP",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Your favorite lamp can be smart too 💡 No need to replace it: dim it from your phone or by voice. Free estimate. Text us LAMP or call (239) 204-6336.\n\n#SmartHome #SmartLighting #SouthwestFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Make your favorite lamp smart without replacing it 💡"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Y si se va el internet?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/cerradura-inteligente.jpg",
+      "etiqueta": "MITO O VERDAD",
+      "titulo": "¿Se va el internet y te quedas afuera?",
+      "texto": "No. Tu código sigue abriendo la puerta."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El internet se cae un rato",
+      "texto": "Pasa. Tu casa no se queda “bloqueada”."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "SIN INTERNET",
+      "titulo": "Las luces, con el interruptor de siempre",
+      "texto": "Y la cerradura abre con tu código."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/cerradura-inteligente_1.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Entras con tu código",
+        "Prendes la luz como siempre",
+        "Vuelve el internet y todo se reconecta",
+        "Te explicamos cómo funciona"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos por ti"
+      ],
+      "boton": "Escríbenos INTERNET",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Se va el internet y te quedas afuera? 🔐 Mito: tu código sigue abriendo la puerta y el interruptor prende la luz como siempre. Estimado gratis. Escríbenos INTERNET o llama al (239) 204-6336.\n\n#CasaInteligente #MitoOVerdad #SuroesteDeFlorida #LehighAcres #GeoHomes",
+  "tiktok_title": "¿Se va el internet y te quedas afuera? Mito 🔐"
+}

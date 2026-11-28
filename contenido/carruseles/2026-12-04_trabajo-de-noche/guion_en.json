@@ -1,0 +1,50 @@
+{
+  "titulo": "Work the night shift?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-persianas.jpg",
+      "etiqueta": "MOTORIZED SHADES",
+      "titulo": "Work nights and sleep during the day?",
+      "texto": "Your home runs on your schedule."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "You get home at 7 a.m.",
+      "texto": "Sunlight everywhere, right when you need to sleep."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-persianas_1.jpg",
+      "etiqueta": "\"BEDTIME\" SCENE",
+      "titulo": "One tap: shades down",
+      "texto": "And the AC set cool for sleep."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "A dark bedroom by day",
+        "AC just right for sleep",
+        "Doorbell muted, alert on your phone",
+        "Back to normal on your schedule"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us NIGHT",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Work nights and sleep during the day? 🌙 One tap lowers the shades and cools the room for sleep. Free estimate. Text us NIGHT or call (239) 204-6336.\n\n#SmartHome #MotorizedShades #SouthwestFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "Night shift? Your home can run on your schedule 🌙"
+}

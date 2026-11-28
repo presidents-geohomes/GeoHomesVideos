@@ -1,0 +1,50 @@
+{
+  "titulo": "¿Trabajas de noche?",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/control-persianas.jpg",
+      "etiqueta": "PERSIANAS MOTORIZADAS",
+      "titulo": "¿Trabajas de noche y duermes de día?",
+      "texto": "Tu casa se adapta a tu horario."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Llegas a las 7 de la mañana",
+      "texto": "Y la casa llena de sol, justo cuando vas a dormir."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/control-persianas_1.jpg",
+      "etiqueta": "ESCENA \"A DORMIR\"",
+      "titulo": "Un toque: persianas abajo",
+      "texto": "Y el aire fresco para descansar."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Cuarto oscuro de día",
+        "Aire a tu gusto para dormir",
+        "Timbre en silencio, aviso al celular",
+        "Todo vuelve solo a tu hora"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos por ti"
+      ],
+      "boton": "Escríbenos NOCHE",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Trabajas de noche y duermes de día? 🌙 Con un toque bajan las persianas y el aire queda fresco para descansar. Estimado gratis. Escríbenos NOCHE o llama al (239) 204-6336.\n\n#CasaInteligente #PersianasMotorizadas #SuroesteDeFlorida #MarcoIsland #GeoHomes",
+  "tiktok_title": "¿Trabajas de noche? Tu casa se adapta a tu horario 🌙"
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Tu lámpara de siempre, ahora inteligente",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/dimmer-lampara_1.jpg",
+      "etiqueta": "LÁMPARA INTELIGENTE",
+      "titulo": "Tu lámpara de siempre, ahora inteligente",
+      "texto": "Sin cambiarla. Solo un enchufe nuevo."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Te encanta tu lámpara?",
+      "texto": "No hace falta botarla para tener luz inteligente."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/tomacorriente-inteligente.jpg",
+      "etiqueta": "ENCHUFE CON DIMMER",
+      "titulo": "La conectas y listo",
+      "texto": "Sube, baja o apágala desde el celular o con la voz."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/dimmer-lampara.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Luz suave para leer",
+        "Se apaga sola a la hora que digas",
+        "La prendes antes de llegar",
+        "Sin levantarte de la cama"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos por ti"
+      ],
+      "boton": "Escríbenos LAMPARA",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "Tu lámpara favorita también puede ser inteligente 💡 Sin cambiarla: la controlas desde el celular o con la voz. Estimado gratis. Escríbenos LAMPARA o llama al (239) 204-6336.\n\n#CasaInteligente #LuzInteligente #SuroesteDeFlorida #FortMyers #GeoHomes",
+  "tiktok_title": "Tu lámpara de siempre, ahora inteligente (sin cambiarla) 💡"
+}

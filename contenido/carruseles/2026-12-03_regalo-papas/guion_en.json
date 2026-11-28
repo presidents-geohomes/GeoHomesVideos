@@ -1,0 +1,50 @@
+{
+  "titulo": "The gift your parents use all year",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion/pantalla-inteligente_1.jpg",
+      "etiqueta": "GIFT IDEA",
+      "titulo": "The gift your parents will use all year",
+      "texto": "A home that's easier for them."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Another sweater this year?",
+      "texto": "Give them something that makes every day easier."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion-real/timbre-video.jpg",
+      "etiqueta": "VIDEO DOORBELL",
+      "titulo": "See who's there without getting up",
+      "texto": "And answer right from the couch."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/bocina-inteligente.jpg",
+      "titulo": "How it helps them",
+      "puntos": [
+        "Lights by voice",
+        "See who's at the door",
+        "A door code for family",
+        "AC without getting up"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us GIFT",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Stuck on a gift for your parents? 🎁 Lights by voice, seeing who's at the door, AC without getting up: a gift they'll use all year. Free estimate. Text us GIFT or call (239) 204-6336.\n\n#SmartHome #GiftIdeas #SouthwestFlorida #CapeCoral #GeoHomes",
+  "tiktok_title": "The holiday gift your parents will use all year 🎁"
+}

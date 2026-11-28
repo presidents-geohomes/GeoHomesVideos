@@ -1,0 +1,50 @@
+{
+  "titulo": "You don't have to do it all at once",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "MYTH VS. FACT",
+      "titulo": "Do you have to redo the whole house?",
+      "texto": "No. Start with what you use most."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "One device at a time",
+      "texto": "The AC, the door or the lights. Your call."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/termostato_1.jpg",
+      "etiqueta": "STEP ONE",
+      "titulo": "Thermostat today, more later",
+      "texto": "New devices join the same app."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "Start with what you need",
+        "Add more whenever you want",
+        "Everything in one app",
+        "We help you choose"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us START",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Think a smart home means redoing everything at once? 🏠 Start with one device and add more whenever you want. Free estimate. Text us START or call (239) 204-6336.\n\n#SmartHome #MythVsFact #SouthwestFlorida #Naples #GeoHomes",
+  "tiktok_title": "Smart home all at once? No, start with one device 🏠"
+}

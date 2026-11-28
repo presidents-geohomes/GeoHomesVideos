@@ -1,0 +1,50 @@
+{
+  "titulo": "No tienes que hacerlo todo de una vez",
+  "idioma": "es",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/termostato.jpg",
+      "etiqueta": "MITO O VERDAD",
+      "titulo": "¿Hay que cambiar toda la casa?",
+      "texto": "No. Empieza por lo que más usas."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un aparato a la vez",
+      "texto": "El aire, la puerta o las luces. Tú eliges."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/termostato_1.jpg",
+      "etiqueta": "PRIMER PASO",
+      "titulo": "Hoy el termostato, mañana más",
+      "texto": "Lo nuevo se suma a la misma app."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion-real/pantalla-inteligente.jpg",
+      "titulo": "Cómo te ayuda",
+      "puntos": [
+        "Empiezas con lo que necesitas",
+        "Agregas más cuando quieras",
+        "Todo en una sola app",
+        "Te ayudamos a elegir"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "¿Es para tu casa?",
+      "puntos": [
+        "Estimado gratis",
+        "Revisamos tu casa",
+        "Lo instalamos por ti"
+      ],
+      "boton": "Escríbenos EMPEZAR",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Suroeste de Florida"
+    }
+  ],
+  "caption": "¿Casa inteligente es cambiarlo todo de una vez? 🏠 No: empieza con un aparato y agrega más cuando quieras. Estimado gratis. Escríbenos EMPEZAR o llama al (239) 204-6336.\n\n#CasaInteligente #MitoOVerdad #SuroesteDeFlorida #Naples #GeoHomes",
+  "tiktok_title": "¿Hay que cambiar toda la casa? No: empieza por uno 🏠"
+}

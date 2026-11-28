@@ -1,0 +1,50 @@
+{
+  "titulo": "Upstairs light left on?",
+  "idioma": "en",
+  "slides": [
+    {
+      "tipo": "portada",
+      "foto": "catalogo/seleccion-real/interruptor.jpg",
+      "etiqueta": "TWO-STORY HOME",
+      "titulo": "Upstairs light left on again?",
+      "texto": "Turn it off without climbing the stairs."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "You just sat down…",
+      "texto": "…and the upstairs bedroom light is still on."
+    },
+    {
+      "tipo": "foto",
+      "foto": "catalogo/seleccion/interruptor_2.jpg",
+      "etiqueta": "SMART SWITCH",
+      "titulo": "Every floor, from your phone",
+      "texto": "Or just ask the speaker from the kitchen."
+    },
+    {
+      "tipo": "lista",
+      "foto": "catalogo/seleccion/interruptor_1.jpg",
+      "titulo": "How it helps",
+      "puntos": [
+        "See which lights are still on",
+        "Turn them off from downstairs",
+        "All off at once at bedtime",
+        "The switch still works as usual"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Is it right for your home?",
+      "puntos": [
+        "Free estimate",
+        "We check your home",
+        "We install it for you"
+      ],
+      "boton": "Text us UPSTAIRS",
+      "telefono": "(239) 204-6336",
+      "pie": "Geo Homes · Southwest Florida"
+    }
+  ],
+  "caption": "Upstairs light left on again? 🪜 Turn it off from your phone or by voice, no stairs needed. Free estimate. Text us UPSTAIRS or call (239) 204-6336.\n\n#SmartHome #SmartSwitch #SouthwestFlorida #Estero #GeoHomes",
+  "tiktok_title": "Upstairs light left on? Turn it off without the stairs 🪜"
+}
