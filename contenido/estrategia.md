@@ -161,7 +161,7 @@ Además de los videos de texto, a veces se hace un video generado con IA (Higgsf
 4. Mito o pregunta frecuente ("¿necesito casa nueva?", "¿es complicado?", "¿funciona sin wifi?")
 5. Escenas y estilo de vida (modo película, modo vacaciones, despertar con persianas)
 
-El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
+El próximo video de texto toca el pilar 5 (Escenas y estilo de vida).
 
 ## Banco de temas
 
@@ -216,6 +216,7 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 - ¿Bajas las persianas una por una? Todas con un toque (usado: 053)
 - ¿Tu cámara te avisa por cada hoja? Avisos solo de lo importante (usado: 054)
 - ¿Vienen los nietos estas fiestas? Casa lista para la familia (usado: 055)
+- ¿Hay que estar pegado a la app? Se configura una vez y funciona sola (usado: 056)
 
 ## Registro de videos
 
@@ -304,7 +305,9 @@ El próximo video de texto toca el pilar 4 (Mito o pregunta frecuente).
 
 | 055 | ¿Vienen los nietos estas fiestas? (temporada de fiestas: aviso si abren el lanai, luces suaves de noche, código para tus hijos, el patio en tu celular) | Texto ES/EN | Florida y temporada | Sí | es_bachata_moderna / en_acoustic_warm | Hecho y programado 2026-11-27 (EN 12:00, ES 18:00) | Sí (contenido/guiones/055_nietos_fiestas.json y _en) |
 
-Siguiente número: 056.
+| 056 | ¿Hay que estar pegado a la app? (mito: se configura una vez y funciona sola: horarios que se repiten, escenas con un toque, sensores que actúan solos, avisos solo si importa) | Texto ES/EN | Mito o pregunta frecuente | No | es_cumbia_pop / en_funk_groove | Hecho y programado 2026-11-28 (EN 12:00, ES 18:00) | Sí (contenido/guiones/056_pegado_app.json y _en) |
+
+Siguiente número: 057.
 
 ## Series de familias (episodios con historia)
 
