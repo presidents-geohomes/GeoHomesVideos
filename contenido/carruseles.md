@@ -48,7 +48,12 @@ nunca solo Naples. Caption: 2-3 frases cortas + EXACTAMENTE 5 hashtags.
 | 2026-11-25/26 | Condominios (tipo de casa) | ¿vives en un condo? también se puede: cerradura con código, aire, luces y enchufes, sin obras grandes |
 | 2026-11-26/27 | Bocinas: aviso a toda la casa | ¡a cenar! sin gritar: lo dices una vez y se oye en todos los cuartos |
 | 2026-11-27/28 | Sensor de ventana + aire | ¿aire prendido y ventana abierta? aviso al celular y ajustas el aire |
+| 2026-11-29/30 | Lámpara de mesa inteligente | tu lámpara de siempre, sin cambiarla: enchufe con dimmer, celular y voz |
+| 2026-11-30/12-01 | Casa de dos pisos (tipo de casa) | ¿quedó prendida la luz de arriba? apágala sin subir la escalera |
+| 2026-12-01/02 | Mito "si se va el internet te quedas afuera" | la cerradura abre con código y el interruptor prende la luz; al volver se reconecta |
+| 2026-12-02/03 | Mito "hay que cambiar toda la casa" | empieza por un aparato (termostato) y agrega más cuando quieras, todo en una app |
+| 2026-12-03/04 | Regalo de Navidad para los papás (temporada) | regalo que usan todo el año: luces con la voz, timbre con video, código para la familia |
+| 2026-12-04/05 | Trabajas de noche (rutina) | duermes de día: un toque baja las persianas y deja el aire fresco; timbre en silencio |
 
 ## Temas sugeridos aún sin usar
-escenas (me voy / buenas noches: ya muy usadas en videos, buscar otro gancho) · casa de vacaciones / snowbirds (muy usado en videos) ·
-mito "se cae si se va el internet" (ya hubo FAQ, otro gancho) · lámpara de mesa inteligente (dimmer de enchufe, sin cambiar la lámpara)
+escenas (me voy / buenas noches: ya muy usadas en videos, buscar otro gancho) · casa de vacaciones / snowbirds (muy usado en videos)
