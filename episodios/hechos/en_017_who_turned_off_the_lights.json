@@ -131,5 +131,18 @@
   "estado": "hecho",
   "video": "series/ingles/EN17_who-turned-off-the-lights/EN17.mp4",
   "duracion": 25.0,
-  "fecha": "2026-11-28T14:08:06Z"
+  "fecha": "2026-11-28T14:08:06Z",
+  "publicacion": {
+    "metricool_id": 445474750,
+    "fecha": "2026-11-29T10:00:00",
+    "zona": "America/New_York",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "facebook",
+      "youtube"
+    ],
+    "video": "series/ingles/EN17_who-turned-off-the-lights/EN17_con_portada.mp4",
+    "titulo": "Lily left every light on. So who turned them off? 💡"
+  }
 }
